@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEditor;
 
 [CreateAssetMenu(fileName = "ShieldSkill", menuName = "WildFriends/Skills/ShieldSkill")]
 public class ShieldSkill : SkillBase
