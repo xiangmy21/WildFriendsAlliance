@@ -1,0 +1,210 @@
+[
+  {
+    "animal": "刺猬",
+    "question": "刺猬属于以下哪种动物类别？",
+    "options": [
+      "A. 鸟类",
+      "B. 哺乳动物",
+      "C. 爬行类",
+      "D. 节肢动物"
+    ],
+    "correct_answer": "B",
+    "explanation": "刺猬是哺乳纲、猬形目动物，具有胎生和哺乳特征。",
+    "difficulty": 2
+  },
+  {
+    "animal": "刺猬",
+    "question": "冬季刺猬主要通过什么方式应对寒冷？",
+    "options": [
+      "A. 迁徙到温暖地区",
+      "B. 换毛增厚体毛",
+      "C. 完全冬眠",
+      "D. 埋入地下"
+    ],
+    "correct_answer": "B",
+    "explanation": "刺猬不完全冬眠，而是通过换毛和减少活动来适应低温。",
+    "difficulty": 4
+  },
+  {
+    "animal": "刺猬",
+    "question": "刺猬的主要食物包括以下哪项？",
+    "options": [
+      "A. 草叶",
+      "B. 昆虫与果实",
+      "C. 小型哺乳动物",
+      "D. 鱼类"
+    ],
+    "correct_answer": "B",
+    "explanation": "刺猬是杂食性动物，以昆虫、蠕虫和水果为主食。",
+    "difficulty": 3
+  },
+  {
+    "animal": "刺猬",
+    "question": "当遇到危险时，刺猬的主要防御方式是什么？",
+    "options": [
+      "A. 喷射毒液",
+      "B. 卷成球状",
+      "C. 快速奔跑",
+      "D. 模仿其他动物"
+    ],
+    "correct_answer": "B",
+    "explanation": "刺猬会蜷缩身体，用背部的尖刺保护柔软腹部。",
+    "difficulty": 5
+  },
+  {
+    "animal": "刺猬",
+    "question": "野生刺猬的平均妊娠期约为多少天？",
+    "options": [
+      "A. 28天",
+      "B. 40天",
+      "C. 60天",
+      "D. 90天"
+    ],
+    "correct_answer": "B",
+    "explanation": "刺猬孕期约35-42天，幼崽出生时体重仅15克左右。",
+    "difficulty": 6
+  },
+  {
+    "animal": "刺猬",
+    "question": "下列哪种环境最可能成为刺猬的栖息地？",
+    "options": [
+      "A. 沙漠",
+      "B. 热带雨林树冠层",
+      "C. 草原与灌木丛交界处",
+      "D. 海洋岛屿"
+    ],
+    "correct_answer": "C",
+    "explanation": "刺猬通常生活在有遮蔽物的陆地环境，如森林边缘或草地。",
+    "difficulty": 4
+  },
+  {
+    "animal": "刺猬",
+    "question": "野生刺猬的平均寿命大约是多少年？",
+    "options": [
+      "A. 1-2年",
+      "B. 3-5年",
+      "C. 8-10年",
+      "D. 15年以上"
+    ],
+    "correct_answer": "B",
+    "explanation": "野外刺猬因天敌和环境压力寿命较短，圈养可达7年以上。",
+    "difficulty": 4
+  },
+  {
+    "animal": "刺猬",
+    "question": "刺猬背部的尖刺由什么材料构成？",
+    "options": [
+      "A. 实心角质层",
+      "B. 中空毛发",
+      "C. 骨骼外延结构",
+      "D. 含金属成分"
+    ],
+    "correct_answer": "A",
+    "explanation": "刺猬的刺是特化变硬的毛发，实心且末端尖锐。",
+    "difficulty": 5
+  },
+  {
+    "animal": "刺猬",
+    "question": "野生刺猬主要分布于哪些大陆？",
+    "options": [
+      "A. 南极洲、大洋洲",
+      "B. 欧洲、亚洲、非洲",
+      "C. 北美洲、南美洲",
+      "D. 大洋洲、北美洲"
+    ],
+    "correct_answer": "B",
+    "explanation": "刺猬广泛分布于欧亚大陆及非洲部分地区。",
+    "difficulty": 2
+  },
+  {
+    "animal": "刺猬",
+    "question": "刺猬的活动高峰通常出现在何时？",
+    "options": [
+      "A. 清晨",
+      "B. 正午",
+      "C. 黄昏至深夜",
+      "D. 晴朗午后"
+    ],
+    "correct_answer": "C",
+    "explanation": "刺猬是夜行性动物，多在夜间和黄昏活动。",
+    "difficulty": 1
+  },
+  {
+    "animal": "刺猬",
+    "question": "刺猬如何控制背部尖刺的方向？",
+    "options": [
+      "A. 肌肉自主收缩调节",
+      "B. 受湿度自动伸展",
+      "C. 不可主动控制",
+      "D. 需要外力拨动"
+    ],
+    "correct_answer": "A",
+    "explanation": "刺猬通过肌肉组织自由控制尖刺的展开和收起。",
+    "difficulty": 5
+  },
+  {
+    "animal": "刺猬",
+    "question": "野生刺猬的繁殖季节通常在哪个时间段？",
+    "options": [
+      "A. 冬季（1-2月）",
+      "B. 春末至初夏（4-6月）",
+      "C. 秋季（9-10月）",
+      "D. 全年均可繁殖"
+    ],
+    "correct_answer": "B",
+    "explanation": "多数刺猬种群在春末到夏季进入交配期。",
+    "difficulty": 3
+  },
+  {
+    "animal": "刺猬",
+    "question": "成年欧洲刺猬的体重通常为？",
+    "options": [
+      "A. 50-100克",
+      "B. 200-400克",
+      "C. 800-1800克",
+      "D. 超过3公斤"
+    ],
+    "correct_answer": "C",
+    "explanation": "成年刺猬体重约0.8-1.8公斤，具体因种群而异。",
+    "difficulty": 2
+  },
+  {
+    "animal": "刺猬",
+    "question": "关于刺猬的视力，以下描述正确的是？",
+    "options": [
+      "A. 具有夜视能力",
+      "B. 视力与人类相当",
+      "C. 几乎处于盲眼状态",
+      "D. 仅能感知明暗变化"
+    ],
+    "correct_answer": "D",
+    "explanation": "刺猬视力极差，依赖嗅觉和听觉定位猎物。",
+    "difficulty": 4
+  },
+  {
+    "animal": "刺猬",
+    "question": "每胎新生刺猬幼崽的数量通常为？",
+    "options": [
+      "A. 1-2只",
+      "B. 3-6只",
+      "C. 7-9只",
+      "D. 超过10只"
+    ],
+    "correct_answer": "B",
+    "explanation": "刺猬每胎产仔数约4-5只，幼崽出生时体重仅约15克。",
+    "difficulty": 4
+  },
+  {
+    "animal": "刺猬",
+    "question": "关于刺猬的社会行为特征，正确的是？",
+    "options": [
+      "A. 群体聚居并分工合作",
+      "B. 成年个体高度独居",
+      "C. 雌雄配对终生伴侣制",
+      "D. 形成复杂等级制度"
+    ],
+    "correct_answer": "B",
+    "explanation": "刺猬为独居动物，仅在繁殖期短暂接触。",
+    "difficulty": 6
+  }
+]

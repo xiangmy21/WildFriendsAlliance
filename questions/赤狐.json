@@ -1,0 +1,210 @@
+[
+  {
+    "animal": "赤狐",
+    "question": "赤狐属于哪个科？",
+    "options": [
+      "A. 猫科",
+      "B. 鼬科",
+      "C. 犬科",
+      "D. 啮齿目"
+    ],
+    "correct_answer": "C",
+    "explanation": "赤狐是犬科动物，与狼、狗等同属一科。",
+    "difficulty": 2
+  },
+  {
+    "animal": "赤狐",
+    "question": "下列颜色中通常不属于赤狐毛发的是？",
+    "options": [
+      "A. 红褐色",
+      "B. 白色（北极变种）",
+      "C. 黑银相间",
+      "D. 斑马条纹"
+    ],
+    "correct_answer": "D",
+    "explanation": "赤狐的毛色多为红褐、灰色或黑色，北极地区有白化个体，但没有斑马条纹。",
+    "difficulty": 5
+  },
+  {
+    "animal": "赤狐",
+    "question": "以下哪个地方不是赤狐的典型栖息地？",
+    "options": [
+      "A. 森林边缘",
+      "B. 北极苔原（亚种）",
+      "C. 热带雨林核心地带",
+      "D. 人类居住区附近"
+    ],
+    "correct_answer": "C",
+    "explanation": "赤狐适应性强，但热带雨林深处因环境复杂不常见。",
+    "difficulty": 4
+  },
+  {
+    "animal": "赤狐",
+    "question": "赤狐在北美地区的繁殖季节通常开始于哪个月份？",
+    "options": [
+      "A. 1月",
+      "B. 2月",
+      "C. 5月",
+      "D. 7月"
+    ],
+    "correct_answer": "B",
+    "explanation": "赤狐多在冬季末至早春交配，北美地区常见于2月份。",
+    "difficulty": 4
+  },
+  {
+    "animal": "赤狐",
+    "question": "赤狐蓬松的尾巴（尾帚）主要功能是什么？",
+    "options": [
+      "A. 储存脂肪",
+      "B. 平衡身体",
+      "C. 吸引配偶",
+      "D. 挖掘工具"
+    ],
+    "correct_answer": "B",
+    "explanation": "尾巴帮助赤狐在跳跃和快速转向时保持平衡。",
+    "difficulty": 3
+  },
+  {
+    "animal": "赤狐",
+    "question": "以下哪种行为与赤狐的习性不符？",
+    "options": [
+      "A. 夜间活动",
+      "B. 群体狩猎",
+      "C. 独居生活",
+      "D. 储藏食物"
+    ],
+    "correct_answer": "B",
+    "explanation": "赤狐通常独居，以个体或家庭单位活动，不群体狩猎。",
+    "difficulty": 4
+  },
+  {
+    "animal": "赤狐",
+    "question": "赤狐的亚种数量大约有多少？",
+    "options": [
+      "A. 少于10个",
+      "B. 约25个",
+      "C. 超过30个",
+      "D. 接近45个"
+    ],
+    "correct_answer": "D",
+    "explanation": "赤狐有约45个已确认的亚种，适应不同环境。",
+    "difficulty": 7
+  },
+  {
+    "animal": "赤狐",
+    "question": "野生赤狐的平均寿命约为多少年？",
+    "options": [
+      "A. 1-2年",
+      "B. 3-4年",
+      "C. 6-8年",
+      "D. 10年以上"
+    ],
+    "correct_answer": "B",
+    "explanation": "因天敌和环境压力，野生赤狐通常活3-4年，圈养可达10年以上。",
+    "difficulty": 2
+  },
+  {
+    "animal": "赤狐",
+    "question": "赤狐的主要食性属于哪一类？",
+    "options": [
+      "A. 肉食性",
+      "B. 杂食性",
+      "C. 草食性",
+      "D. 独特食肉（仅吃特定猎物）"
+    ],
+    "correct_answer": "B",
+    "explanation": "赤狐是机会主义者，食物包括小型动物、果实和昆虫。",
+    "difficulty": 2
+  },
+  {
+    "animal": "赤狐",
+    "question": "赤狐的爪子具有以下哪种特性？",
+    "options": [
+      "A. 可完全回缩（如猫科）",
+      "B. 半回缩结构",
+      "C. 完全外露且不可弯曲",
+      "D. 特化成蹼状"
+    ],
+    "correct_answer": "C",
+    "explanation": "犬科动物的爪子不能回缩，赤狐的爪子保持外露用于奔跑和挖掘。",
+    "difficulty": 3
+  },
+  {
+    "animal": "赤狐",
+    "question": "以下哪个大洲没有原生赤狐分布？",
+    "options": [
+      "A. 北美洲",
+      "B. 南极洲",
+      "C. 非洲北部",
+      "D. 澳大利亚"
+    ],
+    "correct_answer": "B",
+    "explanation": "南极洲无赤狐原生种群，其他地区均有分布或被引入。",
+    "difficulty": 4
+  },
+  {
+    "animal": "赤狐",
+    "question": "赤狐幼崽的主要天敌不包括以下哪一项？",
+    "options": [
+      "A. 狼",
+      "B. 棕熊",
+      "C. 大型猛禽（如金雕）",
+      "D. 蜂鸟"
+    ],
+    "correct_answer": "D",
+    "explanation": "蜂鸟体型过小，无法威胁赤狐幼崽。",
+    "difficulty": 5
+  },
+  {
+    "animal": "赤狐",
+    "question": "一只雌性赤狐一胎通常能产多少只幼崽？",
+    "options": [
+      "A. 1-2只",
+      "B. 3-5只",
+      "C. 6-8只",
+      "D. 超过10只"
+    ],
+    "correct_answer": "B",
+    "explanation": "赤狐每胎平均产4-6只幼崽，具体数量受环境影响。",
+    "difficulty": 3
+  },
+  {
+    "animal": "赤狐",
+    "question": "赤狐的典型求偶行为包括以下哪项？",
+    "options": [
+      "A. 群体舞蹈",
+      "B. 尾巴竖直摇摆",
+      "C. 发出低频吼叫",
+      "D. 相互梳理毛发"
+    ],
+    "correct_answer": "B",
+    "explanation": "赤狐求偶时会通过尾巴的特定姿态和吠叫信号传递信息。",
+    "difficulty": 4
+  },
+  {
+    "animal": "赤狐",
+    "question": "赤狐在《世界自然保护联盟濒危物种红色名录》中的等级是？",
+    "options": [
+      "A. 濒危（EN）",
+      "B. 易危（VU）",
+      "C. 无危（LC）",
+      "D. 数据不足（DD）"
+    ],
+    "correct_answer": "C",
+    "explanation": "赤狐分布广泛且适应力强，未被列为濒危物种。",
+    "difficulty": 1
+  },
+  {
+    "animal": "赤狐",
+    "question": "赤狐的听觉敏锐度主要依赖于？",
+    "options": [
+      "A. 狭长耳朵转动能力",
+      "B. 地震波感知器官",
+      "C. 嘴部触须振动探测",
+      "D. 尾尖特殊细胞"
+    ],
+    "correct_answer": "A",
+    "explanation": "赤狐的直立大耳朵能精准定位地下的小型猎物。",
+    "difficulty": 6
+  }
+]

@@ -1,0 +1,514 @@
+[
+  {
+    "animal": "猫头鹰",
+    "question": "猫头鹰的主要食物来源是什么？",
+    "options": [
+      "A. 昆虫",
+      "B. 鱼类",
+      "C. 啮齿类动物",
+      "D. 水果"
+    ],
+    "correct_answer": "C",
+    "explanation": "猫头鹰主要以小型哺乳动物如老鼠、田鼠等为食，属于典型的肉食性鸟类。",
+    "difficulty": 2
+  },
+  {
+    "animal": "猫头鹰",
+    "question": "为什么猫头鹰在黑暗中仍能看清猎物？",
+    "options": [
+      "A. 瞳孔可完全打开",
+      "B. 大型眼球结构",
+      "C. 红外线视觉",
+      "D. 发出可见光"
+    ],
+    "correct_answer": "B",
+    "explanation": "猫头鹰的大眼睛和角膜结构能收集更多光线，但它们仍依赖月光或星光，并非主动发光。",
+    "difficulty": 3
+  },
+  {
+    "animal": "猫头鹰",
+    "question": "猫头鹰如何通过听觉精准定位猎物？",
+    "options": [
+      "A. 双耳高度相同",
+      "B. 耳孔位置不对称",
+      "C. 鸣管产生回声",
+      "D. 地震波感知"
+    ],
+    "correct_answer": "B",
+    "explanation": "猫头鹰的左右耳孔大小和深度不同，能通过时间差判断声音方向。",
+    "difficulty": 4
+  },
+  {
+    "animal": "猫头鹰",
+    "question": "大多数猫头鹰的繁殖季节通常在哪个时期？",
+    "options": [
+      "A. 春季",
+      "B. 秋季",
+      "C. 冬季",
+      "D. 随机全年"
+    ],
+    "correct_answer": "A",
+    "explanation": "多数猫头鹰在春季交配，利用温暖季节为幼鸟提供充足食物。",
+    "difficulty": 5
+  },
+  {
+    "animal": "猫头鹰",
+    "question": "猫头鹰通常选择哪种类型的巢穴？",
+    "options": [
+      "A. 自己挖掘树洞",
+      "B. 使用其他鸟类旧巢",
+      "C. 构建树叶平台",
+      "D. 悬挂于树枝"
+    ],
+    "correct_answer": "B",
+    "explanation": "猫头鹰多利用废弃的乌鸦或隼类巢穴，偶尔占据天然树洞。",
+    "difficulty": 3
+  },
+  {
+    "animal": "猫头鹰",
+    "question": "猫头鹰飞行时为何几乎无声？",
+    "options": [
+      "A. 羽毛柔软质地",
+      "B. 缩小翅膀面积",
+      "C. 羽片边缘锯齿状",
+      "D. 避开下风向"
+    ],
+    "correct_answer": "C",
+    "explanation": "羽毛特殊结构破坏气流涡流，减少空气阻力噪音。",
+    "difficulty": 6
+  },
+  {
+    "animal": "猫头鹰",
+    "question": "猫头鹰属于以下哪个鸟类目？",
+    "options": [
+      "A. 鸮形目",
+      "B. 鹦形目",
+      "C. 隼形目",
+      "D. 雀形目"
+    ],
+    "correct_answer": "A",
+    "explanation": "鸮形目（Strigiformes）是猫头鹰的分类学归属。",
+    "difficulty": 2
+  },
+  {
+    "animal": "猫头鹰",
+    "question": "关于猫头鹰迁徙行为，以下正确的是？",
+    "options": [
+      "A. 所有种类均迁徙",
+      "B. 大部分不迁徙",
+      "C. 追随季节性昆虫",
+      "D. 仅北极种群迁徙"
+    ],
+    "correct_answer": "B",
+    "explanation": "大多数猫头鹰是留鸟，只有少数高纬度物种会短距离垂直迁徙。",
+    "difficulty": 4
+  },
+  {
+    "animal": "猫头鹰",
+    "question": "猫头鹰主要栖息在哪种环境中？",
+    "options": [
+      "A. 森林和灌木丛",
+      "B. 开阔沙漠",
+      "C. 城市高层建筑",
+      "D. 热带雨林树冠层"
+    ],
+    "correct_answer": "A",
+    "explanation": "大多数猫头鹰偏好森林、开阔林地等有树木遮蔽的环境进行捕猎和筑巢。",
+    "difficulty": 2
+  },
+  {
+    "animal": "猫头鹰",
+    "question": "猫头鹰如何处理无法消化的猎物残渣？",
+    "options": [
+      "A. 混入粪便排出",
+      "B. 吐出食丸（骨巢）",
+      "C. 存储在嗉囊中",
+      "D. 分解为气体释放"
+    ],
+    "correct_answer": "B",
+    "explanation": "猫头鹰将毛发、骨骼等无法消化部分压缩成硬质食丸，通过喉部吐出。",
+    "difficulty": 3
+  },
+  {
+    "animal": "猫头鹰",
+    "question": "猫头鹰羽毛颜色的主要功能是？",
+    "options": [
+      "A. 调节体温",
+      "B. 飞行降噪",
+      "C. 环境伪装",
+      "D. 吸引配偶"
+    ],
+    "correct_answer": "C",
+    "explanation": "猫头鹰羽毛的保护色使其能与树干、岩石等背景融为一体，避免被捕食者发现。",
+    "difficulty": 1
+  },
+  {
+    "animal": "猫头鹰",
+    "question": "野生猫头鹰的平均寿命大约为？",
+    "options": [
+      "A. 8-12年",
+      "B. 3-5年",
+      "C. 15-20年",
+      "D. 超过25年"
+    ],
+    "correct_answer": "A",
+    "explanation": "野生个体因天敌和环境威胁寿命较短，圈养可活至15年以上。",
+    "difficulty": 5
+  },
+  {
+    "animal": "猫头鹰",
+    "question": "下列哪种动物会捕食猫头鹰幼鸟？",
+    "options": [
+      "A. 蜥蜴",
+      "B. 松鼠",
+      "C. 狐狸和蛇类",
+      "D. 鹦鹉"
+    ],
+    "correct_answer": "C",
+    "explanation": "狐狸、蛇类及大型猛禽可能攻击猫头鹰巢穴中的幼鸟。",
+    "difficulty": 4
+  },
+  {
+    "animal": "猫头鹰",
+    "question": "关于猫头鹰的社会行为，以下正确的是？",
+    "options": [
+      "A. 独居但繁殖期配对",
+      "B. 形成5-10只群体生活",
+      "C. 季节性迁徙群居",
+      "D. 终身伴侣共同育雏"
+    ],
+    "correct_answer": "A",
+    "explanation": "猫头鹰通常独居，仅在繁殖期与配偶合作养育后代。",
+    "difficulty": 3
+  },
+  {
+    "animal": "猫头鹰",
+    "question": "猫头鹰的典型鸣叫主要用于？",
+    "options": [
+      "A. 吓退掠食者",
+      "B. 领地宣告和求偶",
+      "C. 捕猎时沟通",
+      "D. 群体导航信号"
+    ],
+    "correct_answer": "B",
+    "explanation": "猫头鹰通过鸣叫标记领地并吸引配偶，不同种类叫声差异显著。",
+    "difficulty": 2
+  },
+  {
+    "animal": "猫头鹰",
+    "question": "以下哪种猫头鹰具有昼行性特征？",
+    "options": [
+      "A. 雪鸮",
+      "B. 短耳鸮",
+      "C. 长耳鸮",
+      "D. 豹斑 owlet"
+    ],
+    "correct_answer": "A",
+    "explanation": "雪鸮在北极地区因极昼环境会白天活动，是少有的日行性猫头鹰。",
+    "difficulty": 6
+  },
+  {
+    "question": "最大的猫头鹰物种是哪一个？",
+    "options": [
+      "A. 雪鸮",
+      "B. 角鸮",
+      "C. 雕鸮",
+      "D. 短耳鸮"
+    ],
+    "correct_answer": "C",
+    "explanation": "雕鸮（Great Horned Owl）体长可达60-70厘米，是北美洲最大的猫头鹰物种之一。",
+    "difficulty": 5
+  },
+  {
+    "question": "猫头鹰的耳状羽簇（ear tufts）的主要作用是什么？",
+    "options": [
+      "A. 环境伪装",
+      "B. 方向定位",
+      "C. 调节体温",
+      "D. 吸引配偶"
+    ],
+    "correct_answer": "A",
+    "explanation": "耳状羽簇并非用于听觉，而是帮助猫头鹰在树干或岩石上伪装成树枝的分叉部分。",
+    "difficulty": 4
+  },
+  {
+    "question": "雌猫头鹰通常一次会下多少枚蛋？",
+    "options": [
+      "A. 2-4 枚",
+      "B. 5-7 枚",
+      "C. 单卵",
+      "D. 10 枚以上"
+    ],
+    "correct_answer": "A",
+    "explanation": "大多数猫头鹰物种的雌性一次产卵数量为 2 到 4 枚，具体取决于种类。",
+    "difficulty": 3
+  },
+  {
+    "question": "在许多文化中，猫头鹰常被视为哪种象征？",
+    "options": [
+      "A. 智慧",
+      "B. 死亡",
+      "C. 丰收",
+      "D. 疾速"
+    ],
+    "correct_answer": "A",
+    "explanation": "古希腊神话中雅典娜选择猫头鹰作为神鸟，象征智慧和洞察力。",
+    "difficulty": 1
+  },
+  {
+    "question": "为什么猫头鹰能转头几乎到水平位置而不受伤？",
+    "options": [
+      "A. 特殊的颈椎结构",
+      "B. 更灵活的眼球",
+      "C. 没有眼睑限制",
+      "D. 颈部肌肉超常发达"
+    ],
+    "correct_answer": "A",
+    "explanation": "猫头鹰拥有 14 块颈椎骨（人类只有 7 块），并且血管能灵活伸缩，使其头部旋转角度可达 270 度。",
+    "difficulty": 5
+  },
+  {
+    "question": "以下哪个环境中最不可能发现野生猫头鹰？",
+    "options": [
+      "A. 撒哈拉沙漠边缘",
+      "B. 北欧针叶林",
+      "C. 热带雨林高树冠层",
+      "D. 北极苔原"
+    ],
+    "correct_answer": "A",
+    "explanation": "大多数猫头鹰栖息在森林、草原或寒冷地区，而撒哈拉沙漠等极端干旱环境缺乏其猎物和隐蔽处。",
+    "difficulty": 4
+  },
+  {
+    "question": "猫头鹰的宽阔翅膀主要帮助它们适应哪种捕猎环境？",
+    "options": [
+      "A. 森林",
+      "B. 开阔地",
+      "C. 山顶悬崖",
+      "D. 沙漠沙丘"
+    ],
+    "correct_answer": "A",
+    "explanation": "宽大翅膀提供升力和机动性，适合在树木间无声滑翔捕猎。",
+    "difficulty": 3
+  },
+  {
+    "question": "猫头鹰的翼载荷（wing loading）如何影响它们在树林中的飞行？",
+    "options": [
+      "A. 允许低速机动",
+      "B. 提供高速冲刺能力",
+      "C. 减少能量消耗",
+      "D. 与翼型无关"
+    ],
+    "correct_answer": "A",
+    "explanation": "较低的翼载荷（体重/翅膀面积比）使猫头鹰能在密集林间缓慢飞行，精准定位猎物。",
+    "difficulty": 6
+  },
+  {
+    "animal": "猫头鹰",
+    "question": "猫头鹰在交配期间会进行哪种独特的行为？",
+    "options": [
+      "A. 鸣叫对唱并跳舞",
+      "B. 羽毛颜色变亮",
+      "C. 赠送食物",
+      "D. 建造复杂巢穴"
+    ],
+    "correct_answer": "A",
+    "explanation": "猫头鹰通过鸣叫对唱和舞蹈来吸引配偶，这是它们求偶的重要方式。",
+    "difficulty": 3
+  },
+  {
+    "animal": "猫头鹰",
+    "question": "猫头鹰幼鸟通常需要多久才能独立捕食？",
+    "options": [
+      "A. 几周",
+      "B. 1-2个月",
+      "C. 3-4个月",
+      "D. 半年以上"
+    ],
+    "correct_answer": "B",
+    "explanation": "幼鸟在约6至8周后开始学习飞行和捕猎技巧，通常在1-2个月内能独立捕食。",
+    "difficulty": 4
+  },
+  {
+    "animal": "猫头鹰",
+    "question": "雌性猫头鹰的体型通常如何与雄性比较？",
+    "options": [
+      "A. 更小",
+      "B. 相同",
+      "C. 更大",
+      "D. 取决于种类"
+    ],
+    "correct_answer": "C",
+    "explanation": "大多数猫头鹰物种中雌性体型比雄性更大，这是性别二型性的表现。",
+    "difficulty": 3
+  },
+  {
+    "animal": "猫头鹰",
+    "question": "当食物短缺时，猫头鹰最可能采取以下哪种策略？",
+    "options": [
+      "A. 减少活动以节约能量",
+      "B. 迁徙到其他地区",
+      "C. 储存多余的食物",
+      "D. 启动冬眠"
+    ],
+    "correct_answer": "A",
+    "explanation": "猫头鹰通常不迁徙，也不会储存食物或冬眠，因此会减少活动来应对短缺。",
+    "difficulty": 4
+  },
+  {
+    "animal": "猫头鹰",
+    "question": "某些猫头鹰种类能够模仿下列哪种声音？",
+    "options": [
+      "A. 狐狸嚎叫",
+      "B. 其他鸟类鸣叫",
+      "C. 暴风雨声",
+      "D. 人类语言"
+    ],
+    "correct_answer": "A",
+    "explanation": "例如北美角鸮（Barred Owl）能模仿狐狸的叫声来迷惑掠食者或吸引猎物。",
+    "difficulty": 5
+  },
+  {
+    "animal": "猫头鹰",
+    "question": "猫头鹰在农业生态系统中的主要作用是什么？",
+    "options": [
+      "A. 控制啮齿类害虫",
+      "B. 传播植物种子",
+      "C. 吸引游客",
+      "D. 没有明显影响"
+    ],
+    "correct_answer": "A",
+    "explanation": "猫头鹰捕食田鼠等害虫，有助于保护农作物。",
+    "difficulty": 2
+  },
+  {
+    "animal": "猫头鹰",
+    "question": "猫头鹰的雏鸟何时开始第一次飞行？",
+    "options": [
+      "A. 出生后1周内",
+      "B. 约3-4周",
+      "C. 6-8周",
+      "D. 十二周后"
+    ],
+    "correct_answer": "C",
+    "explanation": "雏鸟通常在出生后的6至8周开始学习飞行。",
+    "difficulty": 3
+  },
+  {
+    "animal": "猫头鹰",
+    "question": "猫头鹰幼鸟通过发出高频率叫声主要目的是？",
+    "options": [
+      "A. 引起亲鸟注意以获取食物",
+      "B. 恐吓潜在的掠食者",
+      "C. 练习未来的捕猎技巧",
+      "D. 与同巢兄弟姐妹沟通"
+    ],
+    "correct_answer": "A",
+    "explanation": "幼鸟通过高频率鸣叫向父母求食，这是生存的关键行为。",
+    "difficulty": 3
+  },
+  {
+    "animal": "猫头鹰",
+    "question": "猫头鹰羽毛边缘的特殊结构主要帮助它们实现什么功能？",
+    "options": [
+      "A. 减少飞行噪音",
+      "B. 增强保暖能力",
+      "C. 提高体温调节效率",
+      "D. 更好地捕捉猎物"
+    ],
+    "correct_answer": "A",
+    "explanation": "猫头鹰羽毛边缘的锯齿状结构能分散气流，显著降低飞行时的空气湍流噪音，使其在接近猎物时保持无声。",
+    "difficulty": 4
+  },
+  {
+    "animal": "猫头鹰",
+    "question": "当外界温度过高时，猫头鹰主要通过什么方式调节体温？",
+    "options": [
+      "A. 张开喙快速呼吸",
+      "B. 伸展翅膀暴露皮肤散热",
+      "C. 寻找阴凉处减少活动",
+      "D. 吞食冰雪降温"
+    ],
+    "correct_answer": "C",
+    "explanation": "猫头鹰缺乏汗腺等复杂散热结构，主要依赖行为调节，在高温时选择避荫并减少运动以避免过热。",
+    "difficulty": 3
+  },
+  {
+    "animal": "猫头鹰",
+    "question": "猫头鹰幼鸟通常需要多久才能完全独立生活？",
+    "options": [
+      "A. 出生后1个月内",
+      "B. 2-3个月",
+      "C. 4-5个月",
+      "D. 半年以上"
+    ],
+    "correct_answer": "B",
+    "explanation": "幼鸟约在6周左右离巢，但需父母继续喂养数周，并在学习捕猎技巧后（通常2-3个月）才完全独立。",
+    "difficulty": 4
+  },
+  {
+    "animal": "猫头鹰",
+    "question": "北极地区的猫头鹰如何应对冬季严寒和食物短缺？",
+    "options": [
+      "A. 迁徙到南方过冬",
+      "B. 减少活动并依赖脂肪储备",
+      "C. 改食鱼类等海洋生物",
+      "D. 与其他猛禽共享领地"
+    ],
+    "correct_answer": "B",
+    "explanation": "北极猫头鹰如雪鸮具有厚密羽毛保暖，冬季通过降低代谢率和减少行动来维持能量平衡。",
+    "difficulty": 5
+  },
+  {
+    "animal": "猫头鹰",
+    "question": "猫头鹰翅膀骨骼的特殊性主要体现在？",
+    "options": [
+      "A. 骨骼异常坚硬以抗压",
+      "B. 空心骨减轻重量提升飞行效率",
+      "C. 接近身体缩短翼展",
+      "D. 覆盖鳞片增强抓握力"
+    ],
+    "correct_answer": "B",
+    "explanation": "猫头鹰的骨骼（如翅膀骨）中空且轻质，兼顾强度与重量控制，确保安静而高效的飞行能力。",
+    "difficulty": 5
+  },
+  {
+    "animal": "猫头鹰",
+    "question": "通常由谁负责孵化猫头鹰的卵？",
+    "options": [
+      "A. 雌鸟独自承担孵卵任务",
+      "B. 双亲轮流孵化但以雌鸟为主",
+      "C. 雄鸟主要负责",
+      "D. 无需孵化，卵在洞穴中自然发育"
+    ],
+    "correct_answer": "B",
+    "explanation": "多数猫头鹰物种由雌鸟孵卵（每日约2小时离开觅食），雄性会提供食物但参与时间较短。",
+    "difficulty": 4
+  },
+  {
+    "animal": "猫头鹰",
+    "question": "某些猫头鹰种类能模仿哪种声音来迷惑掠食者？",
+    "options": [
+      "A. 狗吠声",
+      "B. 其他猛禽鸣叫",
+      "C. 老鼠的吱吱声",
+      "D. 人类语言"
+    ],
+    "correct_answer": "A",
+    "explanation": "如大角鸮可通过模仿犬类叫声制造混乱，干扰捕食者的判断。",
+    "difficulty": 5
+  },
+  {
+    "animal": "猫头鹰",
+    "question": "白天时大多数猫头鹰的典型行为是？",
+    "options": [
+      "A. 在隐蔽处休息或睡觉",
+      "B. 积极外出捕猎",
+      "C. 筑巢或维护领地",
+      "D. 进行求偶展示"
+    ],
+    "correct_answer": "A",
+    "explanation": "猫头鹰多为夜行性动物，白天主要在树洞、岩缝等隐蔽处静止休息以躲避天敌。",
+    "difficulty": 2
+  }
+]

@@ -1,0 +1,522 @@
+[
+  {
+    "animal": "黑鹳",
+    "question": "黑鹳属于以下哪个科的鸟类？",
+    "options": [
+      "A. 鹳科",
+      "B. 鸬鹚科",
+      "C. 雁形目",
+      "D. 鹤科"
+    ],
+    "correct_answer": "A",
+    "explanation": "黑鹳是大型涉禽，属于鹳形目鹳科。",
+    "difficulty": 2
+  },
+  {
+    "animal": "黑鹳",
+    "question": "黑鹳的成鸟通常具有哪种特征性羽色？",
+    "options": [
+      "A. 全身黑色",
+      "B. 红色长喙",
+      "C. 白色尾部",
+      "D. 黄色眼圈"
+    ],
+    "correct_answer": "B",
+    "explanation": "成年黑鹳的喙为鲜艳的橙红色，是其显著特征。",
+    "difficulty": 3
+  },
+  {
+    "animal": "黑鹳",
+    "question": "黑鹳主要在哪些地区繁殖？",
+    "options": [
+      "A. 西伯利亚与东亚",
+      "B. 非洲撒哈拉以南",
+      "C. 南极洲沿海",
+      "D. 澳大利亚内陆"
+    ],
+    "correct_answer": "A",
+    "explanation": "黑鹳的繁殖地主要集中在欧亚大陆北部，包括西伯利亚和中国东北。",
+    "difficulty": 4
+  },
+  {
+    "animal": "黑鹳",
+    "question": "黑鹳的巢穴通常建在哪里？",
+    "options": [
+      "A. 高大乔木树冠",
+      "B. 悬崖缝隙",
+      "C. 草原地面凹陷处",
+      "D. 灌木丛中"
+    ],
+    "correct_answer": "A",
+    "explanation": "黑鹳偏好在高大树木或废弃建筑物上筑巢。",
+    "difficulty": 5
+  },
+  {
+    "animal": "黑鹳",
+    "question": "黑鹳的食性主要以什么为主？",
+    "options": [
+      "A. 鱼类和两栖动物",
+      "B. 昆虫与蜘蛛",
+      "C. 水果和浆果",
+      "D. 小型哺乳动物"
+    ],
+    "correct_answer": "A",
+    "explanation": "黑鹳是肉食性鸟类，主要捕食鱼类、蛙类及甲壳类。",
+    "difficulty": 4
+  },
+  {
+    "animal": "黑鹳",
+    "question": "国际自然保护联盟（IUCN）将黑鹳列为哪种保护等级？",
+    "options": [
+      "A. 濒危(EN)",
+      "B. 易危(VU)",
+      "C. 近危(NT)",
+      "D. 无危(LC)"
+    ],
+    "correct_answer": "A",
+    "explanation": "由于栖息地破坏，黑鹳被列为濒危物种。",
+    "difficulty": 7
+  },
+  {
+    "animal": "黑鹳",
+    "question": "黑鹳迁徙时通常会飞越哪个著名地理区域？",
+    "options": [
+      "A. 苏伊士运河",
+      "B. 白令海峡",
+      "C. 直布罗陀海峡",
+      "D. 巴拿马地峡"
+    ],
+    "correct_answer": "A",
+    "explanation": "黑鹳迁徙路线包括经苏伊士运河向非洲越冬。",
+    "difficulty": 6
+  },
+  {
+    "animal": "黑鹳",
+    "question": "成年黑鹳的翼展范围大约是多少？",
+    "options": [
+      "A. 1.5-2米",
+      "B. 0.8-1米",
+      "C. 3-4米",
+      "D. 2.5-3米"
+    ],
+    "correct_answer": "A",
+    "explanation": "黑鹳翼展通常在1.6至2米之间，助其高效滑翔。",
+    "difficulty": 5
+  },
+  {
+    "animal": "黑鹳",
+    "question": "黑鹳在以下哪个大洲并没有自然分布？",
+    "options": [
+      "A. 欧洲",
+      "B. 南美洲",
+      "C. 亚洲北部",
+      "D. 非洲"
+    ],
+    "correct_answer": "B",
+    "explanation": "黑鹳主要分布在欧亚大陆及非洲部分地区，南美洲没有自然分布种群。",
+    "difficulty": 3
+  },
+  {
+    "animal": "黑鹳",
+    "question": "威胁黑鹳幼鸟的主要天敌包括以下哪种动物？",
+    "options": [
+      "A. 老鹰",
+      "B. 狐狸",
+      "C. 金雕",
+      "D. 蟒蛇"
+    ],
+    "correct_answer": "C",
+    "explanation": "大型猛禽如金雕会攻击黑鹳巢穴中的幼鸟。",
+    "difficulty": 4
+  },
+  {
+    "animal": "黑鹳",
+    "question": "全球现存野生黑鹳种群数量估计约为多少只？",
+    "options": [
+      "A. 不足3000只",
+      "B. 约1万只",
+      "C. 超过5万只",
+      "D. 2-3百万只"
+    ],
+    "correct_answer": "A",
+    "explanation": "黑鹳因栖息地破坏和污染，全球仅存约2000-4000只成年个体。",
+    "difficulty": 8
+  },
+  {
+    "animal": "黑鹳",
+    "question": "黑鹳每窝通常产卵的数量是？",
+    "options": [
+      "A. 1-2枚",
+      "B. 3-4枚",
+      "C. 5-6枚",
+      "D. 7枚以上"
+    ],
+    "correct_answer": "B",
+    "explanation": "黑鹳每窝产卵3-4枚，孵化期约28-31天。",
+    "difficulty": 4
+  },
+  {
+    "animal": "黑鹳",
+    "question": "野生黑鹳的平均寿命大约是多少年？",
+    "options": [
+      "A. 5-10年",
+      "B. 15-20年",
+      "C. 25-30年",
+      "D. 超过40年"
+    ],
+    "correct_answer": "B",
+    "explanation": "在野外，黑鹳的寿命通常为15-20年，圈养条件下可达30年以上。",
+    "difficulty": 5
+  },
+  {
+    "animal": "黑鹳",
+    "question": "黑鹳的叫声具有什么特征？",
+    "options": [
+      "A. 清脆鸣叫",
+      "B. 嘶哑低吼",
+      "C. 高亢啼鸣",
+      "D. 模拟其他鸟声"
+    ],
+    "correct_answer": "B",
+    "explanation": "黑鹳的叫声通常被描述为沙哑而断续的‘喀啦’声。",
+    "difficulty": 6
+  },
+  {
+    "animal": "黑鹳",
+    "question": "下列哪种环境是黑鹳的主要栖息地？",
+    "options": [
+      "A. 热带雨林深处",
+      "B. 河流与湿地附近",
+      "C. 高山裸岩地带",
+      "D. 干旱沙漠边缘"
+    ],
+    "correct_answer": "B",
+    "explanation": "黑鹳依赖淡水生态系统，常在河岸、湖泊和沼泽地区活动。",
+    "difficulty": 3
+  },
+  {
+    "animal": "黑鹳",
+    "question": "与其他大型涉禽相比，黑鹳最显著的外形特征是？",
+    "options": [
+      "A. 纯白色羽毛",
+      "B. 细长弯曲的喙",
+      "C. 尾部尾羽分叉",
+      "D. 全身黑色羽毛与红色长喙的组合"
+    ],
+    "correct_answer": "D",
+    "explanation": "黑鹳全身羽毛为深黑色，配以鲜艳红色的喙，是其区别于其他鹳类的关键特征。",
+    "difficulty": 7
+  },
+  {
+    "animal": "黑鹳",
+    "question": "黑鹳幼鸟的羽毛颜色在成年前主要呈现什么特征？",
+    "options": [
+      "A. 深褐色绒羽",
+      "B. 鲜艳红色",
+      "C. 纯白色覆盖",
+      "D. 与成年完全一致"
+    ],
+    "correct_answer": "A",
+    "explanation": "幼鸟羽毛呈暗褐色，随着成长逐渐变为成人深黑色。",
+    "difficulty": 4
+  },
+  {
+    "animal": "黑鹳",
+    "question": "黑鹳的繁殖期通常开始于哪几个月份？",
+    "options": [
+      "A. 1-2月",
+      "B. 3-5月",
+      "C. 7-8月",
+      "D. 9-10月"
+    ],
+    "correct_answer": "B",
+    "explanation": "黑鹳在北半球春季（3-5月）开始筑巢繁殖。",
+    "difficulty": 3
+  },
+  {
+    "animal": "黑鹳",
+    "question": "导致黑鹳种群数量下降的最重要人为因素是什么？",
+    "options": [
+      "A. 气候变暖",
+      "B. 栖息地碎片化",
+      "C. 非法捕猎",
+      "D. 塑料污染"
+    ],
+    "correct_answer": "B",
+    "explanation": "湿地退化和河流改造严重破坏了黑鹳的栖息环境。",
+    "difficulty": 6
+  },
+  {
+    "animal": "黑鹳",
+    "question": "黑鹳的足部结构特征是？",
+    "options": [
+      "A. 四趾分开向前",
+      "B. 前三趾并合向前",
+      "C. 双爪对生",
+      "D. 宽大蹼膜相连"
+    ],
+    "correct_answer": "B",
+    "explanation": "黑鹳属于鹳科典型特征，前三趾合并成前向长爪。",
+    "difficulty": 5
+  },
+  {
+    "animal": "黑鹳",
+    "question": "冬季迁徙后，黑鹳主要在何处越冬？",
+    "options": [
+      "A. 中东与北非",
+      "B. 西伯利亚苔原",
+      "C. 北美五大湖区域",
+      "D. 澳大利亚东部"
+    ],
+    "correct_answer": "A",
+    "explanation": "黑鹳冬季迁徙至地中海沿岸及非洲北部越冬。",
+    "difficulty": 4
+  },
+  {
+    "animal": "黑鹳",
+    "question": "成年黑鹳与白鹳最显著的区别特征是？",
+    "options": [
+      "A. 喙部颜色差异",
+      "B. 尾羽长度不同",
+      "C. 翼展尺寸差异",
+      "D. 足部颜色区别"
+    ],
+    "correct_answer": "A",
+    "explanation": "黑鹳喙为红色，而白鹳喙呈黄色。",
+    "difficulty": 7
+  },
+  {
+    "animal": "黑鹳",
+    "question": "下列哪种行为是黑鹳在繁殖期的典型表现？",
+    "options": [
+      "A. 群体舞蹈求偶",
+      "B. 雌雄共同筑巢",
+      "C. 单独鸣叫宣示领地",
+      "D. 喂食幼鸟时用喙敲击地面"
+    ],
+    "correct_answer": "B",
+    "explanation": "黑鹳的配偶会共同修复和维护巢穴结构。",
+    "difficulty": 5
+  },
+  {
+    "animal": "黑鹳",
+    "question": "历史上黑鹳曾分布于下列哪个区域但现在已灭绝？",
+    "options": [
+      "A. 日本南部岛屿",
+      "B. 西欧平原",
+      "C. 加拿大北部森林",
+      "D. 南非开普敦"
+    ],
+    "correct_answer": "A",
+    "explanation": "日本黑鹳亚种于2003年被宣布野外灭绝。",
+    "difficulty": 8
+  },
+  {
+    "animal": "黑鹳",
+    "question": "黑鹳幼鸟的喙部颜色在出生时呈现什么颜色？",
+    "options": [
+      "A. 红色",
+      "B. 深黄色",
+      "C. 灰褐色",
+      "D. 白色"
+    ],
+    "correct_answer": "C",
+    "explanation": "黑鹳幼鸟的喙部出生时呈灰褐色，成年后逐渐变为鲜艳的红色。",
+    "difficulty": 3
+  },
+  {
+    "animal": "黑鹳",
+    "question": "黑鹳主要通过什么方式捕捉猎物？",
+    "options": [
+      "A. 涉水缓慢行走并用长嘴啄食",
+      "B. 飞行俯冲到水中捕鱼",
+      "C. 用蹼足划水追逐",
+      "D. 在树上等待猎物"
+    ],
+    "correct_answer": "A",
+    "explanation": "黑鹳通常在浅水区涉水缓慢行走，利用敏锐的视力和长嘴快速捕捉鱼类或两栖动物。",
+    "difficulty": 3
+  },
+  {
+    "animal": "黑鹳",
+    "question": "黑鹳筑巢时主要使用的材料是？",
+    "options": [
+      "A. 干草和羽毛",
+      "B. 粗树枝和藤蔓",
+      "C. 泥土和碎石",
+      "D. 海藻和贝壳碎片"
+    ],
+    "correct_answer": "B",
+    "explanation": "黑鹳的巢通常由粗大树枝、藤蔓等搭建，结构坚固且位置较高。",
+    "difficulty": 4
+  },
+  {
+    "animal": "黑鹳",
+    "question": "黑鹳幼鸟何时开始学会飞行？",
+    "options": [
+      "A. 孵化后30天内",
+      "B. 约50-60天",
+      "C. 8个月大时",
+      "D. 随父母离开巢穴立即"
+    ],
+    "correct_answer": "B",
+    "explanation": "黑鹳幼鸟通常在孵化后约50至60天才开始学习飞行。",
+    "difficulty": 4
+  },
+  {
+    "animal": "黑鹳",
+    "question": "黑鹳迁徙途中面临的最大人为威胁是什么？",
+    "options": [
+      "A. 气候变化导致路线混乱",
+      "B. 电击死于输电线碰撞",
+      "C. 猎人偷猎",
+      "D. 栖息地被风力发电机占用"
+    ],
+    "correct_answer": "B",
+    "explanation": "黑鹳在迁徙过程中常因与高压输电线碰撞而死亡，这是其面临的主要人为威胁之一。",
+    "difficulty": 5
+  },
+  {
+    "animal": "黑鹳",
+    "question": "黑鹳的尾羽在飞行中主要起到什么作用？",
+    "options": [
+      "A. 方向控制",
+      "B. 产生升力的主要来源",
+      "C. 减少空气阻力",
+      "D. 吸引配偶展示"
+    ],
+    "correct_answer": "A",
+    "explanation": "黑鹳的尾羽在飞行时主要协助调整方向，而非直接提供升力。",
+    "difficulty": 6
+  },
+  {
+    "animal": "黑鹳",
+    "question": "黑鹳的翅膀形状最适合下列哪种行为？",
+    "options": [
+      "A. 长时间滑翔",
+      "B. 短距离冲刺捕猎",
+      "C. 快速转向躲避障碍",
+      "D. 低空掠水"
+    ],
+    "correct_answer": "A",
+    "explanation": "黑鹳的长翼展和宽大的翅膀结构使其适合长途迁徙中的高效滑翔。",
+    "difficulty": 5
+  },
+  {
+    "animal": "黑鹳",
+    "question": "成年黑鹳在繁殖期外通常如何活动？",
+    "options": [
+      "A. 孤独个体",
+      "B. 大型群体",
+      "C. 维持与配偶的配对关系",
+      "D. 形成家族群"
+    ],
+    "correct_answer": "C",
+    "explanation": "黑鹳具有较高的繁殖忠诚度，成年后通常维持与伴侣的长期配对关系。",
+    "difficulty": 3
+  },
+  {
+    "animal": "黑鹳",
+    "question": "黑鹳在求偶时特有的行为是什么？",
+    "options": [
+      "A. 展示鲜艳的尾羽并进行跳跃舞蹈",
+      "B. 雌雄轮流用喙敲击地面形成节奏",
+      "C. 向伴侣赠送小型鱼类作为礼物",
+      "D. 通过高频鸣叫引发群体回应"
+    ],
+    "correct_answer": "B",
+    "explanation": "黑鹳在求偶时会表现出独特的“地面叩击行为”，用长喙有规律地敲击地面，通过振动频率吸引配偶。",
+    "difficulty": 6
+  },
+  {
+    "animal": "黑鹳",
+    "question": "黑鹳的视力有何特殊适应性？",
+    "options": [
+      "A. 红外线视觉追踪猎物体温",
+      "B. 水下视物能力增强",
+      "C. 对快速移动物体的反应速度比其他鸟类快3倍",
+      "D. 在低光照环境下仍能精准捕食"
+    ],
+    "correct_answer": "B",
+    "explanation": "黑鹳眼睛结构适应浅水环境，可在水中折射光线干扰下准确捕捉猎物。其晶状体形状和瞳孔调节能力优化了水下视物功能。",
+    "difficulty": 5
+  },
+  {
+    "animal": "黑鹳",
+    "question": "黑鹳的初级飞羽具有什么特殊结构？",
+    "options": [
+      "A. 羽轴中空减轻重量",
+      "B. 羽片边缘有防水蜡质层",
+      "C. 羽尖分叉增强空气动力学效率",
+      "D. 表面覆盖反光鳞片迷惑天敌"
+    ],
+    "correct_answer": "C",
+    "explanation": "黑鹳的初级飞羽末端呈独特的“羽毛叉”结构，这种分叉设计能减少飞行阻力并提高长距离滑翔的能量效率。",
+    "difficulty": 7
+  },
+  {
+    "animal": "黑鹳",
+    "question": "下列哪个因素对黑鹳繁殖成功率影响最大？",
+    "options": [
+      "A. 筑巢树木的高度",
+      "B. 雌雄体重差是否超过15%",
+      "C. 领域内水体的pH值范围",
+      "D. 3公里半径内的同类数量"
+    ],
+    "correct_answer": "D",
+    "explanation": "黑鹳具有强烈的领域性，当繁殖区域内种群密度过高时会导致资源竞争加剧和筑巢失败率上升。3公里是其典型活动领地范围。",
+    "difficulty": 6
+  },
+  {
+    "animal": "黑鹳",
+    "question": "黑鹳在非繁殖期会利用哪种特殊栖息环境？",
+    "options": [
+      "A. 高山草甸",
+      "B. 河口盐沼地",
+      "C. 中纬度针叶林",
+      "D. 半干旱灌木丛"
+    ],
+    "correct_answer": "B",
+    "explanation": "尽管主要栖息于淡水湿地，黑鹳在迁徙途中会临时利用河口盐沼地带补充能量。其肾脏结构能有效排泄高盐环境中的多余钠离子。",
+    "difficulty": 5
+  },
+  {
+    "animal": "黑鹳",
+    "question": "黑鹳幼鸟离巢后的初期生存关键是什么？",
+    "options": [
+      "A. 独立完成首次迁徙",
+      "B. 形成3-5只的同龄群体",
+      "C. 掌握至少4种鸣叫信号",
+      "D. 在2周内掌握捕鱼技巧"
+    ],
+    "correct_answer": "B",
+    "explanation": "离巢幼鸟会形成临时小群共同觅食和躲避天敌，这种社会性行为能显著提高生存率直到它们进入繁殖年龄。",
+    "difficulty": 4
+  },
+  {
+    "animal": "黑鹳",
+    "question": "黑鹳的足部皮肤具有什么特殊结构？",
+    "options": [
+      "A. 密集的汗腺用于体温调节",
+      "B. 腺体分泌黏液帮助抓握树枝",
+      "C. 特殊褶皱增强涉水时的摩擦力",
+      "D. 骨质化外层抵御捕猎伤害"
+    ],
+    "correct_answer": "C",
+    "explanation": "黑鹳脚掌的特化皮肤褶皱能增加与湿地泥泞地面接触时的抓地力，同时减少行走能量消耗。",
+    "difficulty": 5
+  },
+  {
+    "animal": "黑鹳",
+    "question": "黑鹳在生态系统中扮演什么关键角色？",
+    "options": [
+      "A. 控制两栖类种群数量",
+      "B. 指示水体污染程度的生物指标",
+      "C. 疾病传播媒介物种",
+      "D. 促进水生植物种子扩散"
+    ],
+    "correct_answer": "B",
+    "explanation": "黑鹳对水质变化高度敏感，其种群分布和健康状态常被作为湿地生态系统的指示性指标。",
+    "difficulty": 4
+  }
+]

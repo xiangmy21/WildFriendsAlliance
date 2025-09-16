@@ -1,0 +1,548 @@
+[
+  {
+    "animal": "丹顶鹤",
+    "question": "丹顶鹤头顶显著的颜色特征是？",
+    "options": [
+      "A. 红色",
+      "B. 白色",
+      "C. 黑色",
+      "D. 黄色"
+    ],
+    "correct_answer": "A",
+    "explanation": "丹顶鹤的名称来源于其鲜红色的冠羽，这是其最显著的识别特征。",
+    "difficulty": 2
+  },
+  {
+    "animal": "丹顶鹤",
+    "question": "丹顶鹤主要栖息在以下哪种环境中？",
+    "options": [
+      "A. 热带雨林",
+      "B. 高山雪地",
+      "C. 沼泽湿地",
+      "D. 干旱沙漠"
+    ],
+    "correct_answer": "C",
+    "explanation": "丹顶鹤依赖湿地生态系统生存，常在沼泽、湖泊和河流附近活动。",
+    "difficulty": 3
+  },
+  {
+    "animal": "丹顶鹤",
+    "question": "丹顶鹤属于以下哪个科？",
+    "options": [
+      "A. 鸬鹚科",
+      "B. 鹭科",
+      "C. 天鹅属",
+      "D. 鹤科"
+    ],
+    "correct_answer": "D",
+    "explanation": "丹顶鹤是鹤科中的典型物种，与白鹤、蓑羽鹤等同属一科。",
+    "difficulty": 5
+  },
+  {
+    "animal": "丹顶鹤",
+    "question": "在中国的保护等级中，丹顶鹤属于？",
+    "options": [
+      "A. 国家一级",
+      "B. 国家二级",
+      "C. 省级保护动物",
+      "D. 未列入名录"
+    ],
+    "correct_answer": "A",
+    "explanation": "由于栖息地破坏和盗猎，丹顶鹤被列为国家一级重点保护野生动物。",
+    "difficulty": 6
+  },
+  {
+    "animal": "丹顶鹤",
+    "question": "丹顶鹤的主要繁殖区域是？",
+    "options": [
+      "A. 四川盆地",
+      "B. 青藏高原",
+      "C. 中国东北及俄罗斯远东地区",
+      "D. 华南沿海"
+    ],
+    "correct_answer": "C",
+    "explanation": "丹顶鹤春季在中俄边境的湿地繁殖，冬季迁徙至长江中下游越冬。",
+    "difficulty": 4
+  },
+  {
+    "animal": "丹顶鹤",
+    "question": "丹顶鹤求偶时的主要行为是？",
+    "options": [
+      "A. 跳跃舞蹈",
+      "B. 持续鸣叫",
+      "C. 建造高巢",
+      "D. 群体飞行"
+    ],
+    "correct_answer": "A",
+    "explanation": "丹顶鹤通过优雅的跳跃和展翅动作进行求偶表演，称为『舞姿展示』。",
+    "difficulty": 4
+  },
+  {
+    "animal": "丹顶鹤",
+    "question": "野生丹顶鹤的平均寿命大约为？",
+    "options": [
+      "A. 10年",
+      "B. 25年",
+      "C. 40年",
+      "D. 60年"
+    ],
+    "correct_answer": "C",
+    "explanation": "在自然条件下，健康的丹顶鹤可存活30-40年，圈养环境下可能更长。",
+    "difficulty": 7
+  },
+  {
+    "animal": "丹顶鹤",
+    "question": "丹顶鹤的主要食物包括？",
+    "options": [
+      "A. 鱼类和两栖动物",
+      "B. 果实种子",
+      "C. 昆虫幼虫",
+      "D. 小型哺乳动物"
+    ],
+    "correct_answer": "A",
+    "explanation": "丹顶鹤以水生生物为主食，如鱼类、蛙类，偶尔也会吃小型无脊椎动物。",
+    "difficulty": 3
+  },
+  {
+    "animal": "丹顶鹤",
+    "question": "丹顶鹤的迁徙路线主要跨越哪些大洲？",
+    "options": [
+      "A. 欧洲与非洲",
+      "B. 北美洲与南美洲",
+      "C. 亚洲与大洋洲",
+      "D. 欧亚大陆与北美洲"
+    ],
+    "correct_answer": "C",
+    "explanation": "丹顶鹤的迁徙路线主要连接中国东北、俄罗斯远东地区至长江中下游及日本九州，属于欧亚-东亚迁飞区。",
+    "difficulty": 5
+  },
+  {
+    "animal": "丹顶鹤",
+    "question": "丹顶鹤的鸣叫在自然界中的作用主要是？",
+    "options": [
+      "A. 驱赶掠食者",
+      "B. 群体间通讯",
+      "C. 吸引昆虫",
+      "D. 恐吓同类"
+    ],
+    "correct_answer": "B",
+    "explanation": "丹顶鹤的鸣叫音量大且穿透力强，主要用于种群间的远距离沟通和领地宣示。",
+    "difficulty": 4
+  },
+  {
+    "animal": "丹顶鹤",
+    "question": "成年丹顶鹤的羽毛颜色特征是？",
+    "options": [
+      "A. 全身纯白",
+      "B. 背部带黑纹",
+      "C. 颈部黑色，体羽白色",
+      "D. 羽尖泛黄"
+    ],
+    "correct_answer": "C",
+    "explanation": "丹顶鹤的颈部和飞羽通常为黑色，与身体纯白羽毛形成对比。",
+    "difficulty": 3
+  },
+  {
+    "animal": "丹顶鹤",
+    "question": "野生丹顶鹤的社会结构通常是？",
+    "options": [
+      "A. 单独个体活动",
+      "B. 核心家庭群",
+      "C. 大型混合种群",
+      "D. 青年群体集群"
+    ],
+    "correct_answer": "B",
+    "explanation": "丹顶鹤多以繁殖配偶及幼鸟组成的小家族为单位活动，非繁殖期则形成临时小群体。",
+    "difficulty": 6
+  },
+  {
+    "animal": "丹顶鹤",
+    "question": "威胁野生丹顶鹤生存的主要人为因素之一是？",
+    "options": [
+      "A. 气候变暖加速",
+      "B. 高速公路建设",
+      "C. 电力设施碰撞",
+      "D. 城市光污染"
+    ],
+    "correct_answer": "C",
+    "explanation": "迁徙过程中与输电线路的碰撞是丹顶鹤非自然死亡的重要原因。",
+    "difficulty": 7
+  },
+  {
+    "animal": "丹顶鹤",
+    "question": "在传统文化中，丹顶鹤常被用来象征？",
+    "options": [
+      "A. 权力与威严",
+      "B. 长寿与高洁",
+      "C. 灵敏的听觉",
+      "D. 水域丰饶"
+    ],
+    "correct_answer": "B",
+    "explanation": "由于其优雅形态和长寿特性，丹顶鹤在中国文化中常作为吉祥、长寿的象征出现在绘画与文学中。",
+    "difficulty": 2
+  },
+  {
+    "animal": "丹顶鹤",
+    "question": "幼年丹顶鹤头顶颜色何时变为红色？",
+    "options": [
+      "A. 出生时即有",
+      "B. 1-2岁时",
+      "C. 性成熟后（3-5岁）",
+      "D. 终身保持灰色"
+    ],
+    "correct_answer": "C",
+    "explanation": "丹顶鹤的冠羽颜色随年龄增长逐渐形成，需到性成熟阶段才呈现鲜艳红色。",
+    "difficulty": 8
+  },
+  {
+    "animal": "丹顶鹤",
+    "question": "丹顶鹤的脚型特征是？",
+    "options": [
+      "A. 鸭蹼足",
+      "B. 锥形长趾",
+      "C. 半蹼足",
+      "D. 爪钩发达"
+    ],
+    "correct_answer": "C",
+    "explanation": "半蹼足适应了丹顶鹤在浅水湿地行走和涉水捕食的需求。",
+    "difficulty": 4
+  },
+  {
+    "animal": "丹顶鹤",
+    "question": "成年丹顶鹤的翅膀展开宽度通常为？",
+    "options": [
+      "A. 0.8-1米",
+      "B. 2米左右",
+      "C. 3.5米以上",
+      "D. 与体长相同"
+    ],
+    "correct_answer": "B",
+    "explanation": "丹顶鹤的翼展可达180-240厘米，是其显著特征之一。",
+    "difficulty": 3
+  },
+  {
+    "animal": "丹顶鹤",
+    "question": "丹顶鹤每巢通常产卵多少枚？",
+    "options": [
+      "A. 2枚",
+      "B. 1枚",
+      "C. 4-5枚",
+      "D. 随季节变化"
+    ],
+    "correct_answer": "A",
+    "explanation": "丹顶鹤每窝一般产卵2枚，由雌雄共同孵化。",
+    "difficulty": 2
+  },
+  {
+    "animal": "丹顶鹤",
+    "question": "丹顶鹤的迁徙路线单程距离最远可达？",
+    "options": [
+      "A. 不足500公里",
+      "B. 约1500公里",
+      "C. 超过3000公里",
+      "D. 围绕北极圈"
+    ],
+    "correct_answer": "C",
+    "explanation": "东北亚迁徙路线中，丹顶鹤可跨越数千公里到达越冬地。",
+    "difficulty": 6
+  },
+  {
+    "animal": "丹顶鹤",
+    "question": "丹顶鹤的鸣叫能传播的距离最远约为？",
+    "options": [
+      "A. 1公里内",
+      "B. 超过8公里",
+      "C. 与人类正常说话声相似",
+      "D. 只限于巢区"
+    ],
+    "correct_answer": "B",
+    "explanation": "丹顶鹤的鸣叫穿透力极强，适合长距离通讯。",
+    "difficulty": 5
+  },
+  {
+    "animal": "丹顶鹤",
+    "question": "导致丹顶鹤栖息地减少的主要人为原因是？",
+    "options": [
+      "A. 火山活动频繁",
+      "B. 湿地改造为农田",
+      "C. 城市玻璃幕墙反射",
+      "D. 过度捕捞鱼类"
+    ],
+    "correct_answer": "B",
+    "explanation": "农业开发和湿地排水是威胁其栖息地的主要因素。",
+    "difficulty": 7
+  },
+  {
+    "animal": "丹顶鹤",
+    "question": "幼年丹顶鹤何时开始能够独立飞行？",
+    "options": [
+      "A. 出生当天",
+      "B. 半月龄时",
+      "C. 2-3月龄时",
+      "D. 次年春季"
+    ],
+    "correct_answer": "C",
+    "explanation": "幼鸟通常在出生后80-100天掌握飞行技巧。",
+    "difficulty": 4
+  },
+  {
+    "animal": "丹顶鹤",
+    "question": "冬季迁徙后，丹顶鹤的越冬群体规模通常是？",
+    "options": [
+      "A. 单独个体",
+      "B. 5-10只小群",
+      "C. 百只以上大群",
+      "D. 随机组合"
+    ],
+    "correct_answer": "B",
+    "explanation": "冬季常形成5-20只的小规模越冬群体。",
+    "difficulty": 4
+  },
+  {
+    "animal": "丹顶鹤",
+    "question": "在民间传说中，丹顶鹤被赋予的象征意义包括？",
+    "options": [
+      "A. 战争之神化身",
+      "B. 忠贞伴侣象征",
+      "C. 地下世界的引导者",
+      "D. 灾难预警使者"
+    ],
+    "correct_answer": "B",
+    "explanation": "丹顶鹤一夫一妻制的特性使其成为忠诚爱情的象征。",
+    "difficulty": 5
+  },
+  {
+    "animal": "丹顶鹤",
+    "question": "丹顶鹤的卵需要多少天才能孵化成功？",
+    "options": [
+      "A. 20-30天",
+      "B. 40-50天",
+      "C. 60-70天",
+      "D. 80天以上"
+    ],
+    "correct_answer": "B",
+    "explanation": "丹顶鹤的卵需约30至35天孵化，由雌雄共同完成。",
+    "difficulty": 4
+  },
+  {
+    "animal": "丹顶鹤",
+    "question": "丹顶鹤的迁徙高峰通常发生在哪个季节？",
+    "options": [
+      "A. 春季3-4月",
+      "B. 夏季6-7月",
+      "C. 秋季9-10月",
+      "D. 冬季12月至次年1月"
+    ],
+    "correct_answer": "C",
+    "explanation": "秋季北半球气温下降时，丹顶鹤开始南迁至越冬地。",
+    "difficulty": 3
+  },
+  {
+    "animal": "丹顶鹤",
+    "question": "关于丹顶鹤的繁殖策略，以下哪项描述正确？",
+    "options": [
+      "A. 每年更换配偶",
+      "B. 终身一夫一妻制",
+      "C. 群体共同抚育雏鸟",
+      "D. 雌性独自孵卵"
+    ],
+    "correct_answer": "B",
+    "explanation": "丹顶鹤以高度忠诚的伴侣关系著称，雌雄共同参与孵化和育雏。",
+    "difficulty": 5
+  },
+  {
+    "animal": "丹顶鹤",
+    "question": "在《濒危野生动植物种国际贸易公约》（CITES）中，丹顶鹤被列为哪一附录？",
+    "options": [
+      "A. 附录I",
+      "B. 附录II",
+      "C. 附录III",
+      "D. 不在附录"
+    ],
+    "correct_answer": "A",
+    "explanation": "丹顶鹤因濒危被列入CITES附录I，禁止商业贸易。",
+    "difficulty": 7
+  },
+  {
+    "animal": "丹顶鹤",
+    "question": "幼年丹顶鹤的飞羽颜色与成年后有何不同？",
+    "options": [
+      "A. 幼鸟无黑色斑纹",
+      "B. 翅尖呈黄色",
+      "C. 全身羽毛灰褐色",
+      "D. 头部先出现红色"
+    ],
+    "correct_answer": "C",
+    "explanation": "幼鸟飞羽为灰褐色，随年龄增长逐渐变为成年标志性的黑白分明的羽色。",
+    "difficulty": 6
+  },
+  {
+    "animal": "丹顶鹤",
+    "question": "全球现存野生丹顶鹤的大致数量是多少？（截至近年数据）",
+    "options": [
+      "A. 不足1000只",
+      "B. 约2500-3000只",
+      "C. 超过5万只",
+      "D. 数据不足无法统计"
+    ],
+    "correct_answer": "A",
+    "explanation": "受栖息地破坏影响，丹顶鹤被列为濒危物种，全球数量约1600余只。",
+    "difficulty": 7
+  },
+  {
+    "animal": "丹顶鹤",
+    "question": "丹顶鹤在筑巢时通常选择哪种地形？",
+    "options": [
+      "A. 高山峭壁",
+      "B. 湿地浅水区芦苇丛",
+      "C. 树冠层枝桠",
+      "D. 草原开阔地带"
+    ],
+    "correct_answer": "B",
+    "explanation": "丹顶鹤偏好在湿地或沼泽的植被密集处筑巢以隐蔽和安全。",
+    "difficulty": 4
+  },
+  {
+    "animal": "丹顶鹤",
+    "question": "幼鸟何时开始学会鸣叫并用于群体通讯？",
+    "options": [
+      "A. 出生即会",
+      "B. 孵化后1个月",
+      "C. 翅膀发育成熟时",
+      "D. 迁徙前一周"
+    ],
+    "correct_answer": "B",
+    "explanation": "幼鸟在孵化后的几周内逐渐掌握鸣叫，用于与父母及群体沟通。",
+    "difficulty": 3
+  },
+  {
+    "animal": "丹顶鹤",
+    "question": "丹顶鹤的腿长适应了哪种生存环境？",
+    "options": [
+      "A. 高山攀爬",
+      "B. 湿地浅水觅食",
+      "C. 树冠层跳跃",
+      "D. 草原奔跑"
+    ],
+    "correct_answer": "B",
+    "explanation": "丹顶鹤的长腿帮助其在湿地浅水区行走和捕鱼，避免弄湿羽毛。",
+    "difficulty": 3
+  },
+  {
+    "animal": "丹顶鹤",
+    "question": "丹顶鹤求偶时会进行哪种行为？",
+    "options": [
+      "A. 高空盘旋",
+      "B. 折纸巢穴展示",
+      "C. 跳跃舞蹈",
+      "D. 发声模仿"
+    ],
+    "correct_answer": "C",
+    "explanation": "丹顶鹤通过优雅的跳跃和展翅舞蹈吸引配偶，是其求偶仪式的核心。",
+    "difficulty": 5
+  },
+  {
+    "animal": "丹顶鹤",
+    "question": "下列哪种动物是丹顶鹤幼鸟的主要天敌？",
+    "options": [
+      "A. 狮子",
+      "B. 老虎",
+      "C. 棕熊",
+      "D. 白尾海雕"
+    ],
+    "correct_answer": "D",
+    "explanation": "猛禽如白尾海雕会捕食丹顶鹤巢中的卵或幼鸟。",
+    "difficulty": 4
+  },
+  {
+    "animal": "丹顶鹤",
+    "question": "丹顶鹤的红色肉冠主要由哪种物质着色？",
+    "options": [
+      "A. 胡萝卜素",
+      "B. 酪氨酸酶",
+      "C. 血红蛋白衍生物",
+      "D. 黑色素"
+    ],
+    "correct_answer": "A",
+    "explanation": "其红色肉冠因饮食中摄入的虾青素等类胡萝卜素沉积形成。",
+    "difficulty": 6
+  },
+  {
+    "animal": "丹顶鹤",
+    "question": "在古代文化中，丹顶鹤常被用来象征什么？",
+    "options": [
+      "A. 战争胜利",
+      "B. 长寿与仙界",
+      "C. 农耕丰收",
+      "D. 海洋守护"
+    ],
+    "correct_answer": "B",
+    "explanation": "其优雅姿态和长寿特性使其成为道教神话中的灵禽，象征羽化登仙。",
+    "difficulty": 4
+  },
+  {
+    "animal": "丹顶鹤",
+    "question": "下列哪项是保护丹顶鹤的关键措施？",
+    "options": [
+      "A. 沿途设置风力发电场",
+      "B. 开发湿地旅游",
+      "C. 建立迁飞通道保护区网络",
+      "D. 鼓励人工饲养"
+    ],
+    "correct_answer": "C",
+    "explanation": "保护其完整的迁徙路线和越冬地是维持种群的关键。",
+    "difficulty": 6
+  },
+  {
+    "animal": "丹顶鹤",
+    "question": "幼鸟何时开始独立觅食？",
+    "options": [
+      "A. 出生后1周",
+      "B. 翅膀发育完全时",
+      "C. 随父母学习3个月后",
+      "D. 孵化出壳即可"
+    ],
+    "correct_answer": "C",
+    "explanation": "幼鸟需跟随成年鹤学习数月才能掌握有效捕鱼技巧。",
+    "difficulty": 4
+  },
+  {
+    "animal": "丹顶鹤",
+    "question": "丹顶鹤的黑白羽毛主要作用是什么？",
+    "options": [
+      "A. 混淆捕食者",
+      "B. 吸引配偶",
+      "C. 调节体温",
+      "D. B和C皆是"
+    ],
+    "correct_answer": "D",
+    "explanation": "对比鲜明的羽色既用于求偶展示，也通过反光调节湿地环境中的体感温度。",
+    "difficulty": 5
+  },
+  {
+    "animal": "丹顶鹤",
+    "question": "下列哪种声音是丹顶鹤鸣叫的主要功能？",
+    "options": [
+      "A. 恐吓天敌",
+      "B. 群体通讯与领地宣示",
+      "C. 引诱鱼类上钩",
+      "D. 清洁羽毛"
+    ],
+    "correct_answer": "B",
+    "explanation": "其鸣叫可在数公里外被听见，用于保持迁徙群体联系和标记巢区。",
+    "difficulty": 4
+  },
+  {
+    "animal": "丹顶鹤",
+    "question": "与其他鹤类相比，丹顶鹤最显著的特征是？",
+    "options": [
+      "A. 更长的喙",
+      "B. 红色肉冠和黑颈白羽",
+      "C. 飞行高度更高",
+      "D. 群体更大"
+    ],
+    "correct_answer": "B",
+    "explanation": "其标志性的红顶、黑颈与白色身体构成独特的物种识别特征。",
+    "difficulty": 5
+  }
+]

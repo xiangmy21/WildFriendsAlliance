@@ -1,0 +1,522 @@
+[
+  {
+    "animal": "中华鲟",
+    "question": "中华鲟属于以下哪个纲的鱼类？",
+    "options": [
+      "A. 软骨鱼纲",
+      "B. 爬行纲",
+      "C. 鲤形目",
+      "D. 硬骨鱼纲"
+    ],
+    "correct_answer": "D",
+    "explanation": "中华鲟属于辐鳍鱼亚纲硬骨鱼纲，是典型的淡水洄游鱼类。",
+    "difficulty": 2
+  },
+  {
+    "animal": "中华鲟",
+    "question": "中华鲟的体表特征包括以下哪项？",
+    "options": [
+      "A. 发达的鳞片",
+      "B. 五纵行骨板",
+      "C. 漏斗形鳃裂",
+      "D. 分叉尾鳍"
+    ],
+    "correct_answer": "B",
+    "explanation": "中华鲟体表有5条显著的骨质棱鳞，这是其标志性特征。",
+    "difficulty": 3
+  },
+  {
+    "animal": "中华鲟",
+    "question": "中华鲟的产卵地主要位于长江哪个区域？",
+    "options": [
+      "A. 入海口",
+      "B. 中游江段",
+      "C. 干流缓坡区",
+      "D. 上游金沙江"
+    ],
+    "correct_answer": "D",
+    "explanation": "中华鲟在繁殖季节会洄游至长江上游的四川、湖北等险峻河段产卵。",
+    "difficulty": 4
+  },
+  {
+    "animal": "中华鲟",
+    "question": "中华鲟达到性成熟通常需要多少年？",
+    "options": [
+      "A. 5-8年",
+      "B. 10-12年",
+      "C. 13-15年",
+      "D. 16年以上"
+    ],
+    "correct_answer": "C",
+    "explanation": "中华鲟成熟期长达13-15年，是所有鲟类中最晚熟的物种之一。",
+    "difficulty": 5
+  },
+  {
+    "animal": "中华鲟",
+    "question": "野生中华鲟的最大寿命可以达到？",
+    "options": [
+      "A. 20年",
+      "B. 30-40年",
+      "C. 50年以上",
+      "D. 近百年"
+    ],
+    "correct_answer": "C",
+    "explanation": "研究表明，中华鲟的自然寿命可达50年左右，是鱼类中的长寿者。",
+    "difficulty": 6
+  },
+  {
+    "animal": "中华鲟",
+    "question": "中华鲟在中国受保护等级属于？",
+    "options": [
+      "A. 国家二级",
+      "B. 不予特别保护",
+      "C. CITES附录Ⅱ",
+      "D. 国家一级"
+    ],
+    "correct_answer": "D",
+    "explanation": "自1988年起，中华鲟被列为国家一级重点保护野生动物。",
+    "difficulty": 3
+  },
+  {
+    "animal": "中华鲟",
+    "question": "中华鲟的幼鱼在完成产卵后会？",
+    "options": [
+      "A. 死亡",
+      "B. 留守产卵地",
+      "C. 返回海洋",
+      "D. 迁徙至湖泊"
+    ],
+    "correct_answer": "C",
+    "explanation": "成年中华鲟产后会洄游回长江口附近海域生活。",
+    "difficulty": 4
+  },
+  {
+    "animal": "中华鲟",
+    "question": "研究中华鲟对人类的意义主要体现在？",
+    "options": [
+      "A. 提供高蛋白食物",
+      "B. 指示水体生态健康状态",
+      "C. 饵料鱼资源",
+      "D. 水产养殖推广"
+    ],
+    "correct_answer": "B",
+    "explanation": "作为长江生态系统旗舰物种，其生存状况反映流域整体环境质量变化。",
+    "difficulty": 8
+  },
+  {
+    "animal": "中华鲟",
+    "question": "中华鲟的鳃耙形态特征主要用于？",
+    "options": [
+      "A. 过滤浮游生物",
+      "B. 捕捉底栖动物",
+      "C. 辅助呼吸空气",
+      "D. 分泌粘液保护"
+    ],
+    "correct_answer": "B",
+    "explanation": "中华鲟的鳃耙粗大，适应捕食河床中的虾类、软体动物等底栖生物。",
+    "difficulty": 4
+  },
+  {
+    "animal": "中华鲟",
+    "question": "中华鲟幼鱼完成发育的关键阶段需要？",
+    "options": [
+      "A. 海水环境",
+      "B. 河口咸淡水混合区",
+      "C. 高山急流",
+      "D. 平静湖泊"
+    ],
+    "correct_answer": "B",
+    "explanation": "中华鲟幼鱼需在河口区域完成生理渗透调节，适应盐度变化后才能洄游入海。",
+    "difficulty": 6
+  },
+  {
+    "animal": "中华鲟",
+    "question": "影响中华鲟繁殖成功率的最关键自然因素是？",
+    "options": [
+      "A. 水温波动超过2℃",
+      "B. 河床基质类型改变",
+      "C. 流速低于1m/s",
+      "D. 酸碱度PH值变化"
+    ],
+    "correct_answer": "C",
+    "explanation": "中华鲟产卵需要特定流速（通常2-3 m/s）的砾石河床，过缓水流会阻碍受精。",
+    "difficulty": 7
+  },
+  {
+    "animal": "中华鲟",
+    "question": "中华鲟与达氏鲟的主要区别特征是？",
+    "options": [
+      "A. 鳍条数量",
+      "B. 背骨形态",
+      "C. 唇部结构",
+      "D. 头顶鳞片"
+    ],
+    "correct_answer": "D",
+    "explanation": "中华鲟头顶有1枚骨板，而达氏鲟头顶部无鳞覆盖，这是分类关键特征。",
+    "difficulty": 5
+  },
+  {
+    "animal": "中华鲟",
+    "question": "人工增殖放流的中华鲟幼苗通常标记在？",
+    "options": [
+      "A. 尾鳍末端",
+      "B. 鳃盖内侧",
+      "C. 腹部皮下",
+      "D. 头顶骨板"
+    ],
+    "correct_answer": "B",
+    "explanation": "科研人员常在幼鱼鳃盖植入编码芯片，便于后续追踪其洄游路线。",
+    "difficulty": 3
+  },
+  {
+    "animal": "中华鲟",
+    "question": "中华鲟种群数量下降的主要人为因素是？",
+    "options": [
+      "A. 水产养殖污染",
+      "B. 长江航运噪声",
+      "C. 河床采砂破坏",
+      "D. 过江电缆影响"
+    ],
+    "correct_answer": "C",
+    "explanation": "河床采砂导致产卵场的砾石基质消失，严重阻碍自然繁殖。",
+    "difficulty": 8
+  },
+  {
+    "animal": "中华鲟",
+    "question": "中华鲟的昼夜活动模式表现为？",
+    "options": [
+      "A. 白天活跃",
+      "B. 深夜觅食",
+      "C. 昼伏夜出",
+      "D. 常年静止"
+    ],
+    "correct_answer": "C",
+    "explanation": "中华鲟具有趋暗性，夜间活动频率显著高于白天。",
+    "difficulty": 2
+  },
+  {
+    "animal": "中华鲟",
+    "question": "中华鲟作为活化石的演化证据主要来自？",
+    "options": [
+      "A. 鳞片DNA序列",
+      "B. 化石形态特征",
+      "C. 古生物壁画记录",
+      "D. 同位素年代测定"
+    ],
+    "correct_answer": "B",
+    "explanation": "云南早白垩纪地层发现的沧龙目化石显示其祖先类型与现生中华鲟高度相似。",
+    "difficulty": 9
+  },
+  {
+    "animal": "中华鲟",
+    "question": "成年中华鲟的最大体长通常可以达到？",
+    "options": [
+      "A. 不超过2米",
+      "B. 2-3米",
+      "C. 3-4米",
+      "D. 超过5米"
+    ],
+    "correct_answer": "C",
+    "explanation": "成年中华鲟体长一般在1.5至5米之间，常见最大个体可达3-4米。",
+    "difficulty": 3
+  },
+  {
+    "animal": "中华鲟",
+    "question": "中华鲟除了长江流域外，在以下哪个海域活动？",
+    "options": [
+      "A. 渤海",
+      "B. 黄海",
+      "C. 东海",
+      "D. 南海"
+    ],
+    "correct_answer": "C",
+    "explanation": "中华鲟在繁殖季节洄游至长江，非繁殖期多分布于东海近岸海域。",
+    "difficulty": 4
+  },
+  {
+    "animal": "中华鲟",
+    "question": "中华鲟的主要食物来源是？",
+    "options": [
+      "A. 浮游生物和藻类",
+      "B. 水生植物根茎",
+      "C. 底栖动物（如虾、贝类）",
+      "D. 小型鱼类和甲壳类"
+    ],
+    "correct_answer": "C",
+    "explanation": "中华鲟属于底栖食性，以河床中的软体动物、昆虫幼虫等为食。",
+    "difficulty": 2
+  },
+  {
+    "animal": "中华鲟",
+    "question": "中华鲟的繁殖洄游主要发生在哪个季节？",
+    "options": [
+      "A. 春季（3-5月）",
+      "B. 夏季（6-8月）",
+      "C. 秋季（9-11月）",
+      "D. 冬季（12-2月）"
+    ],
+    "correct_answer": "C",
+    "explanation": "中华鲟通常在秋末冬初溯河洄游至产卵地进行繁殖。",
+    "difficulty": 5
+  },
+  {
+    "animal": "中华鲟",
+    "question": "中国首次成功实施中华鲟人工繁殖的时间是？",
+    "options": [
+      "A. 1970年代",
+      "B. 1983年",
+      "C. 1988年",
+      "D. 2001年"
+    ],
+    "correct_answer": "B",
+    "explanation": "中国在1983年首次实现中华鲟人工繁殖，标志着保护研究的重要突破。",
+    "difficulty": 7
+  },
+  {
+    "animal": "中华鲟",
+    "question": "成年中华鲟通常每几年产卵一次？",
+    "options": [
+      "A. 每年",
+      "B. 2-3年",
+      "C. 4-5年",
+      "D. 超过7年"
+    ],
+    "correct_answer": "C",
+    "explanation": "成熟个体每4-5年产卵一次，繁殖周期较长。",
+    "difficulty": 4
+  },
+  {
+    "animal": "中华鲟",
+    "question": "中华鲟幼鱼在河口区域主要依赖哪种食物？",
+    "options": [
+      "A. 浮游生物和藻类",
+      "B. 河流中的昆虫幼虫",
+      "C. 小型甲壳动物",
+      "D. 母体提供的卵黄囊"
+    ],
+    "correct_answer": "D",
+    "explanation": "刚孵化的中华鲟幼鱼依靠卵黄囊营养，随后逐步转向摄食水生生物。",
+    "difficulty": 6
+  },
+  {
+    "animal": "中华鲟",
+    "question": "中华鲟作为独立物种被首次科学命名是在？",
+    "options": [
+      "A. 19世纪初",
+      "B. 1878年",
+      "C. 1902年",
+      "D. 1936年"
+    ],
+    "correct_answer": "B",
+    "explanation": "法国生物学家David在1878年首次对中华鲟进行科学描述并命名。",
+    "difficulty": 9
+  },
+  {
+    "animal": "中华鲟",
+    "question": "中华鲟感知水流和猎物的主要感官结构是？",
+    "options": [
+      "A. 高灵敏度眼睛",
+      "B. 腮上腺体",
+      "C. 洛伦兹壶腹",
+      "D. 侧线系统"
+    ],
+    "correct_answer": "C",
+    "explanation": "中华鲟头部的洛伦兹壶腹能感知微弱电场和水流变化，辅助捕食与导航。",
+    "difficulty": 5
+  },
+  {
+    "animal": "中华鲟",
+    "question": "成年中华鲟洄游至产卵地后的主要行为特征是？",
+    "options": [
+      "A. 集群跳跃求偶",
+      "B. 挖掘河床砾石筑巢",
+      "C. 发出超声波信号",
+      "D. 形成大规模鱼群"
+    ],
+    "correct_answer": "B",
+    "explanation": "雌性中华鲟会通过尾部摆动挖掘河床砂石，为产卵创造适宜环境。",
+    "difficulty": 6
+  },
+  {
+    "animal": "中华鲟",
+    "question": "中华鲟的瞳孔结构表明其视觉能力？",
+    "options": [
+      "A. 在昏暗环境中高度敏锐",
+      "B. 对彩色光谱敏感",
+      "C. 几乎完全退化依赖其他感官",
+      "D. 能感知紫外线"
+    ],
+    "correct_answer": "C",
+    "explanation": "中华鲟的视网膜结构简单，主要依靠电感受器和侧线系统进行环境感知。",
+    "difficulty": 7
+  },
+  {
+    "animal": "中华鲟",
+    "question": "葛洲坝水利工程对中华鲟的主要威胁是？",
+    "options": [
+      "A. 水温升高导致代谢紊乱",
+      "B. 溯河洄游通道阻断",
+      "C. 引发生殖基因突变",
+      "D. 增加天敌捕食概率"
+    ],
+    "correct_answer": "B",
+    "explanation": "大坝阻碍了中华鲟从海洋返回长江上游产卵地的迁徙路线。",
+    "difficulty": 8
+  },
+  {
+    "animal": "中华鲟",
+    "question": "中华鲟幼鱼完成河口适应阶段后，通常会进入哪个海域生活？",
+    "options": [
+      "A. 渤海浅滩区",
+      "B. 黄海沿岸水域",
+      "C. 东海大陆架",
+      "D. 南海珊瑚礁区"
+    ],
+    "correct_answer": "C",
+    "explanation": "幼鱼适应盐度后进入东海，成年后在长江口与东海之间洄游。",
+    "difficulty": 4
+  },
+  {
+    "animal": "中华鲟",
+    "question": "中华鲟的繁殖成功率受哪种水文条件直接影响？",
+    "options": [
+      "A. 河流含沙量降低",
+      "B. 秋季水温稳定在18-20℃",
+      "C. 雨季洪峰冲击河床",
+      "D. 冬季冰层覆盖河面"
+    ],
+    "correct_answer": "B",
+    "explanation": "适宜的水温和季节性水流变化是触发产卵行为的关键因素。",
+    "difficulty": 6
+  },
+  {
+    "animal": "中华鲟",
+    "question": "中华鲟在分类学上属于哪个科？",
+    "options": [
+      "A. 鲟科（Acipenseridae）",
+      "B. 鮡科（Polyodontidae）",
+      "C. 鰉科（Sisoridae）",
+      "D. 鮭科（Salmonidae）"
+    ],
+    "correct_answer": "A",
+    "explanation": "中华鲟属于鲟形目鲟科，与西伯利亚鲟等近缘。",
+    "difficulty": 8
+  },
+  {
+    "animal": "中华鲟",
+    "question": "人工增殖放流的中华鲟幼体通常标记方式是？",
+    "options": [
+      "A. 激光刻码",
+      "B. 鳞片辐射性同位素",
+      "C. 超声波应答器",
+      "D. 烫印尾鳍"
+    ],
+    "correct_answer": "C",
+    "explanation": "超声波标记可长期追踪其洄游路径与生存状态。",
+    "difficulty": 5
+  },
+  {
+    "animal": "中华鲟",
+    "question": "中华鲟体表覆盖的是哪种结构？",
+    "options": [
+      "A. 大型盾鳞",
+      "B. 骨板",
+      "C. 圆鳞",
+      "D. 黏液腺"
+    ],
+    "correct_answer": "B",
+    "explanation": "中华鲟属于鲟科，体表覆盖5列菱形骨板（又称‘楯板’），这是其典型特征。",
+    "difficulty": 4
+  },
+  {
+    "animal": "中华鲟",
+    "question": "中华鲟的平均寿命大约为多少年？",
+    "options": [
+      "A. 10-20年",
+      "B. 30-50年",
+      "C. 超过60年",
+      "D. 80年以上"
+    ],
+    "correct_answer": "C",
+    "explanation": "中华鲟寿命较长，可达40至70岁，部分个体甚至可存活超过100年。",
+    "difficulty": 3
+  },
+  {
+    "animal": "中华鲟",
+    "question": "成年中华鲟从海洋洄游到长江上游产卵地的距离最接近？",
+    "options": [
+      "A. 约50公里",
+      "B. 超过1000公里",
+      "C. 200-300公里",
+      "D. 不足100公里"
+    ],
+    "correct_answer": "B",
+    "explanation": "中华鲟需从东海洄游至长江上游产卵地，总距离可达上千公里。",
+    "difficulty": 5
+  },
+  {
+    "animal": "中华鲟",
+    "question": "雌性中华鲟单次产卵可释放多少颗卵？",
+    "options": [
+      "A. 约500-1000颗",
+      "B. 超过2万颗",
+      "C. 3-5千颗",
+      "D. 不足1000颗"
+    ],
+    "correct_answer": "B",
+    "explanation": "成年雌性单次产卵量可达数万颗，但仅有极少数能存活至成熟。",
+    "difficulty": 6
+  },
+  {
+    "animal": "中华鲟",
+    "question": "为缓解葛洲坝对中华鲟的影响，中国在该区域建设了哪种设施？",
+    "options": [
+      "A. 鱼类发电站",
+      "B. 人工产卵场",
+      "C. 水生植物保护区",
+      "D. 过鱼电梯"
+    ],
+    "correct_answer": "D",
+    "explanation": "葛洲坝设置了鱼类垂直升鱼机，辅助中华鲟通过大坝完成洄游。",
+    "difficulty": 7
+  },
+  {
+    "animal": "中华鲟",
+    "question": "中华鲟幼鱼在海洋中生活期间主要分布在？",
+    "options": [
+      "A. 渤海浅水区",
+      "B. 黄海深海沟",
+      "C. 东海大陆架",
+      "D. 南海珊瑚礁"
+    ],
+    "correct_answer": "C",
+    "explanation": "幼鱼适应河口后进入东海近岸海域，成年后在长江口与东海间洄游。",
+    "difficulty": 4
+  },
+  {
+    "animal": "中华鲟",
+    "question": "中华鲟产卵后的亲本通常会如何处理幼鱼？",
+    "options": [
+      "A. 离开并停止照料",
+      "B. 守护巢穴一个月",
+      "C. 继续喂养后代",
+      "D. 进行性别选择"
+    ],
+    "correct_answer": "A",
+    "explanation": "中华鲟为非护卵型鱼类，产卵后亲本会立即离开，不再照料幼鱼。",
+    "difficulty": 5
+  },
+  {
+    "animal": "中华鲟",
+    "question": "中国负责中华鲟保护研究的主要科研机构是？",
+    "options": [
+      "A. 黄河水产研究所",
+      "B. 长江水产研究所",
+      "C. 渤海海洋中心",
+      "D. 南海渔业局"
+    ],
+    "correct_answer": "B",
+    "explanation": "长江水产研究所在中华鲟人工繁殖、迁地保护等方面具有核心地位。",
+    "difficulty": 8
+  }
+]

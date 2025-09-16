@@ -1,0 +1,522 @@
+[
+  {
+    "animal": "鲤鱼",
+    "question": "鲤鱼属于以下哪个科的鱼类？",
+    "options": [
+      "A. 鲤科",
+      "B. 鲑科",
+      "C. 鲨鱼科",
+      "D. 虎鲸科"
+    ],
+    "correct_answer": "A",
+    "explanation": "鲤鱼是典型的鲤形目鲤科鱼类，其分类学归属明确。",
+    "difficulty": 1
+  },
+  {
+    "animal": "鲤鱼",
+    "question": "鲤鱼主要生活在哪种类型的水域中？",
+    "options": [
+      "A. 海洋",
+      "B. 淡水湖泊和河流",
+      "C. 盐湖",
+      "D. 珊瑚礁"
+    ],
+    "correct_answer": "B",
+    "explanation": "鲤鱼是淡水鱼类，常见于江河、湖泊等非咸水环境。",
+    "difficulty": 2
+  },
+  {
+    "animal": "鲤鱼",
+    "question": "以下哪个成语与鲤鱼的跃动行为直接相关？",
+    "options": [
+      "A. 鱼跃龙门",
+      "B. 亡羊补牢",
+      "C. 如鱼得水",
+      "D. 背水一战"
+    ],
+    "correct_answer": "A",
+    "explanation": "成语“鱼跃龙门”源自古代传说，描述鲤鱼跳过龙门化龙的故事。",
+    "difficulty": 4
+  },
+  {
+    "animal": "鲤鱼",
+    "question": "关于鲤鱼的鳞片特征，以下哪项是正确的？",
+    "options": [
+      "A. 覆盖全身且呈大型圆鳞",
+      "B. 鳞片较小且分布不均",
+      "C. 没有鳞片仅具黏液腺",
+      "D. 鳞片透明如玻璃"
+    ],
+    "correct_answer": "A",
+    "explanation": "鲤鱼体表覆盖大型圆形鳞片，排列紧密，保护身体。",
+    "difficulty": 3
+  },
+  {
+    "animal": "鲤鱼",
+    "question": "鲤鱼的食性属于哪一类？",
+    "options": [
+      "A. 草食性",
+      "B. 肉食性",
+      "C. 杂食性",
+      "D. 滤食性"
+    ],
+    "correct_answer": "C",
+    "explanation": "鲤鱼既吃水生植物、藻类，也捕食昆虫和小型底栖生物。",
+    "difficulty": 3
+  },
+  {
+    "animal": "鲤鱼",
+    "question": "鲤鱼通过何种器官进行呼吸？",
+    "options": [
+      "A. 鳃",
+      "B. 肺",
+      "C. 皮肤",
+      "D. 口咽腔"
+    ],
+    "correct_answer": "A",
+    "explanation": "鲤鱼依靠鳃从水中提取氧气，这是典型鱼类的呼吸方式。",
+    "difficulty": 2
+  },
+  {
+    "animal": "鲤鱼",
+    "question": "关于鲤鱼繁殖习性，以下描述正确的是？",
+    "options": [
+      "A. 产卵后不照料幼鱼",
+      "B. 雄鱼孵化卵直至成年",
+      "C. 卵胎生直接产出小鱼",
+      "D. 在珊瑚礁筑巢"
+    ],
+    "correct_answer": "A",
+    "explanation": "鲤鱼为卵生，产卵后通常不会继续照顾受精卵或幼体。",
+    "difficulty": 5
+  },
+  {
+    "animal": "鲤鱼",
+    "question": "金鱼是由哪种鲤鱼经过人工驯化变异而来的？",
+    "options": [
+      "A. 鲤鱼",
+      "B. 鳙鱼",
+      "C. 鲢鱼",
+      "D. 鲶鱼"
+    ],
+    "correct_answer": "A",
+    "explanation": "金鱼是野生鲤鱼经过长期人工选择形成的观赏品种，属于变种。",
+    "difficulty": 7
+  },
+  {
+    "animal": "鲤鱼",
+    "question": "鲤鱼的体型特征最接近下列哪种描述？",
+    "options": [
+      "A. 圆筒形，稍侧扁",
+      "B. 宽而平扁如泥鳅",
+      "C. 流线型如鲨鱼",
+      "D. 高而侧扁似鲈鱼"
+    ],
+    "correct_answer": "A",
+    "explanation": "鲤鱼体呈圆筒形，稍带侧扁的体型适应其在底栖环境活动。",
+    "difficulty": 2
+  },
+  {
+    "animal": "鲤鱼",
+    "question": "鲤鱼通过哪个器官实现水中方向感知和水流监测？",
+    "options": [
+      "A. 鳔",
+      "B. 眼睛",
+      "C. 胸鳍",
+      "D. 侧线系统"
+    ],
+    "correct_answer": "D",
+    "explanation": "侧线系统是鱼类感知水流、压力变化的重要感觉器官。",
+    "difficulty": 5
+  },
+  {
+    "animal": "鲤鱼",
+    "question": "关于鲤鱼的分布范围，以下描述正确的是？",
+    "options": [
+      "A. 广泛分布在南美洲亚马逊流域",
+      "B. 主要原生于欧亚大陆淡水水域",
+      "C. 是澳大利亚本土特有鱼类",
+      "D. 常见于非洲大裂谷湖泊"
+    ],
+    "correct_answer": "B",
+    "explanation": "野生鲤鱼原产于亚洲和欧洲，后被引入全球多地。",
+    "difficulty": 4
+  },
+  {
+    "animal": "鲤鱼",
+    "question": "鲤鱼繁殖期的适宜水温范围是？",
+    "options": [
+      "A. 0-5℃",
+      "B. 18-22℃",
+      "C. 30-35℃",
+      "D. 需要盐度超过3‰"
+    ],
+    "correct_answer": "B",
+    "explanation": "鲤鱼在温暖的中温水域（约18-22℃）开始产卵活动。",
+    "difficulty": 3
+  },
+  {
+    "animal": "鲤鱼",
+    "question": "下列哪种人类行为与鲤鱼生态功能密切相关？",
+    "options": [
+      "A. 控制藻类过度繁殖",
+      "B. 维持珊瑚礁结构稳定",
+      "C. 协助红树林固碳",
+      "D. 促进深海热泉生态循环"
+    ],
+    "correct_answer": "A",
+    "explanation": "鲤鱼作为杂食性鱼类能通过摄食藻类帮助控制水体富营养化。",
+    "difficulty": 6
+  },
+  {
+    "animal": "鲤鱼",
+    "question": "关于鲤鱼的运动器官，以下说法正确的是？",
+    "options": [
+      "A. 胸鳍主要负责方向调整",
+      "B. 尾鳍主要用于缓慢游动",
+      "C. 所有鱼鳍大小完全相同",
+      "D. 鱼鳔控制前进动力"
+    ],
+    "correct_answer": "A",
+    "explanation": "胸鳍在鱼类转向和保持身体平衡中起关键作用。",
+    "difficulty": 3
+  },
+  {
+    "animal": "鲤鱼",
+    "question": "下列哪种环境压力下鲤鱼仍能生存？",
+    "options": [
+      "A. 完全黑暗无光",
+      "B. 水温-10℃冰封状态",
+      "C. 极低溶解氧水体",
+      "D. 高盐度海水"
+    ],
+    "correct_answer": "C",
+    "explanation": "鲤鱼可通过肠道辅助呼吸在缺氧环境中存活较长时间。",
+    "difficulty": 7
+  },
+  {
+    "animal": "鲤鱼",
+    "question": "鲤鱼与青鱼、草鱼等的区别主要体现在？",
+    "options": [
+      "A. 鱼类分类学地位不同",
+      "B. 是否具有须（口须）",
+      "C. 生活水层完全隔离",
+      "D. 繁殖方式截然不同"
+    ],
+    "correct_answer": "B",
+    "explanation": "鲤鱼通常具有一对或两对口须，而青鱼、草鱼等多数无此特征。",
+    "difficulty": 5
+  },
+  {
+    "animal": "鲤鱼",
+    "question": "鲤鱼体色的主要保护作用通过哪种方式实现？",
+    "options": [
+      "A. 银灰色背腹逆反色伪装",
+      "B. 发光诱捕猎物",
+      "C. 色素细胞随情绪变化",
+      "D. 透明皮肤适应环境"
+    ],
+    "correct_answer": "A",
+    "explanation": "鲤鱼背部深灰、腹部浅白的体色分布能有效融入水底环境，减少被捕食风险。",
+    "difficulty": 2
+  },
+  {
+    "animal": "鲤鱼",
+    "question": "鲤鱼通过哪种器官感知周围声音振动？",
+    "options": [
+      "A. 内耳听囊",
+      "B. 鳃盖震动膜",
+      "C. 脂肪体",
+      "D. 第三眼睑"
+    ],
+    "correct_answer": "A",
+    "explanation": "鲤鱼的内耳系统包含半规管和听囊，可接收水中的声波振动。",
+    "difficulty": 4
+  },
+  {
+    "animal": "鲤鱼",
+    "question": "关于鲤鱼繁殖特征，下列描述正确的是？",
+    "options": [
+      "A. 每年仅产卵一次",
+      "B. 具有多次产卵习性",
+      "C. 需要咸水环境受精",
+      "D. 精子外部受精前需干燥处理"
+    ],
+    "correct_answer": "B",
+    "explanation": "成熟雌鲤在适宜条件下可多次产卵，每次间隔约1-2周。",
+    "difficulty": 3
+  },
+  {
+    "animal": "鲤鱼",
+    "question": "鲤鱼鳃丝的主要生理功能是？",
+    "options": [
+      "A. 过滤水中浮游生物",
+      "B. 气体交换与离子调节",
+      "C. 分泌黏液保护身体",
+      "D. 协助摄食粉碎食物"
+    ],
+    "correct_answer": "B",
+    "explanation": "鳃丝表面的毛细血管网络完成氧气吸收和代谢废物排出。",
+    "difficulty": 2
+  },
+  {
+    "animal": "鲤鱼",
+    "question": "下列哪种行为属于鲤鱼的社会性特征？",
+    "options": [
+      "A. 独居于岩缝中",
+      "B. 季节性集群洄游",
+      "C. 形成30-50尾的群体活动",
+      "D. 通过舞蹈传递信息"
+    ],
+    "correct_answer": "C",
+    "explanation": "鲤鱼通常以中小型群体形式在水域中觅食和移动。",
+    "difficulty": 4
+  },
+  {
+    "animal": "鲤鱼",
+    "question": "下列哪种迁徙行为与鲤鱼无关？",
+    "options": [
+      "A. 跨流域溯河洄游",
+      "B. 水位上涨时向支流扩散",
+      "C. 季节性垂直迁移",
+      "D. 大西洋跨洋迁徙"
+    ],
+    "correct_answer": "D",
+    "explanation": "鲤鱼的活动范围主要局限在淡水水域，不具备长距离海洋洄游能力。",
+    "difficulty": 5
+  },
+  {
+    "animal": "鲤鱼",
+    "question": "鲤鱼在生态系统中扮演的主要角色是？",
+    "options": [
+      "A. 珊瑚礁建筑师",
+      "B. 底栖生物控制者",
+      "C. 深海浮游生物消费者",
+      "D. 食草性顶级掠食者"
+    ],
+    "correct_answer": "B",
+    "explanation": "鲤鱼通过翻动底泥摄食有机碎屑，影响底栖生态系统结构。",
+    "difficulty": 6
+  },
+  {
+    "animal": "鲤鱼",
+    "question": "鲤鱼可承受的最低生存水温接近？",
+    "options": [
+      "A. -5℃以下冰封状态",
+      "B. 0-2℃低温环境",
+      "C. 需持续高于15℃",
+      "D. 必须恒定37℃"
+    ],
+    "correct_answer": "B",
+    "explanation": "鲤鱼具有耐寒性，可在冰层下维持基础代谢，但繁殖需要较高水温。",
+    "difficulty": 7
+  },
+  {
+    "animal": "鲤鱼",
+    "question": "鲤鱼的鱼鳔主要功能是？",
+    "options": [
+      "A. 调节身体浮力",
+      "B. 过滤食物碎屑",
+      "C. 分泌黏液保护体表",
+      "D. 储存未消化残渣"
+    ],
+    "correct_answer": "A",
+    "explanation": "鱼鳔通过充气或排气调节密度，帮助鲤鱼在不同水层停留而无需持续游动。",
+    "difficulty": 2
+  },
+  {
+    "animal": "鲤鱼",
+    "question": "刚孵化的鲤鱼幼体最初依靠什么获取营养？",
+    "options": [
+      "A. 卵黄囊",
+      "B. 水中浮游生物",
+      "C. 父母喂食",
+      "D. 底泥有机物"
+    ],
+    "correct_answer": "A",
+    "explanation": "鲤鱼幼体孵化时携带卵黄囊作为初始营养来源，直至能够独立觅食。",
+    "difficulty": 3
+  },
+  {
+    "animal": "鲤鱼",
+    "question": "下列哪种行为属于鲤鱼的求偶表现？",
+    "options": [
+      "A. 集群快速旋转游动",
+      "B. 挖掘沙坑并翻动底泥",
+      "C. 发出低频声波震动",
+      "D. 释放荧光物质吸引配偶"
+    ],
+    "correct_answer": "B",
+    "explanation": "雄鲤常通过挖掘凹陷区域作为产卵场，并以特定动作引导雌鱼在此处产卵。",
+    "difficulty": 4
+  },
+  {
+    "animal": "鲤鱼",
+    "question": "鲤鱼的视觉适应性主要体现在？",
+    "options": [
+      "A. 红外线感知",
+      "B. 对微光敏感",
+      "C. 色彩分辨能力弱",
+      "D. 视角覆盖360度"
+    ],
+    "correct_answer": "B",
+    "explanation": "鲤鱼眼睛适应浑浊水体环境，对低光照条件下的运动物体更为敏感。",
+    "difficulty": 5
+  },
+  {
+    "animal": "鲤鱼",
+    "question": "人工养殖中鲤鱼的常见饲料类型是？",
+    "options": [
+      "A. 活体浮游动物",
+      "B. 高蛋白颗粒料",
+      "C. 果蔬残渣",
+      "D. 硅藻类微囊藻"
+    ],
+    "correct_answer": "B",
+    "explanation": "作为杂食性鱼类，养殖中多投喂高蛋白配合饲料以促进快速生长。",
+    "difficulty": 3
+  },
+  {
+    "animal": "鲤鱼",
+    "question": "野生鲤鱼的自然寿命通常可达？",
+    "options": [
+      "A. 5-8年",
+      "B. 10-15年",
+      "C. 20年以上",
+      "D. 超过30年"
+    ],
+    "correct_answer": "B",
+    "explanation": "在自然水域中鲤鱼可存活10-15年，养殖环境下因环境控制可能寿命更长。",
+    "difficulty": 4
+  },
+  {
+    "animal": "鲤鱼",
+    "question": "下列哪种物质是鲤鱼鳃部进行离子交换的关键部位？",
+    "options": [
+      "A. 鳃盖膜",
+      "B. 鳃小片",
+      "C. 鳃弓",
+      "D. 鳃丝黏液腺"
+    ],
+    "correct_answer": "B",
+    "explanation": "鳃小片表面的上皮细胞形成大量褶皱，为离子交换提供了巨大表面积。",
+    "difficulty": 6
+  },
+  {
+    "animal": "鲤鱼",
+    "question": "鲤鱼群体在水温骤降时最可能采取的行为是？",
+    "options": [
+      "A. 迁移到浅水区",
+      "B. 集中到深水缓流区域",
+      "C. 加快觅食频率",
+      "D. 爬出水面进行换气"
+    ],
+    "correct_answer": "B",
+    "explanation": "冷水期鲤鱼代谢减缓，会聚集在温度相对稳定的深水区减少能量消耗。",
+    "difficulty": 5
+  },
+  {
+    "animal": "鲤鱼",
+    "question": "鲤鱼的嗅觉主要通过哪个部位感知？",
+    "options": [
+      "A. 唇部触须",
+      "B. 眼睛",
+      "C. 头顶的鼻孔",
+      "D. 鳃盖"
+    ],
+    "correct_answer": "C",
+    "explanation": "鲤鱼的嗅觉器官位于头顶两侧的鼻孔，能感知水中化学物质以寻找食物或躲避天敌。",
+    "difficulty": 3
+  },
+  {
+    "animal": "鲤鱼",
+    "question": "鲤鱼幼体在孵化后经历哪种发育方式？",
+    "options": [
+      "A. 变态发育",
+      "B. 直接发育",
+      "C. 胚胎发育",
+      "D. 幼虫阶段"
+    ],
+    "correct_answer": "B",
+    "explanation": "鲤鱼属于直接发育的鱼类，幼体形态与成年相似，无需经历蝌蚪等变态阶段。",
+    "difficulty": 2
+  },
+  {
+    "animal": "鲤鱼",
+    "question": "关于鲤鱼体温调节类型，正确的是？",
+    "options": [
+      "A. 恒温动物",
+      "B. 变温动物",
+      "C. 部分恒温",
+      "D. 独特热适应"
+    ],
+    "correct_answer": "B",
+    "explanation": "鲤鱼是变温动物，体温随环境水温变化，代谢速率受温度显著影响。",
+    "difficulty": 2
+  },
+  {
+    "animal": "鲤鱼",
+    "question": "下列哪种寄生虫常在鲤鱼鳃部发现？",
+    "options": [
+      "A. 血吸虫",
+      "B. 蛭形动物",
+      "C. 粘孢子虫",
+      "D. 绦虫"
+    ],
+    "correct_answer": "C",
+    "explanation": "粘孢子虫寄生于鲤鱼鳃部，引起组织损伤和炎症反应。",
+    "difficulty": 5
+  },
+  {
+    "animal": "鲤鱼",
+    "question": "某些鲤鱼种群短距离洄游的主要目的是？",
+    "options": [
+      "A. 越冬",
+      "B. 繁殖",
+      "C. 寻找盐水",
+      "D. 规避捕食者"
+    ],
+    "correct_answer": "B",
+    "explanation": "繁殖期鲤鱼可能迁移到特定产卵区域，如水流较缓的沙质河床。",
+    "difficulty": 3
+  },
+  {
+    "animal": "鲤鱼",
+    "question": "鲤鱼在觅食时通常如何行动？",
+    "options": [
+      "A. 单独行动",
+      "B. 小型固定群体",
+      "C. 随机聚集",
+      "D. 只夜间群居"
+    ],
+    "correct_answer": "B",
+    "explanation": "鲤鱼常以小型稳定群体活动，增强觅食效率并降低被捕食风险。",
+    "difficulty": 4
+  },
+  {
+    "animal": "鲤鱼",
+    "question": "鲤鱼通过什么结构发出求偶或警告声？",
+    "options": [
+      "A. 鳍条摩擦",
+      "B. 鱼鳔震动",
+      "C. 声囊",
+      "D. 翘嘴"
+    ],
+    "correct_answer": "B",
+    "explanation": "部分鲤鱼通过快速收缩肌肉使鱼鳔振动，产生低频声音传递信息。",
+    "difficulty": 4
+  },
+  {
+    "animal": "鲤鱼",
+    "question": "关于鲤鱼对水环境的适应性，正确的是？",
+    "options": [
+      "A. 强酸性水域",
+      "B. 轻度污染水域",
+      "C. 极端盐碱地",
+      "D. 只在清澈水中"
+    ],
+    "correct_answer": "B",
+    "explanation": "鲤鱼对轻中度污染具有较强耐受力，适应广泛水体类型。",
+    "difficulty": 2
+  }
+]

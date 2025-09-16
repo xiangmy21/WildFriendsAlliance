@@ -1,0 +1,106 @@
+[
+  {
+    "animal": "白鹭",
+    "question": "白鹭属于以下哪个目？",
+    "options": [
+      "A. 鹳形目",
+      "B. 鹈形目",
+      "C. 雁形目",
+      "D. 法僧目"
+    ],
+    "correct_answer": "A",
+    "explanation": "白鹭属于鹳形目（Ciconiiformes），与鹭、 egret和 spoonbill等水鸟同属这一分类。",
+    "difficulty": 2
+  },
+  {
+    "animal": "白鹭",
+    "question": "白鹭主要栖息于哪种生态环境？",
+    "options": [
+      "A. 森林",
+      "B. 沙漠",
+      "C. 湿地",
+      "D. 草原"
+    ],
+    "correct_answer": "C",
+    "explanation": "白鹭是典型的湿地鸟类，常在沼泽、湖泊、稻田等水域附近活动。",
+    "difficulty": 3
+  },
+  {
+    "animal": "白鹭",
+    "question": "白鹭的食性主要以什么为主？",
+    "options": [
+      "A. 鱼类和水生小动物",
+      "B. 昆虫",
+      "C. 果实和种子",
+      "D. 小型哺乳动物"
+    ],
+    "correct_answer": "A",
+    "explanation": "白鹭通过长喙捕食鱼类、蛙类、甲壳类等水生生物，是湿地生态系统的顶级掠食者之一。",
+    "difficulty": 4
+  },
+  {
+    "animal": "白鹭",
+    "question": "在繁殖季节，某些种类的白鹭会长出显著的装饰性羽毛，这种特征主要用于：",
+    "options": [
+      "A. 调节体温",
+      "B. 捕食工具",
+      "C. 筑巢材料",
+      "D. 求偶展示"
+    ],
+    "correct_answer": "D",
+    "explanation": "繁殖期雄性白鹭会长出更长的饰羽，通过展示吸引配偶。",
+    "difficulty": 5
+  },
+  {
+    "animal": "白鹭",
+    "question": "关于白鹭的迁徙习性，以下描述正确的是：",
+    "options": [
+      "A. 所有种类均不迁徙",
+      "B. 全部为候鸟",
+      "C. 北方种群夏季南迁",
+      "D. 部分种群随季节迁移"
+    ],
+    "correct_answer": "D",
+    "explanation": "白鹭的迁徙行为因物种和栖息地而异，如中亚种的大白鹭冬季会向南方迁徙。",
+    "difficulty": 6
+  },
+  {
+    "animal": "白鹭",
+    "question": "在中国《国家重点保护野生动物名录》中，小白鹭被列为：",
+    "options": [
+      "A. 国家一级",
+      "B. 国家二级",
+      "C. 省级保护动物",
+      "D. 三有动物"
+    ],
+    "correct_answer": "D",
+    "explanation": "根据2021年更新的名录，小白鹭属于国家“三有动物”（有益、有经济或科研价值）。",
+    "difficulty": 7
+  },
+  {
+    "animal": "白鹭",
+    "question": "白鹭通常选择在何处筑巢？",
+    "options": [
+      "A. 树冠高处",
+      "B. 地面草丛",
+      "C. 岩洞边缘",
+      "D. 悬崖峭壁"
+    ],
+    "correct_answer": "A",
+    "explanation": "白鹭倾向于在水域附近的乔木或灌木顶端筑巢，以避免地面天敌干扰。",
+    "difficulty": 8
+  },
+  {
+    "animal": "白鹭",
+    "question": "在中国传统文化中，白鹭常被赋予哪种象征意义？",
+    "options": [
+      "A. 暴力与力量",
+      "B. 高洁与长寿",
+      "C. 贫困与苦难",
+      "D. 忠诚与守信"
+    ],
+    "correct_answer": "B",
+    "explanation": "白鹭因羽毛洁白、姿态优雅，常象征圣洁和祥瑞，在诗词中多代表隐逸或理想境界。",
+    "difficulty": 9
+  }
+]
