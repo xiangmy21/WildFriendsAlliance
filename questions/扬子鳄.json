@@ -1,0 +1,514 @@
+[
+  {
+    "animal": "扬子鳄",
+    "question": "扬子鳄主要分布在中国哪个流域的湿地环境中？",
+    "options": [
+      "A. 长江中下游",
+      "B. 黄河流域",
+      "C. 珠江三角洲",
+      "D. 松花江流域"
+    ],
+    "correct_answer": "A",
+    "explanation": "扬子鳄是中国特有的物种，主要分布于长江中下游的淡水湿地。",
+    "difficulty": 1
+  },
+  {
+    "animal": "扬子鳄",
+    "question": "在生物分类学上，扬子鳄属于哪个目？",
+    "options": [
+      "A. 龟鳖目",
+      "B. 鳄目",
+      "C. 蜥蜴目",
+      "D. 鲨鱼目"
+    ],
+    "correct_answer": "B",
+    "explanation": "扬子鳄是鳄目的典型代表，与短吻鳄、湾鳄等同属这一分类。",
+    "difficulty": 2
+  },
+  {
+    "animal": "扬子鳄",
+    "question": "扬子鳄的繁殖季节通常发生在哪几个月份？",
+    "options": [
+      "A. 1-2月",
+      "B. 3-4月",
+      "C. 5-6月",
+      "D. 7-8月"
+    ],
+    "correct_answer": "C",
+    "explanation": "扬子鳄在春季末至夏季初（5-6月）开始繁殖，雌性会挖掘巢穴产卵。",
+    "difficulty": 3
+  },
+  {
+    "animal": "扬子鳄",
+    "question": "扬子鳄背部特有的鳞片排列方式被称为？",
+    "options": [
+      "A. 网状纹",
+      "B. 菱形纹",
+      "C. 婚字形",
+      "D. 波浪状"
+    ],
+    "correct_answer": "C",
+    "explanation": "扬子鳄背甲的鳞片呈\"婚字形\"排列，是其显著的形态特征。",
+    "difficulty": 4
+  },
+  {
+    "animal": "扬子鳄",
+    "question": "幼年扬子鳄的主要食物来源是什么？",
+    "options": [
+      "A. 小型哺乳动物",
+      "B. 水生植物根茎",
+      "C. 昆虫和甲壳类",
+      "D. 鱼卵"
+    ],
+    "correct_answer": "C",
+    "explanation": "幼体以昆虫、蜗牛等小型无脊椎动物为食，成年后转为主食鱼类。",
+    "difficulty": 5
+  },
+  {
+    "animal": "扬子鳄",
+    "question": "在中国的保护等级中，扬子鳄被列为？",
+    "options": [
+      "A. 国家一级",
+      "B. 国家二级",
+      "C. 省级重点",
+      "D. 非保护物种"
+    ],
+    "correct_answer": "A",
+    "explanation": "扬子鳄因数量稀少被列为中国国家一级重点保护野生动物。",
+    "difficulty": 6
+  },
+  {
+    "animal": "扬子鳄",
+    "question": "截至2023年，全球野生扬子鳄的估计种群数量约为？",
+    "options": [
+      "A. 不足100只",
+      "B. 约2000只",
+      "C. 超过5000只",
+      "D. 未统计"
+    ],
+    "correct_answer": "B",
+    "explanation": "经过保护后，野生种群恢复至约2000只左右，但仍面临生存威胁。",
+    "difficulty": 7
+  },
+  {
+    "animal": "扬子鳄",
+    "question": "下列哪项是导致扬子鳄濒危的最主要原因？",
+    "options": [
+      "A. 天敌捕食增加",
+      "B. 气候变暖加速繁殖",
+      "C. 栖息地破坏与污染",
+      "D. 自然迁徙能力增强"
+    ],
+    "correct_answer": "C",
+    "explanation": "湿地开发、水体污染和栖息地碎片化是扬子鳄濒危的主要人为因素。",
+    "difficulty": 9
+  },
+  {
+    "animal": "扬子鳄",
+    "question": "扬子鳄属于哪种体温调节类型？",
+    "options": [
+      "A. 恒温动物",
+      "B. 变温动物",
+      "C. 群体恒温",
+      "D. 光合作用调节"
+    ],
+    "correct_answer": "B",
+    "explanation": "扬子鳄作为爬行动物，依靠外部环境调控体温。",
+    "difficulty": 1
+  },
+  {
+    "animal": "扬子鳄",
+    "question": "成年扬子鳄的平均体长范围是？",
+    "options": [
+      "A. 0.5-1米",
+      "B. 1.5-2.5米",
+      "C. 3-4米",
+      "D. 超过5米"
+    ],
+    "correct_answer": "B",
+    "explanation": "成年扬子鳄体长通常在1.5至2.5米之间。",
+    "difficulty": 2
+  },
+  {
+    "animal": "扬子鳄",
+    "question": "扬子鳄的繁殖期雌性会通过哪种方式选择筑巢地点？",
+    "options": [
+      "A. 根据水流方向",
+      "B. 追随月亮周期",
+      "C. 依靠嗅觉标记",
+      "D. 雌雄共同考察"
+    ],
+    "correct_answer": "D",
+    "explanation": "雌鳄会与雄性共同勘察并选择隐蔽且水源充足的巢址。",
+    "difficulty": 3
+  },
+  {
+    "animal": "扬子鳄",
+    "question": "下列哪项是扬子鳄尾巴的主要功能？",
+    "options": [
+      "A. 平衡体温",
+      "B. 捕猎推进器",
+      "C. 吸引配偶",
+      "D. 储存脂肪"
+    ],
+    "correct_answer": "B",
+    "explanation": "强壮的尾巴是扬子鳄游泳和捕获猎物的主要动力源。",
+    "difficulty": 4
+  },
+  {
+    "animal": "扬子鳄",
+    "question": "扬子鳄卵的孵化通常需要多少天？",
+    "options": [
+      "A. 30-45天",
+      "B. 60-75天",
+      "C. 90-120天",
+      "D. 超过一年"
+    ],
+    "correct_answer": "B",
+    "explanation": "卵在自然温度下需约60-75天完成胚胎发育。",
+    "difficulty": 5
+  },
+  {
+    "animal": "扬子鳄",
+    "question": "中国最大的扬子鳄人工繁殖基地位于哪个省份？",
+    "options": [
+      "A. 安徽省",
+      "B. 浙江省",
+      "C. 江苏省",
+      "D. 福建省"
+    ],
+    "correct_answer": "A",
+    "explanation": "安徽扬子鳄国家级自然保护区是主要的人工繁育和野化放归基地。",
+    "difficulty": 6
+  },
+  {
+    "animal": "扬子鳄",
+    "question": "幼年扬子鳄的性别由什么因素决定？",
+    "options": [
+      "A. 父亲基因决定",
+      "B. 孵化温度控制",
+      "C. 雌性主动选择",
+      "D. 随机自然分化"
+    ],
+    "correct_answer": "B",
+    "explanation": "鳄鱼科动物的性别由孵化时沙土温度决定，扬子鳄遵循这一规律。",
+    "difficulty": 7
+  },
+  {
+    "animal": "扬子鳄",
+    "question": "下列哪项措施最直接促进扬子鳄种群恢复？",
+    "options": [
+      "A. 禁止湿地旅游",
+      "B. 建立生态廊道",
+      "C. 开展人工孵化计划",
+      "D. 加强盗猎惩罚"
+    ],
+    "correct_answer": "C",
+    "explanation": "人工控制孵化环境可显著提高卵的存活率，是种群保护的核心技术。",
+    "difficulty": 8
+  },
+  {
+    "question": "扬子鳄主要依赖哪种水生植物作为其隐蔽和活动的主要场所？",
+    "options": [
+      "A. 芦苇丛",
+      "B. 水葫芦",
+      "C. 浮萍",
+      "D. 睡莲"
+    ],
+    "correct_answer": "A",
+    "explanation": "芦苇丛在湿地环境中为扬子鳄提供了良好的隐蔽和活动空间。",
+    "difficulty": 2
+  },
+  {
+    "question": "扬子鳄捕捉猎物主要依靠哪种方式？",
+    "options": [
+      "A. 快速奔跑追逐",
+      "B. 水下伏击等待",
+      "C. 群体围猎策略",
+      "D. 利用毒液麻醉"
+    ],
+    "correct_answer": "B",
+    "explanation": "扬子鳄作为伏击型捕食者，通常静止潜伏在水中等待猎物靠近。",
+    "difficulty": 3
+  },
+  {
+    "question": "成年扬子鳄的典型社会行为特征是？",
+    "options": [
+      "A. 形成稳定的家族群体",
+      "B. 长期伴侣关系",
+      "C. 独居并保持领地性",
+      "D. 定期迁徙聚集"
+    ],
+    "correct_answer": "C",
+    "explanation": "成年扬子鳄通常独居且占据固定领地，避免与其他个体长期共处。",
+    "difficulty": 4
+  },
+  {
+    "question": "20世纪80年代，野生扬子鳄的种群数量估计为？",
+    "options": [
+      "A. 超过5000只",
+      "B. 约1000只",
+      "C. 不足百只",
+      "D. 未进行统计"
+    ],
+    "correct_answer": "C",
+    "explanation": "20世纪80年代，野生扬子鳄因栖息地破坏濒临灭绝，数量仅剩不足百只。",
+    "difficulty": 6
+  },
+  {
+    "question": "扬子鳄幼体会通过哪种行为捕捉水生昆虫？",
+    "options": [
+      "A. 使用尖牙主动抓取",
+      "B. 静止伏击等待接近",
+      "C. 吹气制造水流吸引",
+      "D. 释放信息素引诱"
+    ],
+    "correct_answer": "B",
+    "explanation": "幼体扬子鳄沿用成体的伏击策略，通过静止潜伏捕食。",
+    "difficulty": 5
+  },
+  {
+    "question": "扬子鳄幼体破壳后通常会立即前往何处？",
+    "options": [
+      "A. 回到母亲巢穴",
+      "B. 迅速进入附近水域",
+      "C. 留在陆地上一个月",
+      "D. 被雄性带往安全区域"
+    ],
+    "correct_answer": "B",
+    "explanation": "幼体破壳后会迅速进入水中躲避陆地天敌，这是其生存的关键行为。",
+    "difficulty": 1
+  },
+  {
+    "question": "以下哪项是中国扬子鳄栖息地恢复项目的关键措施之一？",
+    "options": [
+      "A. 引入外来鱼类增加食物供应",
+      "B. 种植特定水生植物重建湿地结构",
+      "C. 安装电子围栏防止人类接近",
+      "D. 发展生态旅游提高公众意识"
+    ],
+    "correct_answer": "B",
+    "explanation": "通过恢复芦苇等本土植被，可为扬子鳄提供适宜的栖息环境。",
+    "difficulty": 6
+  },
+  {
+    "question": "扬子鳄与下列哪种动物可能存在食物资源的竞争？",
+    "options": [
+      "A. 中华鳖（龟类）",
+      "B. 白暨豚",
+      "C. 江豚",
+      "D. 扬子江大闸蟹"
+    ],
+    "correct_answer": "A",
+    "explanation": "中华鳖与扬子鳄共享鱼类等食物资源，存在竞争关系。",
+    "difficulty": 8
+  },
+  {
+    "animal": "扬子鳄",
+    "question": "扬子鳄主要在什么时间段进行捕食？",
+    "options": [
+      "A. 深夜",
+      "B. 正午",
+      "C. 黎明和黄昏",
+      "D. 全天随机"
+    ],
+    "correct_answer": "C",
+    "explanation": "扬子鳄多在黎明和黄昏活动，利用低光环境伏击猎物。",
+    "difficulty": 2
+  },
+  {
+    "animal": "扬子鳄",
+    "question": "扬子鳄的牙齿最适合执行哪种功能？",
+    "options": [
+      "A. 咬碎骨头",
+      "B. 撕裂肉",
+      "C. 切断植物",
+      "D. 研磨种子"
+    ],
+    "correct_answer": "B",
+    "explanation": "扬子鳄的尖锥形牙齿主要用于撕咬和固定猎物。",
+    "difficulty": 3
+  },
+  {
+    "animal": "扬子鳄",
+    "question": "扬子鳄幼体的自然存活率大约是多少？",
+    "options": [
+      "A. 超过90%",
+      "B. 约50%",
+      "C. 不到10%",
+      "D. 几乎全成活"
+    ],
+    "correct_answer": "C",
+    "explanation": "幼体易受鸟类、大型鱼类等天敌威胁，存活率极低。",
+    "difficulty": 5
+  },
+  {
+    "animal": "扬子鳄",
+    "question": "扬子鳄的鼻孔和眼睛位于头部哪个部位以适应水生生活？",
+    "options": [
+      "A. 头顶",
+      "B. 前端",
+      "C. 下巴",
+      "D. 耳部上方"
+    ],
+    "correct_answer": "A",
+    "explanation": "鼻孔和眼睛位于头顶，方便潜水时呼吸并观察环境。",
+    "difficulty": 3
+  },
+  {
+    "animal": "扬子鳄",
+    "question": "野生扬子鳄的平均寿命大约为？",
+    "options": [
+      "A. 10-20年",
+      "B. 30-40年",
+      "C. 50年以上",
+      "D. 不超过15年"
+    ],
+    "correct_answer": "B",
+    "explanation": "野生扬子鳄平均寿命约为30至40年，圈养个体可能更长寿。",
+    "difficulty": 4
+  },
+  {
+    "animal": "扬子鳄",
+    "question": "根据《中华人民共和国野生动物保护法》，扬子鳄被列为？",
+    "options": [
+      "A. 国家一级保护动物",
+      "B. 省级重点保护",
+      "C. 不在名录",
+      "D. 国家二级保护"
+    ],
+    "correct_answer": "A",
+    "explanation": "扬子鳄是中国国家一级重点保护野生动物。",
+    "difficulty": 7
+  },
+  {
+    "animal": "扬子鳄",
+    "question": "扬子鳄种群恢复后，可能对当地生态产生何种正面影响？",
+    "options": [
+      "A. 增加鱼类数量",
+      "B. 控制小型捕食者",
+      "C. 稳定食物链结构",
+      "D. 减少植被覆盖"
+    ],
+    "correct_answer": "C",
+    "explanation": "作为顶级掠食者，扬子鳄能调节中下层生物数量，维持生态平衡。",
+    "difficulty": 6
+  },
+  {
+    "animal": "扬子鳄",
+    "question": "扬子鳄的繁殖季节通常在？",
+    "options": [
+      "A. 春季",
+      "B. 夏季",
+      "C. 秋季",
+      "D. 冬季"
+    ],
+    "correct_answer": "A",
+    "explanation": "春季是扬子鳄的主要繁殖期，雌性会在此时产卵于隐蔽的巢穴中。",
+    "difficulty": 4
+  },
+  {
+    "animal": "扬子鳄",
+    "question": "扬子鳄如何感知水中的猎物运动？",
+    "options": [
+      "A. 依靠高度发达的听觉系统",
+      "B. 利用侧线系统检测水流震动",
+      "C. 主要依赖地面振动感应",
+      "D. 使用红外热成像能力"
+    ],
+    "correct_answer": "B",
+    "explanation": "扬子鳄通过身体表面的侧线系统感知水中的细微流动和猎物运动，这是其伏击捕食的重要感官机制。",
+    "difficulty": 4
+  },
+  {
+    "animal": "扬子鳄",
+    "question": "关于扬子鳄的迁徙行为，正确的是？",
+    "options": [
+      "A. 每年进行季节性北迁南移",
+      "B. 不会迁徙，保持固定领地范围",
+      "C. 只在繁殖期离开原有栖息地",
+      "D. 根据水位变化选择迁移路线"
+    ],
+    "correct_answer": "B",
+    "explanation": "扬子鳄是定居型动物，通常不进行长距离迁徙，成年后会占据并保卫固定领地。",
+    "difficulty": 3
+  },
+  {
+    "animal": "扬子鳄",
+    "question": "扬子鳄幼体面临的主要天敌包括哪些？",
+    "options": [
+      "A. 大型猛禽、蛇类和哺乳动物",
+      "B. 蝉、蚱蜢等昆虫",
+      "C. 水生植物和浮游生物",
+      "D. 人类活动中的农业机械"
+    ],
+    "correct_answer": "A",
+    "explanation": "幼体因体型小且行动能力弱，易成为鸟类（如鹭）、水獭等天敌的猎物。",
+    "difficulty": 4
+  },
+  {
+    "animal": "扬子鳄",
+    "question": "扬子鳄在中国的分布主要集中在哪个省份？",
+    "options": [
+      "A. 四川省",
+      "B. 安徽省",
+      "C. 广东省",
+      "D. 海南省"
+    ],
+    "correct_answer": "B",
+    "explanation": "安徽省宣城市有我国唯一的扬子鳄国家级自然保护区，是其核心栖息地之一。",
+    "difficulty": 3
+  },
+  {
+    "animal": "扬子鳄",
+    "question": "雌性扬子鳄每年产卵的次数通常是？",
+    "options": [
+      "A. 1次",
+      "B. 2-3次",
+      "C. 整年持续产卵",
+      "D. 每季度一次"
+    ],
+    "correct_answer": "A",
+    "explanation": "雌鳄通常每年繁殖一次，在春季挖掘巢穴并产下约20枚卵。",
+    "difficulty": 2
+  },
+  {
+    "animal": "扬子鳄",
+    "question": "由于野生种群数量曾骤减，扬子鳄面临的主要遗传学挑战是？",
+    "options": [
+      "A. 遗传多样性显著下降",
+      "B. 近亲繁殖风险降低",
+      "C. 基因突变率异常升高",
+      "D. 没有明显影响"
+    ],
+    "correct_answer": "A",
+    "explanation": "小种群可能导致基因库缩小，增加遗传缺陷和适应力下降的风险。",
+    "difficulty": 6
+  },
+  {
+    "animal": "扬子鳄",
+    "question": "扬子鳄从出生到性成熟的平均时间大约是？",
+    "options": [
+      "A. 2-3年",
+      "B. 5-6年",
+      "C. 8-10年",
+      "D. 12年以上"
+    ],
+    "correct_answer": "C",
+    "explanation": "扬子鳄需约7-10年达到性成熟，这期间需要稳定栖息地和充足食物保障。",
+    "difficulty": 5
+  },
+  {
+    "animal": "扬子鳄",
+    "question": "在扬子鳄保护项目中，下列哪项措施直接有助于增加其遗传多样性？",
+    "options": [
+      "A. 扩大保护区面积",
+      "B. 建立人工繁殖中心进行基因管理",
+      "C. 减少天敌数量",
+      "D. 禁止商业捕捞"
+    ],
+    "correct_answer": "B",
+    "explanation": "通过人工繁殖和基因库管理，可优化种群遗传结构并降低近亲繁殖风险。",
+    "difficulty": 6
+  }
+]

@@ -1,0 +1,522 @@
+[
+  {
+    "animal": "小熊猫",
+    "question": "小熊猫（Ailurus fulgens）的学名中，'fulgens'在拉丁语中的含义是？",
+    "options": [
+      "A. 灵活",
+      "B. 光亮的",
+      "C. 小型",
+      "D. 树栖"
+    ],
+    "correct_answer": "B",
+    "explanation": "'fulgens'源自拉丁语，意为“发光的”或“鲜艳的”，形容其毛色。",
+    "difficulty": 3
+  },
+  {
+    "animal": "小熊猫",
+    "question": "小熊猫主要分布在哪些地区的森林中？",
+    "options": [
+      "A. 南美洲雨林",
+      "B. 喜马拉雅山脉周边",
+      "C. 非洲稀树草原",
+      "D. 澳大利亚桉树林"
+    ],
+    "correct_answer": "B",
+    "explanation": "小熊猫分布在喜马拉雅山区及邻近国家的温带森林和高山灌木丛。",
+    "difficulty": 4
+  },
+  {
+    "animal": "小熊猫",
+    "question": "小熊猫的尾巴主要功能是什么？",
+    "options": [
+      "A. 平衡",
+      "B. 吸引配偶",
+      "C. 驱赶天敌",
+      "D. 存储食物"
+    ],
+    "correct_answer": "A",
+    "explanation": "长而蓬松的尾巴帮助其在树上移动时保持平衡。",
+    "difficulty": 2
+  },
+  {
+    "animal": "小熊猫",
+    "question": "小熊猫属于哪个分类目？",
+    "options": [
+      "A. 猫科",
+      "B. 熊科",
+      "C. 小熊猫科（Ailuridae）",
+      "D. 獾科"
+    ],
+    "correct_answer": "C",
+    "explanation": "小熊猫独立成科，与猫、熊等并无直接亲缘关系。",
+    "difficulty": 7
+  },
+  {
+    "animal": "小熊猫",
+    "question": "小熊猫的主食是什么？",
+    "options": [
+      "A. 肉类",
+      "B. 竹子",
+      "C. 水果",
+      "D. 昆虫"
+    ],
+    "correct_answer": "B",
+    "explanation": "竹子占其饮食比例的约50%-60%，也吃浆果、鸟蛋等。",
+    "difficulty": 1
+  },
+  {
+    "animal": "小熊猫",
+    "question": "国际自然保护联盟（IUCN）将小熊猫列为哪种保护等级？",
+    "options": [
+      "A. 濒危(EN)",
+      "B. 易危(VU)",
+      "C. 近危(NT)",
+      "D. 无危(LC)"
+    ],
+    "correct_answer": "B",
+    "explanation": "2015年评估为易危，受栖息地破坏和盗猎威胁。",
+    "difficulty": 6
+  },
+  {
+    "animal": "小熊猫",
+    "question": "小熊猫的繁殖季节通常在？",
+    "options": [
+      "A. 冬季",
+      "B. 春末夏初",
+      "C. 秋季",
+      "D. 全年均可"
+    ],
+    "correct_answer": "B",
+    "explanation": "雌性在1-3月发情，幼崽多在4-5月出生。",
+    "difficulty": 5
+  },
+  {
+    "animal": "小熊猫",
+    "question": "下列哪种行为是小熊猫的典型特征？",
+    "options": [
+      "A. 群体狩猎",
+      "B. 树洞筑巢",
+      "C. 水中捕食",
+      "D. 领地标记"
+    ],
+    "correct_answer": "B",
+    "explanation": "它们利用树洞或岩石缝隙作为临时庇护所。",
+    "difficulty": 4
+  },
+  {
+    "animal": "小熊猫",
+    "question": "成年小熊猫的平均体重约为多少公斤？",
+    "options": [
+      "A. 1-2",
+      "B. 3-6",
+      "C. 7-9",
+      "D. 10+"
+    ],
+    "correct_answer": "B",
+    "explanation": "成年小熊猫体重通常在3至6公斤之间，体型相对较小。",
+    "difficulty": 2
+  },
+  {
+    "animal": "小熊猫",
+    "question": "小熊猫主要栖息在海拔多少米的森林中？",
+    "options": [
+      "A. 500-1000",
+      "B. 2000-4000",
+      "C. 5000+",
+      "D. 海平面"
+    ],
+    "correct_answer": "B",
+    "explanation": "它们多分布在海拔2000至4000米的温带森林和高山灌木丛中。",
+    "difficulty": 4
+  },
+  {
+    "animal": "小熊猫",
+    "question": "关于小熊猫的爪子，以下描述正确的是？",
+    "options": [
+      "A. 可完全伸缩如猫科动物",
+      "B. 爪尖朝外用于攀爬",
+      "C. 粗短且不可完全收回",
+      "D. 具有锋利的肉垫"
+    ],
+    "correct_answer": "C",
+    "explanation": "小熊猫爪子粗短，不能像猫科动物那样完全收回。",
+    "difficulty": 6
+  },
+  {
+    "animal": "小熊猫",
+    "question": "小熊猫主要在何时活动？",
+    "options": [
+      "A. 白天",
+      "B. 夜间",
+      "C. 黄昏和黎明",
+      "D. 全天无规律"
+    ],
+    "correct_answer": "C",
+    "explanation": "它们是晨昏性动物，多在清晨和傍晚活动。",
+    "difficulty": 3
+  },
+  {
+    "animal": "小熊猫",
+    "question": "一胎小熊猫幼崽的数量通常为？",
+    "options": [
+      "A. 1-2只",
+      "B. 2-4只",
+      "C. 5-6只",
+      "D. 单胎一仔"
+    ],
+    "correct_answer": "B",
+    "explanation": "每胎通常产2至4只幼崽，由母兽独自抚养。",
+    "difficulty": 2
+  },
+  {
+    "animal": "小熊猫",
+    "question": "小熊猫是否会进行冬眠？",
+    "options": [
+      "A. 是的，冬季会冬眠",
+      "B. 否，全年活动但减少觅食",
+      "C. 只在寒冷地区冬眠",
+      "D. 从不冬眠"
+    ],
+    "correct_answer": "D",
+    "explanation": "小熊猫没有冬眠习性，冬季仍会主动寻找食物。",
+    "difficulty": 1
+  },
+  {
+    "animal": "小熊猫",
+    "question": "历史上，小熊猫曾被错误归类为以下哪一类？",
+    "options": [
+      "A. 猫科成员",
+      "B. 浣熊的近亲",
+      "C. 树栖啮齿动物",
+      "D. 小型犬类"
+    ],
+    "correct_answer": "B",
+    "explanation": "早期分类学曾将其与浣熊科混淆，现独立为小熊猫科。",
+    "difficulty": 7
+  },
+  {
+    "animal": "小熊猫",
+    "question": "小熊猫的尾巴长度如何与其身体相比？",
+    "options": [
+      "A. 短于身体",
+      "B. 几乎与身体等长",
+      "C. 超过身体长度",
+      "D. 是身体的两倍"
+    ],
+    "correct_answer": "C",
+    "explanation": "尾巴通常比体长约10-20%，帮助其在树枝间保持平衡。",
+    "difficulty": 3
+  },
+  {
+    "animal": "小熊猫",
+    "question": "关于小熊猫的社会行为，以下哪项描述最准确？",
+    "options": [
+      "A. 群居并形成稳定社群",
+      "B. 雄性与雌性共同抚育幼崽",
+      "C. 多为独居且领地意识强",
+      "D. 形成家族群体轮流狩猎"
+    ],
+    "correct_answer": "C",
+    "explanation": "小熊猫是独居动物，通常独自活动并用气味标记捍卫领地。",
+    "difficulty": 2
+  },
+  {
+    "animal": "小熊猫",
+    "question": "小熊猫幼崽出生后，主要由谁负责照顾？",
+    "options": [
+      "A. 雄性父母共同抚养",
+      "B. 母兽独自承担抚育责任",
+      "C. 群体中的雌性轮流照料",
+      "D. 会将幼崽寄养在其他个体处"
+    ],
+    "correct_answer": "B",
+    "explanation": "小熊猫的雄性不参与抚育，母兽单独照顾幼崽直至其独立。",
+    "difficulty": 3
+  },
+  {
+    "animal": "小熊猫",
+    "question": "下列哪种动物是小熊猫在自然栖息地中的主要天敌？",
+    "options": [
+      "A. 猎豹",
+      "B. 雪豹",
+      "C. 棕熊",
+      "D. 金雕"
+    ],
+    "correct_answer": "B",
+    "explanation": "雪豹和云豹是小熊猫的天敌，常在高山环境中捕猎它们。",
+    "difficulty": 5
+  },
+  {
+    "animal": "小熊猫",
+    "question": "小熊猫通过哪种方式主要进行交流？",
+    "options": [
+      "A. 发出咕噜声和喉音",
+      "B. 跳跃动作传递信息",
+      "C. 使用尾部颜色变化",
+      "D. 相互梳理毛发"
+    ],
+    "correct_answer": "A",
+    "explanation": "小熊猫通过特定的喉音、呼噜声和气味标记进行交流。",
+    "difficulty": 4
+  },
+  {
+    "animal": "小熊猫",
+    "question": "关于小熊猫的毛色，以下哪项是正确的？",
+    "options": [
+      "A. 全部亚种颜色完全一致",
+      "B. 尾巴末端有明显的环状斑纹",
+      "C. 冬季毛发会变为白色以适应积雪",
+      "D. 颜色随季节显著变化"
+    ],
+    "correct_answer": "B",
+    "explanation": "小熊猫的尾部具有多道暗色环纹，是其标志性特征。",
+    "difficulty": 6
+  },
+  {
+    "animal": "小熊猫",
+    "question": "小熊猫获取水分的主要来源是什么？",
+    "options": [
+      "A. 频繁饮用溪流水",
+      "B. 取自竹子中的高含水量",
+      "C. 吃水果补充液体",
+      "D. 通过晨露收集"
+    ],
+    "correct_answer": "B",
+    "explanation": "小熊猫主要依靠食用的竹子提供水分，很少直接饮水。",
+    "difficulty": 2
+  },
+  {
+    "animal": "小熊猫",
+    "question": "小熊猫足部具有何种结构特征帮助其攀爬树木？",
+    "options": [
+      "A. 完全可伸缩的爪子",
+      "B. 长而坚硬的肉垫增强抓握力",
+      "C. 趾间蹼膜用于跳跃",
+      "D. 与其他猫科动物相似的结构"
+    ],
+    "correct_answer": "B",
+    "explanation": "小熊猫足部有柔软的肉垫和半可伸缩爪子，适合在树干上抓握。",
+    "difficulty": 3
+  },
+  {
+    "animal": "小熊猫",
+    "question": "小熊猫与大熊猫在栖息地中共存时的主要关系是？",
+    "options": [
+      "A. 直接竞争食物资源",
+      "B. 形成互利共生关系",
+      "C. 几乎无直接互动但共用竹林",
+      "D. 小熊猫主动躲避大熊猫"
+    ],
+    "correct_answer": "C",
+    "explanation": "两者虽然都以竹子为食，但在时间或空间上会错开活动减少竞争。",
+    "difficulty": 5
+  },
+  {
+    "animal": "小熊猫",
+    "question": "小熊猫在野外的平均寿命大约是多少年？",
+    "options": [
+      "A.3-7岁",
+      "B.8-12岁",
+      "C.15年以上",
+      "D.不确定"
+    ],
+    "correct_answer": "A",
+    "explanation": "小熊猫在野外因天敌和栖息地限制，平均寿命较短，在3至7年左右。",
+    "difficulty": 1
+  },
+  {
+    "animal": "小熊猫",
+    "question": "当遇到雪豹等天敌时，小熊猫主要采取什么方式逃生？",
+    "options": [
+      "A.快速爬到树上",
+      "B.发出警告声",
+      "C.装死",
+      "D.释放刺鼻气味"
+    ],
+    "correct_answer": "A",
+    "explanation": "小熊猫擅长攀爬树木，通过迅速躲入高处避免地面天敌的攻击。",
+    "difficulty": 3
+  },
+  {
+    "animal": "小熊猫",
+    "question": "小熊猫幼崽通常在出生后多久能够独立生活？",
+    "options": [
+      "A.6个月左右",
+      "B.12-18个月",
+      "C.2年后",
+      "D.由父母继续照顾"
+    ],
+    "correct_answer": "B",
+    "explanation": "幼崽需约一年时间学习生存技能，随后离开母亲独立生活。",
+    "difficulty": 3
+  },
+  {
+    "animal": "小熊猫",
+    "question": "小熊猫是否有季节性的迁徙行为？",
+    "options": [
+      "A.有长距离迁徙",
+      "B.仅短距离移动",
+      "C.没有迁徙习惯",
+      "D.随竹子开花迁移"
+    ],
+    "correct_answer": "C",
+    "explanation": "小熊猫不进行迁徙，主要依赖固定栖息地内的食物资源。",
+    "difficulty": 1
+  },
+  {
+    "animal": "小熊猫",
+    "question": "冬季时小熊猫的毛发会如何变化？",
+    "options": [
+      "A.变得更厚",
+      "B.颜色变浅",
+      "C.出现斑纹",
+      "D.无明显变化"
+    ],
+    "correct_answer": "A",
+    "explanation": "冬季毛发增厚以抵御寒冷，但颜色和花纹基本保持稳定。",
+    "difficulty": 2
+  },
+  {
+    "animal": "小熊猫",
+    "question": "成年雌性小熊猫通常每年产仔几次？",
+    "options": [
+      "A.1次",
+      "B.2次",
+      "C.3次",
+      "D.每两年一次"
+    ],
+    "correct_answer": "A",
+    "explanation": "小熊猫繁殖频率较低，一般每年仅生产一胎。",
+    "difficulty": 1
+  },
+  {
+    "animal": "小熊猫",
+    "question": "小熊猫主要在何时活动？",
+    "options": [
+      "A.全天候",
+      "B.晨昏时段",
+      "C.夜间",
+      "D.白天"
+    ],
+    "correct_answer": "B",
+    "explanation": "小熊猫多在清晨和傍晚活跃，以避开高温和天敌的威胁。",
+    "difficulty": 2
+  },
+  {
+    "animal": "小熊猫",
+    "question": "小熊猫与哪种动物可能存在间接互利关系？",
+    "options": [
+      "A.喜鹊",
+      "B.啄木鸟",
+      "C.蜜蜂",
+      "D.没有已知关系"
+    ],
+    "correct_answer": "D",
+    "explanation": "目前尚无明确记录显示小熊猫与其他物种存在直接的共生或互利关系。",
+    "difficulty": 5
+  },
+  {
+    "animal": "小熊猫",
+    "question": "小熊猫幼崽出生后多久能睁开眼睛？",
+    "options": [
+      "A. 出生时睁眼",
+      "B. 一周内",
+      "C. 约两周",
+      "D. 一个月"
+    ],
+    "correct_answer": "C",
+    "explanation": "小熊猫的幼崽出生时眼睑闭合，约在2周后开始睁开眼睛。",
+    "difficulty": 3
+  },
+  {
+    "animal": "小熊猫",
+    "question": "小熊猫主要通过什么方式标记自己的领地？",
+    "options": [
+      "A. 尾巴扫动地面留痕迹",
+      "B. 分泌气味物质",
+      "C. 高声鸣叫",
+      "D. 在树枝上刻划"
+    ],
+    "correct_answer": "B",
+    "explanation": "小熊猫通过肛门腺或尿液分泌特殊气味，以此标记领地并与其他个体沟通。",
+    "difficulty": 3
+  },
+  {
+    "animal": "小熊猫",
+    "question": "小熊猫的妊娠（怀孕）期大约持续多久？",
+    "options": [
+      "A. 40-50天",
+      "B. 约120天",
+      "C. 8个月左右",
+      "D. 一年"
+    ],
+    "correct_answer": "B",
+    "explanation": "小熊猫的妊娠期约为3至4个月，通常在冬季开始交配，次年春季产仔。",
+    "difficulty": 4
+  },
+  {
+    "animal": "小熊猫",
+    "question": "成年小熊猫通常如何生活？",
+    "options": [
+      "A. 大型群体",
+      "B. 独居",
+      "C. 母子家庭群",
+      "D. 雄性领地内多个雌性"
+    ],
+    "correct_answer": "B",
+    "explanation": "成年小熊猫多为独居动物，仅在繁殖季节短暂接触。",
+    "difficulty": 2
+  },
+  {
+    "animal": "小熊猫",
+    "question": "当遇到无法逃脱的天敌时，小熊猫可能会采取什么防御措施？",
+    "options": [
+      "A. 发出刺耳叫声威慑",
+      "B. 释放强烈气味",
+      "C. 撕咬攻击",
+      "D. 装死"
+    ],
+    "correct_answer": "B",
+    "explanation": "小熊猫会通过肛门腺分泌刺激性气味来驱赶天敌。",
+    "difficulty": 4
+  },
+  {
+    "animal": "小熊猫",
+    "question": "在食物匮乏的冬季，小熊猫可能会转而主要食用什么？",
+    "options": [
+      "A. 雪中的昆虫",
+      "B. 树皮和苔藓",
+      "C. 存储的果实",
+      "D. 继续依赖竹子"
+    ],
+    "correct_answer": "D",
+    "explanation": "小熊猫以竹子为主食，即使冬季也会优先取食竹笋、嫩枝等。",
+    "difficulty": 3
+  },
+  {
+    "animal": "小熊猫",
+    "question": "小熊猫主要依靠哪种感官来导航和寻找食物？",
+    "options": [
+      "A. 嗅觉",
+      "B. 视力",
+      "C. 听觉",
+      "D. 地震感应"
+    ],
+    "correct_answer": "A",
+    "explanation": "小熊猫的嗅觉非常敏锐，依赖气味识别环境和寻找食物。",
+    "difficulty": 2
+  },
+  {
+    "animal": "小熊猫",
+    "question": "小熊猫最常出没在何种地形环境中？",
+    "options": [
+      "A. 热带雨林下层",
+      "B. 高山针叶林",
+      "C. 开阔草原边缘",
+      "D. 河边芦苇丛"
+    ],
+    "correct_answer": "B",
+    "explanation": "小熊猫栖息于海拔2000-4500米的高山针叶林和混交林，适应寒冷气候。",
+    "difficulty": 2
+  }
+]

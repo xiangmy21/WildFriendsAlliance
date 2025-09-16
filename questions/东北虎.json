@@ -1,0 +1,210 @@
+[
+  {
+    "animal": "东北虎",
+    "question": "东北虎的学名是什么？",
+    "options": [
+      "A. Panthera tigris altaica",
+      "B. Panthera pardus orientalis",
+      "C. Felis lynx",
+      "D. Acinonyx jubatus"
+    ],
+    "correct_answer": "A",
+    "explanation": "东北虎的学名是Panthera tigris altaica，属于虎属中的西伯利亚虎亚种。",
+    "difficulty": 3
+  },
+  {
+    "animal": "东北虎",
+    "question": "东北虎主要分布在中国哪个地区？",
+    "options": [
+      "A. 青藏高原",
+      "B. 大兴安岭林区",
+      "C. 四川卧龙",
+      "D. 内蒙古草原"
+    ],
+    "correct_answer": "B",
+    "explanation": "东北虎的栖息地集中在黑龙江省和吉林省的大兴安岭及长白山林区。",
+    "difficulty": 2
+  },
+  {
+    "animal": "东北虎",
+    "question": "东北虎在中国被列为哪一级保护动物？",
+    "options": [
+      "A. 国家二级",
+      "B. 国家一级",
+      "C. 地方级",
+      "D. 不受保护"
+    ],
+    "correct_answer": "B",
+    "explanation": "中国将东北虎列为国家一级重点保护野生动物，并列入《濒危野生动植物种国际贸易公约》附录I。",
+    "difficulty": 4
+  },
+  {
+    "animal": "东北虎",
+    "question": "成年雄性东北虎的平均体重范围是多少？",
+    "options": [
+      "A. 100-200公斤",
+      "B. 300-350公斤",
+      "C. 80-120公斤",
+      "D. 400公斤以上"
+    ],
+    "correct_answer": "B",
+    "explanation": "成年雄性东北虎体重通常在180-306公斤之间，其中体型最大的个体可达约350公斤。",
+    "difficulty": 6
+  },
+  {
+    "animal": "东北虎",
+    "question": "东北虎的典型捕食对象包括以下哪种动物？",
+    "options": [
+      "A. 狐狸和兔子",
+      "B. 马鹿和野猪",
+      "C. 鸟类和啮齿类",
+      "D. 水生鱼类"
+    ],
+    "correct_answer": "B",
+    "explanation": "东北虎主要捕食大型有蹄类动物，如马鹿、驼鹿和野猪。",
+    "difficulty": 4
+  },
+  {
+    "animal": "东北虎",
+    "question": "东北虎的繁殖期通常在哪个季节？",
+    "options": [
+      "A. 春季（3-5月）",
+      "B. 冬季（12-2月）",
+      "C. 秋季（9-11月）",
+      "D. 全年均可"
+    ],
+    "correct_answer": "A",
+    "explanation": "东北虎的发情期主要集中在冬季，但繁殖活动多在春季进行。",
+    "difficulty": 5
+  },
+  {
+    "animal": "东北虎",
+    "question": "导致东北虎濒危的主要原因是？",
+    "options": [
+      "A. 天然食物不足",
+      "B. 栖息地破坏和偷猎",
+      "C. 气候变暖",
+      "D. 疾病流行"
+    ],
+    "correct_answer": "B",
+    "explanation": "栖息地碎片化及非法盗猎是导致东北虎数量锐减的最主要原因。",
+    "difficulty": 7
+  },
+  {
+    "animal": "东北虎",
+    "question": "成年东北虎的犬齿长度平均约为？",
+    "options": [
+      "A. 2-3厘米",
+      "B. 6-8厘米",
+      "C. 10-12厘米",
+      "D. 15厘米以上"
+    ],
+    "correct_answer": "B",
+    "explanation": "东北虎的犬齿长度可达约6-8厘米，这一特征适应其捕猎大型动物的需求。",
+    "difficulty": 8
+  },
+  {
+    "animal": "东北虎",
+    "question": "东北虎的皮毛在哪个部位通常呈现明显的白色斑块？",
+    "options": [
+      "A. 腹部",
+      "B. 背部脊柱",
+      "C. 尾巴末端",
+      "D. 四肢关节"
+    ],
+    "correct_answer": "A",
+    "explanation": "东北虎的腹部皮毛通常为纯白色，与其他部位的橙黄色条纹形成鲜明对比，这是其标志性特征之一。",
+    "difficulty": 2
+  },
+  {
+    "animal": "东北虎",
+    "question": "东北虎主要栖息于哪种类型的森林生态系统？",
+    "options": [
+      "A. 热带雨林",
+      "B. 寒温带针叶林",
+      "C. 季风阔叶林",
+      "D. 草原疏林"
+    ],
+    "correct_answer": "B",
+    "explanation": "东北虎适应寒冷气候，主要分布于中国东北部和俄罗斯远东地区的寒温带针叶林及混合林区。",
+    "difficulty": 3
+  },
+  {
+    "animal": "东北虎",
+    "question": "东北虎的社会行为特征是？",
+    "options": [
+      "A. 群体狩猎的家族群居",
+      "B. 领域独居且避免同类接触",
+      "C. 季节性群体迁徙",
+      "D. 多雄一雌制社会结构"
+    ],
+    "correct_answer": "B",
+    "explanation": "东北虎通常独自生活并严格划分领地，仅在繁殖期与异性短暂共处。",
+    "difficulty": 1
+  },
+  {
+    "animal": "东北虎",
+    "question": "20世纪初全球野生东北虎的种群数量估计为？",
+    "options": [
+      "A. 不足50只",
+      "B. 约100-300只",
+      "C. 超过2000只",
+      "D. 无可靠数据"
+    ],
+    "correct_answer": "B",
+    "explanation": "由于栖息地破坏和人类捕杀，20世纪初东北虎种群数量已锐减至数百只，濒临灭绝。",
+    "difficulty": 6
+  },
+  {
+    "animal": "东北虎",
+    "question": "东北虎主要采用哪种方式完成对猎物的捕获？",
+    "options": [
+      "A. 长距离追逐直至精疲力尽",
+      "B. 潜伏后进行短距突袭",
+      "C. 群体围堵战术",
+      "D. 伪装成其他动物引诱"
+    ],
+    "correct_answer": "B",
+    "explanation": "东北虎利用肌肉爆发力和伏击策略，在近距离内迅速制服猎物。",
+    "difficulty": 4
+  },
+  {
+    "animal": "东北虎",
+    "question": "中国为保护东北虎设立的国家级自然保护区是？",
+    "options": [
+      "A. 长白山国际狩猎场",
+      "B. 东北虎豹国家公园",
+      "C. 扎龙湿地保护区",
+      "D. 卧龙大熊猫保护区"
+    ],
+    "correct_answer": "B",
+    "explanation": "2017年设立的东北虎豹国家公园覆盖吉林和黑龙江两省，是首个以保护大型濒危猫科动物为核心的国家级自然保护区。",
+    "difficulty": 7
+  },
+  {
+    "animal": "东北虎",
+    "question": "成年东北虎尾巴的平均长度约为？",
+    "options": [
+      "A. 30-45厘米",
+      "B. 60-95厘米",
+      "C. 120-150厘米",
+      "D. 超过180厘米"
+    ],
+    "correct_answer": "B",
+    "explanation": "东北虎的尾巴长度通常在60至100厘米之间，占体长的约三分之一。",
+    "difficulty": 8
+  },
+  {
+    "animal": "东北虎",
+    "question": "东北虎每胎平均产下多少只幼崽？",
+    "options": [
+      "A. 仅1只",
+      "B. 2-4只",
+      "C. 5-7只",
+      "D. 8只以上"
+    ],
+    "correct_answer": "B",
+    "explanation": "东北虎幼崽通常每胎有2到4只，新生幼崽体重约1公斤，在母亲照顾下成长。",
+    "difficulty": 3
+  }
+]

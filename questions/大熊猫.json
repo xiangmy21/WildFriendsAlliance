@@ -1,0 +1,418 @@
+[
+  {
+    "animal": "大熊猫",
+    "question": "大熊猫主要栖息在中国哪个省份?",
+    "options": [
+      "A. 四川",
+      "B. 广东",
+      "C. 海南",
+      "D. 新疆"
+    ],
+    "correct_answer": "A",
+    "explanation": "四川是大熊猫的主要自然栖息地，拥有大面积的竹林分布。",
+    "difficulty": 1
+  },
+  {
+    "animal": "大熊猫",
+    "question": "大熊猫每天大约消耗多少时间进食？",
+    "options": [
+      "A. 8小时",
+      "B. 12小时",
+      "C. 14小时",
+      "D. 16小时"
+    ],
+    "correct_answer": "B",
+    "explanation": "由于竹子营养较低，大熊猫需要每天花费约12-14小时进食以维持能量需求。",
+    "difficulty": 3
+  },
+  {
+    "animal": "大熊猫",
+    "question": "成年野生大熊猫的平均体重范围是？",
+    "options": [
+      "A. 50-80kg",
+      "B. 100-125kg",
+      "C. 150-180kg",
+      "D. 200-230kg"
+    ],
+    "correct_answer": "B",
+    "explanation": "成年大熊猫通常体重在100-115公斤之间，雌性略小于雄性。",
+    "difficulty": 4
+  },
+  {
+    "animal": "大熊猫",
+    "question": "大熊猫的濒危等级现为？",
+    "options": [
+      "A. 极危",
+      "B. 濒危",
+      "C. 易危",
+      "D. 无危"
+    ],
+    "correct_answer": "C",
+    "explanation": "2016年IUCN将大熊猫从濒危（EN）降级为易危（VU），但仍受严格保护。",
+    "difficulty": 5
+  },
+  {
+    "animal": "大熊猫",
+    "question": "大熊猫的繁殖期通常在哪个季节？",
+    "options": [
+      "A. 春季",
+      "B. 夏季",
+      "C. 秋季",
+      "D. 冬季"
+    ],
+    "correct_answer": "A",
+    "explanation": "大熊猫的发情高峰期集中在春季，雌性仅有24-72小时的排卵期。",
+    "difficulty": 6
+  },
+  {
+    "animal": "大熊猫",
+    "question": "新生熊猫幼崽的体重通常为？",
+    "options": [
+      "A. 50-150克",
+      "B. 300-500克",
+      "C. 700-900克",
+      "D. 1千克以上"
+    ],
+    "correct_answer": "A",
+    "explanation": "新生熊猫幼崽体重仅约100克左右，体型极小且无毛。",
+    "difficulty": 7
+  },
+  {
+    "animal": "大熊猫",
+    "question": "大熊猫的黑白皮毛主要功能是？",
+    "options": [
+      "A. 防晒",
+      "B. 警惕天敌",
+      "C. 群体识别",
+      "D. 吸收热量"
+    ],
+    "correct_answer": "B",
+    "explanation": "黑白色调有助于在积雪和竹林环境中隐蔽，同时黑白对比的面部特征可威慑同类。",
+    "difficulty": 8
+  },
+  {
+    "animal": "大熊猫",
+    "question": "大熊猫属于哪个科？",
+    "options": [
+      "A. 熊科",
+      "B. 猫科",
+      "C. 狐狸科",
+      "D. 犬科"
+    ],
+    "correct_answer": "A",
+    "explanation": "尽管曾有争议，现代分类学已确认大熊猫属于熊科（Ursidae）。",
+    "difficulty": 9
+  },
+  {
+    "animal": "大熊猫",
+    "question": "除四川外，下列哪个省份是大熊猫的主要栖息地？",
+    "options": [
+      "A. 湖南",
+      "B. 福建",
+      "C. 甘肃",
+      "D. 贵州"
+    ],
+    "correct_answer": "C",
+    "explanation": "陕西、四川和甘肃是中国大熊猫的三大主要分布省份。",
+    "difficulty": 1
+  },
+  {
+    "animal": "大熊猫",
+    "question": "大熊猫的食谱中，竹子占比大约为？",
+    "options": [
+      "A. 60%",
+      "B. 85%",
+      "C. 99%",
+      "D. 75%"
+    ],
+    "correct_answer": "C",
+    "explanation": "大熊猫约99%的饮食由竹子构成，仅偶尔摄入小动物或其它植物。",
+    "difficulty": 2
+  },
+  {
+    "animal": "大熊猫",
+    "question": "成年雌性大熊猫每年通常有几次发情期可进行繁殖？",
+    "options": [
+      "A. 1次",
+      "B. 3-4次",
+      "C. 全年均可",
+      "D. 2次"
+    ],
+    "correct_answer": "A",
+    "explanation": "雌性大熊猫每年仅有1次发情期，且排卵窗口极短（24-72小时）。",
+    "difficulty": 6
+  },
+  {
+    "animal": "大熊猫",
+    "question": "2016年大熊猫濒危等级降级的主要原因是？",
+    "options": [
+      "A. 栖息地破碎化加剧",
+      "B. 非法盗猎完全消失",
+      "C. 保护区数量增加与种群恢复",
+      "D. 气候变化适应成功"
+    ],
+    "correct_answer": "C",
+    "explanation": "中国政府大规模扩建自然保护区并强化保护措施，使大熊猫栖息地和种群显著增长。",
+    "difficulty": 5
+  },
+  {
+    "animal": "大熊猫",
+    "question": "圈养环境下大熊猫的平均寿命通常可达？",
+    "options": [
+      "A. 10-15年",
+      "B. 20-30年",
+      "C. 40年以上",
+      "D. 与野生一致"
+    ],
+    "correct_answer": "B",
+    "explanation": "圈养条件优越，大熊猫寿命可达26岁以上（如成都熊猫基地的个体活至38岁）。",
+    "difficulty": 4
+  },
+  {
+    "animal": "大熊猫",
+    "question": "熊猫幼崽何时开始完全脱离母亲独立生活？",
+    "options": [
+      "A. 6个月",
+      "B. 12-18个月",
+      "C. 2年",
+      "D. 3年以上"
+    ],
+    "correct_answer": "B",
+    "explanation": "幼崽通常在18个月后离开母亲，但仍需学习生存技能至约两岁。",
+    "difficulty": 7
+  },
+  {
+    "animal": "大熊猫",
+    "question": "现代研究显示大熊猫的遗传多样性水平如何？",
+    "options": [
+      "A. 极高，物种适应性强",
+      "B. 中等，无特别威胁",
+      "C. 显著低于多数哺乳动物",
+      "D. 与祖先时代相当"
+    ],
+    "correct_answer": "C",
+    "explanation": "历史种群瓶颈导致其基因多样性极低，对疾病和环境变化敏感。",
+    "difficulty": 8
+  },
+  {
+    "animal": "大熊猫",
+    "question": "20世纪中叶前学界普遍认为大熊猫属于哪个科？",
+    "options": [
+      "A. 熊科",
+      "B. 浣熊科",
+      "C. 猫科",
+      "D. 单独的熊猫科"
+    ],
+    "correct_answer": "D",
+    "explanation": "早期分类学曾将其独立为“熊猫科”，后经DNA分析确认其与熊科近缘。",
+    "difficulty": 9
+  },
+  {
+    "animal": "大熊猫",
+    "question": "大熊猫主要栖息的海拔范围是？",
+    "options": [
+      "A. 500米以下",
+      "B. 1200-3400米",
+      "C. 4000米以上",
+      "D. 平均海平面"
+    ],
+    "correct_answer": "B",
+    "explanation": "大熊猫栖息在海拔1200至3400米的温带森林，依赖高寒山区竹林环境。",
+    "difficulty": 2
+  },
+  {
+    "animal": "大熊猫",
+    "question": "野生成年雌性大熊猫一生通常能繁殖多少次？",
+    "options": [
+      "A. 1-3次",
+      "B. 5-8次",
+      "C. 每年均可",
+      "D. 只有1胎"
+    ],
+    "correct_answer": "B",
+    "explanation": "雌性大熊猫约4-6岁达到性成熟，一生可生育4-7胎，但幼崽存活率较低。",
+    "difficulty": 3
+  },
+  {
+    "animal": "大熊猫",
+    "question": "以下哪项是大熊猫消化系统适应竹食的关键特征？",
+    "options": [
+      "A. 长达肠道",
+      "B. 短而快速的肠道",
+      "C. 特殊纤维素酶",
+      "D. 多胃室结构"
+    ],
+    "correct_answer": "B",
+    "explanation": "大熊猫肠道仅约4米，消化效率低导致需每日进食12-14小时。",
+    "difficulty": 5
+  },
+  {
+    "animal": "大熊猫",
+    "question": "大熊猫幼崽何时开始独立觅食？",
+    "options": [
+      "A. 出生即能自行采食",
+      "B. 约6个月大后",
+      "C. 1岁左右完全断奶",
+      "D. 满2周岁才开始"
+    ],
+    "correct_answer": "C",
+    "explanation": "幼崽在1-1.5岁时逐渐减少哺乳，但仍依赖母兽教导觅食技巧。",
+    "difficulty": 4
+  },
+  {
+    "animal": "大熊猫",
+    "question": "下列哪项是导致大熊猫繁殖成功率低的主要原因？",
+    "options": [
+      "A. 雌性发情期仅2-3天",
+      "B. 竹子营养缺乏",
+      "C. 圈养环境限制",
+      "D. 幼崽存活率100%"
+    ],
+    "correct_answer": "A",
+    "explanation": "雌性大熊猫每年仅有短暂的发情期（通常不足72小时），人工授精需精确把握时机。",
+    "difficulty": 6
+  },
+  {
+    "animal": "大熊猫",
+    "question": "关于大熊猫进化史，以下哪项描述正确？",
+    "options": [
+      "A. 最近1万年才转向植食",
+      "B. 基因组显示有特殊竹子消化酶",
+      "C. 系统分类曾长期与浣熊同科",
+      "D. 20世纪前未发现野生种群"
+    ],
+    "correct_answer": "A",
+    "explanation": "化石证据表明，大熊猫约5-7百万年前开始完全植食化。",
+    "difficulty": 8
+  },
+  {
+    "animal": "大熊猫",
+    "question": "大熊猫昼夜活动模式主要集中在？",
+    "options": [
+      "A. 全天活跃",
+      "B. 黎明与黄昏",
+      "C. 深夜至凌晨",
+      "D. 正午阳光充足时"
+    ],
+    "correct_answer": "B",
+    "explanation": "大熊猫多在清晨和傍晚觅食，白天多在树洞或岩穴休息。",
+    "difficulty": 1
+  },
+  {
+    "animal": "大熊猫",
+    "question": "以下哪项措施最直接促进野生大熊猫种群恢复？",
+    "options": [
+      "A. 禁止伐木政策",
+      "B. 跨保护区走廊建设",
+      "C. 国际收养计划",
+      "D. 人工授精技术"
+    ],
+    "correct_answer": "B",
+    "explanation": "栖息地碎片化是主要威胁，生态廊道连接孤立种群效果显著。",
+    "difficulty": 7
+  },
+  {
+    "animal": "大熊猫",
+    "question": "大熊猫每天平均睡眠时间大约是多久？",
+    "options": [
+      "A. 2-4小时",
+      "B. 8-10小时",
+      "C. 超过16小时",
+      "D. 几乎不睡觉"
+    ],
+    "correct_answer": "B",
+    "explanation": "大熊猫进食后需要长时间休息，每日睡眠约10-12小时。",
+    "difficulty": 1
+  },
+  {
+    "animal": "大熊猫",
+    "question": "大熊猫的粪便通常呈现什么形状？",
+    "options": [
+      "A. 小球状",
+      "B. 条形长条",
+      "C. 竹节状碎片",
+      "D. 泥浆样"
+    ],
+    "correct_answer": "C",
+    "explanation": "因消化效率低，粪便保留竹子原始形态，呈短而尖的竹节形状。",
+    "difficulty": 3
+  },
+  {
+    "animal": "大熊猫",
+    "question": "大熊猫妊娠期加上延迟着床后的总时间约为多少？",
+    "options": [
+      "A. 1-2个月",
+      "B. 5个月左右",
+      "C. 9-10个月",
+      "D. 约一年"
+    ],
+    "correct_answer": "B",
+    "explanation": "大熊猫的妊娠期因延迟着床约需4-6个月，实际受孕后总时长约5个月。",
+    "difficulty": 6
+  },
+  {
+    "animal": "大熊猫",
+    "question": "当熊猫幼崽为双胞胎时，母亲通常会照顾几只？",
+    "options": [
+      "A. 两只",
+      "B. 只选一只",
+      "C. 轮流哺育",
+      "D. 父亲帮助"
+    ],
+    "correct_answer": "B",
+    "explanation": "熊猫妈妈因体型限制无法同时抚养双胞胎，通常选择较强壮的一只。",
+    "difficulty": 7
+  },
+  {
+    "animal": "大熊猫",
+    "question": "大熊猫的'拇指'实际上是：",
+    "options": [
+      "A. 第一指",
+      "B. 延伸的腕骨",
+      "C. 退化的爪子",
+      "D. 特殊肌肉结构"
+    ],
+    "correct_answer": "B",
+    "explanation": "熊猫通过特化腕骨形成伪拇指，帮助抓握竹竿。",
+    "difficulty": 8
+  },
+  {
+    "animal": "大熊猫",
+    "question": "中国目前存在几个主要的大熊猫地理亚种？",
+    "options": [
+      "A. 1",
+      "B. 2（如秦岭、四川）",
+      "C. 3",
+      "D. 按保护区划分"
+    ],
+    "correct_answer": "B",
+    "explanation": "现存两大主要亚种为四川亚种和秦岭亚种，形态与基因存在差异。",
+    "difficulty": 4
+  },
+  {
+    "animal": "大熊猫",
+    "question": "下列哪项不是大熊猫保护的主要挑战？",
+    "options": [
+      "A. 栖息地碎片化",
+      "B. 繁殖成功率低",
+      "C. 气候变化影响竹林",
+      "D. 天然天敌数量多"
+    ],
+    "correct_answer": "D",
+    "explanation": "大熊猫目前无主要自然天敌，幼崽威胁来自环境而非捕食者。",
+    "difficulty": 3
+  },
+  {
+    "animal": "大熊猫",
+    "question": "化石证据表明，大熊猫完全转向以竹子为主食的时间大约是：",
+    "options": [
+      "A. 1万年前",
+      "B. 500万年前",
+      "C. 7百万年前",
+      "D. 新石器时代"
+    ],
+    "correct_answer": "C",
+    "explanation": "约7百万年前，大熊猫祖先因环境变化从肉食转向植食。",
+    "difficulty": 8
+  }
+]

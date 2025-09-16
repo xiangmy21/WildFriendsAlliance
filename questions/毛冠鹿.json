@@ -1,0 +1,418 @@
+[
+  {
+    "animal": "毛冠鹿",
+    "question": "毛冠鹿主要分布在中国哪个地区？",
+    "options": [
+      "A. 西北干旱区",
+      "B. 华南及东南丘陵",
+      "C. 青藏高原",
+      "D. 东北森林带"
+    ],
+    "correct_answer": "B",
+    "explanation": "毛冠鹿栖息于中国华南、华东的低山丘陵和亚热带林区。",
+    "difficulty": 2
+  },
+  {
+    "animal": "毛冠鹿",
+    "question": "成年毛冠鹿的平均体重范围是？",
+    "options": [
+      "A. 5-10公斤",
+      "B. 15-30公斤",
+      "C. 40-60公斤",
+      "D. 超过80公斤"
+    ],
+    "correct_answer": "B",
+    "explanation": "毛冠鹿体型较小，成年个体体重通常在15-30公斤之间。",
+    "difficulty": 4
+  },
+  {
+    "animal": "毛冠鹿",
+    "question": "毛冠鹿的栖息地特征是？",
+    "options": [
+      "A. 密林与灌丛交界处",
+      "B. 开阔草原",
+      "C. 高海拔雪线附近",
+      "D. 河流沼泽地带"
+    ],
+    "correct_answer": "A",
+    "explanation": "它们偏好在森林边缘和灌木丛生的区域活动，利用地形躲避天敌。",
+    "difficulty": 3
+  },
+  {
+    "animal": "毛冠鹿",
+    "question": "毛冠鹿的主要食物来源是什么？",
+    "options": [
+      "A. 昆虫与小型爬行动物",
+      "B. 腐肉和果实",
+      "C. 植物嫩枝、树叶及地衣",
+      "D. 鱼类和水生植物"
+    ],
+    "correct_answer": "C",
+    "explanation": "作为植食性动物，它们以林下植被为主食。",
+    "difficulty": 1
+  },
+  {
+    "animal": "毛冠鹿",
+    "question": "毛冠鹿的繁殖季节通常在？",
+    "options": [
+      "A. 春季（3-5月）",
+      "B. 秋冬季（9-11月）",
+      "C. 全年均可繁殖",
+      "D. 夏季雨季"
+    ],
+    "correct_answer": "B",
+    "explanation": "其发情期集中在秋末冬初，受温度与光照周期影响。",
+    "difficulty": 6
+  },
+  {
+    "animal": "毛冠鹿",
+    "question": "下列哪种动物是毛冠鹿的天然捕食者？",
+    "options": [
+      "A. 猎豹",
+      "B. 金雕",
+      "C. 虎和云豹",
+      "D. 狐獴"
+    ],
+    "correct_answer": "C",
+    "explanation": "大型猫科动物如云豹和老虎是其主要天敌。",
+    "difficulty": 5
+  },
+  {
+    "animal": "毛冠鹿",
+    "question": "毛冠鹿的角分叉特征表现为？",
+    "options": [
+      "A. 单支直角",
+      "B. 双分支且末端分叉多",
+      "C. 如鹿角珊瑚状复杂分枝",
+      "D. 无角"
+    ],
+    "correct_answer": "B",
+    "explanation": "雄性毛冠鹿的角基部较粗，向后上方延伸并分为两个主要分支。",
+    "difficulty": 7
+  },
+  {
+    "animal": "毛冠鹿",
+    "question": "毛冠鹿应对危险时的主要行为是？",
+    "options": [
+      "A. 高声鸣叫示警",
+      "B. 直立行走观察环境",
+      "C. 躲藏并保持静止",
+      "D. 快速奔跑并跳跃"
+    ],
+    "correct_answer": "C",
+    "explanation": "它们依赖隐蔽而非主动攻击或长距离奔逃来躲避威胁。",
+    "difficulty": 8
+  },
+  {
+    "animal": "毛冠鹿",
+    "question": "毛冠鹿的社会行为特征是？",
+    "options": [
+      "A. 群体数量超过20头的固定社群",
+      "B. 母子群与雄性独居相结合",
+      "C. 形成由雄鹿领导的家族群体",
+      "D. 全年完全独居生活"
+    ],
+    "correct_answer": "B",
+    "explanation": "毛冠鹿通常雌性和幼崽组成小家庭单元，成年雄鹿多单独活动。",
+    "difficulty": 3
+  },
+  {
+    "animal": "毛冠鹿",
+    "question": "毛冠鹿的活动高峰时段主要在？",
+    "options": [
+      "A. 午夜至凌晨4点",
+      "B. 黎明与黄昏时段",
+      "C. 正午阳光最强时",
+      "D. 随机无固定规律"
+    ],
+    "correct_answer": "B",
+    "explanation": "作为林栖动物，它们选择光线较暗的清晨和傍晚活动以降低被捕食风险。",
+    "difficulty": 4
+  },
+  {
+    "animal": "毛冠鹿",
+    "question": "新生毛冠鹿幼崽的体表特征是？",
+    "options": [
+      "A. 全身覆盖白色绒毛",
+      "B. 毛发呈深棕色无斑纹",
+      "C. 布满浅黄色斑点",
+      "D. 腰部有明显条纹"
+    ],
+    "correct_answer": "C",
+    "explanation": "幼鹿的斑点有助于在林下环境中进行伪装，类似其他鹿类幼崽特征。",
+    "difficulty": 2
+  },
+  {
+    "animal": "毛冠鹿",
+    "question": "毛冠鹿的蹄部结构有何特殊适应？",
+    "options": [
+      "A. 粗糙蹄底增强抓地力",
+      "B. 分叉状可分开的趾端",
+      "C. 宽扁如马蹄的形状",
+      "D. 后蹄有角质化肉垫"
+    ],
+    "correct_answer": "B",
+    "explanation": "分叉的蹄结构能更好地在岩石和陡坡上保持稳定。",
+    "difficulty": 7
+  },
+  {
+    "animal": "毛冠鹿",
+    "question": "根据IUCN红色名录，毛冠鹿当前被列为？",
+    "options": [
+      "A. 濒危(EN)",
+      "B. 易危(VU)",
+      "C. 近危(NT)",
+      "D. 无危(LC)"
+    ],
+    "correct_answer": "C",
+    "explanation": "其种群虽未到濒危程度，但栖息地碎片化导致被评估为近危。",
+    "difficulty": 8
+  },
+  {
+    "animal": "毛冠鹿",
+    "question": "毛冠鹿的警戒叫声特征是？",
+    "options": [
+      "A. 长声嘶鸣",
+      "B. 类似犬类的吠叫",
+      "C. 短促尖锐的哨音",
+      "D. 摆动树枝制造声响"
+    ],
+    "correct_answer": "C",
+    "explanation": "通过高频短促的叫声向同类传递危险信号。",
+    "difficulty": 5
+  },
+  {
+    "animal": "毛冠鹿",
+    "question": "关于毛冠鹿迁徙行为，正确的是？",
+    "options": [
+      "A. 每年进行长距离季节性迁移",
+      "B. 根据食物分布垂直迁移海拔",
+      "C. 固定在5平方公里范围内活动",
+      "D. 只有幼鹿会跟随群体迁徙"
+    ],
+    "correct_answer": "C",
+    "explanation": "它们通常局限于特定小区域，无长距离迁徙习性。",
+    "difficulty": 6
+  },
+  {
+    "animal": "毛冠鹿",
+    "question": "毛冠鹿在生态系统中的主要作用是？",
+    "options": [
+      "A. 控制森林昆虫数量",
+      "B. 种子扩散者",
+      "C. 土壤翻新促进者",
+      "D. 水质净化指示物种"
+    ],
+    "correct_answer": "B",
+    "explanation": "通过食用植物果实帮助传播种子，维持植被多样性。",
+    "difficulty": 9
+  },
+  {
+    "animal": "毛冠鹿",
+    "question": "毛冠鹿的平均寿命大约是多少岁？",
+    "options": [
+      "A. 5-8年",
+      "B. 10-12年",
+      "C. 15年以上",
+      "D. 不足3年"
+    ],
+    "correct_answer": "B",
+    "explanation": "毛冠鹿在自然环境下通常能活到10-12岁，人工饲养条件下可能更长。",
+    "difficulty": 4
+  },
+  {
+    "animal": "毛冠鹿",
+    "question": "毛冠鹿的换毛季节通常出现在哪个时期？",
+    "options": [
+      "A. 夏季高温期",
+      "B. 冬末春初",
+      "C. 秋季繁殖后",
+      "D. 全年持续换毛"
+    ],
+    "correct_answer": "B",
+    "explanation": "冬季厚毛在春季逐渐脱落，适应温度变化和活动需求。",
+    "difficulty": 3
+  },
+  {
+    "animal": "毛冠鹿",
+    "question": "关于毛冠鹿的视力特点，正确的是？",
+    "options": [
+      "A. 色盲但夜视能力强",
+      "B. 颜色视觉良好但怕强光",
+      "C. 仅能感知运动物体",
+      "D. 视力与人类相似"
+    ],
+    "correct_answer": "A",
+    "explanation": "毛冠鹿具有侧向眼球结构，夜视能力强且依赖移动物体探测威胁。",
+    "difficulty": 5
+  },
+  {
+    "animal": "毛冠鹿",
+    "question": "下列哪种植被类型不是毛冠鹿的典型栖息地？",
+    "options": [
+      "A. 竹林",
+      "B. 草甸草原",
+      "C. 常绿阔叶林",
+      "D. 次生灌丛"
+    ],
+    "correct_answer": "B",
+    "explanation": "草甸草原植被稀疏，缺乏隐蔽环境，不符合毛冠鹿的栖息需求。",
+    "difficulty": 6
+  },
+  {
+    "animal": "毛冠鹿",
+    "question": "毛冠鹿幼崽何时开始独立觅食？",
+    "options": [
+      "A. 出生后1周内",
+      "B. 2-3个月大时",
+      "C. 半岁左右",
+      "D. 断奶前完全依赖母乳"
+    ],
+    "correct_answer": "B",
+    "explanation": "幼崽在2-3月龄开始跟随母亲学习觅食，断奶后逐渐独立。",
+    "difficulty": 5
+  },
+  {
+    "animal": "毛冠鹿",
+    "question": "对毛冠鹿生存威胁最大的人为因素是什么？",
+    "options": [
+      "A. 气候变化导致的雪线上升",
+      "B. 过度放牧的竞争压力",
+      "C. 栖息地碎片化和盗猎",
+      "D. 旅游业的发展"
+    ],
+    "correct_answer": "C",
+    "explanation": "森林砍伐和偷猎直接破坏其栖息环境并导致种群数量下降。",
+    "difficulty": 7
+  },
+  {
+    "animal": "毛冠鹿",
+    "question": "毛冠鹿的听觉灵敏度如何？",
+    "options": [
+      "A. 对低频声波敏感",
+      "B. 听觉与人类相当",
+      "C. 特别擅长捕捉高频声音",
+      "D. 几乎没有听力能力"
+    ],
+    "correct_answer": "C",
+    "explanation": "毛冠鹿能精准定位高频警报叫声和掠食者脚步声。",
+    "difficulty": 4
+  },
+  {
+    "animal": "毛冠鹿",
+    "question": "繁殖期的毛冠鹿群体结构有何特征？",
+    "options": [
+      "A. 形成大规模聚群",
+      "B. 雄性会聚集争夺配偶",
+      "C. 母子群保持稳定结构",
+      "D. 全部个体转为独居"
+    ],
+    "correct_answer": "C",
+    "explanation": "繁殖期雄鹿仍独居，母鹿与幼崽维持原有小群体。",
+    "difficulty": 6
+  },
+  {
+    "animal": "毛冠鹿",
+    "question": "成年毛冠鹿的典型体长范围是多少？",
+    "options": [
+      "A.30-50厘米",
+      "B.70-90厘米",
+      "C.110-130厘米",
+      "D超过150厘米"
+    ],
+    "correct_answer": "B",
+    "explanation": "成年毛冠鹿体长约70-90厘米，属于中小型鹿类。",
+    "difficulty": 2
+  },
+  {
+    "animal": "毛冠鹿",
+    "question": "毛冠鹿如何主要补充水分？",
+    "options": [
+      "A每日到溪边饮水",
+      "B从所食植物中摄取",
+      "C依赖清晨露水",
+      "D需要人工水源"
+    ],
+    "correct_answer": "B",
+    "explanation": "它们通过食用高水分的植物（如嫩叶、果实）获取大部分所需水分。",
+    "difficulty": 3
+  },
+  {
+    "animal": "毛冠鹿",
+    "question": "繁殖季节，雄性毛冠鹿如何争夺配偶？",
+    "options": [
+      "A角斗",
+      "B展示鲜艳羽毛",
+      "C发出特定鸣叫",
+      "D提供食物"
+    ],
+    "correct_answer": "A",
+    "explanation": "雄鹿通过用角战斗来确立优势地位，进而获得交配权。",
+    "difficulty": 5
+  },
+  {
+    "animal": "毛冠鹿",
+    "question": "幼崽通常在出生后多久开始断奶？",
+    "options": [
+      "A1个月内",
+      "B2-3个月",
+      "C4-6个月",
+      "D超过6个月"
+    ],
+    "correct_answer": "B",
+    "explanation": "约2-3月龄时，幼崽逐渐从哺乳转向以植物为食。",
+    "difficulty": 4
+  },
+  {
+    "animal": "毛冠鹿",
+    "question": "以下哪项是当前保护毛冠鹿的最有效措施？",
+    "options": [
+      "A设立自然保护区",
+      "B禁止非法狩猎",
+      "C恢复森林植被",
+      "D以上皆是"
+    ],
+    "correct_answer": "D",
+    "explanation": "结合栖息地保护和打击盗猎能更全面地减少威胁。",
+    "difficulty": 7
+  },
+  {
+    "animal": "毛冠鹿",
+    "question": "毛冠鹿的尾巴在行为中主要起到什么作用？",
+    "options": [
+      "A平衡身体",
+      "B发出警报信号",
+      "C伪装",
+      "D无关紧要"
+    ],
+    "correct_answer": "B",
+    "explanation": "遇到危险时，它们会摆动尾部向同类传递警告信号。",
+    "difficulty": 4
+  },
+  {
+    "animal": "毛冠鹿",
+    "question": "幼崽何时开始独立生活？",
+    "options": [
+      "A断奶后立即离开",
+      "B跟随母亲数月后再独立",
+      "C1岁前完全依赖母体",
+      "D2年后才独立"
+    ],
+    "correct_answer": "B",
+    "explanation": "幼崽通常在6-8个月大时开始脱离母亲独自生活。",
+    "difficulty": 5
+  },
+  {
+    "animal": "毛冠鹿",
+    "question": "以下哪种食物类型不在毛冠鹿的食谱中？",
+    "options": [
+      "A嫩叶",
+      "B果实",
+      "C昆虫",
+      "D苔藓"
+    ],
+    "correct_answer": "C",
+    "explanation": "作为植食性动物，它们主要以植物为食，不主动捕食昆虫。",
+    "difficulty": 3
+  }
+]
