@@ -293,12 +293,17 @@ public class UnitController : MonoBehaviour
         if (damageTaken > 0)
         {
             var spriteRenderer = GetComponent<SpriteRenderer>();
+#if !UNITY_WEBGL || UNITY_EDITOR
             // 0.1秒内闪红，然后0.1秒内恢复
             // Yoyo(1) 表示播放一次然后倒放一次
             spriteRenderer.DOColor(Color.red, 0.1f).SetLoops(2, LoopType.Yoyo);
             // 让 transform 在 0.2 秒内，在 x 和 y 轴上抖动，强度为 0.1
             // 最后一个参数 vibrato (振动) 调高点，抖动频率会更高
             transform.DOShakePosition(duration: 0.2f, strength: 0.1f, vibrato: 20);
+#else
+            // WebGL平台使用简单的颜色变化
+            StartCoroutine(SimpleFlashEffect(spriteRenderer));
+#endif
 
             GainMP(unitData.mpGainOnHit);
 
@@ -398,4 +403,19 @@ public class UnitController : MonoBehaviour
             }
         }
     }
+
+#if UNITY_WEBGL && !UNITY_EDITOR
+    // WebGL平台的简单闪烁效果
+    private IEnumerator SimpleFlashEffect(SpriteRenderer spriteRenderer)
+    {
+        Color originalColor = spriteRenderer.color;
+        spriteRenderer.color = Color.red;
+        yield return new WaitForSeconds(0.1f);
+        spriteRenderer.color = originalColor;
+        yield return new WaitForSeconds(0.1f);
+        spriteRenderer.color = Color.red;
+        yield return new WaitForSeconds(0.1f);
+        spriteRenderer.color = originalColor;
+    }
+#endif
 }

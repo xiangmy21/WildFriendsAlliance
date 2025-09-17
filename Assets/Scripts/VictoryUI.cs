@@ -133,6 +133,6 @@ public class VictoryUI : MonoBehaviour
     public void ReturnToHomePage()
     {
         Debug.Log("[胜利UI] 返回主页");
-        SceneManager.LoadScene("Assets/Scenes/HomePage.unity");
+        SceneManager.LoadScene("HomePage");
     }
 }

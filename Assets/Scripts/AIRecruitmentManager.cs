@@ -2,6 +2,8 @@ using System.Collections.Generic;
 using System.IO;
 using UnityEngine;
 using System.Linq;
+using UnityEngine.Networking;
+using System.Collections;
 
 public class AIRecruitmentManager : MonoBehaviour
 {
@@ -66,7 +68,11 @@ public bool isQuizActive = false;
 
 void InitializeSystem()
     {
+#if UNITY_WEBGL && !UNITY_EDITOR
+        StartCoroutine(LoadAllQuestionsCoroutine());
+#else
         LoadAllQuestions();
+#endif
         InitializeFriendships();
 
         // 立即查找并保护TestCanvas
@@ -87,7 +93,7 @@ void InitializeSystem()
             DontDestroyOnLoad(quizCardPanel);
             Debug.Log("[初始化] Quiz面板设置为DontDestroyOnLoad");
         }
-        
+
         if (questionPanel != null)
         {
             DontDestroyOnLoad(questionPanel);
@@ -232,11 +238,52 @@ void InitializeSystem()
     }
 
 
+    // WebGL兼容的异步文件加载
+    IEnumerator LoadAllQuestionsCoroutine()
+    {
+        foreach (string animalName in Forest)
+        {
+            yield return StartCoroutine(LoadAnimalQuestionsCoroutine(animalName));
+        }
+    }
+
+    IEnumerator LoadAnimalQuestionsCoroutine(string animalName)
+    {
+        string filePath;
+
+        filePath = Path.Combine(Application.streamingAssetsPath, "questions", animalName + ".json");
+
+        UnityWebRequest request = UnityWebRequest.Get(filePath);
+        yield return request.SendWebRequest();
+
+        if (request.result == UnityWebRequest.Result.Success)
+        {
+            try
+            {
+                string jsonContent = request.downloadHandler.text;
+                List<QuestionData> questions = SimpleJsonParser.ParseQuestionFile(jsonContent);
+                animalQuestions[animalName] = questions;
+                Debug.Log($"加载了 {animalName} 的 {questions.Count} 道题目");
+            }
+            catch (System.Exception e)
+            {
+                Debug.LogError($"解析 {animalName} 问题文件失败: {e.Message}");
+            }
+        }
+        else
+        {
+            Debug.LogError($"加载 {animalName} 问题文件失败: {request.error}");
+            Debug.LogWarning($"文件路径: {filePath}");
+        }
+
+        request.Dispose();
+    }
+
     void LoadAllQuestions()
     {
         foreach (string animalName in Forest)
         {
-            string filePath = Path.Combine(Application.dataPath, "..", "questions", animalName + ".json");
+            string filePath = Path.Combine(Application.streamingAssetsPath, "questions", animalName + ".json");
 
             if (File.Exists(filePath))
             {

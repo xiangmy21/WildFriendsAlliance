@@ -7,14 +7,13 @@ public class ShopSlot : MonoBehaviour
     public Image animalIcon;
     public TextMeshProUGUI nameText;
     public TextMeshProUGUI costText;
-    private Button buyButton;
+    public Button buyButton;
 
     private UnitData currentUnitData; // 你的动物 ScriptableObject
 
     void Start()
     {
         // 绑定按钮点击事件
-        buyButton = GetComponent<Button>();
         buyButton.onClick.AddListener(OnBuyClicked);
     }
 

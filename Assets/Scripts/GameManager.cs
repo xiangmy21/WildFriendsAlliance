@@ -62,7 +62,7 @@ public class GameManager : MonoBehaviour
         }
         else
         {
-            Debug.LogError("WaveManager未找到！");
+            Debug.Log("WaveManager未找到！");
         }
     }
 
