@@ -105,4 +105,11 @@ public class DraggableUnitIcon : MonoBehaviour, IBeginDragHandler, IDragHandler,
         // 5. 销毁这个UI图标
         Destroy(gameObject);
     }
+
+    // 一个辅助方法，用于放回原位
+    public void ReturnToBench()
+    {
+        transform.SetParent(originalParent);
+        transform.localPosition = Vector3.zero;
+    }
 }
