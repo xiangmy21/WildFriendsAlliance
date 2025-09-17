@@ -12,16 +12,15 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 211d6dca66d757346b39e672e33fac4f, type: 3}
   m_Name: "\u6355\u517D\u5939Data"
   m_EditorClassIdentifier: 
-  unitName: 
+  unitName: "\u6355\u517D\u5939"
   unitPrefab: {fileID: 0}
   maxHP: 200
   maxMP: 100
   baseATK: 50
-  baseDEF: 30
-  baseRange: 1.3
+  baseDEF: 10
+  baseRange: 1.5
   baseMoveSpeed: 1
-  baseAttackFrequency: 0.4
-  baseAttackDelay: 0
+  baseAttackInterval: 1
   mpGainOnAttack: 0
   mpGainOnHit: 0
   skillLogic: {fileID: 0}

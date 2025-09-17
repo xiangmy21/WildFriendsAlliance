@@ -136,7 +136,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ee0d570d47df2d14996ef7bf74185d96, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 5
+  speed: 3
   arcCurve:
     serializedVersion: 2
     m_Curve:

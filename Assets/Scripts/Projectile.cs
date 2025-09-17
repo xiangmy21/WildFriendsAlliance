@@ -3,7 +3,8 @@ using UnityEngine;
 public class Projectile : MonoBehaviour
 {
     [Header("飞行设置")]
-    public float speed = 10f; // 飞行的基础速度
+    // public float speed = 10f; // <--- 删掉或注释掉这一行
+    public float travelDuration = 1.0f; // <--- 新增！设置松果飞完全程需要的固定时间（秒）
     public AnimationCurve arcCurve; // 【关键】在 Inspector 里编辑这个曲线，让它中间凸起，形成抛物线
 
     // --- 内部变量 ---
@@ -32,28 +33,21 @@ public class Projectile : MonoBehaviour
             return;
         }
 
-        // 2. 计算飞行
-        travelTime += Time.deltaTime * speed;
+        // 2. 【修改】累加“已用时间”
+        travelTime += Time.deltaTime;
 
-        // 3. 计算从“起点”到“目标”的直线插值
+        // 3. 【核心修改】计算飞行进度 (t)
+        // t 不再跟 speed 或 distance 挂钩
+        // t 现在就是“已用时间”占“总时长”的百分比
+        float t = travelTime / travelDuration;
+
+        // 4. 计算从“起点”到“目标”的直线插值
         Vector3 targetPosition = target.transform.position; // 实时追踪目标
-        float distance = Vector3.Distance(startPosition, targetPosition);
-
-        // 如果距离很近，直接命中 (防止除以零)
-        if (distance < 0.1f)
-        {
-            HitTarget();
-            return;
-        }
-
-        // 计算当前在直线上的位置 (t 是 0 到 1 的百分比)
-        float t = travelTime / distance;
         Vector3 currentPosOnLine = Vector3.Lerp(startPosition, targetPosition, t);
 
-        // 4. 【抛物线核心】
-        // 根据 AnimationCurve (我们设置的抛物线) 在 Y 轴上增加高度
-        float arcHeight = arcCurve.Evaluate(t); // Evaluate(t) 会返回曲线在 t (0-1) 位置的高度
-        currentPosOnLine.y += arcHeight; // 在直线上增加高度
+        // 5. 【抛物线核心】(这部分不变)
+        float arcHeight = arcCurve.Evaluate(t);
+        currentPosOnLine.y += arcHeight;
 
         transform.position = currentPosOnLine;
 

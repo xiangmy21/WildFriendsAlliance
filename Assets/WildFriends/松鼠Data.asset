@@ -12,17 +12,17 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 211d6dca66d757346b39e672e33fac4f, type: 3}
   m_Name: "\u677E\u9F20Data"
   m_EditorClassIdentifier: 
-  unitName: 
+  unitName: "\u677E\u9F20"
   unitPrefab: {fileID: 0}
-  maxHP: 0
-  maxMP: 0
-  baseATK: 0
-  baseDEF: 0
-  baseRange: 0
-  baseMoveSpeed: 0
-  baseAttackInterval: 0
+  maxHP: 200
+  maxMP: 100
+  baseATK: 30
+  baseDEF: 5
+  baseRange: 10
+  baseMoveSpeed: 1
+  baseAttackInterval: 2
   mpGainOnAttack: 0
   mpGainOnHit: 0
   skillLogic: {fileID: 0}
-  shopIcon: {fileID: 0}
-  cost: 0
+  shopIcon: {fileID: 21300000, guid: 1bd29aaf16e201a438e66602d736a945, type: 3}
+  cost: 1
