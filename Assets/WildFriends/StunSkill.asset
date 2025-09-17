@@ -12,6 +12,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8c64b8a3deab495438da0b15a54662a8, type: 3}
   m_Name: StunSkill
   m_EditorClassIdentifier: 
-  skillName: 
-  skillDescription: 
+  skillName: "\u5F39\u529B\u820C\u97AD"
+  skillDescription: "\u5BF9\u5B88\u62A4\u8303\u56F4\u5185\u6700\u8FD1\u7684\u4E00\u4E2A\u6C61\u67D3\u4F53\u9020\u6210`80`\u70B9\u51C0\u5316\u4F24\u5BB3\uFF0C\u5E76\u77ED\u6682\u7729\u6655`1.5`\u79D2\u3002"
   stunDuration: 1.5

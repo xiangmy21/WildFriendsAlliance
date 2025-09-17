@@ -12,15 +12,15 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 211d6dca66d757346b39e672e33fac4f, type: 3}
   m_Name: "\u9752\u86D9Data"
   m_EditorClassIdentifier: 
-  unitName: 
+  unitName: "\u9752\u86D9"
   unitPrefab: {fileID: 0}
-  maxHP: 0
-  maxMP: 0
-  baseATK: 0
-  baseDEF: 0
-  baseRange: 0
-  baseMoveSpeed: 0
-  baseAttackFrequency: 0
-  mpGainOnAttack: 0
-  mpGainOnHit: 0
-  skillLogic: {fileID: 0}
+  maxHP: 450
+  maxMP: 100
+  baseATK: 40
+  baseDEF: 10
+  baseRange: 3
+  baseMoveSpeed: 1
+  baseAttackFrequency: 3
+  mpGainOnAttack: 10
+  mpGainOnHit: 5
+  skillLogic: {fileID: 11400000, guid: db587b241ffc0c34c97ec4539df6a0f2, type: 2}

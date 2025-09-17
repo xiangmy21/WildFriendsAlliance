@@ -29,12 +29,16 @@ public class UnitController : MonoBehaviour
     private UnitController currentTarget;
     private float attackTimer;
 
+    // 动画控制器引用
+    private Animator animator;
+
     // 4. 初始化
     void Start()
     {
         // 从SO初始化属性
         InitializeFromData();
         currentState = UnitState.Idle;
+        animator = GetComponent<Animator>();
     }
 
     public void InitializeFromData()
@@ -64,6 +68,7 @@ public class UnitController : MonoBehaviour
         switch (currentState)
         {
             case UnitState.Idle:
+                animator.SetBool("isMoving", false); // 告诉 Animator 停止移动动画
                 FindNewTarget();
                 if (currentTarget != null)
                 {
@@ -72,6 +77,7 @@ public class UnitController : MonoBehaviour
                 break;
 
             case UnitState.Moving:
+                animator.SetBool("isMoving", true); // 告诉 Animator 播放移动动画
                 if (currentTarget == null || currentTarget.currentState == UnitState.Dead)
                 {
                     currentState = UnitState.Idle;
@@ -92,6 +98,7 @@ public class UnitController : MonoBehaviour
                 break;
 
             case UnitState.Attacking:
+                animator.SetBool("isMoving", false); // 攻击时通常不移动
                 if (currentTarget == null || currentTarget.currentState == UnitState.Dead)
                 {
                     currentState = UnitState.Idle;
@@ -121,19 +128,42 @@ public class UnitController : MonoBehaviour
 
     void FindNewTarget()
     {
-        // TODO: 在这里写你的索敌逻辑
-        // 1. Physics.OverlapSphere 找到所有Collider
-        // 2. 遍历并 GetComponent<UnitController>()
-        // 3. 找到 isEnemyTeam != this.isEnemyTeam 且最近的单位
-        // 4. 设置 currentTarget
+        // 在感知范围内寻找敌人，使用2D物理检测
+        float detectionRange = currentRange * 20f;
+        Collider2D[] colliders = Physics2D.OverlapCircleAll(transform.position, detectionRange);
+
+        UnitController closestEnemy = null;
+        float closestDistance = float.MaxValue;
+
+        foreach (Collider2D col in colliders)
+        {
+            UnitController otherUnit = col.GetComponent<UnitController>();
+            if (otherUnit != null &&
+                otherUnit != this &&
+                otherUnit.isEnemyTeam != this.isEnemyTeam &&
+                otherUnit.currentState != UnitState.Dead)
+            {
+                float distance = Vector2.Distance(transform.position, otherUnit.transform.position);
+                if (distance < closestDistance)
+                {
+                    closestDistance = distance;
+                    closestEnemy = otherUnit;
+                }
+            }
+        }
+
+        currentTarget = closestEnemy;
+        Debug.Log(currentTarget);
     }
 
     void MoveTowardsTarget()
     {
-        // TODO: 在这里写你的移动逻辑
-        // 1. transform.position = Vector3.MoveTowards(...)
-        // 2. 或者 agent.SetDestination(currentTarget.transform.position) (如果用NavMesh)
-        // 3. 始终朝向敌人 transform.LookAt(currentTarget.transform)
+        if (currentTarget == null) return;
+
+        Vector3 direction = (currentTarget.transform.position - transform.position).normalized;
+        float distanceToMove = currentMoveSpeed * Time.deltaTime;
+
+        transform.position += direction * distanceToMove;
     }
 
     bool IsTargetInRange()
@@ -171,6 +201,8 @@ public class UnitController : MonoBehaviour
     void PerformBasicAttack()
     {
         if (currentTarget == null) return;
+
+        animator.SetTrigger("doAttack"); // 触发攻击动画
 
         Debug.Log($"{name} 攻击了 {currentTarget.name}!");
         currentTarget.TakeDamage(currentATK);
