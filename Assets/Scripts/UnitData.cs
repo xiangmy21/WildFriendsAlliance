@@ -15,7 +15,7 @@ public class UnitData : ScriptableObject
     public int baseDEF;
     public float baseRange;       // 攻击范围
     public float baseMoveSpeed;
-    public float baseAttackFrequency; // 攻击频率 (例如: 1.2，代表每秒1.2次)
+    public float baseAttackInterval; // 攻击间隔
 
     [Header("MP & Skill")]
     public int mpGainOnAttack; // 攻击时获取的MP

@@ -1,0 +1,227 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!687078895 &4343727234628468602
+SpriteAtlas:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: squirrel
+  serializedVersion: 2
+  m_EditorData:
+    serializedVersion: 2
+    textureSettings:
+      serializedVersion: 2
+      anisoLevel: 1
+      compressionQuality: 50
+      maxTextureSize: 2048
+      textureCompression: 0
+      filterMode: 1
+      generateMipMaps: 0
+      readable: 0
+      crunchedCompression: 0
+      sRGB: 1
+    platformSettings: []
+    packingSettings:
+      serializedVersion: 2
+      padding: 4
+      blockOffset: 1
+      allowAlphaSplitting: 0
+      enableRotation: 1
+      enableTightPacking: 1
+      enableAlphaDilation: 0
+    secondaryTextureSettings: {}
+    variantMultiplier: 1
+    packables:
+    - {fileID: 102900000, guid: 602ed873b03e8404f8465165a202d5d2, type: 3}
+    - {fileID: 102900000, guid: ad37f1fa63545a94d84040d7ec10a797, type: 3}
+    bindAsDefault: 1
+    isAtlasV2: 0
+    cachedData: {fileID: 0}
+  m_MasterAtlas: {fileID: 0}
+  m_PackedSprites:
+  - {fileID: 21300000, guid: b5783c008e8ed184f9ba3fc879cbbe50, type: 3}
+  - {fileID: 21300000, guid: ee0257b02f42d5744abb9669774d1c1a, type: 3}
+  - {fileID: 21300000, guid: 413aa7d0cdc5d4540ada16cced00cd6e, type: 3}
+  - {fileID: 21300000, guid: 0e0245e0e9f2b0347b8855939b3648ea, type: 3}
+  - {fileID: 21300000, guid: 28258b0167ebdaf40a07a147b041628a, type: 3}
+  - {fileID: 21300000, guid: e6418111377fcb1449d3c53239a95e14, type: 3}
+  - {fileID: 21300000, guid: 45ecc351f8fca6b498e58a317d113af5, type: 3}
+  - {fileID: 21300000, guid: 71c205711f27127428f4b69702997182, type: 3}
+  - {fileID: 21300000, guid: 39d0b67111159554fa7bd1fc22c7016d, type: 3}
+  - {fileID: 21300000, guid: bc6b3f81ecba1a74198ded1fed89ac55, type: 3}
+  - {fileID: 21300000, guid: a33cc991e11959b4ab27c1a7e283340e, type: 3}
+  - {fileID: 21300000, guid: 915915e105e93ef449b5fd4f1d12e270, type: 3}
+  - {fileID: 21300000, guid: c8b39d02f1a2fe840a3964f9ba08ade3, type: 3}
+  - {fileID: 21300000, guid: 29d4945233e6e2f44ba169eb90a7beb1, type: 3}
+  - {fileID: 21300000, guid: a4e54f92dea31ba42a48562e0537f824, type: 3}
+  - {fileID: 21300000, guid: b8acdfb21cfb23b4a834f4941a675e95, type: 3}
+  - {fileID: 21300000, guid: 7d479f0331af7074d995ef325e2c0759, type: 3}
+  - {fileID: 21300000, guid: 61845723dc280c4478bbea6879872c01, type: 3}
+  - {fileID: 21300000, guid: 25aa74338f954cd4782423db07ef90bc, type: 3}
+  - {fileID: 21300000, guid: e02c69535d95083409ef3613678e8656, type: 3}
+  - {fileID: 21300000, guid: 242ee2a3281abc94e8166e6a6b27186d, type: 3}
+  - {fileID: 21300000, guid: e24e78a351d945046937a8718ebd9372, type: 3}
+  - {fileID: 21300000, guid: fca16fb34ac05a44da32077d6e7c0b30, type: 3}
+  - {fileID: 21300000, guid: 29dc02c35da09dc42a389329da41b44a, type: 3}
+  - {fileID: 21300000, guid: 354cf40465d7e9242ac32c4f627c89d4, type: 3}
+  - {fileID: 21300000, guid: e005f134624333144aff3fe610ae205f, type: 3}
+  - {fileID: 21300000, guid: 435d5e34a94a2ec489d35c1bdb534848, type: 3}
+  - {fileID: 21300000, guid: 201b26c485c577e4090e8834c7d4a905, type: 3}
+  - {fileID: 21300000, guid: 352c8bd4573020845897f252172c8563, type: 3}
+  - {fileID: 21300000, guid: fc2143e4c0dfef84db07de9ff35ab84d, type: 3}
+  - {fileID: 21300000, guid: df874ee440262df49a3283d195557b7d, type: 3}
+  - {fileID: 21300000, guid: e489bd15cf94f9f41a123534ec9de1ee, type: 3}
+  - {fileID: 21300000, guid: dd5947659757c44429a384edeca38f4a, type: 3}
+  - {fileID: 21300000, guid: 446bbdc5d4616f8458a9c30ee700cf81, type: 3}
+  - {fileID: 21300000, guid: 8a5e71e5491f2f445a3ce6bc52953d09, type: 3}
+  - {fileID: 21300000, guid: c355e5f548e994541b522b33fb5c154c, type: 3}
+  - {fileID: 21300000, guid: 8d0921165c1f7f341a67e7cef3dbf338, type: 3}
+  - {fileID: 21300000, guid: 1a4339461bb463a44824562105d18360, type: 3}
+  - {fileID: 21300000, guid: eec991a6cb2176c488cade330d6a92d9, type: 3}
+  - {fileID: 21300000, guid: 7a14e817537eda84ba7749bb1b5d9bfa, type: 3}
+  - {fileID: 21300000, guid: f5ace2276346a6c44b6bd9afd8435c92, type: 3}
+  - {fileID: 21300000, guid: 0a5b3367d6ce2754587b136dc7199c97, type: 3}
+  - {fileID: 21300000, guid: 54dc466783304e0448bc572e9e8fe246, type: 3}
+  - {fileID: 21300000, guid: e57e46871a532b842947cf246e29c4aa, type: 3}
+  - {fileID: 21300000, guid: 0cbac3c72c2cbef49aef6542209e987d, type: 3}
+  - {fileID: 21300000, guid: 761171786a45d114f86aab476ffac27c, type: 3}
+  - {fileID: 21300000, guid: d1bcc97895ed179438493f7c43f2517c, type: 3}
+  - {fileID: 21300000, guid: ff13adc8b7cbd3248a0b59806878035f, type: 3}
+  - {fileID: 21300000, guid: 2f5390d88c270cd4ebb445030d54dc80, type: 3}
+  - {fileID: 21300000, guid: 399928d831f982b41844b64039a59f85, type: 3}
+  - {fileID: 21300000, guid: fc449509a6a10524aaf2aeccbae45e50, type: 3}
+  - {fileID: 21300000, guid: 9ec43129b41d5f14282d0663704c742b, type: 3}
+  - {fileID: 21300000, guid: d87fa259c041d1444a7f261a0c24b4c1, type: 3}
+  - {fileID: 21300000, guid: 273dfd597dad2ec4b8d795221e7a61bf, type: 3}
+  - {fileID: 21300000, guid: c39939b9c79fb8f4e9932fb48a419074, type: 3}
+  - {fileID: 21300000, guid: 133fa5c9fc370444380deb3e58aedee1, type: 3}
+  - {fileID: 21300000, guid: 5771cb1ab8b08c74b81466d77e3059f1, type: 3}
+  - {fileID: 21300000, guid: 118c6e1a8098a4f4a84752de71b43c1a, type: 3}
+  - {fileID: 21300000, guid: 7bb31a5a305bfc14d86fd09fa40cba1a, type: 3}
+  - {fileID: 21300000, guid: bc83937a5df65fe4c9592cd4653b9b87, type: 3}
+  - {fileID: 21300000, guid: b82c7d7ab402c744b91181dc058d8b47, type: 3}
+  - {fileID: 21300000, guid: b33f06aa8c180ed46ae560d5526a3afe, type: 3}
+  - {fileID: 21300000, guid: 050eb6eae2e8fef47bbeb1e0f67fe903, type: 3}
+  - {fileID: 21300000, guid: ac4f923be0fde2449999b1914ad3bee2, type: 3}
+  - {fileID: 21300000, guid: 1146036be371576469f8caa929ae073f, type: 3}
+  - {fileID: 21300000, guid: 74e4c1abe86050d40bf73a418f93cfc8, type: 3}
+  - {fileID: 21300000, guid: 66e589bbc24738d46959c471f40e35c0, type: 3}
+  - {fileID: 21300000, guid: 86e4cdcbcb0e4104794eee22d44efdf4, type: 3}
+  - {fileID: 21300000, guid: 7b07681c395aa6c4d9f2381aa02b6cda, type: 3}
+  - {fileID: 21300000, guid: 79c4f82cacdb71246a13b528171cada9, type: 3}
+  - {fileID: 21300000, guid: 04146f5caf5ce4d4fb7f33d723409e18, type: 3}
+  - {fileID: 21300000, guid: 8c9d487cf2409384297950c2e5190a69, type: 3}
+  - {fileID: 21300000, guid: 24da16dc8897f564dab5c7521949d31f, type: 3}
+  - {fileID: 21300000, guid: 0d36ba2da84a2d24fa1d8dfa03b329cb, type: 3}
+  - {fileID: 21300000, guid: ac22bb3d733d1ef43b2e9d9aefbb758d, type: 3}
+  - {fileID: 21300000, guid: 9360554d0511a20428c638dd9af9d2c9, type: 3}
+  - {fileID: 21300000, guid: 0987fdadb55c9c946a36b87000200e31, type: 3}
+  - {fileID: 21300000, guid: acc562cd465dcce4aaffcf97510c501a, type: 3}
+  - {fileID: 21300000, guid: 2487d1ed58014284e909ab171b774c27, type: 3}
+  - {fileID: 21300000, guid: a012dd3e6a18b1d43958c695ca3240c2, type: 3}
+  - {fileID: 21300000, guid: bceeef5eceaaae54b98580db6775bc6d, type: 3}
+  - {fileID: 21300000, guid: 3edf798e19460164f83789a12a628fde, type: 3}
+  - {fileID: 21300000, guid: ae3f1f9e0c9f8ed41bef606e43751d57, type: 3}
+  - {fileID: 21300000, guid: cdeb55ce72941364290c1abb6dfa9bce, type: 3}
+  - {fileID: 21300000, guid: e48e30ee3d2d76540828724805491990, type: 3}
+  - {fileID: 21300000, guid: 432d4d2f4120c2945a66b76b4f3428b6, type: 3}
+  - {fileID: 21300000, guid: d517b85fa1ff64245b984d6cb30eae31, type: 3}
+  - {fileID: 21300000, guid: f3bb66af86f0b7c4c8996957eb9e21f0, type: 3}
+  - {fileID: 21300000, guid: 1bd29aaf16e201a438e66602d736a945, type: 3}
+  - {fileID: 21300000, guid: ca5f44df3a3b7d349b42932dc6147997, type: 3}
+  m_PackedSpriteNamesToIndex:
+  - squirrel_walk_00007_
+  - squirrel_static_00004_
+  - squirrel_walk_00032_
+  - squirrel_walk_00013_
+  - squirrel_static_00007_
+  - squirrel_static_00043_
+  - squirrel_static_00017_
+  - squirrel_walk_00040_
+  - squirrel_walk_00043_
+  - squirrel_static_00044_
+  - squirrel_walk_00018_
+  - squirrel_static_00023_
+  - squirrel_walk_00033_
+  - squirrel_walk_00006_
+  - squirrel_walk_00021_
+  - squirrel_static_00041_
+  - squirrel_walk_00044_
+  - squirrel_static_00027_
+  - squirrel_static_00020_
+  - squirrel_static_00008_
+  - squirrel_walk_00027_
+  - squirrel_walk_00037_
+  - squirrel_walk_00010_
+  - squirrel_walk_00041_
+  - squirrel_static_00005_
+  - squirrel_walk_00012_
+  - squirrel_static_00011_
+  - squirrel_walk_00025_
+  - squirrel_walk_00019_
+  - squirrel_walk_00004_
+  - squirrel_static_00006_
+  - squirrel_static_00009_
+  - squirrel_static_00010_
+  - squirrel_static_00012_
+  - squirrel_walk_00011_
+  - squirrel_walk_00039_
+  - squirrel_static_00034_
+  - squirrel_static_00037_
+  - squirrel_static_00018_
+  - squirrel_walk_00034_
+  - squirrel_static_00014_
+  - squirrel_walk_00038_
+  - squirrel_static_00024_
+  - squirrel_walk_00023_
+  - squirrel_static_00045_
+  - squirrel_walk_00017_
+  - squirrel_static_00031_
+  - squirrel_static_00016_
+  - squirrel_static_00021_
+  - squirrel_static_00030_
+  - squirrel_static_00003_
+  - squirrel_walk_00014_
+  - squirrel_walk_00002_
+  - squirrel_static_00002_
+  - squirrel_static_00013_
+  - squirrel_static_00042_
+  - squirrel_static_00038_
+  - squirrel_static_00025_
+  - squirrel_walk_00001_
+  - squirrel_walk_00035_
+  - squirrel_static_00036_
+  - squirrel_walk_00016_
+  - squirrel_static_00029_
+  - squirrel_walk_00020_
+  - squirrel_walk_00026_
+  - squirrel_walk_00005_
+  - squirrel_walk_00028_
+  - squirrel_static_00015_
+  - squirrel_static_00039_
+  - squirrel_static_00028_
+  - squirrel_walk_00015_
+  - squirrel_walk_00031_
+  - squirrel_walk_00003_
+  - squirrel_walk_00029_
+  - squirrel_walk_00036_
+  - squirrel_static_00019_
+  - squirrel_static_00032_
+  - squirrel_static_00026_
+  - squirrel_static_00040_
+  - squirrel_walk_00009_
+  - squirrel_static_00022_
+  - squirrel_static_00035_
+  - squirrel_walk_00024_
+  - squirrel_walk_00022_
+  - squirrel_walk_00042_
+  - squirrel_walk_00008_
+  - squirrel_static_00033_
+  - squirrel_walk_00045_
+  - squirrel_static_00001_
+  - squirrel_walk_00030_
+  m_RenderDataMap: {}
+  m_Tag: squirrel
+  m_IsVariant: 0
+  m_IsPlaceholder: 0

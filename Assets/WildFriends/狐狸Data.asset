@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: "\u72D0\u72F8Data"
   m_EditorClassIdentifier: 
   unitName: "\u8D64\u72D0"
-  unitPrefab: {fileID: 0}
+  unitPrefab: {fileID: 3222916405331805764, guid: ad180275388ee3d41a2fb44c46488fa7, type: 3}
   maxHP: 300
   maxMP: 100
   baseATK: 20
@@ -24,3 +24,5 @@ MonoBehaviour:
   mpGainOnAttack: 10
   mpGainOnHit: 5
   skillLogic: {fileID: 0}
+  shopIcon: {fileID: 21300000, guid: 6aebc9223e3bc9a419ca9d394681c07e, type: 3}
+  cost: 1

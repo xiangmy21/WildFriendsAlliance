@@ -23,7 +23,15 @@ public class UnitController : MonoBehaviour
     private int currentDEF;
     private float currentRange;
     private float currentMoveSpeed;
-    private float currentAttackFrequency;
+    private float currentAttackInterval;
+    private bool isAttackOnCooldown; // 用于控制攻击冷却
+
+    [Header("远程攻击 (Projectile)")]
+    // 1. 把你的 "Pinecone_Prefab" 拖到这里
+    public GameObject projectilePrefab;
+    // 2. (重要) 创建一个空物体作为松鼠的“手”或“发射点”
+    //    把它作为松鼠 Prefab 的子物体，并拖到这里
+    public Transform projectileSpawnPoint;
 
     // 3. 状态管理
     private enum UnitState { Idle, Seeking, Moving, Attacking, Stunned, Dead }
@@ -54,7 +62,7 @@ public class UnitController : MonoBehaviour
         currentDEF = unitData.baseDEF;
         currentRange = unitData.baseRange;
         currentMoveSpeed = unitData.baseMoveSpeed;
-        currentAttackFrequency = unitData.baseAttackFrequency;
+        currentAttackInterval = unitData.baseAttackInterval;
 
         // TODO: 更新血条和蓝条UI
     }
@@ -91,7 +99,7 @@ public class UnitController : MonoBehaviour
                 {
                     // 停止移动
                     currentState = UnitState.Attacking;
-                    attackTimer = 0f; // 切换到攻击时立刻准备
+                    attackTimer = currentAttackInterval; // 切换到攻击时立刻准备
                 }
                 else
                 {
@@ -114,17 +122,22 @@ public class UnitController : MonoBehaviour
                     break;
                 }
 
-                // 攻击计时
-                attackTimer += Time.deltaTime;
-                float attackCooldown = 1.0f / currentAttackFrequency;
-
-                if (attackTimer >= attackCooldown)
+                if (isAttackOnCooldown)
                 {
-                    attackTimer -= attackCooldown; // 减去冷却，而不是归零，防止攻速溢出
-                    ExecuteAttackOrSkill();
+                    return;
                 }
+                isAttackOnCooldown = true;
+                ExecuteAttackOrSkill();
+                StartCoroutine(AttackCooldownRoutine(currentAttackInterval));
                 break;
         }
+    }
+
+    // 这个协程现在只负责“计时”，不负责伤害
+    IEnumerator AttackCooldownRoutine(float duration)
+    {
+        yield return new WaitForSeconds(duration);
+        isAttackOnCooldown = false; // 冷却结束，允许下一次攻击
     }
 
     // 6. 核心行为
@@ -156,7 +169,6 @@ public class UnitController : MonoBehaviour
         }
 
         currentTarget = closestEnemy;
-        Debug.Log(currentTarget);
     }
 
     void MoveTowardsTarget()
@@ -203,17 +215,54 @@ public class UnitController : MonoBehaviour
 
     void PerformBasicAttack()
     {
-        if (currentTarget == null) return;
-
         animator.SetTrigger("doAttack"); // 触发攻击动画
+    }
 
-        //transform.DOShakePosition(duration: 0.6f, strength: 1f, vibrato: 3);
+    public void OnAttackHit() // 动画播放至伤害触发
+    {
+        if (currentTarget != null && currentState == UnitState.Attacking)
+        {
+            Debug.Log($"{name} 攻击了 {currentTarget.name}!");
+            currentTarget.TakeDamage(currentATK);
+            // 攻击加蓝
+            GainMP(unitData.mpGainOnAttack);
+        }
+    }
 
-        Debug.Log($"{name} 攻击了 {currentTarget.name}!");
-        currentTarget.TakeDamage(currentATK);
+    /// <summary>
+    /// 动画事件：在动画的“发射帧”调用
+    /// </summary>
+    public void OnLaunchProjectile()
+    {
+        // 目标在发射瞬间丢失，就不发射
+        if (currentTarget == null)
+        {
+            return;
+        }
 
-        // 攻击加蓝
-        GainMP(unitData.mpGainOnAttack);
+        // 检查 Prefab 是否设置
+        if (projectilePrefab == null || projectileSpawnPoint == null)
+        {
+            Debug.LogError($"{name} 想要发射抛射物, 但 prefab 或 spawnPoint 未设置！");
+            return;
+        }
+
+        // 1. 在“发射点”生成“松果”
+        GameObject projGO = Instantiate(projectilePrefab, projectileSpawnPoint.position, Quaternion.identity);
+
+        // 2. 获取松果的 Projectile 脚本
+        Projectile projectileScript = projGO.GetComponent<Projectile>();
+
+        // 3. “发射！” - 把目标和伤害告诉松果
+        if (projectileScript != null)
+        {
+            projectileScript.Fire(currentTarget, currentATK);
+            GainMP(unitData.mpGainOnAttack);
+        }
+        else
+        {
+            Debug.LogError("抛射物 Prefab 上没有找到 Projectile.cs 脚本！");
+        }
     }
 
     // 7. 公共API (给其他人调用)
