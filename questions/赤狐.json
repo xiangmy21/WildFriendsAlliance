@@ -1,0 +1,522 @@
+[
+  {
+    "animal": "赤狐",
+    "question": "赤狐属于哪个科？",
+    "options": [
+      "A. 猫科",
+      "B. 鼬科",
+      "C. 犬科",
+      "D. 啮齿目"
+    ],
+    "correct_answer": "C",
+    "explanation": "赤狐是犬科动物，与狼、狗等同属一科。",
+    "difficulty": 2
+  },
+  {
+    "animal": "赤狐",
+    "question": "下列颜色中通常不属于赤狐毛发的是？",
+    "options": [
+      "A. 红褐色",
+      "B. 白色（北极变种）",
+      "C. 黑银相间",
+      "D. 斑马条纹"
+    ],
+    "correct_answer": "D",
+    "explanation": "赤狐的毛色多为红褐、灰色或黑色，北极地区有白化个体，但没有斑马条纹。",
+    "difficulty": 5
+  },
+  {
+    "animal": "赤狐",
+    "question": "以下哪个地方不是赤狐的典型栖息地？",
+    "options": [
+      "A. 森林边缘",
+      "B. 北极苔原（亚种）",
+      "C. 热带雨林核心地带",
+      "D. 人类居住区附近"
+    ],
+    "correct_answer": "C",
+    "explanation": "赤狐适应性强，但热带雨林深处因环境复杂不常见。",
+    "difficulty": 4
+  },
+  {
+    "animal": "赤狐",
+    "question": "赤狐在北美地区的繁殖季节通常开始于哪个月份？",
+    "options": [
+      "A. 1月",
+      "B. 2月",
+      "C. 5月",
+      "D. 7月"
+    ],
+    "correct_answer": "B",
+    "explanation": "赤狐多在冬季末至早春交配，北美地区常见于2月份。",
+    "difficulty": 4
+  },
+  {
+    "animal": "赤狐",
+    "question": "赤狐蓬松的尾巴（尾帚）主要功能是什么？",
+    "options": [
+      "A. 储存脂肪",
+      "B. 平衡身体",
+      "C. 吸引配偶",
+      "D. 挖掘工具"
+    ],
+    "correct_answer": "B",
+    "explanation": "尾巴帮助赤狐在跳跃和快速转向时保持平衡。",
+    "difficulty": 3
+  },
+  {
+    "animal": "赤狐",
+    "question": "以下哪种行为与赤狐的习性不符？",
+    "options": [
+      "A. 夜间活动",
+      "B. 群体狩猎",
+      "C. 独居生活",
+      "D. 储藏食物"
+    ],
+    "correct_answer": "B",
+    "explanation": "赤狐通常独居，以个体或家庭单位活动，不群体狩猎。",
+    "difficulty": 4
+  },
+  {
+    "animal": "赤狐",
+    "question": "赤狐的亚种数量大约有多少？",
+    "options": [
+      "A. 少于10个",
+      "B. 约25个",
+      "C. 超过30个",
+      "D. 接近45个"
+    ],
+    "correct_answer": "D",
+    "explanation": "赤狐有约45个已确认的亚种，适应不同环境。",
+    "difficulty": 7
+  },
+  {
+    "animal": "赤狐",
+    "question": "野生赤狐的平均寿命约为多少年？",
+    "options": [
+      "A. 1-2年",
+      "B. 3-4年",
+      "C. 6-8年",
+      "D. 10年以上"
+    ],
+    "correct_answer": "B",
+    "explanation": "因天敌和环境压力，野生赤狐通常活3-4年，圈养可达10年以上。",
+    "difficulty": 2
+  },
+  {
+    "animal": "赤狐",
+    "question": "赤狐的主要食性属于哪一类？",
+    "options": [
+      "A. 肉食性",
+      "B. 杂食性",
+      "C. 草食性",
+      "D. 独特食肉（仅吃特定猎物）"
+    ],
+    "correct_answer": "B",
+    "explanation": "赤狐是机会主义者，食物包括小型动物、果实和昆虫。",
+    "difficulty": 2
+  },
+  {
+    "animal": "赤狐",
+    "question": "赤狐的爪子具有以下哪种特性？",
+    "options": [
+      "A. 可完全回缩（如猫科）",
+      "B. 半回缩结构",
+      "C. 完全外露且不可弯曲",
+      "D. 特化成蹼状"
+    ],
+    "correct_answer": "C",
+    "explanation": "犬科动物的爪子不能回缩，赤狐的爪子保持外露用于奔跑和挖掘。",
+    "difficulty": 3
+  },
+  {
+    "animal": "赤狐",
+    "question": "以下哪个大洲没有原生赤狐分布？",
+    "options": [
+      "A. 北美洲",
+      "B. 南极洲",
+      "C. 非洲北部",
+      "D. 澳大利亚"
+    ],
+    "correct_answer": "B",
+    "explanation": "南极洲无赤狐原生种群，其他地区均有分布或被引入。",
+    "difficulty": 4
+  },
+  {
+    "animal": "赤狐",
+    "question": "赤狐幼崽的主要天敌不包括以下哪一项？",
+    "options": [
+      "A. 狼",
+      "B. 棕熊",
+      "C. 大型猛禽（如金雕）",
+      "D. 蜂鸟"
+    ],
+    "correct_answer": "D",
+    "explanation": "蜂鸟体型过小，无法威胁赤狐幼崽。",
+    "difficulty": 5
+  },
+  {
+    "animal": "赤狐",
+    "question": "一只雌性赤狐一胎通常能产多少只幼崽？",
+    "options": [
+      "A. 1-2只",
+      "B. 3-5只",
+      "C. 6-8只",
+      "D. 超过10只"
+    ],
+    "correct_answer": "B",
+    "explanation": "赤狐每胎平均产4-6只幼崽，具体数量受环境影响。",
+    "difficulty": 3
+  },
+  {
+    "animal": "赤狐",
+    "question": "赤狐的典型求偶行为包括以下哪项？",
+    "options": [
+      "A. 群体舞蹈",
+      "B. 尾巴竖直摇摆",
+      "C. 发出低频吼叫",
+      "D. 相互梳理毛发"
+    ],
+    "correct_answer": "B",
+    "explanation": "赤狐求偶时会通过尾巴的特定姿态和吠叫信号传递信息。",
+    "difficulty": 4
+  },
+  {
+    "animal": "赤狐",
+    "question": "赤狐在《世界自然保护联盟濒危物种红色名录》中的等级是？",
+    "options": [
+      "A. 濒危（EN）",
+      "B. 易危（VU）",
+      "C. 无危（LC）",
+      "D. 数据不足（DD）"
+    ],
+    "correct_answer": "C",
+    "explanation": "赤狐分布广泛且适应力强，未被列为濒危物种。",
+    "difficulty": 1
+  },
+  {
+    "animal": "赤狐",
+    "question": "赤狐的听觉敏锐度主要依赖于？",
+    "options": [
+      "A. 狭长耳朵转动能力",
+      "B. 地震波感知器官",
+      "C. 嘴部触须振动探测",
+      "D. 尾尖特殊细胞"
+    ],
+    "correct_answer": "A",
+    "explanation": "赤狐的直立大耳朵能精准定位地下的小型猎物。",
+    "difficulty": 6
+  },
+  {
+    "animal": "赤狐",
+    "question": "赤狐在捕猎时如何定位地下鼠类？",
+    "options": [
+      "A. 依靠嗅觉追踪",
+      "B. 利用耳朵感知振动",
+      "C. 通过热感应",
+      "D. 观察地表足迹"
+    ],
+    "correct_answer": "B",
+    "explanation": "赤狐的耳廓结构能放大地面振动，帮助定位地下猎物。",
+    "difficulty": 6
+  },
+  {
+    "animal": "赤狐",
+    "question": "以下哪种人类活动最可能威胁赤狐生存？",
+    "options": [
+      "A. 公园绿化工程",
+      "B. 城市路灯照明",
+      "C. 农药使用导致食物链破坏",
+      "D. 竹林种植扩大"
+    ],
+    "correct_answer": "C",
+    "explanation": "农药会毒杀赤狐猎物并污染水源，间接威胁其生存。",
+    "difficulty": 8
+  },
+  {
+    "animal": "赤狐",
+    "question": "赤狐幼崽断奶后何时开始独立活动？",
+    "options": [
+      "A. 2周龄",
+      "B. 4-5周龄",
+      "C. 6-8周龄",
+      "D. 10周龄以上"
+    ],
+    "correct_answer": "C",
+    "explanation": "幼崽在6-8周大时开始学习捕猎技能并逐渐脱离母狐。",
+    "difficulty": 5
+  },
+  {
+    "animal": "赤狐",
+    "question": "赤狐的体温调节机制主要依赖？",
+    "options": [
+      "A. 蓬松尾巴储存热量",
+      "B. 高代谢率产生体热",
+      "C. 毛皮下的脂肪层",
+      "D. 通过尿液蒸发散热"
+    ],
+    "correct_answer": "C",
+    "explanation": "赤狐的皮下脂肪层和浓密毛发是主要保温结构。",
+    "difficulty": 7
+  },
+  {
+    "animal": "赤狐",
+    "question": "以下哪种行为属于赤狐的防御机制？",
+    "options": [
+      "A. 猎食时发出高频叫声",
+      "B. 尾巴卷曲遮挡身体",
+      "C. 集体围攻天敌",
+      "D. 用前爪挖掘掩埋自己"
+    ],
+    "correct_answer": "B",
+    "explanation": "赤狐会将尾巴竖立或卷曲以迷惑捕食者。",
+    "difficulty": 4
+  },
+  {
+    "animal": "赤狐",
+    "question": "赤狐在冬季如何维持能量储备？",
+    "options": [
+      "A. 储存脂肪于皮下组织",
+      "B. 食用冬眠动物的粪便",
+      "C. 通过毛发吸收太阳能",
+      "D. 胎生幼崽提供热量"
+    ],
+    "correct_answer": "A",
+    "explanation": "赤狐依靠皮下脂肪储存和高效代谢维持冬季能量需求。",
+    "difficulty": 6
+  },
+  {
+    "animal": "赤狐",
+    "question": "下列哪种动物与赤狐存在生态位竞争？",
+    "options": [
+      "A. 狐猴",
+      "B. 猞猁",
+      "C. 鹿科动物",
+      "D. 蚂蚁"
+    ],
+    "correct_answer": "B",
+    "explanation": "猞猁与赤狐均以小型哺乳动物为食，存在资源竞争。",
+    "difficulty": 5
+  },
+  {
+    "animal": "赤狐",
+    "question": "赤狐的繁殖季节是否受光照周期影响？",
+    "options": [
+      "A. 完全不受影响",
+      "B. 只在北极地区有反应",
+      "C. 部分物种存在光周期敏感性",
+      "D. 仅通过温度变化调节"
+    ],
+    "correct_answer": "C",
+    "explanation": "部分赤狐亚种会根据日照长度调整繁殖时间。",
+    "difficulty": 8
+  },
+  {
+    "animal": "赤狐",
+    "question": "赤狐在非繁殖季节是否会形成松散的社会群体？",
+    "options": [
+      "A. 完全不会",
+      "B. 仅幼崽时期会",
+      "C. 偶尔聚集觅食",
+      "D. 雌性间存在等级制度"
+    ],
+    "correct_answer": "C",
+    "explanation": "赤狐通常独居，但在食物丰富时可能短时间聚集，非繁殖期无稳定社会结构。",
+    "difficulty": 6
+  },
+  {
+    "animal": "赤狐",
+    "question": "赤狐的叫声通常包含以下哪种特征？",
+    "options": [
+      "A. 长鸣笛声",
+      "B. 短促吠叫",
+      "C. 咆哮与嚎叫组合",
+      "D. 低频咕哝"
+    ],
+    "correct_answer": "C",
+    "explanation": "赤狐通过吠叫、嚎叫和短促叫声进行远距离沟通，尤其在领地宣示时使用复合声调。",
+    "difficulty": 5
+  },
+  {
+    "animal": "赤狐",
+    "question": "赤狐在城市环境中主要依赖哪种资源？",
+    "options": [
+      "A. 垃圾残渣",
+      "B. 园林植物",
+      "C. 宠物食物",
+      "D. 所有上述"
+    ],
+    "correct_answer": "D",
+    "explanation": "城市赤狐会利用人类废弃物、花园昆虫及宠物投喂作为补充食物来源，适应性强。",
+    "difficulty": 4
+  },
+  {
+    "animal": "赤狐",
+    "question": "赤狐是否会出现季节性毛发更换？",
+    "options": [
+      "A. 是，冬季换厚毛",
+      "B. 否，全年单一毛色",
+      "C. 仅夏季换短毛",
+      "D. 仅在繁殖期换毛"
+    ],
+    "correct_answer": "A",
+    "explanation": "赤狐属于季节性换毛动物，冬季生长厚密绒毛以抵御严寒，春季脱毛适应温暖气候。",
+    "difficulty": 3
+  },
+  {
+    "animal": "赤渴",
+    "question": "赤狐的运动能力最突出的是？",
+    "options": [
+      "A. 爬树速度",
+      "B. 挖洞深度",
+      "C. 游泳耐力",
+      "D. 高空跳跃"
+    ],
+    "correct_answer": "B",
+    "explanation": "赤狐前爪强健，能挖掘复杂洞穴系统，但游泳和爬树并非其主要生存技能。",
+    "difficulty": 5
+  },
+  {
+    "animal": "赤狐",
+    "question": "赤狐与哪种动物在食物资源上存在显著竞争？",
+    "options": [
+      "A. 狼",
+      "B. 雪貂",
+      "C. 猫科动物",
+      "D. 食蟹鸟"
+    ],
+    "correct_answer": "B",
+    "explanation": "雪貂与赤狐均以小型哺乳动物为食，且栖息地重叠度高，存在资源竞争压力。",
+    "difficulty": 7
+  },
+  {
+    "animal": "赤狐",
+    "question": "赤狐的繁殖季节是否受光照周期影响？",
+    "options": [
+      "A. 完全不受影响",
+      "B. 只在北极地区有反应",
+      "C. 部分亚种存在光周期敏感性",
+      "D. 仅通过温度变化调节"
+    ],
+    "correct_answer": "C",
+    "explanation": "部分赤狐亚种（如亚洲草原赤狐）会根据日照长度调整繁殖时间，但多数依赖环境温度。",
+    "difficulty": 8
+  },
+  {
+    "animal": "赤狐",
+    "question": "赤狐幼崽断奶后何时开始独立活动？",
+    "options": [
+      "A. 2周龄",
+      "B. 4-5周龄",
+      "C. 6-8周龄",
+      "D. 10周龄以上"
+    ],
+    "correct_answer": "C",
+    "explanation": "幼崽在6-8周大时开始学习捕猎技能并逐渐脱离母狐，但需持续依赖母体至冬季。",
+    "difficulty": 5
+  },
+  {
+    "animal": "赤狐",
+    "question": "赤狐在冬季维持能量储备的主要方式是什么？",
+    "options": [
+      "A. 储存脂肪于皮下组织",
+      "B. 食用冬眠动物的粪便",
+      "C. 通过毛发吸收太阳能",
+      "D. 胎生幼崽提供热量"
+    ],
+    "correct_answer": "A",
+    "explanation": "赤狐依靠皮下脂肪储存和高效代谢维持冬季能量需求，毛发主要用于保温而非直接储能。",
+    "difficulty": 6
+  },
+  {
+    "animal": "赤狐",
+    "question": "以下哪种行为属于赤狐的防御机制？",
+    "options": [
+      "A. 猎食时发出高频叫声",
+      "B. 尾巴卷曲遮挡身体",
+      "C. 集体围攻天敌",
+      "D. 用前爪挖掘掩埋自己"
+    ],
+    "correct_answer": "B",
+    "explanation": "赤狐会将尾巴竖立或卷曲以迷惑捕食者，其他选项均为攻击性行为或误判。",
+    "difficulty": 4
+  },
+  {
+    "animal": "赤狐",
+    "question": "赤狐的运动能力最突出的是？",
+    "options": [
+      "A. 爬树速度",
+      "B. 挖洞深度",
+      "C. 游泳耐力",
+      "D. 高空跳跃"
+    ],
+    "correct_answer": "B",
+    "explanation": "赤狐前爪强健，能挖掘复杂洞穴系统，但游泳和爬树并非其主要生存技能。",
+    "difficulty": 5
+  },
+  {
+    "animal": "赤狐",
+    "question": "赤狐在城市环境中最依赖哪种资源？",
+    "options": [
+      "A. 垃圾残渣",
+      "B. 园林植物",
+      "C. 宠物食物",
+      "D. 所有上述"
+    ],
+    "correct_answer": "D",
+    "explanation": "城市赤狐会利用人类废弃物、花园昆虫及宠物投喂作为补充食物来源，适应性强。",
+    "difficulty": 4
+  },
+  {
+    "animal": "赤狐",
+    "question": "赤狐是否会出现季节性毛发更换？",
+    "options": [
+      "A. 是，冬季换厚毛",
+      "B. 否，全年单一毛色",
+      "C. 仅夏季换短毛",
+      "D. 仅在繁殖期换毛"
+    ],
+    "correct_answer": "A",
+    "explanation": "赤狐属于季节性换毛动物，冬季生长厚密绒毛以抵御严寒，春季脱毛适应温暖气候。",
+    "difficulty": 3
+  },
+  {
+    "animal": "赤狐",
+    "question": "赤狐的天敌主要包括哪些？",
+    "options": [
+      "A. 狼和猞猁",
+      "B. 鹰和蛇类",
+      "C. 大型猫科动物与人类",
+      "D. 蜥蜴和鼠类"
+    ],
+    "correct_answer": "C",
+    "explanation": "赤狐的主要天敌包括大型猫科动物（如虎）及人类活动，其他选项多为猎物或竞争者。",
+    "difficulty": 5
+  },
+  {
+    "animal": "赤狐",
+    "question": "以下哪种动物与赤狐存在生态位竞争？",
+    "options": [
+      "A. 狐猴",
+      "B. 猞猁",
+      "C. 鹿科动物",
+      "D. 蚂蚁"
+    ],
+    "correct_answer": "B",
+    "explanation": "猞猁与赤狐均以小型哺乳动物为食，存在资源竞争。其他选项多为捕食者或无关物种。",
+    "difficulty": 5
+  },
+  {
+    "animal": "赤狐",
+    "question": "赤狐幼崽断奶后何时开始独立活动？",
+    "options": [
+      "A. 2周龄",
+      "B. 4-5周龄",
+      "C. 6-8周龄",
+      "D. 10周龄以上"
+    ],
+    "correct_answer": "C",
+    "explanation": "幼崽在6-8周大时开始学习捕猎技能并逐渐脱离母狐，但需持续依赖母体至冬季。",
+    "difficulty": 5
+  }
+]

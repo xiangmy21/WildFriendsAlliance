@@ -1,0 +1,514 @@
+[
+  {
+    "animal": "野鸭",
+    "question": "野鸭属于以下哪个目？",
+    "options": [
+      "A. 雁形目",
+      "B. 鸡形目",
+      "C. 鸽形目",
+      "D. 隼形目"
+    ],
+    "correct_answer": "A",
+    "explanation": "野鸭属于雁形目（Anseriformes），该目包括鸭、鹅和天鹅等水禽。",
+    "difficulty": 2
+  },
+  {
+    "animal": "野鸭",
+    "question": "野生状态下，野鸭主要栖息于哪种水域？",
+    "options": [
+      "A. 淡水湖泊",
+      "B. 热带珊瑚礁",
+      "C. 开阔海洋",
+      "D. 高盐度咸湖"
+    ],
+    "correct_answer": "A",
+    "explanation": "野鸭偏好淡水环境，如河流、池塘和沼泽，而非高盐或完全海水区域。",
+    "difficulty": 4
+  },
+  {
+    "animal": "野鸭",
+    "question": "大多数北半球的野鸭会在哪个季节进行迁徙？",
+    "options": [
+      "A. 春季",
+      "B. 夏季",
+      "C. 秋季",
+      "D. 冬季"
+    ],
+    "correct_answer": "C",
+    "explanation": "秋季是多数北半球野鸭向南方温暖地区迁徙的季节，以躲避寒冷。",
+    "difficulty": 6
+  },
+  {
+    "animal": "野鸭",
+    "question": "雄性野鸭的羽毛颜色通常比雌性更：",
+    "options": [
+      "A. 鲜艳",
+      "B. 暗淡",
+      "C. 灰白",
+      "D. 杂乱"
+    ],
+    "correct_answer": "A",
+    "explanation": "雄性野鸭在繁殖期的羽毛颜色更为鲜艳，用于吸引配偶。",
+    "difficulty": 5
+  },
+  {
+    "animal": "野鸭",
+    "question": "野鸭主要的食物来源包括：",
+    "options": [
+      "A. 小鱼和藻类",
+      "B. 树皮和种子",
+      "C. 昆虫与水生植物",
+      "D. 蚯蚓和落叶"
+    ],
+    "correct_answer": "C",
+    "explanation": "野鸭是杂食性动物，主要以昆虫、甲壳类、水草及种子为食。",
+    "difficulty": 1
+  },
+  {
+    "animal": "野鸭",
+    "question": "雌性野鸭的巢穴通常建在：",
+    "options": [
+      "A. 树洞内",
+      "B. 水边灌木丛中",
+      "C. 地面凹陷处",
+      "D. 岩石缝隙"
+    ],
+    "correct_answer": "B",
+    "explanation": "雌性野鸭多在地面或靠近水域的隐蔽植物丛中筑巢。",
+    "difficulty": 7
+  },
+  {
+    "animal": "野鸭",
+    "question": "幼鸭出生后多久可以跟随父母觅食？",
+    "options": [
+      "A. 几小时内",
+      "B. 1周后",
+      "C. 半个月后",
+      "D. 待羽毛长全"
+    ],
+    "correct_answer": "A",
+    "explanation": "野鸭是早成鸟，幼崽出生后数小时即可行走和游泳。",
+    "difficulty": 8
+  },
+  {
+    "animal": "野鸭",
+    "question": "以下哪种行为与野鸭的繁殖期无关？",
+    "options": [
+      "A. 雄性展示羽毛",
+      "B. 群体迁徙",
+      "C. 搭建浮巢",
+      "D. 发出求偶鸣叫"
+    ],
+    "correct_answer": "B",
+    "explanation": "群体迁徙通常发生在非繁殖期，而其他选项均为繁殖期典型行为。",
+    "difficulty": 9
+  },
+  {
+    "animal": "野鸭",
+    "question": "野鸭通常以怎样的方式生活？",
+    "options": [
+      "A. 独居",
+      "B. 小群体",
+      "C. 大规模群落",
+      "D. 与鹅混居"
+    ],
+    "answer": "B",
+    "difficulty": 3
+  },
+  {
+    "animal": "野鸭",
+    "question": "野鸭属于以下哪个科？",
+    "options": [
+      "A. 鸭科（Anatidae）",
+      "B. 鹤科",
+      "C. 雁科",
+      "D. 秋沙鸭科"
+    ],
+    "answer": "A",
+    "difficulty": 1
+  },
+  {
+    "animal": "野鸭",
+    "question": "下列哪种动物不是野鸭的主要捕食者？",
+    "options": [
+      "A. 狐狸",
+      "B. 老鹰",
+      "C. 水母",
+      "D. 猎人"
+    ],
+    "answer": "C",
+    "difficulty": 4
+  },
+  {
+    "animal": "野鸭",
+    "question": "雄性野鸭为争夺配偶常进行哪种行为？",
+    "options": [
+      "A. 与其他雄性打斗",
+      "B. 发出复杂歌声",
+      "C. 用羽毛装饰巢穴",
+      "D. 伪装成雌性"
+    ],
+    "answer": "A",
+    "difficulty": 5
+  },
+  {
+    "animal": "野鸭",
+    "question": "野鸭在水下闭气时通常能保持多久？",
+    "options": [
+      "A. 几秒",
+      "B. 约30秒",
+      "C. 1分钟",
+      "D. 超过2分钟"
+    ],
+    "answer": "B",
+    "difficulty": 6
+  },
+  {
+    "animal": "野鸭",
+    "question": "野鸭的自然寿命通常为多少年？",
+    "options": [
+      "A. 1-3",
+      "B.4-7",
+      "C.8-12",
+      "D. 超过15"
+    ],
+    "answer": "B",
+    "difficulty": 7
+  },
+  {
+    "animal": "野鸭",
+    "question": "下列地区中，哪里没有自然栖息的野鸭？",
+    "options": [
+      "A. 南美洲",
+      "B. 澳大利亚",
+      "C. 非洲",
+      "D. 南极洲"
+    ],
+    "answer": "D",
+    "difficulty": 8
+  },
+  {
+    "animal": "野鸭",
+    "question": "某些亚种的野鸭在寒冷气候下仍不迁徙的主要原因是？",
+    "options": [
+      "A. 食物充足",
+      "B. 缺乏天敌",
+      "C. 繁殖期延长",
+      "D. 人工饲养"
+    ],
+    "answer": "A",
+    "difficulty": 9
+  },
+  {
+    "animal": "野鸭",
+    "question": "野鸭的脚蹼主要功能是什么？",
+    "options": [
+      "A. 提供浮力并辅助划水",
+      "B. 抓握树枝",
+      "C. 挖掘地下巢穴",
+      "D. 保持体温"
+    ],
+    "correct_answer": "A",
+    "explanation": "野鸭的脚蹼宽大且连接紧密，主要用于在水中游动和维持浮力。",
+    "difficulty": 1
+  },
+  {
+    "animal": "野鸭",
+    "question": "野鸭迁徙时通常飞行的高度范围是？",
+    "options": [
+      "A. 接近地面50米内",
+      "B. 海拔300-800米",
+      "C. 超过2000米高空",
+      "D. 与云层平齐"
+    ],
+    "correct_answer": "B",
+    "explanation": "野鸭迁徙时多选择中低空飞行，利用地形风和气流节省体力。",
+    "difficulty": 3
+  },
+  {
+    "animal": "野鸭",
+    "question": "下列哪种声音是雄性野鸭的典型求偶鸣叫？",
+    "options": [
+      "A. 清脆的哨音",
+      "B. 深沉的低吼",
+      "C. 尖锐的吱吱声",
+      "D. 节奏缓慢的咕噜"
+    ],
+    "correct_answer": "A",
+    "explanation": "雄性野鸭在求偶时会发出高频哨音以吸引雌鸭注意。",
+    "difficulty": 4
+  },
+  {
+    "animal": "野鸭",
+    "question": "幼鸭破壳后，雌鸭通常如何引导它们学习游泳？",
+    "options": [
+      "A. 直接带入深水区",
+      "B. 在浅滩示范动作",
+      "C. 等待自然探索",
+      "D. 用喙轻推到水中"
+    ],
+    "correct_answer": "B",
+    "explanation": "雌鸭会带领幼鸭在安全的浅水域进行初次游泳训练。",
+    "difficulty": 5
+  },
+  {
+    "animal": "野鸭",
+    "question": "野鸭冬季越冬地选择的主要因素是？",
+    "options": [
+      "A. 食物丰富度",
+      "B. 水体是否结冰",
+      "C. 繁殖巢穴位置",
+      "D. 人类活动频率"
+    ],
+    "correct_answer": "B",
+    "explanation": "野鸭需要开放水域觅食，因此冬季会迁移到水温较高或不易冻结的地区。",
+    "difficulty": 6
+  },
+  {
+    "animal": "野鸭",
+    "question": "下列哪种人类活动最可能威胁野鸭生存？",
+    "options": [
+      "A. 湿地排水造田",
+      "B. 城市灯光污染",
+      "C. 过度种植水生植物",
+      "D. 山区植树造林"
+    ],
+    "correct_answer": "A",
+    "explanation": "湿地减少导致栖息地和食物来源的丧失，是野鸭面临的主要威胁。",
+    "difficulty": 7
+  },
+  {
+    "animal": "野鸭",
+    "question": "野鸭在交配后通常由谁负责孵卵？",
+    "options": [
+      "A. 雄性",
+      "B. 雌性",
+      "C. 双亲交替",
+      "D. 群体分工"
+    ],
+    "correct_answer": "B",
+    "explanation": "雌鸭独自承担孵卵任务，雄鸭通常会离开参与后续交配。",
+    "difficulty": 8
+  },
+  {
+    "animal": "野鸭",
+    "question": "全球变暖对野鸭分布的影响最可能是？",
+    "options": [
+      "A. 向北扩展栖息范围",
+      "B. 缩小越冬区域",
+      "C. 减少迁徙距离",
+      "D. 改变羽毛颜色"
+    ],
+    "correct_answer": "A",
+    "explanation": "温度升高可能使高纬度地区成为新的繁殖或越冬地，导致分布范围北移。",
+    "difficulty": 9
+  },
+  {
+    "animal": "野鸭",
+    "question": "雌性野鸭每次繁殖通常会产下多少枚卵？",
+    "options": [
+      "A. 5-10枚",
+      "B. 超过20枚",
+      "C. 不超过3枚",
+      "D. 单一枚"
+    ],
+    "correct_answer": "A",
+    "explanation": "雌性野鸭每窝通常产卵8-12枚，属于中等数量的禽类繁殖特征。",
+    "difficulty": 2
+  },
+  {
+    "animal": "野鸭",
+    "question": "幼鸭大约在出生后多久能够自主飞行？",
+    "options": [
+      "A. 出生一周内",
+      "B. 约4-5周",
+      "C. 半年后",
+      "D. 需成年才能"
+    ],
+    "correct_answer": "B",
+    "explanation": "幼鸭约在出生后30至42天开始首次飞行，需羽毛充分生长。",
+    "difficulty": 5
+  },
+  {
+    "animal": "野鸭",
+    "question": "野鸭的羽毛具有以下哪种特殊结构？",
+    "options": [
+      "A. 覆盖防水油脂层",
+      "B. 长度超过体长两倍",
+      "C. 呈现金属光泽",
+      "D. 形成中空管状"
+    ],
+    "correct_answer": "A",
+    "explanation": "羽毛表面的油脂腺分泌物使野鸭能保持干燥，适应水生环境。",
+    "difficulty": 3
+  },
+  {
+    "animal": "野鸭",
+    "question": "雄性野鸭在体型上通常比雌性：",
+    "options": [
+      "A. 更大且更强壮",
+      "B. 更小但更敏捷",
+      "C. 完全相同",
+      "D. 差异仅在颜色"
+    ],
+    "correct_answer": "A",
+    "explanation": "多数野鸭雄性体型显著大于雌性，且肌肉发达以适应求偶竞争。",
+    "difficulty": 4
+  },
+  {
+    "animal": "野鸭",
+    "question": "野鸭迁徙时主要依赖哪种导航方式？",
+    "options": [
+      "A. 地磁感应与太阳方位",
+      "B. 追随气味标记",
+      "C. 雷达波反射",
+      "D. 纯随机方向"
+    ],
+    "correct_answer": "A",
+    "explanation": "野鸭通过地磁场和日光角度判断迁徙路径，属于典型禽类导航机制。",
+    "difficulty": 6
+  },
+  {
+    "animal": "野鸭",
+    "question": "当遭遇天敌攻击时，野鸭最常采取的防御行为是？",
+    "options": [
+      "A. 快速潜入水下",
+      "B. 发出求救鸣叫",
+      "C. 伪装死亡静止",
+      "D. 群体围攻反击"
+    ],
+    "correct_answer": "A",
+    "explanation": "利用水生环境优势，野鸭会迅速潜入水中躲避陆地捕食者。",
+    "difficulty": 4
+  },
+  {
+    "animal": "野鸭",
+    "question": "北极地区野鸭繁殖成功率较低的主要原因是？",
+    "options": [
+      "A. 食物资源过量",
+      "B. 天敌密度较高",
+      "C. 水域全年开放",
+      "D. 温度过温暖"
+    ],
+    "correct_answer": "B",
+    "explanation": "北极地区的猛禽和兽类天敌密集，导致巢卵和幼鸭存活率下降。",
+    "difficulty": 7
+  },
+  {
+    "animal": "野鸭",
+    "question": "野鸭的繁殖成功率与以下哪种因素关联最紧密？",
+    "options": [
+      "A. 雌性体重指数",
+      "B. 求偶仪式长度",
+      "C. 筑巢地隐蔽度",
+      "D. 季节降水量"
+    ],
+    "correct_answer": "C",
+    "explanation": "隐蔽的筑巢位置能有效减少天敌破坏，直接影响繁殖成功率。",
+    "difficulty": 5
+  },
+  {
+    "animal": "野鸭",
+    "question": "野鸭潜水时如何防止水进入鼻腔？",
+    "options": [
+      "A. 鼻孔关闭",
+      "B. 特殊呼吸结构调节",
+      "C. 口部闭合辅助呼吸",
+      "D. 水压自动密封"
+    ],
+    "correct_answer": "A",
+    "explanation": "野鸭鼻孔具有可封闭的瓣膜，潜水时通过主动关闭防止水进入呼吸道。",
+    "difficulty": 4
+  },
+  {
+    "animal": "野鸭",
+    "question": "野鸭的主要繁殖季节通常在哪个时间段？",
+    "options": [
+      "A. 春季（3-5月）",
+      "B. 夏末（8-9月）",
+      "C. 冬季（12-2月）",
+      "D. 秋初（9-10月）"
+    ],
+    "correct_answer": "A",
+    "explanation": "北半球野鸭多在春季气温回升时进行繁殖活动，此时食物资源丰富且适合孵化。",
+    "difficulty": 3
+  },
+  {
+    "animal": "野鸭",
+    "question": "幼鸭离巢后的第一个主要生存挑战是什么？",
+    "options": [
+      "A. 学习飞行技巧",
+      "B. 独立觅食能力",
+      "C. 规避天敌攻击",
+      "D. 寻找安全栖息地"
+    ],
+    "correct_answer": "B",
+    "explanation": "幼鸭出生后需迅速掌握自主捕食技能，依赖雌鸭示范但最终需要独立完成觅食。",
+    "difficulty": 5
+  },
+  {
+    "animal": "野鸭",
+    "question": "野鸭的中空羽毛结构的主要作用是：",
+    "options": [
+      "A. 提供绝热保温层",
+      "B. 减轻体重辅助飞行",
+      "C. 增强浮力便于漂浮",
+      "D. 形成防水保护膜"
+    ],
+    "correct_answer": "C",
+    "explanation": "中空羽毛的空气腔隙显著降低密度，使野鸭在水中可轻松保持身体浮起而不下沉。",
+    "difficulty": 4
+  },
+  {
+    "animal": "野鸭",
+    "question": "当遭遇水下捕食者时，野鸭最可能采取什么行为？",
+    "options": [
+      "A. 潜入更深水域躲避",
+      "B. 迅速游向水面并起飞",
+      "C. 伪装成植物静止不动",
+      "D. 发出高频警报鸣叫"
+    ],
+    "correct_answer": "B",
+    "explanation": "野鸭主要依赖快速逃离策略，通过爆发式冲刺脱离危险区域而非被动防御。",
+    "difficulty": 5
+  },
+  {
+    "animal": "野鸭",
+    "question": "野生幼鸭通常在破壳后多久开始首次尝试游泳？",
+    "options": [
+      "A. 出生几分钟内",
+      "B. 数小时后",
+      "C. 次日清晨",
+      "D. 等待羽毛干燥后"
+    ],
+    "correct_answer": "A",
+    "explanation": "作为早成鸟，幼鸭出生后很快就能跟随雌鸭在浅水区活动并练习游泳技巧。",
+    "difficulty": 3
+  },
+  {
+    "animal": "野鸭",
+    "question": "迁徙途中，野鸭群主要通过什么方式保持群体紧密？",
+    "options": [
+      "A. 个体独立导航系统",
+      "B. 视觉跟随领头鸭轨迹",
+      "C. 高频鸣叫声定位同伴",
+      "D. 记忆地理地标标记"
+    ],
+    "correct_answer": "B",
+    "explanation": "野鸭常以V形队列迁徙，通过视觉追踪前方个体的飞行路径来维持群体结构。",
+    "difficulty": 4
+  },
+  {
+    "animal": "野鸭",
+    "question": "雄性野鸭在求偶时除了鸣叫外，还常进行哪种行为吸引雌性？",
+    "options": [
+      "A. 水中高速旋转展示羽毛",
+      "B. 频繁振动翅膀制造声响",
+      "C. 向雌鸭赠送食物作为礼物",
+      "D. 进行地面跳跃表演"
+    ],
+    "correct_answer": "A",
+    "explanation": "许多野鸭种类雄性会通过快速旋转身体来展示鲜艳的羽毛，这一动作是求偶的重要视觉信号。",
+    "difficulty": 5
+  }
+]

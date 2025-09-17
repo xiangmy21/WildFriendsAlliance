@@ -222,11 +222,11 @@ public class UnitController : MonoBehaviour
     {
         if (currentTarget != null && currentState == UnitState.Attacking)
         {
-            Debug.Log($"{name} 攻击了 {currentTarget.name}!");
-            currentTarget.TakeDamage(currentATK);
-            // 攻击加蓝
-            GainMP(unitData.mpGainOnAttack);
-        }
+        Debug.Log($"{name} 攻击了 {currentTarget.name}!");
+        currentTarget.TakeDamage(currentATK);
+        // 攻击加蓝
+        GainMP(unitData.mpGainOnAttack);
+    }
     }
 
     /// <summary>

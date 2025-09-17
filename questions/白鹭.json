@@ -1,0 +1,495 @@
+[
+  {
+    "animal": "白鹭",
+    "question": "白鹭属于以下哪个目？",
+    "options": [
+      "A. 鹳形目",
+      "B. 鹈形目",
+      "C. 雁形目",
+      "D. 法僧目"
+    ],
+    "correct_answer": "A",
+    "explanation": "白鹭属于鹳形目（Ciconiiformes），与鹭、 egret和 spoonbill等水鸟同属这一分类。",
+    "difficulty": 2
+  },
+  {
+    "animal": "白鹭",
+    "question": "白鹭主要栖息于哪种生态环境？",
+    "options": [
+      "A. 森林",
+      "B. 沙漠",
+      "C. 湿地",
+      "D. 草原"
+    ],
+    "correct_answer": "C",
+    "explanation": "白鹭是典型的湿地鸟类，常在沼泽、湖泊、稻田等水域附近活动。",
+    "difficulty": 3
+  },
+  {
+    "animal": "白鹭",
+    "question": "白鹭的食性主要以什么为主？",
+    "options": [
+      "A. 鱼类和水生小动物",
+      "B. 昆虫",
+      "C. 果实和种子",
+      "D. 小型哺乳动物"
+    ],
+    "correct_answer": "A",
+    "explanation": "白鹭通过长喙捕食鱼类、蛙类、甲壳类等水生生物，是湿地生态系统的顶级掠食者之一。",
+    "difficulty": 4
+  },
+  {
+    "animal": "白鹭",
+    "question": "在繁殖季节，某些种类的白鹭会长出显著的装饰性羽毛，这种特征主要用于：",
+    "options": [
+      "A. 调节体温",
+      "B. 捕食工具",
+      "C. 筑巢材料",
+      "D. 求偶展示"
+    ],
+    "correct_answer": "D",
+    "explanation": "繁殖期雄性白鹭会长出更长的饰羽，通过展示吸引配偶。",
+    "difficulty": 5
+  },
+  {
+    "animal": "白鹭",
+    "question": "关于白鹭的迁徙习性，以下描述正确的是：",
+    "options": [
+      "A. 所有种类均不迁徙",
+      "B. 全部为候鸟",
+      "C. 北方种群夏季南迁",
+      "D. 部分种群随季节迁移"
+    ],
+    "correct_answer": "D",
+    "explanation": "白鹭的迁徙行为因物种和栖息地而异，如中亚种的大白鹭冬季会向南方迁徙。",
+    "difficulty": 6
+  },
+  {
+    "animal": "白鹭",
+    "question": "在中国《国家重点保护野生动物名录》中，小白鹭被列为：",
+    "options": [
+      "A. 国家一级",
+      "B. 国家二级",
+      "C. 省级保护动物",
+      "D. 三有动物"
+    ],
+    "correct_answer": "D",
+    "explanation": "根据2021年更新的名录，小白鹭属于国家“三有动物”（有益、有经济或科研价值）。",
+    "difficulty": 7
+  },
+  {
+    "animal": "白鹭",
+    "question": "白鹭通常选择在何处筑巢？",
+    "options": [
+      "A. 树冠高处",
+      "B. 地面草丛",
+      "C. 岩洞边缘",
+      "D. 悬崖峭壁"
+    ],
+    "correct_answer": "A",
+    "explanation": "白鹭倾向于在水域附近的乔木或灌木顶端筑巢，以避免地面天敌干扰。",
+    "difficulty": 8
+  },
+  {
+    "animal": "白鹭",
+    "question": "在中国传统文化中，白鹭常被赋予哪种象征意义？",
+    "options": [
+      "A. 暴力与力量",
+      "B. 高洁与长寿",
+      "C. 贫困与苦难",
+      "D. 忠诚与守信"
+    ],
+    "correct_answer": "B",
+    "explanation": "白鹭因羽毛洁白、姿态优雅，常象征圣洁和祥瑞，在诗词中多代表隐逸或理想境界。",
+    "difficulty": 9
+  },
+  {
+    "animal": "白鹭",
+    "question": "白鹭的体长通常在哪个范围内？",
+    "options": [
+      "A. 30-50厘米",
+      "B. 60-100厘米",
+      "C. 120-150厘米",
+      "D. 180-200厘米"
+    ],
+    "correct_answer": "B",
+    "explanation": "白鹭成鸟体长一般在60至100厘米之间，翼展可达130-170厘米，属于中型涉禽。",
+    "difficulty": 4
+  },
+  {
+    "animal": "白鹭",
+    "question": "雌性白鹭与雄性的羽毛颜色差异主要体现在：",
+    "options": [
+      "A. 雄性更洁白，雌性偏灰",
+      "B. 雌性更洁白，雄性偏灰",
+      "C. 两者完全一致",
+      "D. 仅幼鸟有色彩差异"
+    ],
+    "correct_answer": "A",
+    "explanation": "多数白鹭种群中，雄性成鸟羽毛纯白色或浅灰色，雌性则略带灰褐色，这种两性异色现象较为常见。",
+    "difficulty": 5
+  },
+  {
+    "animal": "白鹭",
+    "question": "白鹭的叫声主要用于：",
+    "options": [
+      "A. 领域宣示与群体沟通",
+      "B. 捕食时震慑猎物",
+      "C. 吸引配偶展示体魄",
+      "D. 警惕天敌发出警报"
+    ],
+    "correct_answer": "A",
+    "explanation": "白鹭的叫声多为短促的‘嘎’声，主要用于划定领地和群体内交流，尤其在繁殖期频繁使用。",
+    "difficulty": 6
+  },
+  {
+    "animal": "白鹭",
+    "question": "白鹭幼鸟离巢后需要多久才能独立飞行？",
+    "options": [
+      "A. 1-2周",
+      "B. 3-4周",
+      "C. 5-6周",
+      "D. 7-8周"
+    ],
+    "correct_answer": "C",
+    "explanation": "幼鸟在孵化后约5-6周开始学习飞行，此时仍需亲鸟照顾数月，直到具备独立觅食能力。",
+    "difficulty": 4
+  },
+  {
+    "animal": "白鹭",
+    "question": "以下哪种因素对白鹭生存构成最大威胁？",
+    "options": [
+      "A. 自然天敌捕食",
+      "B. 栖息地湿地萎缩",
+      "C. 食物资源短缺",
+      "D. 疾病传播"
+    ],
+    "correct_answer": "B",
+    "explanation": "人类活动导致的湿地破坏和污染是白鹭种群数量下降的主要原因，超过90%的个体生存依赖健康水域环境。",
+    "difficulty": 7
+  },
+  {
+    "animal": "白鹭",
+    "question": "白鹭与下列哪种鸟类在分类学上关系最密切？",
+    "options": [
+      "A. 鹤类",
+      "B. 火烈鸟",
+      "C. 蜂鸟",
+      "D. 企鹅"
+    ],
+    "correct_answer": "A",
+    "explanation": "白鹭属于鹳形目，与鹤科、鹭科等鸟类有较近的亲缘关系，而火烈鸟属于鹈形目，企鹅为企鹅目。",
+    "difficulty": 8
+  },
+  {
+    "animal": "白鹭",
+    "question": "白鹭羽毛颜色变化的主要原因是：",
+    "options": [
+      "A. 季节性换羽",
+      "B. 饮食中铁元素含量变化",
+      "C. 年龄增长自然褪色",
+      "D. 光照强度导致的视觉错觉"
+    ],
+    "correct_answer": "A",
+    "explanation": "白鹭每年春秋两季会更换羽毛，幼鸟羽色较暗，成年个体在繁殖期呈现纯白色或浅灰色彩。",
+    "difficulty": 5
+  },
+  {
+    "animal": "白鹭",
+    "question": "以下哪种保护措施对白鹭种群恢复最直接有效？",
+    "options": [
+      "A. 建立自然保护区",
+      "B. 禁止捕猎交易",
+      "C. 开展人工繁育放归",
+      "D. 实施湿地生态修复"
+    ],
+    "correct_answer": "D",
+    "explanation": "恢复退化的湿地生态系统是白鹭种群复苏的核心措施，直接改善其生存环境和食物链结构。",
+    "difficulty": 6
+  },
+  {
+    "animal": "白鹭",
+    "question": "白鹭的喙部形状通常为？",
+    "options": [
+      "A. 管状且细长",
+      "B. 喙基部膨大",
+      "C. 侧扁且钩曲",
+      "D. 短而粗壮"
+    ],
+    "correct_answer": "A",
+    "explanation": "白鹭的喙细长且呈管状，适合在水中捕捉鱼类和水生昆虫。",
+    "difficulty": 4
+  },
+  {
+    "animal": "白鹭",
+    "question": "在湿地生态系统中，白鹭的主要生态作用是？",
+    "options": [
+      "A. 控制藻类生长",
+      "B. 作为顶级掠食者维持平衡",
+      "C. 分解有机物",
+      "D. 固定土壤防止侵蚀"
+    ],
+    "correct_answer": "B",
+    "explanation": "白鹭通过捕食鱼类和无脊椎动物，调节湿地食物链结构。",
+    "difficulty": 5
+  },
+  {
+    "animal": "白鹭",
+    "question": "不同种类的白鹭在体型上差异主要体现在？",
+    "options": [
+      "A. 羽毛颜色",
+      "B. 翼展长度",
+      "C. 足部大小",
+      "D. 喙部形状"
+    ],
+    "correct_answer": "B",
+    "explanation": "例如，大白鹭翼展可达130-170厘米，而小白鹭体型较小。",
+    "difficulty": 5
+  },
+  {
+    "animal": "白鹭",
+    "question": "白鹭的脚部颜色通常为？",
+    "options": [
+      "A. 淡黄色",
+      "B. 灰色",
+      "C. 黑色",
+      "D. 白色"
+    ],
+    "correct_answer": "C",
+    "explanation": "多数白鹭种类的脚部为黑色或深灰色，有助于在湿地环境中隐蔽。",
+    "difficulty": 4
+  },
+  {
+    "animal": "白鹭",
+    "question": "在繁殖季节，雌性白鹭如何参与巢的构建？",
+    "options": [
+      "A. 仅雄鸟筑巢",
+      "B. 雌雄共同参与",
+      "C. 雌鸟独自完成",
+      "D. 群体协作"
+    ],
+    "correct_answer": "B",
+    "explanation": "通常雌雄双方会共同收集树枝和泥土建造巢穴。",
+    "difficulty": 6
+  },
+  {
+    "animal": "白鹭",
+    "question": "白鹭在迁徙过程中常采用哪种飞行模式？",
+    "options": [
+      "A. 单独飞行",
+      "B. 小群体结队",
+      "C. 大型队伍编队",
+      "D. 无固定模式"
+    ],
+    "correct_answer": "C",
+    "explanation": "迁徙时常成群结队飞越长距离，以减少个体能耗。",
+    "difficulty": 5
+  },
+  {
+    "animal": "白鹭",
+    "question": "白鹭幼鸟在离巢后仍依赖亲鸟多久？",
+    "options": [
+      "A. 数日",
+      "B. 数周",
+      "C. 数月",
+      "D. 一年以上"
+    ],
+    "correct_answer": "C",
+    "explanation": "幼鸟可能需要数月时间学习捕食技巧和生存技能。",
+    "difficulty": 6
+  },
+  {
+    "animal": "白鹭",
+    "question": "下列哪种行为最能体现白鹭的领地意识？",
+    "options": [
+      "A. 集群觅食",
+      "B. 声音鸣叫示警",
+      "C. 群体迁徙",
+      "D. 与同类合作捕猎"
+    ],
+    "correct_answer": "B",
+    "explanation": "白鹭通过叫声和姿态展示领地边界，驱赶入侵者。",
+    "difficulty": 5
+  },
+  {
+    "animal": "白鹭",
+    "question": "白鹭的主要天敌有哪些？",
+    "options": [
+      "A. 猛禽和蛇类",
+      "B. 鱼类和昆虫",
+      "C. 其他鸟类和哺乳动物",
+      "D. 植物"
+    ],
+    "correct_answer": "A",
+    "explanation": "白鹭的天敌主要包括猛禽（如鹰）和蛇类，这些捕食者可能威胁其幼鸟或成年个体。",
+    "difficulty": 3
+  },
+  {
+    "animal": "白鹭",
+    "question": "白鹭在湿地生态系统中主要扮演什么角色？",
+    "options": [
+      "A. 分解有机物",
+      "B. 控制藻类生长",
+      "C. 维持食物链平衡",
+      "D. 固定土壤防止侵蚀"
+    ],
+    "correct_answer": "C",
+    "explanation": "白鹭作为顶级掠食者，通过捕食鱼类和无脊椎动物调节湿地生态系统的能量流动。",
+    "difficulty": 4
+  },
+  {
+    "animal": "白鹭",
+    "question": "白鹭的幼鸟通常需要多久才能独立觅食？",
+    "options": [
+      "A. 数日",
+      "B. 数周",
+      "C. 数月",
+      "D. 半年"
+    ],
+    "correct_answer": "C",
+    "explanation": "幼鸟离巢后仍需数月时间学习捕猎技巧和生存技能，期间依赖亲鸟指导。",
+    "difficulty": 5
+  },
+  {
+    "animal": "白,鹭",
+    "question": "白鹭的羽毛颜色变化是否与季节有关？",
+    "options": [
+      "A. 仅与年龄相关",
+      "B. 与繁殖期无关",
+      "C. 季节性换羽导致颜色变化",
+      "D. 受光照影响"
+    ],
+    "correct_answer": "C",
+    "explanation": "白鹭的羽毛颜色变化主要由季节性换羽引起，而非单纯依赖年龄或环境因素。",
+    "difficulty": 6
+  },
+  {
+    "animal": "白鹭",
+    "question": "白鹭在繁殖期如何展示领地意识？",
+    "options": [
+      "A. 集群觅食",
+      "B. 声音鸣叫示警",
+      "C. 群体迁徙",
+      "D. 与同类合作捕猎"
+    ],
+    "correct_answer": "B",
+    "explanation": "白鹭通过特定叫声和姿态展示领地边界，驱赶入侵者以保护巢穴。",
+    "difficulty": 7
+  },
+  {
+    "animal": "白鹭",
+    "question": "白鹭的喙部结构对其捕猎方式有何影响？",
+    "options": [
+      "A. 短而粗壮适合抓鱼",
+      "B. 细长管状利于水中取食",
+      "C. 喙基部膨大便于咀嚼",
+      "D. 侧扁钩曲适合啄击"
+    ],
+    "correct_answer": "B",
+    "explanation": "细长的管状喙适应水中捕猎，可快速刺穿鱼类和水生昆虫。",
+    "difficulty": 8
+  },
+  {
+    "animal": "白鹭",
+    "question": "白鹭的迁徙过程中是否有特定的飞行队形？",
+    "options": [
+      "A. 单独飞行",
+      "B. 小群体结队",
+      "C. 大型队伍编队",
+      "D. 随机分散"
+    ],
+    "correct_answer": "C",
+    "explanation": "迁徙时白鹭常成群结队飞越长距离，以减少能耗并提高导航效率。",
+    "difficulty": 5
+  },
+  {
+    "animal": "白鹭",
+    "question": "白鹭的足部颜色是否有助于其在湿地中的伪装？",
+    "options": [
+      "A. 淡黄色适合浅水环境",
+      "B. 灰色便于融入植被",
+      "C. 黑色有助于隐蔽",
+      "D. 白色增强反光"
+    ],
+    "correct_answer": "C",
+    "explanation": "黑色足部可与湿地泥泞环境融合，减少被捕食者发现的概率。",
+    "difficulty": 4
+  },
+  {
+    "animal": "白鹭",
+    "question": "请直接输出JSON数组，格式如下:",
+    "options": [
+      "A. 选项A",
+      "B. 选项B",
+      "C. 选项C",
+      "D. 选项D"
+    ],
+    "correct_answer": "A",
+    "difficulty": 5
+  },
+  {
+    "animal": "白鹭",
+    "question": "白鹭的羽毛颜色变化是否与季节有关？",
+    "options": [
+      "A. 仅与年龄相关",
+      "B. 与繁殖期无关",
+      "C. 季节性换羽导致颜色变化",
+      "D. 受光照影响"
+    ],
+    "correct_answer": "C",
+    "explanation": "白鹭的羽毛颜色变化主要由季节性换羽引起，而非单纯依赖年龄或环境因素。",
+    "difficulty": 6
+  },
+  {
+    "animal": "白鹭",
+    "question": "白鹭在繁殖期如何展示领地意识？",
+    "options": [
+      "A. 集群觅食",
+      "B. 声音鸣叫示警",
+      "C. 群体迁徙",
+      "D. 与同类合作捕猎"
+    ],
+    "correct_answer": "B",
+    "explanation": "白鹭通过特定叫声和姿态展示领地边界，驱赶入侵者以保护巢穴。",
+    "difficulty": 7
+  },
+  {
+    "animal": "白鹭",
+    "question": "白鹭的喙部结构对其捕猎方式有何影响？",
+    "options": [
+      "A. 短而粗壮适合抓鱼",
+      "B. 细长管状利于水中取食",
+      "C. 喙基部膨大便于咀嚼",
+      "D. 侧扁钩曲适合啄击"
+    ],
+    "correct_answer": "B",
+    "explanation": "细长的管状喙适应水中捕猎，可快速刺穿鱼类和水生昆虫。",
+    "difficulty": 8
+  },
+  {
+    "animal": "白鹭",
+    "question": "白鹭的迁徙过程中是否有特定的飞行队形？",
+    "options": [
+      "A. 单独飞行",
+      "B. 小群体结队",
+      "C. 大型队伍编队",
+      "D. 随机分散"
+    ],
+    "correct_answer": "C",
+    "explanation": "迁徙时白鹭常成群结队飞越长距离，以减少能耗并提高导航效率。",
+    "difficulty": 5
+  },
+  {
+    "animal": "白鹭",
+    "question": "白鹭的足部颜色是否有助于其在湿地中的伪装？",
+    "options": [
+      "A. 淡黄色适合浅水环境",
+      "B. 灰色便于融入植被",
+      "C. 黑色有助于隐蔽",
+      "D. 白色增强反光"
+    ],
+    "correct_answer": "C",
+    "explanation": "黑色足部可与湿地泥泞环境融合，减少被捕食者发现的概率。",
+    "difficulty": 4
+  }
+]

@@ -1,0 +1,514 @@
+[
+  {
+    "animal": "松鼠",
+    "question": "松鼠属于以下哪个科？",
+    "options": [
+      "A. 猫科",
+      "B. 松鼠科",
+      "C. 犬科",
+      "D. 鼠兔科"
+    ],
+    "correct_answer": "B",
+    "explanation": "松鼠属于啮齿目松鼠科，该科动物通常具有蓬松的尾巴和储存食物的行为。",
+    "difficulty": 2
+  },
+  {
+    "animal": "松鼠",
+    "question": "大多数松鼠主要栖息在以下哪种环境中？",
+    "options": [
+      "A. 沙漠",
+      "B. 草原",
+      "C. 森林",
+      "D. 城市下水道"
+    ],
+    "correct_answer": "C",
+    "explanation": "松鼠是典型的森林树栖动物，依赖树木的果实和枝干进行生存活动。",
+    "difficulty": 3
+  },
+  {
+    "animal": "松鼠",
+    "question": "松鼠储存食物的方式主要是？",
+    "options": [
+      "A. 堆积在巢穴内",
+      "B. 悬挂在树枝上",
+      "C. 藏在树洞中",
+      "D. 分散埋藏于地面"
+    ],
+    "correct_answer": "D",
+    "explanation": "松鼠会将坚果等食物分散埋藏，依靠记忆力和嗅觉寻找，这种行为被称为「散藏」。",
+    "difficulty": 4
+  },
+  {
+    "animal": "松鼠",
+    "question": "松鼠的尾巴主要作用是什么？",
+    "options": [
+      "A. 吓退天敌",
+      "B. 调节体温",
+      "C. 辅助平衡和方向感",
+      "D. 防止被雨淋湿"
+    ],
+    "correct_answer": "C",
+    "explanation": "尾巴在跳跃时作为「舵」来保持身体平衡，并帮助判断移动方向。",
+    "difficulty": 5
+  },
+  {
+    "animal": "松鼠",
+    "question": "关于松鼠的冬眠行为，正确描述是？",
+    "options": [
+      "A. 全年持续冬眠",
+      "B. 进入深度冬眠不吃不喝",
+      "C. 减少活动但不严格冬眠",
+      "D. 仅幼崽需要冬眠"
+    ],
+    "correct_answer": "C",
+    "explanation": "多数松鼠不真正冬眠，冬季会减少外出频率，但仍需偶尔觅食。",
+    "difficulty": 6
+  },
+  {
+    "animal": "松鼠",
+    "question": "野生松鼠的平均寿命大约是？",
+    "options": [
+      "A. 1-2年",
+      "B. 3-5年",
+      "C. 8-10年",
+      "D. 超过15年"
+    ],
+    "correct_answer": "B",
+    "explanation": "野生松鼠因天敌和环境因素，寿命通常仅3-5年；圈养环境下可达10年以上。",
+    "difficulty": 7
+  },
+  {
+    "animal": "松鼠",
+    "question": "松鼠的繁殖季节主要集中在？",
+    "options": [
+      "A. 春季",
+      "B. 秋季",
+      "C. 夏季",
+      "D. 全年均可"
+    ],
+    "correct_answer": "A",
+    "explanation": "大多数松鼠在春季交配，雌性会寻找安全的树洞或地面巢穴育幼。",
+    "difficulty": 4
+  },
+  {
+    "animal": "松鼠",
+    "question": "以下哪种行为是松鼠的典型社会特征？",
+    "options": [
+      "A. 群体狩猎",
+      "B. 雌雄共筑巢穴",
+      "C. 单独活动为主",
+      "D. 形成等级制度"
+    ],
+    "correct_answer": "C",
+    "explanation": "松鼠通常独居，仅在繁殖期短暂与配偶互动，具有强烈的领地意识。",
+    "difficulty": 8
+  },
+  {
+    "animal": "松鼠",
+    "question": "松鼠的主要食物来源是什么？",
+    "options": [
+      "A. 坚果和种子",
+      "B. 昆虫和小型爬行动物",
+      "C. 树叶和树皮",
+      "D. 水生植物根茎"
+    ],
+    "correct_answer": "A",
+    "explanation": "松鼠以坚果、果实为主食，尤其依赖橡果、山毛榉等硬壳种子。",
+    "difficulty": 1
+  },
+  {
+    "animal": "松鼠",
+    "question": "以下哪种动物是松鼠的天敌？",
+    "options": [
+      "A. 蚂蚁",
+      "B. 狐狸",
+      "C. 喜鹊",
+      "D. 蚯蚓"
+    ],
+    "correct_answer": "B",
+    "explanation": "狐狸会捕食松鼠，而其他选项的动物体型或生态位与松鼠无直接威胁关系。",
+    "difficulty": 3
+  },
+  {
+    "animal": "松鼠",
+    "question": "关于松鼠门牙的特点，正确的是？",
+    "options": [
+      "A. 随年龄停止生长",
+      "B. 渐渐变短",
+      "C. 终生持续生长",
+      "D. 季节性脱落"
+    ],
+    "correct_answer": "C",
+    "explanation": "啮齿类动物的门牙终生生长，需通过啃咬树木维持适当长度。",
+    "difficulty": 2
+  },
+  {
+    "animal": "松鼠",
+    "question": "成年灰松鼠一次跳跃最远可达多少米？",
+    "options": [
+      "A. 1.2米",
+      "B. 3.6米",
+      "C. 5.8米",
+      "D. 8米"
+    ],
+    "correct_answer": "B",
+    "explanation": "灰松鼠凭借强健后腿，可短距离跳跃约3-4米。",
+    "difficulty": 4
+  },
+  {
+    "animal": "松鼠",
+    "question": "新生松鼠出生时的状态是？",
+    "options": [
+      "A. 毛发浓密且睁眼",
+      "B. 身体有绒毛但视力正常",
+      "C. 全身无毛且眼睛闭着",
+      "D. 可独立觅食"
+    ],
+    "correct_answer": "C",
+    "explanation": "新生松鼠幼崽几乎裸露，需母兽在巢穴中照料数月。",
+    "difficulty": 5
+  },
+  {
+    "animal": "松鼠",
+    "question": "松鼠的典型巢穴结构是？",
+    "options": [
+      "A. 树枝与树叶编织的球形巢",
+      "B. 地下挖凿的复杂洞穴",
+      "C. 直接利用树洞未加修饰",
+      "D. 与其他动物共享巢穴"
+    ],
+    "correct_answer": "A",
+    "explanation": "多数松鼠在树冠层用树枝搭建蓬松球状巢，提供保暖和隐蔽。",
+    "difficulty": 3
+  },
+  {
+    "animal": "松鼠",
+    "question": "秋季松鼠行为的主要特征是？",
+    "options": [
+      "A. 减少活动并进入冬眠",
+      "B. 开始大规模换毛",
+      "C. 集中收集和埋藏坚果",
+      "D. 迁徙至南方越冬"
+    ],
+    "correct_answer": "C",
+    "explanation": "秋季松鼠会大量囤积食物，为冬季储备能量。",
+    "difficulty": 4
+  },
+  {
+    "animal": "松鼠",
+    "question": "红松鼠（Sciurus vulgaris）的典型分布区域是？",
+    "options": [
+      "A. 北半球寒温带针叶林",
+      "B. 热带雨林树冠层",
+      "C. 沙漠灌木丛地带",
+      "D. 东南亚季风森林"
+    ],
+    "correct_answer": "A",
+    "explanation": "红松鼠主要分布在欧亚大陆北部的寒温带针叶林区。",
+    "difficulty": 8
+  },
+  {
+    "question": "松鼠主要依赖哪种感官躲避高空鸟类捕食者？",
+    "options": [
+      "A. 视觉",
+      "B. 听觉",
+      "C. 嗅觉",
+      "D. 地震感应"
+    ],
+    "correct_answer": "B",
+    "explanation": "松鼠的耳朵对高频声音敏感，能探测到数米外鸟类的动静。",
+    "difficulty": 4
+  },
+  {
+    "question": "大多数野生松鼠一年繁殖几次？",
+    "options": [
+      "A. 1次",
+      "B. 2次",
+      "C. 3次",
+      "D. 全年繁殖"
+    ],
+    "correct_answer": "B",
+    "explanation": "多数松鼠春季和夏季各繁殖一次，共两次。",
+    "difficulty": 3
+  },
+  {
+    "question": "当遇到陆地天敌时，松鼠最常采取的逃生方式是？",
+    "options": [
+      "A. 假死不动",
+      "B. 爬树躲避",
+      "C. 直立警告同伴",
+      "D. 挖洞藏身"
+    ],
+    "correct_answer": "B",
+    "explanation": "松鼠凭借敏捷的攀爬能力迅速逃离危险区域。",
+    "difficulty": 5
+  },
+  {
+    "question": "北极地区的某些松鼠冬季毛色变为白色，这是为了？",
+    "options": [
+      "A. 吸引配偶",
+      "B. 伪装在雪地中",
+      "C. 快速散热",
+      "D. 吸收更多阳光"
+    ],
+    "correct_answer": "B",
+    "explanation": "白色毛发帮助它们在雪地中躲避天敌。",
+    "difficulty": 6
+  },
+  {
+    "question": "灰松鼠的最快攀爬速度可达多少米每秒？",
+    "options": [
+      "A. 3 m/s",
+      "B. 10 m/s",
+      "C. 15 m/s",
+      "D. 20 m/s"
+    ],
+    "correct_answer": "A",
+    "explanation": "灰松鼠的攀爬速度可达约每秒4米，选项中最近为3m/s。",
+    "difficulty": 7
+  },
+  {
+    "question": "在寒冷天气中，松鼠利用尾巴主要起到什么作用？",
+    "options": [
+      "A. 挡风遮雨",
+      "B. 保持体温",
+      "C. 储存食物",
+      "D. 平衡身体"
+    ],
+    "correct_answer": "B",
+    "explanation": "蓬松的尾毛形成隔热层，减少热量流失。",
+    "difficulty": 2
+  },
+  {
+    "question": "某些松鼠能够滑翔，它们利用的是哪个身体部位？",
+    "options": [
+      "A. 尾巴",
+      "B. 特化的趾间膜",
+      "C. 耳朵形成的翼膜",
+      "D. 四肢间的皮肤褶皱"
+    ],
+    "correct_answer": "D",
+    "explanation": "飞松鼠通过四肢和身体间的皮膜实现短距离滑翔。",
+    "difficulty": 8
+  },
+  {
+    "question": "以下哪种行为属于某些松鼠的求偶展示？",
+    "options": [
+      "A. 快速跑动画圆圈",
+      "B. 尾巴快速摆动",
+      "C. 翻跟斗",
+      "D. 高声鸣叫"
+    ],
+    "correct_answer": "A",
+    "explanation": "部分松鼠会通过地面绕圈跑或尾巴舞动吸引配偶。",
+    "difficulty": 5
+  },
+  {
+    "animal": "松鼠",
+    "question": "灰松鼠的幼崽通常在出生后多久睁开眼睛？",
+    "options": [
+      "A. 出生当天",
+      "B. 约2周内",
+      "C. 约4-5周",
+      "D. 超过6周"
+    ],
+    "correct_answer": "C",
+    "explanation": "松鼠幼崽出生时眼睛闭合，约需3-5周才能睁开。",
+    "difficulty": 3
+  },
+  {
+    "animal": "松鼠",
+    "question": "松鼠主要通过哪种方式标记领地？",
+    "options": [
+      "A. 高声鸣叫",
+      "B. 尿液和肛腺分泌物",
+      "C. 碾碎坚果发出声音",
+      "D. 展示尾巴颜色"
+    ],
+    "correct_answer": "B",
+    "explanation": "松鼠常用气味标记（如尿液、腺体分泌物）来划定领地。",
+    "difficulty": 4
+  },
+  {
+    "animal": "松鼠",
+    "question": "下列哪种松鼠的尾巴末端有明显的黑白环纹？",
+    "options": [
+      "A. 红松鼠",
+      "B. 花松鼠",
+      "C. 灰松鼠",
+      "D. 地松鼠"
+    ],
+    "correct_answer": "B",
+    "explanation": "花松鼠（如五彩松鼠）的尾巴末端具有独特的环纹特征。",
+    "difficulty": 8
+  },
+  {
+    "animal": "松鼠",
+    "question": "当环境温度过高时，松鼠如何利用尾巴调节体温？",
+    "options": [
+      "A. 保温",
+      "B. 散热",
+      "C. 遮阳",
+      "D. 吸收水分"
+    ],
+    "correct_answer": "B",
+    "explanation": "松鼠会张开蓬松的尾毛加速空气流通，帮助散热。",
+    "difficulty": 5
+  },
+  {
+    "animal": "松鼠",
+    "question": "城市中的灰松鼠最常在哪种地点活动？",
+    "options": [
+      "A. 树冠层",
+      "B. 建筑物屋顶",
+      "C. 垃圾箱附近",
+      "D. 水域边缘"
+    ],
+    "correct_answer": "C",
+    "explanation": "灰松鼠在城市中适应性极强，常翻找人类垃圾获取食物。",
+    "difficulty": 3
+  },
+  {
+    "animal": "松鼠",
+    "question": "灰松鼠的妊娠期大约持续多久？",
+    "options": [
+      "A. 约1周",
+      "B. 约2个月",
+      "C. 约45-60天",
+      "D. 半年"
+    ],
+    "correct_answer": "C",
+    "explanation": "灰松鼠的妊娠期约为38-45天，幼崽出生后完全依赖母体哺育。",
+    "difficulty": 4
+  },
+  {
+    "animal": "松鼠",
+    "question": "下列哪种松鼠主要生活在地面而非树上？",
+    "options": [
+      "A. 红松鼠",
+      "B. 花松鼠",
+      "C. 地松鼠",
+      "D. 飞松鼠"
+    ],
+    "correct_answer": "C",
+    "explanation": "地松鼠（如十三线地松鼠）多在地面打洞筑巢。",
+    "difficulty": 5
+  },
+  {
+    "animal": "松鼠",
+    "question": "某些树栖松鼠遇到危险时会采取以下哪种逃生方式？",
+    "options": [
+      "A. 直立跳跃",
+      "B. 缩成球状滚动",
+      "C. 装死不动",
+      "D. 尾巴发光迷惑天敌"
+    ],
+    "correct_answer": "B",
+    "explanation": "部分松鼠（如花栗鼠）会蜷缩身体快速滚下陡坡躲避威胁。",
+    "difficulty": 7
+  },
+  {
+    "animal": "松鼠",
+    "question": "以下哪种松鼠主要在夜间活动？",
+    "options": [
+      "A. 红松鼠",
+      "B. 飞松鼠",
+      "C. 地松鼠",
+      "D. 花松鼠"
+    ],
+    "correct_answer": "B",
+    "explanation": "飞松鼠拥有皮膜和夜视能力，主要在夜间活动以避开天敌。",
+    "difficulty": 6
+  },
+  {
+    "animal": "松鼠",
+    "question": "灰松鼠幼崽断奶后会如何行动？",
+    "options": [
+      "A. 继续依赖母体完全喂养",
+      "B. 开始独立觅食但仍在巢穴附近活动",
+      "C. 立即离开群体独自生活",
+      "D. 由雄性松鼠接管抚养"
+    ],
+    "correct_answer": "B",
+    "explanation": "灰松鼠幼崽断奶后开始尝试自主觅食，但仍需母体保护。",
+    "difficulty": 4
+  },
+  {
+    "animal": "松鼠",
+    "question": "沙漠地区的某些松鼠为应对高温，主要选择何时活动？",
+    "options": [
+      "A. 正午阳光最强烈时",
+      "B. 夜间温度较低时段",
+      "C. 黎明和黄昏的短时间",
+      "D. 持续全天无规律"
+    ],
+    "correct_answer": "B",
+    "explanation": "沙漠松鼠通过选择夜间活动避免极端高温。",
+    "difficulty": 5
+  },
+  {
+    "animal": "松鼠",
+    "question": "灰松鼠的雄性个体通常会参与幼崽的抚养吗？",
+    "options": [
+      "A. 不参与，仅雌性负责养育",
+      "B. 参与共同喂养",
+      "C. 担任主要照料者",
+      "D. 在繁殖期外才会帮助"
+    ],
+    "correct_answer": "A",
+    "explanation": "灰松鼠的雄性通常不参与幼崽抚养，由雌性单独负责。",
+    "difficulty": 4
+  },
+  {
+    "animal": "松鼠",
+    "question": "当危险逼近时，红松鼠最可能发出哪种声音警告同伴？",
+    "options": [
+      "A. 高频尖锐的短促鸣叫",
+      "B. 持续低频率嗡嗡声",
+      "C. 轻柔哼唧",
+      "D. 无声晃动尾巴"
+    ],
+    "correct_answer": "A",
+    "explanation": "红松鼠通过高频鸣叫快速传递危险信号。",
+    "difficulty": 5
+  },
+  {
+    "animal": "松鼠",
+    "question": "为什么某些松鼠对森林再生至关重要？",
+    "options": [
+      "A. 消耗大量竞争性植物",
+      "B. 帮助传播树种种子",
+      "C. 控制昆虫害虫数量",
+      "D. 提供天敌食物来源"
+    ],
+    "correct_answer": "B",
+    "explanation": "松鼠储存的未食用种子可发芽，促进森林植物扩散。",
+    "difficulty": 7
+  },
+  {
+    "animal": "松鼠",
+    "question": "地栖的松鼠主要利用什么方式躲避捕食者？",
+    "options": [
+      "A. 爬树快速逃离",
+      "B. 挖掘地下洞穴藏身",
+      "C. 发出恐吓性叫声",
+      "D. 伪装成无威胁生物"
+    ],
+    "correct_answer": "B",
+    "explanation": "地松鼠等物种依赖挖掘的复杂洞穴系统躲避危险。",
+    "difficulty": 5
+  },
+  {
+    "animal": "松鼠",
+    "question": "在寒冷地区，除了尾部保暖外，松鼠维持体温的主要策略是什么？",
+    "options": [
+      "A. 增加皮毛厚度",
+      "B. 贮存大量冬季食物",
+      "C. 进入类似冬眠状态",
+      "D. 集群取暖"
+    ],
+    "correct_answer": "B",
+    "explanation": "松鼠通过秋季贮藏食物储备，确保在寒冷季节有稳定能量来源。",
+    "difficulty": 6
+  }
+]

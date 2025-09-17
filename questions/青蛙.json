@@ -1,0 +1,314 @@
+[
+  {
+    "animal": "青蛙",
+    "question": "青蛙属于以下哪一类动物？",
+    "options": [
+      "A. 哺乳类",
+      "B. 爬行类",
+      "C. 两栖类",
+      "D. 鱼类"
+    ],
+    "correct_answer": "C",
+    "explanation": "青蛙是典型的两栖动物，既能生活在水中也能在陆地上生活。",
+    "difficulty": 2
+  },
+  {
+    "animal": "青蛙",
+    "question": "青蛙的生命周期中，幼体被称为？",
+    "options": [
+      "A. 蚕蛹",
+      "B. 蝌蚪",
+      "C. 若虫",
+      "D. 童虫"
+    ],
+    "correct_answer": "B",
+    "explanation": "青蛙幼体会经过蝌蚪阶段，在水中用鳃呼吸，随后变态发育为成蛙。",
+    "difficulty": 3
+  },
+  {
+    "animal": "青蛙",
+    "question": "雄性青蛙在繁殖期发出鸣叫的主要目的是？",
+    "options": [
+      "A. 吸引雌蛙",
+      "B. 恐吓天敌",
+      "C. 寻找食物",
+      "D. 标记领地"
+    ],
+    "correct_answer": "A",
+    "explanation": "雄性青蛙通过鸣叫向雌蛙展示健康状况，促进交配。",
+    "difficulty": 4
+  },
+  {
+    "animal": "青蛙",
+    "question": "青蛙的呼吸方式主要依赖？",
+    "options": [
+      "A. 鳃",
+      "B. 肺和皮肤",
+      "C. 气管",
+      "D. 口咽腔"
+    ],
+    "correct_answer": "B",
+    "explanation": "成年青蛙通过肺部呼吸，同时皮肤湿润时也能进行气体交换。",
+    "difficulty": 5
+  },
+  {
+    "animal": "青蛙",
+    "question": "大多数青蛙的栖息环境是？",
+    "options": [
+      "A. 干旱沙漠",
+      "B. 潮湿森林",
+      "C. 开阔草原",
+      "D. 高山雪地"
+    ],
+    "correct_answer": "B",
+    "explanation": "青蛙需要湿润环境维持皮肤呼吸，常生活在靠近水源的植被区域。",
+    "difficulty": 6
+  },
+  {
+    "animal": "青蛙",
+    "question": "青蛙在生物分类学中属于哪个目？",
+    "options": [
+      "A. 鲤形目",
+      "B. 蜥蜴目",
+      "C. 无尾目",
+      "D. 鹦鹉目"
+    ],
+    "correct_answer": "C",
+    "explanation": "青蛙和蟾蜍同属无尾目（Anura），是两栖纲下的一个主要目。",
+    "difficulty": 7
+  },
+  {
+    "animal": "青蛙",
+    "question": "青蛙的眼睛在结构上具有以下哪种特征？",
+    "options": [
+      "A. 可转动的球形瞳孔",
+      "B. 分裂成上下眼睑",
+      "C. 竖直椭圆形瞳孔",
+      "D. 无活动性虹膜"
+    ],
+    "correct_answer": "A",
+    "explanation": "青蛙的瞳孔通常是圆环状，眼睛可360度转动以感知周围环境。",
+    "difficulty": 8
+  },
+  {
+    "animal": "青蛙",
+    "question": "某些温带地区的青蛙在冬季会？",
+    "options": [
+      "A. 进行迁徙",
+      "B. 持续活跃",
+      "C. 完全冬眠",
+      "D. 飞到高空"
+    ],
+    "correct_answer": "C",
+    "explanation": "寒冷季节青蛙的代谢率降低，进入休眠状态以应对低温环境。",
+    "difficulty": 9
+  },
+  {
+    "animal": "青蛙",
+    "question": "青蛙主要通过什么器官捕捉昆虫？",
+    "options": [
+      "A. 长舌粘液",
+      "B. 锥形牙齿",
+      "C. 强力爪子",
+      "D. 舌头钩刺"
+    ],
+    "correct_answer": "A",
+    "explanation": "青蛙的舌头可快速弹出，表面分泌黏液捕捉猎物。",
+    "difficulty": 1
+  },
+  {
+    "animal": "青蛙",
+    "question": "雌性青蛙每次产卵的数量通常是？",
+    "options": [
+      "A. 几百颗",
+      "B. 成千上万颗",
+      "C. 十几颗",
+      "D. 不超过50颗"
+    ],
+    "correct_answer": "B",
+    "explanation": "青蛙在繁殖期会产下大量卵确保后代存活率。",
+    "difficulty": 3
+  },
+  {
+    "animal": "青蛙",
+    "question": "青蛙的体温调节类型属于？",
+    "options": [
+      "A. 恒温动物",
+      "B. 变温动物",
+      "C. 温血动物",
+      "D. 热血动物"
+    ],
+    "correct_answer": "B",
+    "explanation": "青蛙依靠外部环境调节体温，属于变温动物。",
+    "difficulty": 4
+  },
+  {
+    "animal": "青蛙",
+    "question": "青蛙后腿肌肉发达的主要功能是？",
+    "options": [
+      "A. 挖掘洞穴",
+      "B. 长距离跳跃",
+      "C. 游泳推进",
+      "D. 树枝攀爬"
+    ],
+    "correct_answer": "B",
+    "explanation": "青蛙的后肢结构使其具有出色的跳跃能力以逃避天敌。",
+    "difficulty": 5
+  },
+  {
+    "animal": "青蛙",
+    "question": "青蛙感知声音的结构是？",
+    "options": [
+      "A. 外耳道",
+      "B. 鼓膜（耳咽管）",
+      "C. 内耳蜗",
+      "D. 眼睑振动"
+    ],
+    "correct_answer": "B",
+    "explanation": "青蛙通过位于眼睛后方的鼓膜接收声波震动。",
+    "difficulty": 6
+  },
+  {
+    "animal": "青蛙",
+    "question": "青蛙对人类农业的主要益处是？",
+    "options": [
+      "A. 分解枯叶",
+      "B. 控制害虫",
+      "C. 帮助授粉",
+      "D. 提供蛋白质"
+    ],
+    "correct_answer": "B",
+    "explanation": "青蛙以昆虫为食，能有效减少农作物害虫数量。",
+    "difficulty": 7
+  },
+  {
+    "animal": "青蛙",
+    "question": "以下哪种动物是青蛙的天敌？",
+    "options": [
+      "A. 蜻蜓幼虫",
+      "B. 水生甲虫",
+      "C. 喜鹊",
+      "D. 猎蝽"
+    ],
+    "correct_answer": "C",
+    "explanation": "鸟类如喜鹊常捕食青蛙，尤其是体型较小的个体。",
+    "difficulty": 8
+  },
+  {
+    "animal": "青蛙",
+    "question": "繁殖季节雄蛙与雌蛙会呈现哪种行为？",
+    "options": [
+      "A. 雌蛙在上抱对",
+      "B. 腹部紧贴的抱握姿势",
+      "C. 头顶相抵旋转",
+      "D. 尾部缠绕"
+    ],
+    "correct_answer": "B",
+    "explanation": "雄蛙通常从后方用前肢抱住雌蛙以促进产卵受精。",
+    "difficulty": 9
+  },
+  {
+    "animal": "青蛙",
+    "question": "青蛙皮肤表面分泌的黏液主要功能是什么？",
+    "options": [
+      "A. 防止水分蒸发和抗菌保护",
+      "B. 形成保护色伪装",
+      "C. 吸引配偶交配",
+      "D. 增强跳跃摩擦力"
+    ],
+    "correct_answer": "A",
+    "explanation": "青蛙皮肤黏液维持体表湿润，同时含有抗菌肽抵御病原体入侵。",
+    "difficulty": 2
+  },
+  {
+    "animal": "青蛙",
+    "question": "蝌蚪阶段的青蛙主要依靠什么进行移动？",
+    "options": [
+      "A. 四肢交替划动",
+      "B. 尾部摆动推进",
+      "C. 腹足爬行",
+      "D. 皮肤滑翔"
+    ],
+    "correct_answer": "B",
+    "explanation": "蝌蚪依靠尾鳍的波浪形运动在水中游动，后期逐渐长出四肢。",
+    "difficulty": 3
+  },
+  {
+    "animal": "青蛙",
+    "question": "青蛙捕食时舌头的特点是？",
+    "options": [
+      "A. 可伸长达身长1/2",
+      "B. 表面有倒钩刺",
+      "C. 温度敏感变色",
+      "D. 完全透明"
+    ],
+    "correct_answer": "A",
+    "explanation": "青蛙舌头可快速弹出至眼后方位置，粘性物质帮助捕捉猎物。",
+    "difficulty": 4
+  },
+  {
+    "animal": "青蛙",
+    "question": "在生态系统中青蛙扮演的关键角色是？",
+    "options": [
+      "A. 分解者",
+      "B. 消费者和被消费者",
+      "C. 生产者",
+      "D. 固定氮元素"
+    ],
+    "correct_answer": "B",
+    "explanation": "青蛙既是捕食昆虫的中级消费者，也是鸟类等动物的食物来源。",
+    "difficulty": 5
+  },
+  {
+    "animal": "青蛙",
+    "question": "冬季冬眠时青蛙的主要能量来源是？",
+    "options": [
+      "A. 消耗体脂储存",
+      "B. 光合作用色素",
+      "C. 吸收水底养分",
+      "D. 代谢抑制保护"
+    ],
+    "correct_answer": "A",
+    "explanation": "青蛙通过分解体内储备脂肪维持基本生命活动直到春季。",
+    "difficulty": 6
+  },
+  {
+    "animal": "青蛙",
+    "question": "成年青蛙变态发育后最先消失的幼体特征是？",
+    "options": [
+      "A. 鳃呼吸结构",
+      "B. 尾部骨骼",
+      "C. 肺泡组织",
+      "D. 粘液腺"
+    ],
+    "correct_answer": "A",
+    "explanation": "青蛙变态时鳃器退化，肺和皮肤逐步成为主要呼吸器官。",
+    "difficulty": 7
+  },
+  {
+    "animal": "青蛙",
+    "question": "研究显示青蛙的视力对以下哪种特征最敏感？",
+    "options": [
+      "A. 快速移动物体",
+      "B. 红色光谱波长",
+      "C. 细微纹理差异",
+      "D. 超声波震动"
+    ],
+    "correct_answer": "A",
+    "explanation": "青蛙视网膜对运动目标有特殊神经节细胞处理，利于捕食。",
+    "difficulty": 8
+  },
+  {
+    "animal": "青蛙",
+    "question": "导致全球两栖动物包括青蛙数量下降的主要原因是？",
+    "options": [
+      "A. 空中飞行能力丧失",
+      "B. 水域污染与栖息地破坏",
+      "C. 过度繁殖竞争",
+      "D. 昼夜节律紊乱"
+    ],
+    "correct_answer": "B",
+    "explanation": "水体污染物和生境破碎化是两栖动物濒危的主要人为因素。",
+    "difficulty": 9
+  }
+]

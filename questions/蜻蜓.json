@@ -1,0 +1,422 @@
+[
+  {
+    "animal": "蜻蜓",
+    "question": "蜻蜓属于以下哪个昆虫目？",
+    "options": [
+      "A. 蜻蜓目",
+      "B. 鳞翅目",
+      "C. 鞘翅目",
+      "D. 直翅目"
+    ],
+    "correct_answer": "A",
+    "explanation": "蜻蜓的分类学归类为蜻蜓目（Odonata），与蝴蝶（鳞翅目）、甲虫（鞘翅目）和蝗虫（直翅目）不同。",
+    "difficulty": 2
+  },
+  {
+    "animal": "蜻蜓",
+    "question": "蜻蜓幼虫的栖息环境是？",
+    "options": [
+      "A. 水中",
+      "B. 树洞",
+      "C. 空中",
+      "D. 土壤"
+    ],
+    "correct_answer": "A",
+    "explanation": "蜻蜓幼虫称为\"水虿\"，必须在水中完成发育阶段。",
+    "difficulty": 1
+  },
+  {
+    "animal": "蜻蜓",
+    "question": "蜻蜓飞行时的翅膀运动特点是？",
+    "options": [
+      "A. 左右两对翅膀同步振动",
+      "B. 前翅高速后翅静止",
+      "C. 四片翅膀独立自由活动",
+      "D. 仅靠腹部摆动"
+    ],
+    "correct_answer": "C",
+    "explanation": "蜻蜓的四片翅膀可独立控制，使其能进行垂直升降和急转弯等复杂飞行。",
+    "difficulty": 4
+  },
+  {
+    "animal": "蜻蜓",
+    "question": "蜻蜓复眼的构造特征是？",
+    "options": [
+      "A. 由3万多个小眼组成",
+      "B. 完全透明无结构",
+      "C. 只有2个小眼",
+      "D. 和人类眼睛结构相同"
+    ],
+    "correct_answer": "A",
+    "explanation": "蜻蜓的复眼包含数万个眼小体，能捕捉快速移动物体。",
+    "difficulty": 7
+  },
+  {
+    "animal": "蜻蜓",
+    "question": "蜻蜓从幼虫到成虫经历的是哪种变态类型？",
+    "options": [
+      "A. 完全变态",
+      "B. 渐变态",
+      "C. 表变态",
+      "D. 不完全变态"
+    ],
+    "correct_answer": "B",
+    "explanation": "渐变态指无蛹期，幼虫直接羽化为成虫，与蝴蝶的完全变态不同。",
+    "difficulty": 5
+  },
+  {
+    "animal": "蜻蜓",
+    "question": "蜻蜓交配时独特的姿势是？",
+    "options": [
+      "A. 轮舞形（心形）",
+      "B. 平行排列",
+      "C. 垂直叠合",
+      "D. 完全分离"
+    ],
+    "correct_answer": "A",
+    "explanation": "雄性与雌性的腹部形成环状结构，称为\"轮舞式交配\"。",
+    "difficulty": 6
+  },
+  {
+    "animal": "蜻蜓",
+    "question": "关于蜻蜓的寿命，以下正确的是？",
+    "options": [
+      "A. 幼虫期比成虫长",
+      "B. 成虫可活10年以上",
+      "C. 只能存活几天",
+      "D. 陆地阶段无寿命"
+    ],
+    "correct_answer": "A",
+    "explanation": "蜻蜓幼虫可在水中生活数年，而成虫通常仅存活数月。",
+    "difficulty": 3
+  },
+  {
+    "animal": "蜻蜓",
+    "question": "蜻蜓飞行时能否悬停？",
+    "options": [
+      "A. 可以",
+      "B. 必须持续移动",
+      "C. 只能向前飞",
+      "D. 需要风力辅助"
+    ],
+    "correct_answer": "A",
+    "explanation": "其独特的翅膀运动方式使其可精准悬停在空中。",
+    "difficulty": 2
+  },
+  {
+    "animal": "蜻蜓",
+    "question": "成年蜻蜓的主要食物来源是？",
+    "options": [
+      "A. 其他昆虫",
+      "B. 植物花粉",
+      "C. 土壤微生物",
+      "D. 阳光能量转化"
+    ],
+    "correct_answer": "A",
+    "explanation": "成年蜻蜓是敏捷的捕食者，主要以蚊虫、苍蝇等小型昆虫为食。",
+    "difficulty": 1
+  },
+  {
+    "animal": "蜻蜓",
+    "question": "蜻蜓翅膀上的\"翅痣\"结构主要用于？",
+    "options": [
+      "A. 调节体温",
+      "B. 稳定飞行姿态",
+      "C. 吸引配偶",
+      "D. 捕获猎物"
+    ],
+    "correct_answer": "B",
+    "explanation": "翅痣（Alula）是翅膀上的加厚区域，帮助蜻蜓在高速飞行时保持稳定。",
+    "difficulty": 4
+  },
+  {
+    "animal": "蜻蜓",
+    "question": "蜻蜓幼虫的捕食方式特点是？",
+    "options": [
+      "A. 喷射水流捕捉猎物",
+      "B. 挖掘土壤寻找食物",
+      "C. 等待植物果实掉落",
+      "D. 依靠共生菌群分解"
+    ],
+    "correct_answer": "A",
+    "explanation": "水虿通过口下片弹出捕食，同时利用喷射水流快速接近猎物。",
+    "difficulty": 3
+  },
+  {
+    "animal": "蜻蜓",
+    "question": "大多数蜻蜓成虫的寿命大约为？",
+    "options": [
+      "A. 数月",
+      "B. 十年以上",
+      "C. 几天",
+      "D. 永生"
+    ],
+    "correct_answer": "A",
+    "explanation": "虽然幼虫阶段可能持续数年，但成虫通常只能存活2-6个月。",
+    "difficulty": 5
+  },
+  {
+    "animal": "蜻蜓",
+    "question": "非洲的某些种类蜻蜓具有哪种特殊行为？",
+    "options": [
+      "A. 跨洲迁徙",
+      "B. 冬眠休眠",
+      "C. 发光诱捕",
+      "D. 群体筑巢"
+    ],
+    "correct_answer": "A",
+    "explanation": "非洲的某些蜻蜓种类会进行数百公里的季节性迁徙，类似候鸟行为。",
+    "difficulty": 7
+  },
+  {
+    "animal": "蜻蜓",
+    "question": "蜻蜓触角的主要功能是？",
+    "options": [
+      "A. 听觉感知",
+      "B. 化学物质识别",
+      "C. 触觉和气味感应",
+      "D. 发出超声波"
+    ],
+    "correct_answer": "C",
+    "explanation": "细长的触角帮助蜻蜓探测空气流动、气味及近距离物体。",
+    "difficulty": 6
+  },
+  {
+    "animal": "蜻蜓",
+    "question": "雄性蜻蜓在交配时会形成什么结构辅助产卵？",
+    "options": [
+      "A. 抱握器（交配轮）",
+      "B. 发光器官",
+      "C. 声音共鸣腔",
+      "D. 挖掘工具"
+    ],
+    "correct_answer": "A",
+    "explanation": "雄性腹部末端的特殊结构用于与雌性连接，确保精荚正确传递。",
+    "difficulty": 4
+  },
+  {
+    "animal": "蜻蜓",
+    "question": "蜻蜓复眼能感知的光谱范围包括？",
+    "options": [
+      "A. 紫外线",
+      "B. X射线",
+      "C. 地球磁场波",
+      "D. 次声波"
+    ],
+    "correct_answer": "A",
+    "explanation": "复眼能检测紫外线，帮助识别花朵和异性蜻蜓的特殊标记。",
+    "difficulty": 8
+  },
+  "A. 属于不同的亚目（差翅亚目 vs 均翅亚目）",
+  "B. 翅膀大小相同",
+  "C. 复眼结构不同",
+  "D. 幼虫栖息环境差异",
+  {
+    "animal": "蜻蜓",
+    "question": "蜻蜓成虫的最显著视觉特征是？",
+    "options": [
+      "A. 呈环状排列的复眼结构",
+      "B. 单眼位于头部顶端",
+      "C. 瞳孔可自由开闭",
+      "D. 具有晶状体调节功能"
+    ],
+    "correct_answer": "A",
+    "explanation": "蜻蜓的两个复眼呈半球状并占据头部大部分区域，形成环状视觉覆盖。",
+    "difficulty": 1
+  },
+  {
+    "animal": "蜻蜓",
+    "question": "下列哪种环境最适合蜻蜓产卵？",
+    "options": [
+      "A. 缓流的清洁水域",
+      "B. 干旱的沙质河床",
+      "C. 常年冰冻的湖泊",
+      "D. 高盐度海水"
+    ],
+    "correct_answer": "A",
+    "explanation": "蜻蜓通常在静水或缓流环境中产卵，确保幼虫能在水中完成发育。",
+    "difficulty": 3
+  },
+  {
+    "animal": "蜻蜓",
+    "question": "蜻蜓翅膀的振动频率最高可达？",
+    "options": [
+      "A. 每秒50次以上",
+      "B. 每分钟1次",
+      "C. 与人类心跳同步",
+      "D. 完全静止"
+    ],
+    "correct_answer": "A",
+    "explanation": "蜻蜓翅膀可高频振动，部分种类飞行速度可达每秒5米以上。",
+    "difficulty": 4
+  },
+  {
+    "animal": "蜻蜓",
+    "question": "下列哪种昆虫与蜻蜓有亲缘关系？",
+    "options": [
+      "A. 螳螂",
+      "B. 苍蝇",
+      "C. 石蛾",
+      "D. 蚂蚁"
+    ],
+    "correct_answer": "C",
+    "explanation": "石蛾属于蜉蝣目，与蜻蜓同属新翅下纲，演化关系较近。",
+    "difficulty": 6
+  },
+  {
+    "animal": "蜻蜓",
+    "question": "蜻蜓幼虫口器的捕食结构被称为？",
+    "options": [
+      "A. 口下片",
+      "B. 螯肢",
+      "C. 咀嚼式口器",
+      "D. 吸管"
+    ],
+    "correct_answer": "A",
+    "explanation": "水虿的口下片可快速弹出捕捉猎物，是其标志性捕食工具。",
+    "difficulty": 5
+  },
+  {
+    "animal": "蜻蜓",
+    "question": "以下哪种能力是大多数蜻蜓成虫不具备的？",
+    "options": [
+      "A. 后退飞行",
+      "B. 侧向滑翔",
+      "C. 垂直爬升",
+      "D. 水中呼吸"
+    ],
+    "correct_answer": "D",
+    "explanation": "成虫阶段的蜻蜓无法在水中呼吸，仅幼虫具备水生适应结构。",
+    "difficulty": 7
+  },
+  {
+    "animal": "蜻蜓",
+    "question": "蜻蜓翅膀末端加厚区域的主要功能是？",
+    "options": [
+      "A. 增强抗压强度",
+      "B. 减少空气阻力",
+      "C. 感知气流变化",
+      "D. 产生彩色反光"
+    ],
+    "correct_answer": "C",
+    "explanation": "该区域富含感觉细胞，帮助感知飞行时的气流动态。",
+    "difficulty": 8
+  },
+  {
+    "animal": "蜻蜓",
+    "question": "全球体型最大的蜻蜓化石翼展可达？",
+    "options": [
+      "A. 超过70厘米",
+      "B. 约20厘米",
+      "C. 与现代品种相当",
+      "D. 不足5厘米"
+    ],
+    "correct_answer": "A",
+    "explanation": "石炭纪的巨脉蜻蜓化石显示其翼展可达71cm，是已知最大的蜻蜓类群。",
+    "difficulty": 9
+  },
+  {
+    "animal": "蜻蜓",
+    "question": "蜻蜓从水生幼虫变为成虫必须经历什么过程？",
+    "options": [
+      "A. 羽化（脱皮离开水面）",
+      "B. 在水中蜕皮但不下到陆地",
+      "C. 钻入土壤完成变态",
+      "D. 通过产卵再次孵化"
+    ],
+    "correct_answer": "A",
+    "explanation": "蜻蜓幼虫羽化时需爬出水面，破开最后一层幼虫皮并展开翅膀，完成成虫形态转变。",
+    "difficulty": 2
+  },
+  {
+    "animal": "蜻蜓",
+    "question": "成年蜻蜓如何处理捕获的猎物？",
+    "options": [
+      "A. 整体吞入消化道",
+      "B. 将猎物液化后吸食内脏",
+      "C. 仅吸收猎物的体液部分",
+      "D. 剥去外骨骼后咀嚼肌肉"
+    ],
+    "correct_answer": "B",
+    "explanation": "成虫通过分泌消化酶将猎物液化为液体，再利用口器吸食其内脏和组织。",
+    "difficulty": 4
+  },
+  {
+    "animal": "蜻蜓",
+    "question": "当静止时，成年蜻蜓的翅膀通常如何摆放？",
+    "options": [
+      "A. 水平展开呈十字形",
+      "B. 竖直向上如豆娘",
+      "C. 完全折叠贴于背部",
+      "D. 仅前翅展开后翅收起"
+    ],
+    "correct_answer": "A",
+    "explanation": "与豆娘不同，蜻蜓的翅膀在静止时呈水平展开状态。",
+    "difficulty": 3
+  },
+  {
+    "animal": "蜻蜓",
+    "question": "蜻蜓复眼的主要功能包括以下哪项？",
+    "options": [
+      "A. 精确测量猎物距离",
+      "B. 辨别细微的颜色差异",
+      "C. 检测紫外线波长用于求偶",
+      "D. 通过运动视差计算飞行轨迹"
+    ],
+    "correct_answer": "C",
+    "explanation": "部分蜻蜓种类的复眼能感知紫外线，用于识别配偶或猎物反射的特定光谱。",
+    "difficulty": 5
+  },
+  {
+    "animal": "蜻蜓",
+    "question": "在以下环境中，通常不会发现成年蜻蜓的是？",
+    "options": [
+      "A. 热带雨林溪流边",
+      "B. 沙漠临时积水区",
+      "C. 高山融雪形成的湖泊",
+      "D. 北极苔原冻土层"
+    ],
+    "correct_answer": "D",
+    "explanation": "北极苔原的极端寒冷和缺乏稳定水域导致蜻蜓无法存活。",
+    "difficulty": 6
+  },
+  {
+    "animal": "蜻蜓",
+    "question": "以下哪项是成年蜻蜓通常不会在夜间进行的行为？",
+    "options": [
+      "A. 饮水补充体液",
+      "B. 持续活跃捕食",
+      "C. 在植被上停留休息",
+      "D. 进行求偶飞行"
+    ],
+    "correct_answer": "B",
+    "explanation": "蜻蜓主要依赖复眼的视觉捕捉猎物，夜间活动能力较弱。",
+    "difficulty": 4
+  },
+  {
+    "animal": "蜻蜓",
+    "question": "蜻蜓幼虫（水虿）如何完成呼吸？",
+    "options": [
+      "A. 通过直肠鳃从水中提取氧气",
+      "B. 利用体表皮肤进行气体交换",
+      "C. 需到水面吞咽空气",
+      "D. 使用类似蜻蜓成虫的气管系统"
+    ],
+    "correct_answer": "A",
+    "explanation": "幼虫通过直肠中的特化结构鳃来呼吸水中溶解氧。",
+    "difficulty": 5
+  },
+  {
+    "animal": "蜻蜓",
+    "question": "现代已知的最大现存蜻蜓种类翼展约为多少？",
+    "options": [
+      "A. 超过70厘米（化石记录）",
+      "B. 约15厘米",
+      "C. 约28厘米",
+      "D. 35厘米"
+    ],
+    "correct_answer": "C",
+    "explanation": "南美洲的“巨型直升机蜻蜓”翼展可达约28厘米，是现存最大的种类之一。",
+    "difficulty": 6
+  }
+]

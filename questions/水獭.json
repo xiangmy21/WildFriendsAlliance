@@ -1,0 +1,522 @@
+[
+  {
+    "animal": "水獭",
+    "question": "水獭属于以下哪个目？",
+    "options": [
+      "A. 食肉目",
+      "B. 啮齿目",
+      "C. 灵长目",
+      "D. 鲸偶蹄目"
+    ],
+    "correct_answer": "A",
+    "explanation": "水獭属于食肉目，与其他鼬科动物有亲缘关系。",
+    "difficulty": 3
+  },
+  {
+    "animal": "水獭",
+    "question": "水獭主要栖息在以下哪种环境中？",
+    "options": [
+      "A. 森林",
+      "B. 沙漠",
+      "C. 河流和湖泊附近",
+      "D. 草原"
+    ],
+    "correct_answer": "C",
+    "explanation": "水獭依赖水域环境生存，主要栖息在河流、湖泊或沿海区域。",
+    "difficulty": 4
+  },
+  {
+    "animal": "水獭",
+    "question": "水獭的主要食物来源是什么？",
+    "options": [
+      "A. 鱼类",
+      "B. 植物根茎",
+      "C. 小型哺乳动物",
+      "D. 昆虫"
+    ],
+    "correct_answer": "A",
+    "explanation": "鱼类是水獭的主食，它们擅长在水中捕猎。",
+    "difficulty": 2
+  },
+  {
+    "animal": "水獭",
+    "question": "全球已知的水獭种类共有多少种？",
+    "options": [
+      "A. 5",
+      "B. 13",
+      "C. 8",
+      "D. 20"
+    ],
+    "correct_answer": "B",
+    "explanation": "现存水獭共分为3个属、约13个不同物种。",
+    "difficulty": 5
+  },
+  {
+    "animal": "水獭",
+    "question": "大多数水獭的繁殖季节通常在哪个时段？",
+    "options": [
+      "A. 夏季",
+      "B. 秋季",
+      "C. 冬季",
+      "D. 春季"
+    ],
+    "correct_answer": "D",
+    "explanation": "许多水獭物种会在春季交配并产仔，以确保幼崽在温暖季节成长。",
+    "difficulty": 6
+  },
+  {
+    "animal": "水獭",
+    "question": "以下哪种动物是水獭的天敌？",
+    "options": [
+      "A. 狼",
+      "B. 鳄鱼和鲨鱼",
+      "C. 秃鹫",
+      "D. 老虎"
+    ],
+    "correct_answer": "B",
+    "explanation": "鳄鱼、鲨鱼等大型水生捕食者会威胁到水獭的安全。",
+    "difficulty": 5
+  },
+  {
+    "animal": "水獭",
+    "question": "圈养环境下，水獭的平均寿命约为多少年？",
+    "options": [
+      "A. 10-12",
+      "B. 8-10",
+      "C. 15-20",
+      "D. 5-7"
+    ],
+    "correct_answer": "C",
+    "explanation": "圈养条件下水獭的寿命通常比野生环境更长，可达15-20年。",
+    "difficulty": 4
+  },
+  {
+    "animal": "水獭",
+    "question": "以下关于水獭爪子特征的描述正确的是？",
+    "options": [
+      "A. 完全无蹼",
+      "B. 全蹼",
+      "C. 半蹼且带指甲",
+      "D. 爪子无法闭合"
+    ],
+    "correct_answer": "C",
+    "explanation": "水獭的爪子具有半蹼结构，并保留可抓握的指甲，便于捕猎和挖掘。",
+    "difficulty": 7
+  },
+  {
+    "animal": "水獭",
+    "question": "水獭的社会行为特征是怎样的？",
+    "options": [
+      "A. 完全独居动物",
+      "B. 形成稳定家族群体",
+      "C. 仅在繁殖期聚集",
+      "D. 群体间存在严格等级制度"
+    ],
+    "correct_answer": "B",
+    "explanation": "多数水獭物种会形成由父母和幼崽组成的稳定家庭单元。",
+    "difficulty": 4
+  },
+  {
+    "animal": "水獭",
+    "question": "北美的河流 otter 主要分布于以下哪种水域？",
+    "options": [
+      "A. 高山冰川",
+      "B. 沿海咸淡水交汇处",
+      "C. 内陆淡水河湖系统",
+      "D. 深海珊瑚礁"
+    ],
+    "correct_answer": "C",
+    "explanation": "北美河流水獭广泛分布于淡水流域，包括河流、湖泊和湿地。",
+    "difficulty": 3
+  },
+  {
+    "animal": "水獭",
+    "question": "新生水獭幼崽的视力发育情况如何？",
+    "options": [
+      "A. 出生时已完全具备视觉能力",
+      "B. 需要2-3周才能睁开眼睛",
+      "C. 终身保持弱视状态",
+      "D. 完全依赖听觉定位"
+    ],
+    "correct_answer": "B",
+    "explanation": "水獭幼崽出生时眼睑闭合，约两周后才会睁眼。",
+    "difficulty": 6
+  },
+  {
+    "animal": "水獭",
+    "question": "以下哪种适应性特征帮助水獭在水中快速游动？",
+    "options": [
+      "A. 短而宽的尾巴",
+      "B. 长而扁平的尾鳍状结构",
+      "C. 流线型身体和蹼足",
+      "D. 覆盖全身的防水羽毛"
+    ],
+    "correct_answer": "C",
+    "explanation": "流线体型与完全蹼化的四肢是水獭高效游泳的关键解剖特征。",
+    "difficulty": 5
+  },
+  {
+    "animal": "水獭",
+    "question": "根据IUCN红色名录，亚洲小爪水獭被列为哪种保护等级？",
+    "options": [
+      "A. 无危（LC）",
+      "B. 濒危（EN）",
+      "C. 极危（CR）",
+      "D. 数据不足（DD）"
+    ],
+    "correct_answer": "B",
+    "explanation": "由于栖息地丧失和非法捕捞，亚洲小爪水獭被列为濒危物种。",
+    "difficulty": 8
+  },
+  {
+    "animal": "水獭",
+    "question": "水獭如何在潜水时保持氧气供应？",
+    "options": [
+      "A. 减缓心跳速率至基础水平的20%",
+      "B. 储存大量氧气于肌肉中",
+      "C. 利用鳃进行呼吸",
+      "D. 通过皮肤直接吸收溶解氧"
+    ],
+    "correct_answer": "A",
+    "explanation": "水獭潜水时会显著降低心率以延长闭气时间，可达8分钟以上。",
+    "difficulty": 7
+  },
+  {
+    "animal": "水獭",
+    "question": "以下哪种行为是水獭典型的工具使用表现？",
+    "options": [
+      "A. 使用岩石敲开贝类",
+      "B. 构建巢穴时使用树枝",
+      "C. 用尾巴拍打水面沟通",
+      "D. 喷洒气味标记领地"
+    ],
+    "correct_answer": "A",
+    "explanation": "某些水獭会将石头含在口中敲击贝类外壳，展示工具使用智慧。",
+    "difficulty": 9
+  },
+  {
+    "animal": "水獭",
+    "question": "欧洲水獭的分布范围不包括以下哪个区域？",
+    "options": [
+      "A. 西伯利亚南部",
+      "B. 北非河流系统",
+      "C. 澳大利亚东海岸",
+      "D. 斯堪的纳维亚半岛"
+    ],
+    "correct_answer": "C",
+    "explanation": "欧洲水獭分布于欧亚大陆及北非，但未自然分布在澳大利亚。",
+    "difficulty": 6
+  },
+  {
+    "animal": "水獭",
+    "question": "水獭的皮毛具有什么特性帮助其在水中生活？",
+    "options": [
+      "A. 完全防水",
+      "B. 需要定期打蜡处理",
+      "C. 短而密的绒毛层",
+      "D. 光滑无毛"
+    ],
+    "correct_answer": "C",
+    "explanation": "水獭拥有双层皮毛，外层防水短毛搭配内层密集保暖绒毛。",
+    "difficulty": 2
+  },
+  {
+    "animal": "水獭",
+    "question": "水獭幼崽通常在出生后多久开始学习游泳？",
+    "options": [
+      "A. 出生当天",
+      "B. 1个月左右",
+      "C. 3周龄时",
+      "D. 半年后"
+    ],
+    "correct_answer": "C",
+    "explanation": "水獭幼崽约在2-4周大时开始跟随母亲练习游泳。",
+    "difficulty": 4
+  },
+  {
+    "animal": "水獭",
+    "question": "以下哪个地区没有原生水獭种群？",
+    "options": [
+      "A. 北美五大湖区",
+      "B. 非洲刚果河流域",
+      "C. 澳大利亚内陆湖泊",
+      "D. 东南亚红树林"
+    ],
+    "correct_answer": "C",
+    "explanation": "澳大利亚没有原生水獭，现存种群多为引入物种。",
+    "difficulty": 6
+  },
+  {
+    "animal": "水獭",
+    "question": "水獭在河流生态系统中主要扮演什么角色？",
+    "options": [
+      "A. 分解者",
+      "B. 初级生产者",
+      "C. 顶级捕食者",
+      "D. 寄生生物"
+    ],
+    "correct_answer": "C",
+    "explanation": "水獭通过控制鱼类种群维持生态平衡，属于食物链顶端消费者。",
+    "difficulty": 5
+  },
+  {
+    "animal": "水獭",
+    "question": "水獭使用哪种方式主要进行群体间的通讯？",
+    "options": [
+      "A. 发出高频声波",
+      "B. 留下气味标记",
+      "C. 跳跃表演",
+      "D. 水面拍打尾巴"
+    ],
+    "correct_answer": "B",
+    "explanation": "水獭通过肛门腺体分泌物在领地标记化学信号。",
+    "difficulty": 4
+  },
+  {
+    "animal": "水獭",
+    "question": "海獭与河流水獭的主要区别在于？",
+    "options": [
+      "A. 海獭完全适应海洋生活",
+      "B. 河流水獭体型更大",
+      "C. 海獭以鱼类为主食",
+      "D. 两者无显著差异"
+    ],
+    "correct_answer": "A",
+    "explanation": "海獭是唯一完全在盐水中生活的水獭物种，能使用工具开贝壳。",
+    "difficulty": 6
+  },
+  {
+    "animal": "水獭",
+    "question": "以下哪种水獭被列为极危（CR）？",
+    "options": [
+      "A. 欧洲水獭",
+      "B. 美洲河流水獭",
+      "C. 奇多水獭",
+      "D. 亚洲小爪水獭"
+    ],
+    "correct_answer": "C",
+    "explanation": "奇多水獭因栖息地破坏仅存约50只，是世界上最濒危的水獭。",
+    "difficulty": 8
+  },
+  {
+    "animal": "水獭",
+    "question": "某些水獭会捕食以下哪种非鱼类生物？",
+    "options": [
+      "A. 鸟类蛋",
+      "B. 蝉蛹",
+      "C. 水生昆虫幼虫",
+      "D. 甲壳类如螃蟹"
+    ],
+    "correct_answer": "D",
+    "explanation": "水獭食谱包括螃蟹、龙虾等甲壳动物补充蛋白质摄入。",
+    "difficulty": 5
+  },
+  {
+    "animal": "水獭",
+    "question": "水獭的尾巴在游泳时主要起到什么作用？",
+    "options": [
+      "A. 转向与平衡",
+      "B. 储存脂肪",
+      "C. 捕获猎物",
+      "D. 发出声波"
+    ],
+    "correct_answer": "A",
+    "explanation": "水獭的尾巴细长且灵活，主要在游泳时帮助调整方向和保持平衡。",
+    "difficulty": 4
+  },
+  {
+    "animal": "水獭",
+    "question": "水獭每胎通常产多少只幼崽？",
+    "options": [
+      "A. 1-3只",
+      "B. 4-6只",
+      "C. 7只以上",
+      "D. 单胎1只"
+    ],
+    "correct_answer": "A",
+    "explanation": "水獭每胎通常产2-3只幼崽，具体数量因种类不同略有差异。",
+    "difficulty": 2
+  },
+  {
+    "animal": "水獭",
+    "question": "以下关于水獭栖息地的描述正确的是？",
+    "options": [
+      "A. 需要清澈且流动缓慢的水域",
+      "B. 偏好浑浊的泥沼环境",
+      "C. 必须靠近人类居住区",
+      "D. 仅在热带地区分布"
+    ],
+    "correct_answer": "A",
+    "explanation": "水獭通常选择水质良好、水流适中的河流或湖泊作为栖息地。",
+    "difficulty": 3
+  },
+  {
+    "animal": "水獭",
+    "question": "水獭如何应对寒冷环境？",
+    "options": [
+      "A. 依靠皮毛和脂肪层保温",
+      "B. 冬季进入冬眠状态",
+      "C. 向阳光区域迁徙",
+      "D. 聚集成群抵御低温"
+    ],
+    "correct_answer": "A",
+    "explanation": "水獭的双层皮毛和厚实脂肪层能有效保持体温，无需特殊行为应对寒冷。",
+    "difficulty": 4
+  },
+  {
+    "animal": "水獭",
+    "question": "以下哪种行为是海獭与河流水獭的主要差异？",
+    "options": [
+      "A. 海獭使用工具开贝壳",
+      "B. 河流水獭体型更大",
+      "C. 海獭完全以鱼类为食",
+      "D. 两者无显著区别"
+    ],
+    "correct_answer": "A",
+    "explanation": "海獭是唯一会用石头敲击贝类的水獭，而河流水獭主要捕食鱼类和甲壳类。",
+    "difficulty": 6
+  },
+  {
+    "animal": "水獭",
+    "question": "野生水獭的平均寿命大约为？",
+    "options": [
+      "A. 5-8年",
+      "B. 10-15年",
+      "C. 20年以上",
+      "D. 不足3年"
+    ],
+    "correct_answer": "B",
+    "explanation": "野生水獭通常能活到10-15岁，圈养环境下寿命可能更长。",
+    "difficulty": 5
+  },
+  {
+    "animal": "水獭",
+    "question": "以下哪种水獭因栖息地破坏被列为极危物种？",
+    "options": [
+      "A. 欧洲水獭",
+      "B. 奇多水獭",
+      "C. 美洲河流水獭",
+      "D. 亚洲小爪水獭"
+    ],
+    "correct_answer": "B",
+    "explanation": "奇多水獭仅存约50只，主要威胁来自亚马逊地区的森林砍伐。",
+    "difficulty": 8
+  },
+  {
+    "animal": "水獭",
+    "question": "水獭如何避免在水中睡觉时下沉？",
+    "options": [
+      "A. 靠气泡群漂浮",
+      "B. 抓住树枝或岩石",
+      "C. 使用尾巴固定身体",
+      "D. 凭借皮毛的防水性"
+    ],
+    "correct_answer": "B",
+    "explanation": "水獭常利用岸边植被、石头等物体抓握，防止睡觉时被水流冲走。",
+    "difficulty": 6
+  },
+  {
+    "animal": "水獭",
+    "question": "大多数水獭的主要活动时间是？",
+    "options": [
+      "A. 夜间",
+      "B. 白天",
+      "C. 黄昏",
+      "D. 全天活跃但偏好黄昏"
+    ],
+    "answer": "B",
+    "explanation": "许多水獭种类如欧洲水獭和海獭在白天较为活跃，利用视觉进行捕猎。",
+    "difficulty": 4
+  },
+  {
+    "animal": "水獭",
+    "question": "水獭幼崽通常何时开始断奶？",
+    "options": [
+      "A. 出生后1个月",
+      "B. 3-6个月",
+      "C. 8-10个月",
+      "D. 不断奶（一直依赖母亲）"
+    ],
+    "answer": "B",
+    "explanation": "幼崽在出生后数月内逐渐学习独立，约3-6个月时基本完成断奶。",
+    "difficulty": 4
+  },
+  {
+    "animal": "水獭",
+    "question": "以下哪种动物是水獭幼崽的常见天敌？",
+    "options": [
+      "A. 鳄鱼",
+      "B. 金雕",
+      "C. 水蛇",
+      "D. 所有以上"
+    ],
+    "answer": "D",
+    "explanation": "鳄鱼、猛禽（如金雕）和水蛇均可能捕食幼崽，尤其是靠近水域的栖息地。",
+    "difficulty": 3
+  },
+  {
+    "animal": "水獭",
+    "question": "海獭与其他水獭的主要差异之一是其缺乏什么？",
+    "options": [
+      "A. 厚厚的脂肪层",
+      "B. 使用工具的能力",
+      "C. 尾巴用于游泳",
+      "D. 双层皮毛"
+    ],
+    "answer": "A",
+    "explanation": "海獭依赖其极密的皮毛（约1百万根/平方英寸）保暖，而非其他水獭常用的厚脂肪层。",
+    "difficulty": 5
+  },
+  {
+    "animal": "水獭",
+    "question": "水獭通常将巢穴建在哪里？",
+    "options": [
+      "A. 河岸挖掘的洞穴",
+      "B. 水中的漂浮植物中",
+      "C. 树上的树洞",
+      "D. 岩石下的缝隙"
+    ],
+    "answer": "A",
+    "explanation": "许多水獭种类（如欧亚河獭）会在河岸挖掘复杂的地下巢穴作为庇护所。",
+    "difficulty": 4
+  },
+  {
+    "animal": "水獭",
+    "question": "水獭繁殖季节通常发生在哪个时间段？",
+    "options": [
+      "A. 春季",
+      "B. 秋季",
+      "C. 冬季",
+      "D. 全年均可"
+    ],
+    "answer": "A",
+    "explanation": "多数温带水獭在春季繁殖，以确保幼崽在温暖季节有足够的食物资源。",
+    "difficulty": 3
+  },
+  {
+    "animal": "水獭",
+    "question": "关于水獭的迁徙行为，以下哪项正确？",
+    "options": [
+      "A. 因季节变化而迁徙",
+      "B. 不进行长距离迁徙，留在同一区域",
+      "C. 迁徙到海洋觅食",
+      "D. 随水流迁移"
+    ],
+    "answer": "B",
+    "explanation": "水獭通常有固定的栖息地范围，不会长距离迁徙，除非环境剧烈变化。",
+    "difficulty": 3
+  },
+  {
+    "animal": "水獭",
+    "question": "幼崽何时开始独立觅食？",
+    "options": [
+      "A. 出生后1个月",
+      "B. 3-6个月",
+      "C. 8-10个月",
+      "D. 满1岁时"
+    ],
+    "answer": "B",
+    "explanation": "幼崽在出生数月内逐步学习捕猎技巧，约3-6个月时可独立觅食。",
+    "difficulty": 4
+  }
+]

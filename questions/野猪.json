@@ -1,0 +1,522 @@
+[
+  {
+    "animal": "野猪",
+    "question": "野猪属于以下哪个目？",
+    "options": [
+      "A. 偶蹄目",
+      "B. 鲸目",
+      "C. 奇蹄目",
+      "D. 食肉目"
+    ],
+    "correct_answer": "A",
+    "explanation": "野猪是偶蹄目的典型代表，属于猪科，具有偶数趾的特征。",
+    "difficulty": 2
+  },
+  {
+    "animal": "野猪",
+    "question": "野猪主要生活在哪种环境中？",
+    "options": [
+      "A. 热带雨林",
+      "B. 沙漠",
+      "C. 极地冰原",
+      "D. 多种环境适应性强"
+    ],
+    "correct_answer": "D",
+    "explanation": "野猪分布广泛，能适应森林、草原甚至人类干扰区域。",
+    "difficulty": 3
+  },
+  {
+    "animal": "野猪",
+    "question": "野猪的食性是？",
+    "options": [
+      "A. 肉食",
+      "B. 纯草食",
+      "C. 杂食",
+      "D. 只吃水果"
+    ],
+    "correct_answer": "C",
+    "explanation": "野猪以植物根茎、昆虫和小型脊椎动物为食，属于典型的杂食性动物。",
+    "difficulty": 2
+  },
+  {
+    "animal": "野猪",
+    "question": "野猪的最大奔跑速度大约是多少公里/小时？",
+    "options": [
+      "A. 30",
+      "B. 50",
+      "C. 80",
+      "D. 100"
+    ],
+    "correct_answer": "B",
+    "explanation": "成年野猪短距离冲刺可达50 km/h，但耐力较弱。",
+    "difficulty": 4
+  },
+  {
+    "animal": "野猪",
+    "question": "母野猪的妊娠期约为多少天？",
+    "options": [
+      "A. 60-75天",
+      "B. 120-135天",
+      "C. 180-200天",
+      "D. 超过300天"
+    ],
+    "correct_answer": "B",
+    "explanation": "野猪的妊娠期约为4个月，与家猪类似。",
+    "difficulty": 4
+  },
+  {
+    "animal": "野猪",
+    "question": "以下哪个大洲不是野猪的传统原生分布区？",
+    "options": [
+      "A. 欧亚非",
+      "B. 澳大利亚",
+      "C. 北美洲",
+      "D. 南美洲"
+    ],
+    "correct_answer": "B",
+    "explanation": "澳大利亚的野猪是19世纪被引入物种，原生分布不包括此地区。",
+    "difficulty": 5
+  },
+  {
+    "animal": "野猪",
+    "question": "国际自然保护联盟（IUCN）将野猪列为？",
+    "options": [
+      "A. 濒危(EN)",
+      "B. 易危(VU)",
+      "C. 近危(NT)",
+      "D. 无危(LC)"
+    ],
+    "correct_answer": "D",
+    "explanation": "野猪种群数量稳定，被列为无危物种。",
+    "difficulty": 3
+  },
+  {
+    "animal": "野猪",
+    "question": "成年公野猪的典型社会行为是？",
+    "options": [
+      "A. 独居",
+      "B. 形成小家族群体",
+      "C. 加入大规模社群",
+      "D. 完全依赖母兽"
+    ],
+    "correct_answer": "A",
+    "explanation": "成年雄性野猪通常独居，仅在繁殖期与雌性接触。",
+    "difficulty": 4
+  },
+  {
+    "animal": "野猪",
+    "question": "成年公野猪的平均体重范围是多少公斤？",
+    "options": [
+      "A.50-70",
+      "B.100-200",
+      "C.300以上",
+      "D.不足50"
+    ],
+    "correct_answer": "B",
+    "explanation": "成年公野猪体重通常在100-200公斤，体型较大且肌肉发达。",
+    "difficulty": 2
+  },
+  {
+    "animal": "野猪",
+    "question": "野猪的门牙主要用来做什么？",
+    "options": [
+      "A.挖掘土壤寻找食物",
+      "B.啃食肉类",
+      "C.用于攀爬陡坡",
+      "D.防御掠食者攻击"
+    ],
+    "correct_answer": "A",
+    "explanation": "野猪的门牙强健，主要用于掘土获取块茎、昆虫等地下食物。",
+    "difficulty": 3
+  },
+  {
+    "animal": "野猪",
+    "question": "新生野猪幼崽出生时体表有何特征？",
+    "options": [
+      "A.黄褐色带有深色条纹",
+      "B.灰白色无斑纹",
+      "C.纯黑色绒毛",
+      "D.与成年个体颜色相同"
+    ],
+    "correct_answer": "A",
+    "explanation": "幼崽出生时有明显的条纹状斑纹，随成长逐渐消失。",
+    "difficulty": 4
+  },
+  {
+    "animal": "野猪",
+    "question": "关于野猪的嗅觉能力，以下说法正确的是？",
+    "options": [
+      "A.比家犬更灵敏",
+      "B.与人类相当",
+      "C.不如家犬敏感",
+      "D.完全依赖听觉补偿"
+    ],
+    "correct_answer": "A",
+    "explanation": "野猪的嗅觉器官高度发达，能探测到地下20厘米的食物。",
+    "difficulty": 3
+  },
+  {
+    "animal": "野猪",
+    "question": "野猪交配高峰期通常出现在哪个季节？",
+    "options": [
+      "A.秋冬季（9-11月）",
+      "B.春季",
+      "C.夏季",
+      "D.全年均可"
+    ],
+    "correct_answer": "A",
+    "explanation": "野猪多在秋末冬初交配，雌性怀孕期约3个月。",
+    "difficulty": 4
+  },
+  {
+    "animal": "野猪",
+    "question": "成年野猪的主要天敌有哪些？",
+    "options": [
+      "A.狼和老虎",
+      "B.豹子",
+      "C.以上都是",
+      "D.几乎无自然天敌"
+    ],
+    "correct_answer": "C",
+    "explanation": "大型掠食者如狼、虎、豹在特定区域仍是野猪的威胁。",
+    "difficulty": 5
+  },
+  {
+    "animal": "野猪",
+    "question": "澳大利亚的野猪种群主要起源于何时被引入？",
+    "options": [
+      "A.18世纪早期殖民时期",
+      "B.19世纪英国移民期",
+      "C.20世纪初生态实验",
+      "D.二战后农场逸散"
+    ],
+    "correct_answer": "B",
+    "explanation": "1830年代欧洲移民引入，现已成为入侵物种。",
+    "difficulty": 4
+  },
+  {
+    "animal": "野猪",
+    "question": "在寒冷冬季，野猪如何应对低温环境？",
+    "options": [
+      "A.减少活动但不冬眠",
+      "B.迁徙到温暖地区",
+      "C.进入地洞集体休眠",
+      "D.依靠毛发完全御寒"
+    ],
+    "correct_answer": "A",
+    "explanation": "野猪不会冬眠，但会通过增加脂肪储备和减少活动量来适应寒冷。",
+    "difficulty": 3
+  },
+  {
+    "animal": "野猪",
+    "question": "成年野猪的平均寿命通常为多少年？",
+    "options": [
+      "A.5-8年",
+      "B.12-15年",
+      "C.20年以上",
+      "D.不足3年"
+    ],
+    "correct_answer": "A",
+    "explanation": "野猪在野外自然寿命约6-9年，受天敌和人类活动影响较大。",
+    "difficulty": 3
+  },
+  {
+    "animal": "野猪",
+    "question": "幼年野猪通常何时开始独立生活？",
+    "options": [
+      "A.2个月后",
+      "B.6-8个月",
+      "C.1年后",
+      "D.终生跟随母兽"
+    ],
+    "correct_answer": "B",
+    "explanation": "幼崽约5-7月龄断奶，8-9个月离开家族群体。",
+    "difficulty": 4
+  },
+  {
+    "animal": "野猪",
+    "question": "野猪的獠牙主要用于？",
+    "options": [
+      "A.挖掘根茎",
+      "B.防御和争夺配偶",
+      "C.攀爬树木",
+      "D.切割植物"
+    ],
+    "correct_answer": "B",
+    "explanation": "雄性通过獠牙战斗确立等级，也用于抵御掠食者。",
+    "difficulty": 3
+  },
+  {
+    "animal": "野猪",
+    "question": "全球野猪种群数量近年呈现什么趋势？",
+    "options": [
+      "A.急剧下降",
+      "B.稳定增长",
+      "C.区域分化明显",
+      "D.完全灭绝"
+    ],
+    "correct_answer": "B",
+    "explanation": "适应性强的野猪在许多地区种群持续扩张。",
+    "difficulty": 5
+  },
+  {
+    "animal": "野猪",
+    "question": "野猪群体的主要沟通方式是？",
+    "options": [
+      "A.复杂的鸣叫系统",
+      "B.气味标记和低频声波",
+      "C.视觉信号主导",
+      "D.不进行交流"
+    ],
+    "correct_answer": "B",
+    "explanation": "通过唾液气味标记和咕噜声传递信息。",
+    "difficulty": 4
+  },
+  {
+    "animal": "野猪",
+    "question": "野猪在生态系统中主要扮演什么角色？",
+    "options": [
+      "A.顶级掠食者",
+      "B.种子传播者",
+      "C.分解者",
+      "D.仅影响农作物"
+    ],
+    "correct_answer": "B",
+    "explanation": "其觅食能促进植物扩散和土壤松动。",
+    "difficulty": 6
+  },
+  {
+    "animal": "野猪",
+    "question": "野猪每日活动时间主要集中在？",
+    "options": [
+      "A.全天活跃",
+      "B.黎明与黄昏",
+      "C.完全夜间",
+      "D.中午阳光最强时"
+    ],
+    "correct_answer": "B",
+    "explanation": "晨昏活动性明显，但光照条件影响具体作息。",
+    "difficulty": 3
+  },
+  {
+    "animal": "野猪",
+    "question": "下列哪种疾病可通过野猪传播给人类？",
+    "options": [
+      "A.禽流感",
+      "B.非洲猪瘟",
+      "C.埃博拉病毒",
+      "D.普通感冒"
+    ],
+    "correct_answer": "B",
+    "explanation": "野猪可携带并扩散非洲猪瘟病毒至家养猪群。",
+    "difficulty": 5
+  },
+  {
+    "animal": "野猪",
+    "question": "母野猪一胎通常生育多少只幼崽？",
+    "options": [
+      "A.1-2只",
+      "B.3-6只",
+      "C.7-9只",
+      "D.超过10只"
+    ],
+    "correct_answer": "B",
+    "explanation": "母野猪每胎通常生育4到8头幼崽，选项B（3-6只）最接近常见范围。",
+    "difficulty": 4
+  },
+  {
+    "animal": "野猪",
+    "question": "关于野猪的视觉能力，以下哪项最准确？",
+    "options": [
+      "A.它们能清晰看到远处物体",
+      "B.主要通过运动和明暗变化感知周围",
+      "C.依赖嗅觉弥补极差的视力",
+      "D.与人类视力相当"
+    ],
+    "correct_answer": "C",
+    "explanation": "野猪的视力较差，主要依靠嗅觉来导航而非视觉。",
+    "difficulty": 3
+  },
+  {
+    "animal": "野猪",
+    "question": "母野猪通常哺育幼崽多久？",
+    "options": [
+      "A.1-2个月",
+      "B.3-4个月",
+      "C.5-6个月",
+      "D.直到幼崽独立（约8个月）"
+    ],
+    "correct_answer": "B",
+    "explanation": "母野猪通常哺育幼崽约3到4个月，之后逐渐断奶。",
+    "difficulty": 4
+  },
+  {
+    "animal": "野猪",
+    "question": "野猪的爪子主要功能是什么？",
+    "options": [
+      "A.与门牙配合挖掘土壤",
+      "B.攀爬树木时支撑身体",
+      "C.战斗中钩住对手",
+      "D.奔跑时增加地面摩擦"
+    ],
+    "correct_answer": "A",
+    "explanation": "野猪的爪子用于与门牙共同作用，挖掘地表寻找食物。",
+    "difficulty": 3
+  },
+  {
+    "animal": "野猪",
+    "question": "野猪对农作物最大的损害通常发生在哪个生长阶段？",
+    "options": [
+      "A.播种期",
+      "B.成熟期前一个月",
+      "C.成熟后期（接近收割时）",
+      "D.种植后两周内"
+    ],
+    "correct_answer": "C",
+    "explanation": "野猪倾向于破坏即将成熟的农作物，导致更高的经济损失。",
+    "difficulty": 5
+  },
+  {
+    "animal": "野猪",
+    "question": "新生的野猪幼崽何时能够睁开眼睛？",
+    "options": [
+      "A出生即睁眼",
+      "B.2-3天后",
+      "C一周左右",
+      "D超过两周"
+    ],
+    "correct_answer": "C",
+    "explanation": "野猪的新生幼崽在出生后约一周才能睁开眼睛。",
+    "difficulty": 2
+  },
+  {
+    "animal": "野猪",
+    "question": "关于野猪的社会行为，以下哪项正确？",
+    "options": [
+      "A冬季形成更大的群聚",
+      "B.雄性全年独居",
+      "C.繁殖期母子分开",
+      "D没有固定社会结构"
+    ],
+    "correct_answer": "A",
+    "explanation": "在寒冷季节，野猪可能聚集到较大的群体中以维持体温。",
+    "difficulty": 5
+  },
+  {
+    "animal": "野猪",
+    "question": "除了挖掘食物外，野猪的爪子还常用于？",
+    "options": [
+      "A刨开雪层寻找植物",
+      "B.攀爬陡峭山坡",
+      "C.战斗时钩住对手",
+      "D游泳划水"
+    ],
+    "correct_answer": "A",
+    "explanation": "在积雪地区，野猪用爪子刨开雪层以获取食物。",
+    "difficulty": 4
+  },
+  {
+    "animal": "野猪",
+    "question": "野猪的臼齿主要用于什么功能？",
+    "options": [
+      "A. 切割肉类",
+      "B. 磨碎植物纤维",
+      "C. 挖掘土壤",
+      "D. 攀爬时支撑"
+    ],
+    "correct_answer": "B",
+    "explanation": "臼齿的扁平结构适合磨碎坚硬的植物纤维，帮助消化草根和坚果。",
+    "difficulty": 3
+  },
+  {
+    "animal": "野猪",
+    "question": "欧洲野猪与亚洲野猪的主要区别之一是？",
+    "options": [
+      "A. 欧洲个体体型普遍更大",
+      "B. 亚洲亚种有更长的獠牙",
+      "C. 欧洲毛色呈灰白色",
+      "D. 亚洲野生种群数量更少"
+    ],
+    "correct_answer": "A",
+    "explanation": "欧洲野猪平均体重可达150-300公斤，比多数亚洲亚种个体更大。",
+    "difficulty": 4
+  },
+  {
+    "animal": "野猪",
+    "question": "雄性野猪在争夺配偶时主要通过什么方式确立优势？",
+    "options": [
+      "A. 展示獠牙长度",
+      "B. 爬树展示力量",
+      "C. 对鸣吸引母猪",
+      "D. 用蹄子刨出地洞"
+    ],
+    "correct_answer": "A",
+    "explanation": "雄性通过獠牙的大小和战斗表现争夺交配权，败者可能被驱逐。",
+    "difficulty": 3
+  },
+  {
+    "animal": "野猪",
+    "question": "野猪幼崽何时开始独立寻找食物？",
+    "options": [
+      "A. 出生后立即",
+      "B. 断奶前两周",
+      "C. 离开母群时（约8个月）",
+      "D. 断奶后1个月内"
+    ],
+    "correct_answer": "D",
+    "explanation": "断奶后的幼崽逐步脱离母兽，开始独自觅食简单食物。",
+    "difficulty": 4
+  },
+  {
+    "animal": "野猪",
+    "question": "关于野猪的皮毛特征，以下正确的是？",
+    "options": [
+      "A. 冬季会换白色毛发",
+      "B. 毛色随季节无显著变化",
+      "C. 幼崽有斑点纹路",
+      "D. 雄性比雌性更蓬松"
+    ],
+    "correct_answer": "B",
+    "explanation": "野猪皮毛颜色（灰褐至黑色）全年稳定，冬季仅增加绒毛密度。",
+    "difficulty": 3
+  },
+  {
+    "animal": "野猪",
+    "question": "非繁殖期的野猪社会结构通常是？",
+    "options": [
+      "A. 雄性与母子群混合生活",
+      "B. 母兽带领幼崽独立群体",
+      "C. 全年保持独居状态",
+      "D. 根据食物资源动态重组"
+    ],
+    "correct_answer": "B",
+    "explanation": "除交配期外，雄性多独自活动，母兽则维持核心家庭单元。",
+    "difficulty": 5
+  },
+  {
+    "animal": "野猪",
+    "question": "野猪对森林生态的主要积极影响是？",
+    "options": [
+      "A. 控制鹿类种群数量",
+      "B. 松动土壤促进种子萌发",
+      "C. 消灭害虫卵",
+      "D. 抑制灌木过度生长"
+    ],
+    "correct_answer": "B",
+    "explanation": "觅食时翻动的泥土改善土壤通气性，有利于植物播种。",
+    "difficulty": 5
+  },
+  {
+    "animal": "野猪",
+    "question": "野猪攻击人类的主要原因是？",
+    "options": [
+      "A. 食物短缺时主动猎食",
+      "B. 感知到对幼崽的威胁",
+      "C. 对声音敏感引发应激",
+      "D. 争夺水源控制权"
+    ],
+    "correct_answer": "B",
+    "explanation": "母猪保护幼崽或感觉被围堵时可能发起攻击，而非主动捕食。",
+    "difficulty": 4
+  }
+]
