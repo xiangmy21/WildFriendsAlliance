@@ -999,8 +999,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -339.5, y: 9}
-  m_SizeDelta: {x: 200, y: 50}
+  m_AnchoredPosition: {x: 8.005, y: 0.00000095367}
+  m_SizeDelta: {x: 83.99, y: 48.8811}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1376894082
 MonoBehaviour:
@@ -1024,8 +1024,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: Test AI Recruiter
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: c3751342d6909b44a9aaf1e659c63a82, type: 2}
+  m_sharedMaterial: {fileID: -2291703883237693959, guid: c3751342d6909b44a9aaf1e659c63a82, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -1314,7 +1314,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: -200}
+  m_AnchoredPosition: {x: -274.5, y: -132.5}
   m_SizeDelta: {x: 100, y: 100}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1999329191
@@ -1430,6 +1430,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::SimpleUITester
   useSimpleUI: 1
   mainCanvas: {fileID: 0}
+  cardBackground: {fileID: 0}
+  chineseFont: {fileID: 0}
 --- !u!4 &2061772462
 Transform:
   m_ObjectHideFlags: 0

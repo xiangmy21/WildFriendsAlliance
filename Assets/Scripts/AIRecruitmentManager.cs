@@ -25,8 +25,9 @@ public class AIRecruitmentManager : MonoBehaviour
     public bool isQuizActive = false;
 
     // 所有动物名称列表（对应湿地区域的棋子）
-    private readonly string[] wetlandAnimals = {
-        "青蛙", "蜻蜓", "白鹭", "鲤鱼", "水獭", "野鸭", "扬子鳄", "丹顶鹤", "中华鲟", "黑鹳"
+    private readonly string[] Forest = {
+        "松鼠", "刺猬", "野猪", "猫头鹰", "赤狐",
+        "小熊猫", "梅花鹿", "金丝猴", "大熊猫", "东北虎"
     };
 
     void Awake()
@@ -55,7 +56,7 @@ public class AIRecruitmentManager : MonoBehaviour
 
     void LoadAllQuestions()
     {
-        foreach (string animalName in wetlandAnimals)
+        foreach (string animalName in Forest)
         {
             string filePath = Path.Combine(Application.dataPath, "..", "questions", animalName + ".json");
 
@@ -82,7 +83,7 @@ public class AIRecruitmentManager : MonoBehaviour
 
     void InitializeFriendships()
     {
-        foreach (string animalName in wetlandAnimals)
+        foreach (string animalName in Forest)
         {
             animalFriendships[animalName] = new AnimalFriendshipData(animalName);
         }
@@ -102,7 +103,7 @@ public class AIRecruitmentManager : MonoBehaviour
     void GenerateThreeCards()
     {
         // 随机选择三个不同的动物
-        var availableAnimals = wetlandAnimals.ToList();
+        var availableAnimals = Forest.ToList();
         var selectedAnimals = new List<string>();
 
         for (int i = 0; i < 3; i++)

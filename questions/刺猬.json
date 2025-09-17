@@ -206,5 +206,317 @@
     "correct_answer": "B",
     "explanation": "刺猬为独居动物，仅在繁殖期短暂接触。",
     "difficulty": 6
+  },
+  {
+    "animal": "刺猬",
+    "question": "刺猬的天敌主要包括以下哪种动物？",
+    "options": [
+      "A. 狐狸与猫头鹰",
+      "B. 蛇类与野猪",
+      "C. 鹰类与狼群",
+      "D. 青蛙与乌龟"
+    ],
+    "correct_answer": "A",
+    "explanation": "刺猬的主要天敌包括猛禽、犬科动物及大型捕食者，其中狐狸和猫头鹰是常见威胁。",
+    "difficulty": 5
+  },
+  {
+    "animal": "刺猬",
+    "question": "刺猬的毛发具有何种特殊功能？",
+    "options": [
+      "A. 能够发光吸引昆虫",
+      "B. 具有防水防寒特性",
+      "C. 可储存水分供干旱时使用",
+      "D. 用于进行声波定位"
+    ],
+    "correct_answer": "B",
+    "explanation": "刺猬毛发密实且覆盖油脂，能有效保温并防止水分流失。",
+    "difficulty": 3
+  },
+  {
+    "animal": "刺猬",
+    "question": "幼年刺猬在成长过程中会经历什么显著变化？",
+    "options": [
+      "A. 逐渐失去尖刺",
+      "B. 眼睛视力突然增强",
+      "C. 背部毛发变色",
+      "D. 开始发展嗅觉能力"
+    ],
+    "correct_answer": "D",
+    "explanation": "幼崽出生时嗅觉已发育，但需数周时间完善听觉和运动协调能力。",
+    "difficulty": 5
+  },
+  {
+    "animal": "刺猬",
+    "question": "关于刺猬的叫声，以下描述正确的是？",
+    "options": [
+      "A. 常发出高频鸣叫吸引配偶",
+      "B. 主要通过肢体语言交流",
+      "C. 叫声用于领地标记",
+      "D. 仅在受威胁时发声"
+    ],
+    "correct_answer": "C",
+    "explanation": "刺猬会用短促叫声标记领地，但主要依赖嗅腺和气味传递信息。",
+    "difficulty": 4
+  },
+  {
+    "animal": "刺猬",
+    "question": "人类饲养刺猬时需要注意的关键因素是？",
+    "options": [
+      "A. 提供恒温环境",
+      "B. 确保充足水源",
+      "C. 避免过度光照",
+      "D. 控制日光照射时间"
+    ],
+    "correct_answer": "C",
+    "explanation": "刺猬对强光敏感，需保持暗光环境以维持其夜行性习性。",
+    "difficulty": 2
+  },
+  {
+    "animal": "刺猬",
+    "question": "刺猬在生态系统中扮演什么角色？",
+    "options": [
+      "A. 植物授粉者",
+      "B. 土壤松动者",
+      "C. 害虫控制者",
+      "D. 以上皆是"
+    ],
+    "correct_answer": "D",
+    "explanation": "刺猬通过挖掘行为改善土壤结构，同时捕食害虫并传播种子。",
+    "difficulty": 6
+  },
+  {
+    "animal": "刺猬",
+    "question": "刺猬在遭遇威胁时会采取哪种应急措施？",
+    "options": [
+      "A. 立即释放臭气",
+      "B. 将身体完全埋入土壤",
+      "C. 喷射毒液",
+      "D. 强烈摩擦背部尖刺"
+    ],
+    "correct_answer": "B",
+    "explanation": "刺猬会将身体蜷缩后迅速挖掘土洞隐藏，而非直接对抗捕食者。",
+    "difficulty": 5
+  },
+  {
+    "animal": "刺猬",
+    "question": "刺猬的季节性行为特征主要表现为？",
+    "options": [
+      "A. 夏季活动减少",
+      "B. 秋季增加储粮行为",
+      "C. 冬季持续觅食",
+      "D. 春季换毛周期最长"
+    ],
+    "correct_answer": "D",
+    "explanation": "刺猬在春季经历显著的换毛期，以适应温度变化和繁殖需求。",
+    "difficulty": 3
+  },
+  {
+    "animal": "刺猬",
+    "question": "刺猬幼崽在出生后的成长阶段中，何时开始发育尖刺？",
+    "options": [
+      "A. 出生时已长出",
+      "B. 一周后",
+      "C. 一个月后",
+      "D. 三个月后"
+    ],
+    "correct_answer": "A",
+    "explanation": "幼崽出生时已有短而柔软的尖刺，逐渐变硬并增长。",
+    "difficulty": 5
+  },
+  {
+    "animal": "刺猬",
+    "question": "在不同种类的刺猬中，哪种刺猬的体型最大？",
+    "options": [
+      "A. 非洲刺猬",
+      "B. 欧洲刺猬",
+      "C. 美洲刺猬",
+      "D. 印度刺猬"
+    ],
+    "correct_answer": "C",
+    "explanation": "美洲刺猬（如九带犰狳）体型显著大于其他种类。",
+    "difficulty": 7
+  },
+  {
+    "animal": "刺猬",
+    "question": "刺猬在冬季是否完全停止进食？",
+    "options": [
+      "A. 是",
+      "B. 否，仅减少活动",
+      "C. 取决于天气",
+      "D. 仅在极寒地区"
+    ],
+    "correct_answer": "B",
+    "explanation": "它们会减少食物摄入但不完全停止。",
+    "difficulty": 6
+  },
+  {
+    "animal": "刺猬",
+    "question": "刺猬的嗅觉系统有何特殊适应？",
+    "options": [
+      "A. 能检测化学信号",
+      "B. 具有热感应能力",
+      "C. 可识别颜色",
+      "D. 超过人类灵敏度"
+    ],
+    "correct_answer": "A",
+    "explanation": "依赖嗅觉定位食物和感知环境。",
+    "difficulty": 5
+  },
+  {
+    "animal": "刺猬",
+    "question": "刺猬在城市环境中可能面临哪些主要威胁？",
+    "options": [
+      "A. 天敌增加",
+      "B. 道路交通事故",
+      "C. 环境污染",
+      "D. 所有上述"
+    ],
+    "correct_answer": "D",
+    "explanation": "包括人类活动带来的多种威胁。",
+    "difficulty": 8
+  },
+  {
+    "animal": "刺猬",
+    "question": "刺猬的毛发颜色变化是否与季节有关？",
+    "options": [
+      "A. 是",
+      "B. 否",
+      "C. 只在冬季变浅",
+      "D. 仅在繁殖期改变"
+    ],
+    "correct_answer": "A",
+    "explanation": "部分种类会随季节调整毛色。",
+    "difficulty": 5
+  },
+  {
+    "animal": "刺猬",
+    "question": "刺猬的妊娠期是否因环境温度而变化？",
+    "options": [
+      "A. 是",
+      "B. 否",
+      "C. 只在寒冷地区变化",
+      "D. 所有上述"
+    ],
+    "correct_answer": "A",
+    "explanation": "温度可能影响繁殖周期。",
+    "difficulty": 7
+  },
+  {
+    "animal": "刺猬",
+    "question": "刺猬的粪便中通常含有什么成分？",
+    "options": [
+      "A. 昆虫外壳",
+      "B. 植物种子",
+      "C. 骨骼碎片",
+      "D. 所有上述"
+    ],
+    "correct_answer": "D",
+    "explanation": "作为分解者，粪便可能包含多种物质。",
+    "difficulty": 6
+  },
+  {
+    "animal": "刺猬",
+    "question": "刺猬通过哪种方式主要调节体温？",
+    "options": [
+      "A. 依靠厚实毛发保温",
+      "B. 通过冬眠降低代谢率",
+      "C. 汗腺分泌散热",
+      "D. 所有上述"
+    ],
+    "correct_answer": "A",
+    "explanation": "刺猬是恒温动物，其密实毛发覆盖油脂层能有效减少热量流失，尤其在冬季蜷缩身体时可保持核心体温。",
+    "difficulty": 5
+  },
+  {
+    "animal": "刺猬",
+    "question": "下列哪种物质可能出现在刺猬粪便中？",
+    "options": [
+      "A. 食用的昆虫外壳",
+      "B. 植物种子碎片",
+      "C. 被消化的矿物质",
+      "D. 以上皆是"
+    ],
+    "correct_answer": "D",
+    "explanation": "作为杂食性动物，刺猬粪便可能包含未完全消化的食物残渣、植物种子及微量元素，体现其分解者角色。",
+    "difficulty": 6
+  },
+  {
+    "animal": "刺猬",
+    "question": "美洲刺猬与欧洲刺猬在体型上的显著差异是什么？",
+    "options": [
+      "A. 美洲种拥有更长的尾部",
+      "B. 欧洲种具有更尖锐的尖刺",
+      "C. 美洲种体重可达5kg以上",
+      "D. 欧洲种具备更强的攀爬能力"
+    ],
+    "correct_answer": "C",
+    "explanation": "美洲刺猬（如九带犰狳）体型显著大于欧洲普通刺猬，部分种类体重可达4-6公斤。",
+    "difficulty": 7
+  },
+  {
+    "animal": "刺猬",
+    "question": "刺猬幼崽在脱离母体后如何获取水分？",
+    "options": [
+      "A. 完全依赖母乳",
+      "B. 开始主动饮水",
+      "C. 通过皮肤渗透吸收",
+      "D. 从环境中摄取湿度"
+    ],
+    "correct_answer": "A",
+    "explanation": "幼崽出生时即具备吸吮能力，前3周完全依赖高水分含量的母乳生存，之后逐渐过渡到固体食物。",
+    "difficulty": 5
+  },
+  {
+    "animal": "刺猬",
+    "question": "下列哪种行为属于刺猬的防御机制？",
+    "options": [
+      "A. 立即释放强烈臭气",
+      "B. 将身体完全埋入土壤",
+      "C. 用尾部拍打地面示警",
+      "D. 所有上述"
+    ],
+    "correct_answer": "B",
+    "explanation": "刺猬主要通过蜷缩身体挖掘洞穴隐藏，仅在极端情况下会释放臭气或发出短促叫声。",
+    "difficulty": 5
+  },
+  {
+    "animal": "刺猬",
+    "question": "刺猬的嗅觉系统对环境感知有何特殊作用？",
+    "options": [
+      "A. 能检测地下害虫位置",
+      "B. 可识别20米外的气味分子",
+      "C. 具备追踪猎物的能力",
+      "D. 以上皆是"
+    ],
+    "correct_answer": "D",
+    "explanation": "刺猬的嗅觉可探测数米内食物和天敌，部分种类能通过土壤中化学信号定位昆虫巢穴。",
+    "difficulty": 6
+  },
+  {
+    "animal": "刺猬",
+    "question": "在城市环境中，刺猬面临的主要生存威胁是什么？",
+    "options": [
+      "A. 道路交通事故",
+      "B. 宠物捕食风险",
+      "C. 环境污染导致的中毒",
+      "D. 所有上述"
+    ],
+    "correct_answer": "D",
+    "explanation": "城市化带来的道路伤害、人类活动干扰及环境污染物均构成刺猬生存威胁，特别是幼崽死亡率显著升高。",
+    "difficulty": 8
+  },
+  {
+    "animal": "刺猬",
+    "question": "下列哪种描述符合刺猬的夜行性特征？",
+    "options": [
+      "A. 夜间活动时体温降低",
+      "B. 瞳孔在黑暗中扩大至直径1cm",
+      "C. 利用嗅觉定位食物路径",
+      "D. 以上皆是"
+    ],
+    "correct_answer": "D",
+    "explanation": "刺猬具有适应夜间活动的生理结构，包括可大幅扩张的瞳孔、发达的嗅觉系统及减少散热的毛发构造。",
+    "difficulty": 5
   }
 ]
