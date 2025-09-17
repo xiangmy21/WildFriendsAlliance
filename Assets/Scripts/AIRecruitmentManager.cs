@@ -22,7 +22,11 @@ public class AIRecruitmentManager : MonoBehaviour
     [Header("当前状态")]
     private QuizCardData[] currentCards = new QuizCardData[3];
     private QuizCardData selectedCard;
-    public bool isQuizActive = false;
+    
+
+    [Header("UI交互控制")]
+    private Canvas[] gameCanvases; // 存储游戏中UI Canvas的引用
+public bool isQuizActive = false;
 
     // 所有动物名称列表（对应湿地区域的棋子）
     private readonly string[] Forest = {
@@ -44,15 +48,138 @@ public class AIRecruitmentManager : MonoBehaviour
         }
     }
 
-    void InitializeSystem()
+void InitializeSystem()
     {
         LoadAllQuestions();
         InitializeFriendships();
+
+        // 确保UI面板使用DontDestroyOnLoad
+        if (quizCardPanel != null)
+        {
+            DontDestroyOnLoad(quizCardPanel);
+            Debug.Log("[初始化] Quiz面板设置为DontDestroyOnLoad");
+        }
+        
+        if (questionPanel != null)
+        {
+            DontDestroyOnLoad(questionPanel);
+            Debug.Log("[初始化] Question面板设置为DontDestroyOnLoad");
+        }
 
         // 初始状态隐藏所有UI面板
         if (quizCardPanel) quizCardPanel.SetActive(false);
         if (questionPanel) questionPanel.SetActive(false);
     }
+
+// 动态查找UI面板
+// 动态查找UI面板
+// 动态查找UI面板
+    void FindUIReferences()
+    {
+        Debug.Log($"[调试] 当前UI状态 - quizCardPanel: {(quizCardPanel != null ? quizCardPanel.name : "null")}, questionPanel: {(questionPanel != null ? questionPanel.name : "null")}");
+        
+        // 检查当前UI引用是否有效（是否被销毁）
+        bool needFind = false;
+        if (quizCardPanel == null)
+        {
+            Debug.Log("[调试] quizCardPanel为null，需要查找");
+            needFind = true;
+        }
+        else if (quizCardPanel.scene.name == null || quizCardPanel.scene.name == "")
+        {
+            Debug.Log("[调试] quizCardPanel已被销毁，需要重新查找");
+            quizCardPanel = null;
+            needFind = true;
+        }
+        
+        if (questionPanel == null)
+        {
+            Debug.Log("[调试] questionPanel为null，需要查找");
+            needFind = true;
+        }
+        else if (questionPanel.scene.name == null || questionPanel.scene.name == "")
+        {
+            Debug.Log("[调试] questionPanel已被销毁，需要重新查找");
+            questionPanel = null;
+            needFind = true;
+        }
+        
+        if (needFind)
+        {
+            Debug.Log("[调试] 开始重新查找UI引用");
+            
+            // 方法1：查找 TestCanvas 下的面板
+            GameObject testCanvas = GameObject.Find("TestCanvas");
+            if (testCanvas != null)
+            {
+                Debug.Log("[成功] 找到TestCanvas");
+                
+                // 列出TestCanvas下的所有子对象
+                for (int i = 0; i < testCanvas.transform.childCount; i++)
+                {
+                    Transform child = testCanvas.transform.GetChild(i);
+                    Debug.Log($"[调试] TestCanvas子对象[{i}]: {child.name}");
+                }
+                
+                // 尝试多种可能的名称查找Quiz Panel
+                Transform quizTransform = testCanvas.transform.Find("Quiz Panel");
+                if (quizTransform == null) quizTransform = testCanvas.transform.Find("QuizPanel");
+                if (quizTransform == null) quizTransform = testCanvas.transform.Find("Quiz");
+                if (quizTransform == null) quizTransform = testCanvas.transform.Find("quiz");
+                
+                if (quizTransform != null)
+                {
+                    quizCardPanel = quizTransform.gameObject;
+                    Debug.Log($"[成功] 找到Quiz Panel: {quizTransform.name}");
+                }
+                else
+                {
+                    Debug.LogWarning("[警告] 在TestCanvas中未找到Quiz Panel");
+                }
+                
+                // 尝试多种可能的名称查找Question Panel
+                Transform questionTransform = testCanvas.transform.Find("Question Panel");
+                if (questionTransform == null) questionTransform = testCanvas.transform.Find("QuestionPanel");
+                if (questionTransform == null) questionTransform = testCanvas.transform.Find("Question");
+                if (questionTransform == null) questionTransform = testCanvas.transform.Find("question");
+                
+                if (questionTransform != null)
+                {
+                    questionPanel = questionTransform.gameObject;
+                    Debug.Log($"[成功] 找到Question Panel: {questionTransform.name}");
+                }
+                else
+                {
+                    Debug.LogWarning("[警告] 在TestCanvas中未找到Question Panel");
+                }
+            }
+            else
+            {
+                Debug.LogWarning("[警告] 未找到TestCanvas，尝试全局搜索");
+                
+                // 方法2：全局搜索包含Quiz或Question的GameObject
+                GameObject[] allObjects = Resources.FindObjectsOfTypeAll<GameObject>();
+                foreach (GameObject obj in allObjects)
+                {
+                    if (obj.name.ToLower().Contains("quiz") && quizCardPanel == null)
+                    {
+                        quizCardPanel = obj;
+                        Debug.Log($"[成功] 通过全局搜索找到Quiz Panel: {obj.name}");
+                    }
+                    if (obj.name.ToLower().Contains("question") && questionPanel == null)
+                    {
+                        questionPanel = obj;
+                        Debug.Log($"[成功] 通过全局搜索找到Question Panel: {obj.name}");
+                    }
+                }
+            }
+        }
+        else
+        {
+            Debug.Log("[调试] UI引用有效，跳过查找");
+        }
+    }
+
 
     void LoadAllQuestions()
     {
@@ -89,12 +216,18 @@ public class AIRecruitmentManager : MonoBehaviour
         }
     }
 
-    public void TriggerAIRecruitment()
+public void TriggerAIRecruitment()
     {
         if (isQuizActive) return;
 
         Debug.Log("AI智能招募官激活！");
         isQuizActive = true;
+
+        // 在触发前动态查找UI引用
+        FindUIReferences();
+
+        // 禁用其他UI交互
+        DisableOtherUIInteractions();
 
         GenerateThreeCards();
         ShowQuizCardPanel();
@@ -159,11 +292,14 @@ public class AIRecruitmentManager : MonoBehaviour
         return weightedQuestions[Random.Range(0, weightedQuestions.Count)];
     }
 
-    void ShowQuizCardPanel()
+void ShowQuizCardPanel()
     {
+        Debug.Log("[调试] ShowQuizCardPanel被调用");
+        
         if (quizCardPanel)
         {
             quizCardPanel.SetActive(true);
+            Debug.Log("[成功] 显示问答卡片面板");
 
             // 更新三张卡片的显示
             for (int i = 0; i < 3; i++)
@@ -171,8 +307,17 @@ public class AIRecruitmentManager : MonoBehaviour
                 if (quizCards[i] != null)
                 {
                     quizCards[i].SetupCard(currentCards[i]);
+                    Debug.Log($"[成功] 设置卡片 {i}: {currentCards[i].animalName}");
+                }
+                else
+                {
+                    Debug.LogWarning($"[错误] quizCards[{i}] 为 null");
                 }
             }
+        }
+        else
+        {
+            Debug.LogError("[错误] quizCardPanel 为 null，无法显示问答界面");
         }
     }
 
@@ -247,14 +392,25 @@ public class AIRecruitmentManager : MonoBehaviour
         Invoke("CloseQuizSystem", 2f);
     }
 
-    void CloseQuizSystem()
+void CloseQuizSystem()
     {
         if (questionPanel) questionPanel.SetActive(false);
         isQuizActive = false;
 
+        // 恢复其他UI交互
+        EnableOtherUIInteractions();
+
         Debug.Log("AI智能招募官关闭");
 
-        // TODO: 继续游戏流程，返回到战斗准备阶段
+        // 通知GameManager问答完成，继续游戏流程
+        if (GameManager.Instance != null)
+        {
+            GameManager.Instance.OnQuizCompleted();
+        }
+        else
+        {
+            Debug.LogWarning("GameManager未找到，无法通知问答完成");
+        }
     }
 
     // 获取动物友谊值信息的公共方法
@@ -263,7 +419,66 @@ public class AIRecruitmentManager : MonoBehaviour
         return animalFriendships.ContainsKey(animalName) ? animalFriendships[animalName] : null;
     }
 
-    // 用于测试的方法
+    
+    // UI交互控制方法
+void DisableOtherUIInteractions()
+    {
+        // 获取所有游戏Canvas（除了问答相关的）
+        Canvas[] allCanvases = FindObjectsOfType<Canvas>();
+        gameCanvases = allCanvases;
+        
+        foreach (Canvas canvas in allCanvases)
+        {
+            // 保留问答相关的Canvas可交互
+            if (IsQuizRelatedCanvas(canvas))
+                continue;
+                
+            // 通过CanvasGroup控制交互，如果没有就添加一个
+            CanvasGroup canvasGroup = canvas.GetComponent<CanvasGroup>();
+            if (canvasGroup == null)
+            {
+                canvasGroup = canvas.gameObject.AddComponent<CanvasGroup>();
+            }
+            
+            canvasGroup.interactable = false;
+            Debug.Log($"禁用Canvas: {canvas.name}");
+        }
+    }
+    
+void EnableOtherUIInteractions()
+    {
+        if (gameCanvases != null)
+        {
+            foreach (Canvas canvas in gameCanvases)
+            {
+                if (canvas != null)
+                {
+                    // 通过CanvasGroup恢复交互
+                    CanvasGroup canvasGroup = canvas.GetComponent<CanvasGroup>();
+                    if (canvasGroup != null)
+                    {
+                        canvasGroup.interactable = true;
+                        Debug.Log($"恢复Canvas: {canvas.name}");
+                    }
+                }
+            }
+        }
+    }
+    
+    bool IsQuizRelatedCanvas(Canvas canvas)
+    {
+        // 检查Canvas是否与问答系统相关
+        if (canvas == null) return false;
+        
+        // 检查是否包含问答相关的UI组件
+        if (quizCardPanel != null && canvas.transform.IsChildOf(quizCardPanel.transform)) return true;
+        if (questionPanel != null && canvas.transform.IsChildOf(questionPanel.transform)) return true;
+        if (quizCardPanel != null && quizCardPanel.transform.IsChildOf(canvas.transform)) return true;
+        if (questionPanel != null && questionPanel.transform.IsChildOf(canvas.transform)) return true;
+        
+        return false;
+    }
+// 用于测试的方法
     [ContextMenu("测试触发AI招募官")]
     void TestTriggerRecruitment()
     {

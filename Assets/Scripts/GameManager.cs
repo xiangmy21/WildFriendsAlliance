@@ -111,7 +111,7 @@ public class GameManager : MonoBehaviour
     }
 
     // 战斗结束，回到准备阶段
-    public void OnBattleEnd(bool playerWon)
+public void OnBattleEnd(bool playerWon)
     {
         CurrentState = GameState.Preparation;
         int currentWaveIndex = WaveManager.Instance != null ? WaveManager.Instance.currentWave : 0;
@@ -124,9 +124,21 @@ public class GameManager : MonoBehaviour
             Debug.Log("获得奖励3金币");
         }
 
-        // TODO: 刷新商店
-        // TODO: 触发AI问答（阶段四）
+        // 每波结束后都触发AI问答系统
+        Debug.Log("[调试] 开始检查AIRecruitmentManager");
+        if (AIRecruitmentManager.Instance != null)
+        {
+            Debug.Log($"[成功] 第{currentWaveIndex + 1}波结束，触发AI智能招募官");
+            AIRecruitmentManager.Instance.TriggerAIRecruitment();
+            return; // 等待问答完成，不立即更新UI
+        }
+        else
+        {
+            Debug.LogError("[错误] AIRecruitmentManager.Instance 为 null，跳过AI问答");
+        }
 
+        // TODO: 刷新商店
+        
         // 显示下一波按钮
         UpdateUIForNextWave();
     }
@@ -146,6 +158,18 @@ public class GameManager : MonoBehaviour
         Debug.Log("恭喜！游戏胜利！");
         // TODO: 显示胜利界面
     }
+
+    // AI问答系统完成后的回调
+    public void OnQuizCompleted()
+    {
+        Debug.Log("AI问答完成，继续游戏流程");
+        
+        // TODO: 刷新商店
+        
+        // 显示下一波按钮
+        UpdateUIForNextWave();
+    }
+
 
     // 游戏失败
     public void OnGameOver()

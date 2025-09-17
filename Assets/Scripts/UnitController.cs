@@ -156,7 +156,6 @@ public class UnitController : MonoBehaviour
         }
 
         currentTarget = closestEnemy;
-        Debug.Log(currentTarget);
     }
 
     void MoveTowardsTarget()
