@@ -196,8 +196,18 @@ public class WaveManager : MonoBehaviour
         return waves != null ? waves.Length : 0;
     }
 
-    public bool IsLastWave()
+public bool IsLastWave()
     {
+        // 使用GameManager的可配置波数进行判定
+        if (GameManager.Instance != null)
+        {
+            bool isLast = currentWave >= GameManager.Instance.totalWaves - 1;
+            Debug.Log($"[波次判定] 当前波次:{currentWave}, 总波数:{GameManager.Instance.totalWaves}, 是否最后一波:{isLast}");
+            return isLast;
+        }
+        
+        // 备用方案：如果GameManager不存在，使用waves数组长度
+        Debug.LogWarning("[波次判定] GameManager不存在，使用默认waves数组判定");
         return currentWave >= waves.Length - 1;
     }
 }

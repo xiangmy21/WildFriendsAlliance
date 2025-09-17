@@ -7,7 +7,12 @@ public class GameManager : MonoBehaviour
     // "Instance" 是一个静态变量，意味着它不属于任何一个单独的GameManager，
     // 而是属于 "GameManager" 这个“类”本身。
     // 任何脚本都可以通过 GameManager.Instance 来访问它。
-    public static GameManager Instance { get; private set; }
+    
+
+    [Header("游戏配置")]
+    [Tooltip("总波数：调试时设为1，正式版本设为10")]
+    public int totalWaves = 1; // 调试阶段默认为1波
+public static GameManager Instance { get; private set; }
 
     void Awake()
     {
@@ -62,7 +67,7 @@ public class GameManager : MonoBehaviour
     }
 
     // 战斗胜利（当前波次敌人全部击败）
-    public void OnBattleWin()
+public void OnBattleWin()
     {
         if (CurrentState != GameState.Battle) return;
 
@@ -72,20 +77,20 @@ public class GameManager : MonoBehaviour
         // 奖励金币
         AddGold(3);
 
-        // 检查是否是最后一波
-        if (WaveManager.Instance != null && WaveManager.Instance.IsLastWave())
+        // 检查是否为最终胜利（所有波次完成）
+        if (currentWaveIndex >= totalWaves - 1)
         {
+            Debug.Log($"[最终胜利] 已完成所有{totalWaves}波，游戏胜利！");
             OnGameVictory();
+            return;
         }
-        else
+
+        // 如果不是最后一波，进入下一波的准备阶段
+        if (WaveManager.Instance != null)
         {
-            // 进入下一波的准备阶段 - 让WaveManager管理波次增加
-            if (WaveManager.Instance != null)
-            {
-                WaveManager.Instance.currentWave++;
-            }
-            OnBattleEnd(true);
+            WaveManager.Instance.currentWave++;
         }
+        OnBattleEnd(true);
     }
 
     // 战斗失败（玩家单位全部阵亡）
@@ -152,11 +157,25 @@ public void OnBattleEnd(bool playerWon)
 
 
     // 游戏胜利
-    public void OnGameVictory()
+public void OnGameVictory()
     {
         CurrentState = GameState.Victory;
-        Debug.Log("恭喜！游戏胜利！");
-        // TODO: 显示胜利界面
+        Debug.Log($"[游戏胜利] 恭喜！成功完成全部{totalWaves}波挑战！");
+        
+        // 查找并显示胜利UI
+        VictoryUI victoryUI = FindObjectOfType<VictoryUI>();
+        if (victoryUI != null)
+        {
+            victoryUI.ShowVictory();
+        }
+        else
+        {
+            Debug.Log("[游戏胜利] 未找到VictoryUI，创建临时胜利界面");
+            // 创建临时VictoryUI对象
+            GameObject victoryObj = new GameObject("TempVictoryUI");
+            VictoryUI tempVictoryUI = victoryObj.AddComponent<VictoryUI>();
+            tempVictoryUI.ShowVictory();
+        }
     }
 
     // AI问答系统完成后的回调
