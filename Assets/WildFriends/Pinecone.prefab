@@ -136,54 +136,36 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ee0d570d47df2d14996ef7bf74185d96, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 3
+  travelDuration: 1
   arcCurve:
     serializedVersion: 2
     m_Curve:
     - serializedVersion: 3
       time: 0
       value: 0
-      inSlope: 0
-      outSlope: 0
-      tangentMode: 0
+      inSlope: 4.0076647
+      outSlope: 4.0076647
+      tangentMode: 34
       weightedMode: 0
       inWeight: 0
-      outWeight: 0
+      outWeight: 0.33333334
     - serializedVersion: 3
-      time: 0.019409314
-      value: 0.114532456
-      inSlope: 2.532314
-      outSlope: 2.532314
-      tangentMode: 0
+      time: 0.49583352
+      value: 1.9871345
+      inSlope: 0.04932797
+      outSlope: 0.04932797
+      tangentMode: 34
       weightedMode: 0
       inWeight: 0.33333334
       outWeight: 0.33333334
     - serializedVersion: 3
-      time: 0.4960013
-      value: 3.0029778
-      inSlope: 0.0035322157
-      outSlope: 0.0035322157
-      tangentMode: 0
+      time: 1.0041809
+      value: 0
+      inSlope: -3.9090087
+      outSlope: -3.9090087
+      tangentMode: 34
       weightedMode: 0
       inWeight: 0.33333334
-      outWeight: 0.33333334
-    - serializedVersion: 3
-      time: 0.95973104
-      value: 0.12285599
-      inSlope: -2.8007371
-      outSlope: -2.8007371
-      tangentMode: 0
-      weightedMode: 0
-      inWeight: 0.33333334
-      outWeight: 0.33333334
-    - serializedVersion: 3
-      time: 1
-      value: 0.002357483
-      inSlope: 0
-      outSlope: 0
-      tangentMode: 0
-      weightedMode: 0
-      inWeight: 0
       outWeight: 0
     m_PreInfinity: 2
     m_PostInfinity: 2

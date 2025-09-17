@@ -73,13 +73,13 @@ public class DraggableUnitIcon : MonoBehaviour, IBeginDragHandler, IDragHandler,
     public void Initialize(UnitData data)
     {
         this.unitData = data;
-        if (data.shopIcon != null)
+        if (data.Icon != null)
         {
-            myImage.sprite = data.shopIcon;
+            myImage.sprite = data.Icon;
         }
         else
         {
-            Debug.LogWarning($"单位 {data.unitName} 没有设置 shopIcon 图片！");
+            Debug.LogWarning($"单位 {data.unitName} 没有设置 Icon 图片！");
         }
         // this.starLevel = data.starLevel; // 如果你的 UnitData 里有星级
         // GetComponent<Image>().sprite = data.icon; // 更新图标

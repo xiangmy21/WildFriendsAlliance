@@ -7,6 +7,7 @@ public class UnitData : ScriptableObject
     [Header("Basic Info")]
     public string unitName;
     public GameObject unitPrefab; // 这个单位的预制体
+    public Sprite Icon;       // 图标
 
     [Header("Core Stats")]
     public int maxHP;
@@ -25,6 +26,5 @@ public class UnitData : ScriptableObject
     public SkillBase skillLogic;
 
     [Header("Shop")]
-    public Sprite shopIcon; // 商店图标
     public int cost;       // 购买价格
 }

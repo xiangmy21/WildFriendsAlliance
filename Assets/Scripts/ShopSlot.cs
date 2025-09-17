@@ -21,7 +21,7 @@ public class ShopSlot : MonoBehaviour
     public void DisplayUnit(UnitData data)
     {
         currentUnitData = data;
-        animalIcon.sprite = data.shopIcon; // 假设 UnitData 里有商店图标
+        animalIcon.sprite = data.Icon; // 假设 UnitData 里有商店图标
         nameText.text = data.unitName;
         costText.text = data.cost.ToString(); // 假设 UnitData 里有 cost
         buyButton.interactable = true;

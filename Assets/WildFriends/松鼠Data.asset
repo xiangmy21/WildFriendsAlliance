@@ -13,7 +13,8 @@ MonoBehaviour:
   m_Name: "\u677E\u9F20Data"
   m_EditorClassIdentifier: 
   unitName: "\u677E\u9F20"
-  unitPrefab: {fileID: 0}
+  unitPrefab: {fileID: 1284592634549205471, guid: 72688da8de89766458cceac47554390c, type: 3}
+  Icon: {fileID: 21300000, guid: ce66119dc5372c649ad7fdd909a22154, type: 3}
   maxHP: 200
   maxMP: 100
   baseATK: 30
@@ -24,5 +25,4 @@ MonoBehaviour:
   mpGainOnAttack: 0
   mpGainOnHit: 0
   skillLogic: {fileID: 0}
-  shopIcon: {fileID: 21300000, guid: 1bd29aaf16e201a438e66602d736a945, type: 3}
   cost: 1
