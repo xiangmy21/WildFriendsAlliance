@@ -1,3 +1,4 @@
+using System.Collections.Generic;
 using UnityEngine;
 
 public class GameManager : MonoBehaviour
@@ -38,6 +39,25 @@ public class GameManager : MonoBehaviour
 
     // 兼容旧代码的属性
     public bool IsBattleActive => CurrentState == GameState.Battle;
+
+    // 【新增】一个列表，实时追踪战场上的所有我方单位
+    public List<UnitController> unitsOnField = new List<UnitController>();
+    public void AddUnitToField(UnitController unit)
+    {
+        if (!unitsOnField.Contains(unit))
+        {
+            unitsOnField.Add(unit);
+            // 【关键】添加单位后，立刻更新羁绊
+            SynergyManager.Instance.UpdateSynergies(unitsOnField);
+        }
+    }
+
+    public void RemoveUnitFromField(UnitController unit)
+    {
+        unitsOnField.Remove(unit);
+        // 【关键】移除单位后，也立刻更新羁绊
+        SynergyManager.Instance.UpdateSynergies(unitsOnField);
+    }
 
     // 开始战斗
     public void StartBattle()

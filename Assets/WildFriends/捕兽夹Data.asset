@@ -13,7 +13,8 @@ MonoBehaviour:
   m_Name: "\u6355\u517D\u5939Data"
   m_EditorClassIdentifier: 
   unitName: "\u6355\u517D\u5939"
-  unitPrefab: {fileID: 0}
+  unitPrefab: {fileID: 3559084531575212409, guid: b032685a02945b140b0d24c8124c99c7, type: 3}
+  Icon: {fileID: 0}
   maxHP: 200
   maxMP: 100
   baseATK: 50
@@ -21,8 +22,8 @@ MonoBehaviour:
   baseRange: 1.5
   baseMoveSpeed: 1
   baseAttackInterval: 1
+  baseMissRate: 0
   mpGainOnAttack: 0
   mpGainOnHit: 0
   skillLogic: {fileID: 0}
-  shopIcon: {fileID: 0}
   cost: 0

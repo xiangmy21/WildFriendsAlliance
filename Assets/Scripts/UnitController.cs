@@ -1,6 +1,8 @@
 using UnityEngine; // 别忘了
 using System.Collections; // 别忘了
 using DG.Tweening;
+using System;
+using System.Collections.Generic;
 
 public class UnitController : MonoBehaviour
 {
@@ -47,6 +49,13 @@ public class UnitController : MonoBehaviour
     private SpriteRenderer mySpriteRenderer; // 对自身 SpriteRenderer 的引用
     private Color originalColor; // 【新增】用于存储角色的原始颜色
 
+    // 【新增】闪避成功事件
+    // 当闪避成功时，这个事件会被触发
+    public event Action<UnitController> OnDodge;
+
+    // 【新增】一个简单的 Buff 系统
+    private Dictionary<string, float> activeBuffs = new Dictionary<string, float>();
+
     // 4. 初始化
     void Start()
     {
@@ -56,6 +65,7 @@ public class UnitController : MonoBehaviour
         animator = GetComponent<Animator>();
         mySpriteRenderer = GetComponent<SpriteRenderer>();
         originalColor = mySpriteRenderer.color; // 存储初始颜色
+        RecalculateStats();
     }
 
     public void InitializeFromData()
@@ -277,14 +287,14 @@ public class UnitController : MonoBehaviour
     public void TakeDamage(int damageAmount)
     {
         // 闪避检定
-        float dodgeRoll = Random.Range(0f, 1f);
+        float dodgeRoll = UnityEngine.Random.Range(0f, 1f);
         if (dodgeRoll < currentMissRate)
         {
             // 闪避成功，显示Miss效果
             if (damageNumberPrefab != null)
             {
                 Vector3 spawnPos = transform.position + new Vector3(0.2f, 0.5f, 0);
-                spawnPos += new Vector3(Random.Range(-0.3f, 0.3f), 0, 0);
+                spawnPos += new Vector3(UnityEngine.Random.Range(-0.3f, 0.3f), 0, 0);
 
                 GameObject textInstance = Instantiate(damageNumberPrefab, spawnPos, Quaternion.identity);
                 DamageNumberEffect effectScript = textInstance.GetComponent<DamageNumberEffect>();
@@ -293,6 +303,9 @@ public class UnitController : MonoBehaviour
                     effectScript.ShowMiss();
                 }
             }
+
+            // 所有“订阅”了这个事件的系统 (比如 SynergyManager) 都会收到通知
+            OnDodge?.Invoke(this);
 
             Debug.Log($"{name} 闪避了攻击!");
             return;
@@ -342,7 +355,7 @@ public class UnitController : MonoBehaviour
                 Vector3 spawnPos = transform.position + new Vector3(0.2f, 0.5f, 0); // 比如在Y轴上方0.5个单位
 
                 // (可选) 增加一点随机偏移，防止数字完全重叠
-                spawnPos += new Vector3(Random.Range(-0.3f, 0.3f), 0, 0);
+                spawnPos += new Vector3(UnityEngine.Random.Range(-0.3f, 0.3f), 0, 0);
 
                 GameObject textInstance = Instantiate(damageNumberPrefab, spawnPos, Quaternion.identity);
 
@@ -393,13 +406,51 @@ public class UnitController : MonoBehaviour
         }
     }
 
+    // --- 【新增】供 SynergyManager 调用的公共方法 ---
+
+    public void ApplyBuff(string buffName, float value)
+    {
+        activeBuffs[buffName] = value;
+        RecalculateStats();
+    }
+
+    public void RemoveBuff(string buffName)
+    {
+        activeBuffs.Remove(buffName);
+        RecalculateStats();
+    }
+
+    private void RecalculateStats()
+    {
+        // 重新计算所有受 Buff 影响的属性
+        // 闪避率 = 基础闪避率 + 所有名为 "MissRate" 的 Buff 值
+        float missBuffValue = activeBuffs.ContainsKey("MissRate") ? activeBuffs["MissRate"] : 0;
+        currentMissRate = unitData.baseMissRate + missBuffValue;
+    }
+
+    public void Heal(int amount)
+    {
+        currentHP = Mathf.Min(currentHP + unitData.maxHP, amount);
+        // TODO: 在头上显示一个绿色+数字的治疗特效
+    }
+
+    public void CounterAttack(int damage)
+    {
+        // 对当前攻击目标进行一次反击
+        if (currentTarget != null)
+        {
+            currentTarget.TakeDamage(damage);
+            // TODO: 播放一次额外的攻击动画或特效
+        }
+    }
+
     void Die()
     {
         currentState = UnitState.Dead;
         Debug.Log($"{name} 阵亡了!");
         // TODO: 播放死亡动画
-        // TODO: 通知GameManager
-        Destroy(gameObject, 2.0f); // 2秒后移除尸体
+        GameManager.Instance.RemoveUnitFromField(this);
+        Destroy(gameObject, 1.0f); // 1秒后移除尸体
     }
 
     // 辅助方法，给技能用
@@ -421,6 +472,7 @@ public class UnitController : MonoBehaviour
 
             if (success)
             {
+                GameManager.Instance.RemoveUnitFromField(this);
                 // 加回成功，销毁自己
                 Destroy(gameObject);
             }
@@ -432,18 +484,5 @@ public class UnitController : MonoBehaviour
         }
     }
 
-#if UNITY_WEBGL && !UNITY_EDITOR
-    // WebGL平台的简单闪烁效果
-    private IEnumerator SimpleFlashEffect(SpriteRenderer spriteRenderer)
-    {
-        Color originalColor = spriteRenderer.color;
-        spriteRenderer.color = Color.red;
-        yield return new WaitForSeconds(0.1f);
-        spriteRenderer.color = originalColor;
-        yield return new WaitForSeconds(0.1f);
-        spriteRenderer.color = Color.red;
-        yield return new WaitForSeconds(0.1f);
-        spriteRenderer.color = originalColor;
-    }
-#endif
+    
 }

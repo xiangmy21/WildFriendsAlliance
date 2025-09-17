@@ -111,7 +111,9 @@ public class DraggableUnitIcon : MonoBehaviour, IBeginDragHandler, IDragHandler,
 
         // 4. 所有检查通过：放置单位！
         //    (注意：Instantiate 时使用 worldPosition，它已经是 Vector2/Vector3)
-        Instantiate(unitData.unitPrefab, worldPosition, Quaternion.identity);
+        GameObject newUnit = Instantiate(unitData.unitPrefab, worldPosition, Quaternion.identity);
+
+        GameManager.Instance.AddUnitToField(newUnit.GetComponent<UnitController>());
 
         // 5. 销毁这个UI图标
         Destroy(gameObject);
