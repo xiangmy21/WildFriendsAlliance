@@ -1312,13 +1312,24 @@ MonoBehaviour:
   m_GameObject: {fileID: 1695199978}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 8800d089c26b14d8e8d1434aebd92830, type: 3}
+  m_Script: {fileID: 11500000, guid: 2dc43ab3d6a624acd964a395ed8c0fde, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::HomePageAudio
   bgmSource: {fileID: 0}
   sfxSource: {fileID: 0}
-  mainMenuBGM: {fileID: 0}
+  mainMenuBGM: {fileID: 8300000, guid: 6d74892dea2884cf792d8a50842f8ed2, type: 3}
+  quizBGM: {fileID: 0}
+  victoryBGM: {fileID: 0}
+  defeatBGM: {fileID: 0}
+  battleBGM: {fileID: 0}
+  preparationBGM1: {fileID: 0}
+  preparationBGM2: {fileID: 0}
   buttonClickSFX: {fileID: 8300000, guid: 1879840f131ae45ebb1163d61e7f67b1, type: 3}
+  placePieceSFX: {fileID: 0}
+  illegalActionSFX: {fileID: 0}
+  coinSFX: {fileID: 0}
+  meleeAttackSFX: {fileID: 0}
+  rangedAttackSFX: {fileID: 0}
 --- !u!82 &1695199980
 AudioSource:
   m_ObjectHideFlags: 0
