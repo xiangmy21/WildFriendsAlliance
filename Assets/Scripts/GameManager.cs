@@ -31,27 +31,122 @@ public class GameManager : MonoBehaviour
 
     // --- 游戏状态管理 ---
 
-    // 这就是你的全局状态，我们希望它能被所有人读取 (public get)，
-    // 但只能被 GameManager 自己修改 (private set)。
-    public bool IsBattleActive { get; private set; }
+    public enum GameState { Preparation, Battle, GameOver, Victory }
+    public GameState CurrentState { get; private set; } = GameState.Preparation;
 
-    // 你需要提供“公共方法”来让其他脚本（比如UI按钮）来改变这个状态
+    // 兼容旧代码的属性
+    public bool IsBattleActive => CurrentState == GameState.Battle;
+
+    private int currentWaveIndex = 0;
+
+    // 开始战斗
     public void StartBattle()
     {
-        IsBattleActive = true;
-        Debug.Log("战斗开始！");
+        if (CurrentState != GameState.Preparation)
+        {
+            Debug.LogWarning("当前不在准备阶段，无法开始战斗");
+            return;
+        }
 
-        // TODO: 在这里通知你的 WaveManager 开始刷怪
-        // 比如: WaveManager.Instance.SpawnWave(currentWave);
+        CurrentState = GameState.Battle;
+        Debug.Log($"第 {currentWaveIndex + 1} 波战斗开始！");
+
+        // 通知WaveManager开始生成敌人
+        if (WaveManager.Instance != null)
+        {
+            WaveManager.Instance.SpawnWave(currentWaveIndex);
+        }
+        else
+        {
+            Debug.LogError("WaveManager未找到！");
+        }
     }
 
-    public void EndBattle()
+    // 战斗胜利（当前波次敌人全部击败）
+    public void OnBattleWin()
     {
-        IsBattleActive = false;
-        Debug.Log("战斗结束！");
+        if (CurrentState != GameState.Battle) return;
 
-        // TODO: 在这里处理战斗结束的结算逻辑
-        // 比如: UIManager.Instance.ShowVictoryScreen();
+        Debug.Log($"第 {currentWaveIndex + 1} 波战斗胜利！");
+
+        // 奖励金币
+        AddGold(3);
+
+        // 检查是否是最后一波
+        if (WaveManager.Instance != null && WaveManager.Instance.IsLastWave())
+        {
+            OnGameVictory();
+        }
+        else
+        {
+            // 进入下一波的准备阶段
+            currentWaveIndex++;
+            OnBattleEnd(true);
+        }
+    }
+
+    // 战斗失败（玩家单位全部阵亡）
+    public void OnBattleLose()
+    {
+        if (CurrentState != GameState.Battle) return;
+
+        Debug.Log($"第 {currentWaveIndex + 1} 波战斗失败！");
+
+        // 扣除生命值
+        TakePlayerDamage(1);
+
+        if (PlayerHealth <= 0)
+        {
+            OnGameOver();
+        }
+        else
+        {
+            // 重试当前波次
+            OnBattleEnd(false);
+        }
+    }
+
+    // 战斗结束，回到准备阶段
+public void OnBattleEnd(bool playerWon)
+    {
+        CurrentState = GameState.Preparation;
+        Debug.Log($"战斗结束，回到准备阶段。当前波次：{currentWaveIndex + 1}");
+
+        // 如果玩家胜利，增加金币
+        if (playerWon)
+        {
+            AddGold(3);
+            Debug.Log("获得奏励3金币");
+        }
+
+        // TODO: 刷新商店
+        // TODO: 触发AI问答（阶段四）
+        
+        // 显示下一波按钮
+        UpdateUIForNextWave();
+    }
+
+void UpdateUIForNextWave()
+    {
+        // 通知UI更新按钮文字，显示“进入下一波”或“开始对战”
+        Debug.Log("准备阶段，可以购买单位和开始下一波战斗");
+    }
+
+
+    // 游戏胜利
+    public void OnGameVictory()
+    {
+        CurrentState = GameState.Victory;
+        Debug.Log("恭喜！游戏胜利！");
+        // TODO: 显示胜利界面
+    }
+
+    // 游戏失败
+    public void OnGameOver()
+    {
+        CurrentState = GameState.GameOver;
+        Debug.Log("游戏失败！");
+        // TODO: 显示失败界面
     }
 
     // --- 游戏的其他全局数据 ---
@@ -78,5 +173,45 @@ public class GameManager : MonoBehaviour
     public void AddGold(int gold)
     {
         PlayerGold += gold;
+    }
+
+    // 检查玩家是否还有存活的单位
+    void Update()
+    {
+        if (CurrentState == GameState.Battle)
+        {
+            CheckBattleStatus();
+        }
+    }
+
+    void CheckBattleStatus()
+    {
+        // 查找场景中所有的UnitController
+        UnitController[] allUnits = FindObjectsOfType<UnitController>();
+
+        bool hasPlayerUnits = false;
+        bool hasEnemyUnits = false;
+
+        foreach (UnitController unit in allUnits)
+        {
+            // 跳过已死亡的单位
+            if (unit == null) continue;
+
+            if (unit.isEnemyTeam)
+            {
+                hasEnemyUnits = true;
+            }
+            else
+            {
+                hasPlayerUnits = true;
+            }
+        }
+
+        // 如果玩家没有单位了，战斗失败
+        if (!hasPlayerUnits)
+        {
+            OnBattleLose();
+        }
+        // 如果敌人没有单位了，WaveManager会自动调用OnBattleWin
     }
 }

@@ -40,14 +40,15 @@ public class GameUIController : MonoBehaviour
         }
     }
 
-    void OnEndWave()
+void OnEndWave()
     {
         Debug.Log("模拟波次结束，自动触发AI智能招募官");
 
         // 模拟波次结束逻辑
         if (GameManager.Instance)
         {
-            GameManager.Instance.EndBattle();
+            // 使用新的方法：模拟战斗胜利
+            GameManager.Instance.OnBattleWin();
         }
 
         // 触发AI招募官
