@@ -53,6 +53,18 @@ void InitializeSystem()
         LoadAllQuestions();
         InitializeFriendships();
 
+        // 立即查找并保护TestCanvas
+        GameObject testCanvas = GameObject.Find("TestCanvas");
+        if (testCanvas != null)
+        {
+            DontDestroyOnLoad(testCanvas);
+            Debug.Log("[初始化] TestCanvas已设置为DontDestroyOnLoad");
+        }
+        else
+        {
+            Debug.LogWarning("[初始化] 未找到TestCanvas，无法设置DontDestroyOnLoad");
+        }
+
         // 确保UI面板使用DontDestroyOnLoad
         if (quizCardPanel != null)
         {
@@ -71,6 +83,7 @@ void InitializeSystem()
         if (questionPanel) questionPanel.SetActive(false);
     }
 
+// 动态查找UI面板
 // 动态查找UI面板
 // 动态查找UI面板
 // 动态查找UI面板
@@ -114,7 +127,15 @@ void InitializeSystem()
             {
                 Debug.Log("[成功] 找到TestCanvas");
                 
+                // 确保TestCanvas使用DontDestroyOnLoad
+                if (testCanvas.scene.name != "DontDestroyOnLoad")
+                {
+                    DontDestroyOnLoad(testCanvas);
+                    Debug.Log("[成功] TestCanvas已设置为DontDestroyOnLoad");
+                }
+                
                 // 列出TestCanvas下的所有子对象
+                Debug.Log($"[调试] TestCanvas下有{testCanvas.transform.childCount}个子对象:");
                 for (int i = 0; i < testCanvas.transform.childCount; i++)
                 {
                     Transform child = testCanvas.transform.GetChild(i);
@@ -159,19 +180,33 @@ void InitializeSystem()
                 
                 // 方法2：全局搜索包含Quiz或Question的GameObject
                 GameObject[] allObjects = Resources.FindObjectsOfTypeAll<GameObject>();
+                Debug.Log($"[调试] 全局搜索中，共找到{allObjects.Length}个对象");
+                
+                int quizCount = 0, questionCount = 0;
                 foreach (GameObject obj in allObjects)
                 {
-                    if (obj.name.ToLower().Contains("quiz") && quizCardPanel == null)
+                    if (obj.name.ToLower().Contains("quiz"))
                     {
-                        quizCardPanel = obj;
-                        Debug.Log($"[成功] 通过全局搜索找到Quiz Panel: {obj.name}");
+                        quizCount++;
+                        Debug.Log($"[调试] 找到包含quiz的对象: {obj.name}");
+                        if (quizCardPanel == null)
+                        {
+                            quizCardPanel = obj;
+                            Debug.Log($"[成功] 通过全局搜索找到Quiz Panel: {obj.name}");
+                        }
                     }
-                    if (obj.name.ToLower().Contains("question") && questionPanel == null)
+                    if (obj.name.ToLower().Contains("question"))
                     {
-                        questionPanel = obj;
-                        Debug.Log($"[成功] 通过全局搜索找到Question Panel: {obj.name}");
+                        questionCount++;
+                        Debug.Log($"[调试] 找到包含question的对象: {obj.name}");
+                        if (questionPanel == null)
+                        {
+                            questionPanel = obj;
+                            Debug.Log($"[成功] 通过全局搜索找到Question Panel: {obj.name}");
+                        }
                     }
                 }
+                Debug.Log($"[调试] 全局搜索结果 - quiz对象:{quizCount}个, question对象:{questionCount}个");
             }
         }
         else
