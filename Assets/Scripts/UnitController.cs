@@ -24,6 +24,7 @@ public class UnitController : MonoBehaviour
     private float currentRange;
     private float currentMoveSpeed;
     private float currentAttackInterval;
+    private float currentMissRate;
     private bool isAttackOnCooldown; // 用于控制攻击冷却
 
     [Header("远程攻击 (Projectile)")]
@@ -43,6 +44,9 @@ public class UnitController : MonoBehaviour
     // 动画控制器引用
     private Animator animator;
 
+    private SpriteRenderer mySpriteRenderer; // 对自身 SpriteRenderer 的引用
+    private Color originalColor; // 【新增】用于存储角色的原始颜色
+
     // 4. 初始化
     void Start()
     {
@@ -50,6 +54,8 @@ public class UnitController : MonoBehaviour
         InitializeFromData();
         currentState = UnitState.Idle;
         animator = GetComponent<Animator>();
+        mySpriteRenderer = GetComponent<SpriteRenderer>();
+        originalColor = mySpriteRenderer.color; // 存储初始颜色
     }
 
     public void InitializeFromData()
@@ -63,6 +69,7 @@ public class UnitController : MonoBehaviour
         currentRange = unitData.baseRange;
         currentMoveSpeed = unitData.baseMoveSpeed;
         currentAttackInterval = unitData.baseAttackInterval;
+        currentMissRate = unitData.baseMissRate;
 
         // TODO: 更新血条和蓝条UI
     }
@@ -222,11 +229,11 @@ public class UnitController : MonoBehaviour
     {
         if (currentTarget != null && currentState == UnitState.Attacking)
         {
-        Debug.Log($"{name} 攻击了 {currentTarget.name}!");
-        currentTarget.TakeDamage(currentATK);
-        // 攻击加蓝
-        GainMP(unitData.mpGainOnAttack);
-    }
+            Debug.Log($"{name} 攻击了 {currentTarget.name}!");
+            currentTarget.TakeDamage(currentATK);
+            // 攻击加蓝
+            GainMP(unitData.mpGainOnAttack);
+        }
     }
 
     /// <summary>
@@ -269,6 +276,28 @@ public class UnitController : MonoBehaviour
 
     public void TakeDamage(int damageAmount)
     {
+        // 闪避检定
+        float dodgeRoll = Random.Range(0f, 1f);
+        if (dodgeRoll < currentMissRate)
+        {
+            // 闪避成功，显示Miss效果
+            if (damageNumberPrefab != null)
+            {
+                Vector3 spawnPos = transform.position + new Vector3(0.2f, 0.5f, 0);
+                spawnPos += new Vector3(Random.Range(-0.3f, 0.3f), 0, 0);
+
+                GameObject textInstance = Instantiate(damageNumberPrefab, spawnPos, Quaternion.identity);
+                DamageNumberEffect effectScript = textInstance.GetComponent<DamageNumberEffect>();
+                if (effectScript != null)
+                {
+                    effectScript.ShowMiss();
+                }
+            }
+
+            Debug.Log($"{name} 闪避了攻击!");
+            return;
+        }
+
         // 伤害计算公式
         int damageTaken = Mathf.Max(damageAmount - currentDEF, 0);
 
@@ -292,18 +321,17 @@ public class UnitController : MonoBehaviour
         // 受伤加蓝
         if (damageTaken > 0)
         {
-            var spriteRenderer = GetComponent<SpriteRenderer>();
-#if !UNITY_WEBGL || UNITY_EDITOR
-            // 0.1秒内闪红，然后0.1秒内恢复
-            // Yoyo(1) 表示播放一次然后倒放一次
-            spriteRenderer.DOColor(Color.red, 0.1f).SetLoops(2, LoopType.Yoyo);
+            // 1. 【关键】强制杀死之前可能在运行的任何颜色动画
+            //    DOKill() 会立即停止并移除作用于 mySpriteRenderer 上的所有 Tween
+            mySpriteRenderer.DOKill();
+            // 2. 【关键】立即将颜色重置为原始状态
+            //    这是为了防止角色卡在中间色或红色
+            mySpriteRenderer.color = originalColor;
+            // 3. 现在，从一个"干净"的状态开始一个新的、完整的动画
+            mySpriteRenderer.DOColor(Color.red, 0.1f).SetLoops(2, LoopType.Yoyo);
             // 让 transform 在 0.2 秒内，在 x 和 y 轴上抖动，强度为 0.1
             // 最后一个参数 vibrato (振动) 调高点，抖动频率会更高
             transform.DOShakePosition(duration: 0.2f, strength: 0.1f, vibrato: 20);
-#else
-            // WebGL平台使用简单的颜色变化
-            StartCoroutine(SimpleFlashEffect(spriteRenderer));
-#endif
 
             GainMP(unitData.mpGainOnHit);
 

@@ -1,11 +1,9 @@
 using UnityEngine;
 
-[System.Serializable]
-public class WaveData
+public class WaveData : MonoBehaviour
 {
     [Header("Wave Info")]
-    public int waveNumber;
-    public float spawnDelay = 0.5f; // 敌人生成间隔
+    public float spawnDelay = 1f; // 敌人生成间隔
 
     [Header("Enemy Spawns")]
     public EnemySpawnInfo[] enemies;

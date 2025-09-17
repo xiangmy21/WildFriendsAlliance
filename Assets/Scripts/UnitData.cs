@@ -17,6 +17,7 @@ public class UnitData : ScriptableObject
     public float baseRange;       // 攻击范围
     public float baseMoveSpeed;
     public float baseAttackInterval; // 攻击间隔
+    public float baseMissRate;     // 闪避率，0-1之间
 
     [Header("MP & Skill")]
     public int mpGainOnAttack; // 攻击时获取的MP

@@ -25,7 +25,27 @@ public class DamageNumberEffect : MonoBehaviour
         // 确保开始时是完全不透明的
         textMesh.alpha = 1.0f;
 
-#if !UNITY_WEBGL || UNITY_EDITOR
+        StartDamageAnimation();
+    }
+
+    public void ShowMiss()
+    {
+        // 1. 设置Miss文本
+        if (textMesh == null)
+        {
+            textMesh = GetComponent<TextMeshPro>(); // 自动获取以防万一
+        }
+        textMesh.text = "Miss";
+        textMesh.color = Color.gray; // 灰色显示Miss
+
+        // 确保开始时是完全不透明的
+        textMesh.alpha = 1.0f;
+
+        StartDamageAnimation();
+    }
+
+    void StartDamageAnimation()
+    {
         // --- 使用 DOTween 序列(Sequence)来编排动画 ---
         Sequence mySequence = DOTween.Sequence();
 
@@ -58,41 +78,5 @@ public class DamageNumberEffect : MonoBehaviour
         // 3. （可选）你甚至可以让它在"弹出"时有一个缩放效果
         // transform.localScale = Vector3.zero;
         // mySequence.Join(transform.DOScale(Vector3.one, 0.3f).SetEase(Ease.OutBack)); // 像气泡一样弹出
-#else
-        // WebGL平台使用简单的协程动画
-        StartCoroutine(SimpleFloatAnimation());
-#endif
     }
-
-#if UNITY_WEBGL && !UNITY_EDITOR
-    // WebGL平台的简单动画
-    private System.Collections.IEnumerator SimpleFloatAnimation()
-    {
-        Vector3 startPos = transform.position;
-        Vector3 endPos = startPos + new Vector3(0, floatHeight, 0);
-        float startAlpha = textMesh.alpha;
-
-        float elapsedTime = 0;
-
-        while (elapsedTime < floatDuration)
-        {
-            float progress = elapsedTime / floatDuration;
-
-            // 位置插值
-            transform.position = Vector3.Lerp(startPos, endPos, progress);
-
-            // 透明度插值（延迟后开始）
-            if (elapsedTime > fadeDelay)
-            {
-                float fadeProgress = (elapsedTime - fadeDelay) / (floatDuration - fadeDelay);
-                textMesh.alpha = Mathf.Lerp(startAlpha, 0, fadeProgress);
-            }
-
-            elapsedTime += Time.deltaTime;
-            yield return null;
-        }
-
-        Destroy(gameObject);
-    }
-#endif
 }

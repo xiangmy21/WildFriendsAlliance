@@ -4,6 +4,5 @@ using UnityEngine;
 public class EnemySpawnInfo
 {
     public UnitData enemyData;
-    public int count;
-    public Vector3 spawnPosition;
+    public Transform spawnPosition;
 }

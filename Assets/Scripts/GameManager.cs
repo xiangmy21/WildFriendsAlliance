@@ -8,10 +8,7 @@ public class GameManager : MonoBehaviour
     // 而是属于 "GameManager" 这个“类”本身。
     // 任何脚本都可以通过 GameManager.Instance 来访问它。
     
-
-    [Header("游戏配置")]
-    [Tooltip("总波数：调试时设为1，正式版本设为10")]
-    public int totalWaves = 1; // 调试阶段默认为1波
+    public int totalWaves => WaveManager.Instance.waves.Length;
     public static GameManager Instance { get; private set; }
 
     void Awake()
