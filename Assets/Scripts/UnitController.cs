@@ -1,5 +1,6 @@
 using UnityEngine; // 别忘了
 using System.Collections; // 别忘了
+using DG.Tweening;
 
 public class UnitController : MonoBehaviour
 {
@@ -9,6 +10,8 @@ public class UnitController : MonoBehaviour
 
     [Header("Team")]
     public bool isEnemyTeam; // 标记是敌是友
+
+    public GameObject damageNumberPrefab;
 
     // 2. 运行时属性 (Runtime Stats)
     private int currentHP;
@@ -204,6 +207,8 @@ public class UnitController : MonoBehaviour
 
         animator.SetTrigger("doAttack"); // 触发攻击动画
 
+        //transform.DOShakePosition(duration: 0.6f, strength: 1f, vibrato: 3);
+
         Debug.Log($"{name} 攻击了 {currentTarget.name}!");
         currentTarget.TakeDamage(currentATK);
 
@@ -238,7 +243,35 @@ public class UnitController : MonoBehaviour
         // 受伤加蓝
         if (damageTaken > 0)
         {
+            var spriteRenderer = GetComponent<SpriteRenderer>();
+            // 0.1秒内闪红，然后0.1秒内恢复
+            // Yoyo(1) 表示播放一次然后倒放一次
+            spriteRenderer.DOColor(Color.red, 0.1f).SetLoops(2, LoopType.Yoyo);
+            // 让 transform 在 0.2 秒内，在 x 和 y 轴上抖动，强度为 0.1
+            // 最后一个参数 vibrato (振动) 调高点，抖动频率会更高
+            transform.DOShakePosition(duration: 0.2f, strength: 0.1f, vibrato: 20);
+
             GainMP(unitData.mpGainOnHit);
+
+            if (damageNumberPrefab != null) // 伤害数字显示
+            {
+                // 1. 在角色的位置实例化 Prefab
+                // (你可能想在头顶加一点偏移量)
+                Vector3 spawnPos = transform.position + new Vector3(0.2f, 0.5f, 0); // 比如在Y轴上方0.5个单位
+
+                // (可选) 增加一点随机偏移，防止数字完全重叠
+                spawnPos += new Vector3(Random.Range(-0.3f, 0.3f), 0, 0);
+
+                GameObject textInstance = Instantiate(damageNumberPrefab, spawnPos, Quaternion.identity);
+
+                // 2. 获取脚本并调用方法
+                DamageNumberEffect effectScript = textInstance.GetComponent<DamageNumberEffect>();
+                if (effectScript != null)
+                {
+                    // 3. 把伤害值传过去，启动动画！
+                    effectScript.ShowDamage(damageTaken);
+                }
+            }
         }
 
         // TODO: 更新HP UI
@@ -291,5 +324,29 @@ public class UnitController : MonoBehaviour
     public UnitController GetCurrentTarget()
     {
         return currentTarget;
+    }
+
+    void OnMouseDown()
+    {
+        // 检查是否是右键 (1代表右键)
+        if (Input.GetMouseButtonDown(1))
+        {
+            // 战斗中不允许回收
+            if (GameManager.Instance.IsBattleActive) return;
+
+            // 尝试把自己加回备战席
+            bool success = BenchManager.Instance.AddUnitToBench(this.unitData);
+
+            if (success)
+            {
+                // 加回成功，销毁自己
+                Destroy(gameObject);
+            }
+            else
+            {
+                Debug.Log("备战席满了，无法回收！");
+                // TODO: 可以在单位头上冒个泡，提示“备战席已满”
+            }
+        }
     }
 }
