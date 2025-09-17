@@ -70,4 +70,13 @@ public class GameManager : MonoBehaviour
             // TODO: 显示失败界面
         }
     }
+
+    public void SpendGold(int gold)
+    {
+        PlayerGold -= gold;
+    }
+    public void AddGold(int gold)
+    {
+        PlayerGold += gold;
+    }
 }

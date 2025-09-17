@@ -50,6 +50,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   unitData: {fileID: 0}
   isEnemyTeam: 0
+  damageNumberPrefab: {fileID: 6441899437339907004, guid: ff9a90aa73b0d4f4fbacff037d8b63a2, type: 3}
 --- !u!50 &7320454852402719618
 Rigidbody2D:
   serializedVersion: 4

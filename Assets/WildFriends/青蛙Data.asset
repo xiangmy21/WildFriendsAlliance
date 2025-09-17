@@ -20,7 +20,7 @@ MonoBehaviour:
   baseDEF: 10
   baseRange: 3
   baseMoveSpeed: 1
-  baseAttackFrequency: 3
+  baseAttackFrequency: 0.5
   mpGainOnAttack: 10
   mpGainOnHit: 5
   skillLogic: {fileID: 11400000, guid: db587b241ffc0c34c97ec4539df6a0f2, type: 2}
