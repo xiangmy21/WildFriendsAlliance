@@ -37,8 +37,6 @@ public class GameManager : MonoBehaviour
     // 兼容旧代码的属性
     public bool IsBattleActive => CurrentState == GameState.Battle;
 
-    private int currentWaveIndex = 0;
-
     // 开始战斗
     public void StartBattle()
     {
@@ -49,11 +47,12 @@ public class GameManager : MonoBehaviour
         }
 
         CurrentState = GameState.Battle;
-        Debug.Log($"第 {currentWaveIndex + 1} 波战斗开始！");
 
         // 通知WaveManager开始生成敌人
         if (WaveManager.Instance != null)
         {
+            int currentWaveIndex = WaveManager.Instance.currentWave;
+            Debug.Log($"第 {currentWaveIndex + 1} 波战斗开始！");
             WaveManager.Instance.SpawnWave(currentWaveIndex);
         }
         else
@@ -67,6 +66,7 @@ public class GameManager : MonoBehaviour
     {
         if (CurrentState != GameState.Battle) return;
 
+        int currentWaveIndex = WaveManager.Instance != null ? WaveManager.Instance.currentWave : 0;
         Debug.Log($"第 {currentWaveIndex + 1} 波战斗胜利！");
 
         // 奖励金币
@@ -79,8 +79,11 @@ public class GameManager : MonoBehaviour
         }
         else
         {
-            // 进入下一波的准备阶段
-            currentWaveIndex++;
+            // 进入下一波的准备阶段 - 让WaveManager管理波次增加
+            if (WaveManager.Instance != null)
+            {
+                WaveManager.Instance.currentWave++;
+            }
             OnBattleEnd(true);
         }
     }
@@ -90,6 +93,7 @@ public class GameManager : MonoBehaviour
     {
         if (CurrentState != GameState.Battle) return;
 
+        int currentWaveIndex = WaveManager.Instance != null ? WaveManager.Instance.currentWave : 0;
         Debug.Log($"第 {currentWaveIndex + 1} 波战斗失败！");
 
         // 扣除生命值
@@ -101,35 +105,37 @@ public class GameManager : MonoBehaviour
         }
         else
         {
-            // 重试当前波次
+            // 重试当前波次 - 不增加波次计数
             OnBattleEnd(false);
         }
     }
 
     // 战斗结束，回到准备阶段
-public void OnBattleEnd(bool playerWon)
+    public void OnBattleEnd(bool playerWon)
     {
         CurrentState = GameState.Preparation;
+        int currentWaveIndex = WaveManager.Instance != null ? WaveManager.Instance.currentWave : 0;
         Debug.Log($"战斗结束，回到准备阶段。当前波次：{currentWaveIndex + 1}");
 
         // 如果玩家胜利，增加金币
         if (playerWon)
         {
             AddGold(3);
-            Debug.Log("获得奏励3金币");
+            Debug.Log("获得奖励3金币");
         }
 
         // TODO: 刷新商店
         // TODO: 触发AI问答（阶段四）
-        
+
         // 显示下一波按钮
         UpdateUIForNextWave();
     }
 
-void UpdateUIForNextWave()
+    void UpdateUIForNextWave()
     {
-        // 通知UI更新按钮文字，显示“进入下一波”或“开始对战”
-        Debug.Log("准备阶段，可以购买单位和开始下一波战斗");
+        // 通知UI更新按钮文字，显示"进入下一波"或"开始对战"
+        int currentWaveIndex = WaveManager.Instance != null ? WaveManager.Instance.currentWave : 0;
+        Debug.Log($"准备阶段，可以购买单位和开始第{currentWaveIndex + 1}波战斗");
     }
 
 

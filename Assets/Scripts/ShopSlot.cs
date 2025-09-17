@@ -1,11 +1,12 @@
+using TMPro;
 using UnityEngine;
 using UnityEngine.UI;
 
 public class ShopSlot : MonoBehaviour
 {
     public Image animalIcon;
-    public Text nameText;
-    public Text costText;
+    public TextMeshProUGUI nameText;
+    public TextMeshProUGUI costText;
     public Button buyButton;
 
     private UnitData currentUnitData; // 你的动物 ScriptableObject
@@ -28,6 +29,7 @@ public class ShopSlot : MonoBehaviour
 
     void OnBuyClicked()
     {
+        Debug.Log("尝试购买 " + currentUnitData.unitName);
         // 1. 检查金币是否足够
         if (GameManager.Instance.PlayerGold >= currentUnitData.cost)
         {

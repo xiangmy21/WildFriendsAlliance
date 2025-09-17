@@ -1,17 +1,20 @@
 using UnityEngine;
 using UnityEngine.EventSystems;
+using UnityEngine.UI;
 
 public class DraggableUnitIcon : MonoBehaviour, IBeginDragHandler, IDragHandler, IEndDragHandler
 {
     [HideInInspector]
     public UnitData unitData; // 这个图标代表的单位数据
 
+    private Image myImage; // 对自身 Image 组件的引用
     private Transform originalParent; // 记录拖拽前的父物体 (它所在的槽位)
     private CanvasGroup canvasGroup;
     private Transform rootCanvas; // 整个UI的根Canvas
 
     void Awake()
     {
+        myImage = GetComponent<Image>();
         canvasGroup = GetComponent<CanvasGroup>();
         rootCanvas = GetComponentInParent<Canvas>().transform;
     }
@@ -70,6 +73,14 @@ public class DraggableUnitIcon : MonoBehaviour, IBeginDragHandler, IDragHandler,
     public void Initialize(UnitData data)
     {
         this.unitData = data;
+        if (data.shopIcon != null)
+        {
+            myImage.sprite = data.shopIcon;
+        }
+        else
+        {
+            Debug.LogWarning($"单位 {data.unitName} 没有设置 shopIcon 图片！");
+        }
         // this.starLevel = data.starLevel; // 如果你的 UnitData 里有星级
         // GetComponent<Image>().sprite = data.icon; // 更新图标
     }

@@ -10,7 +10,7 @@ public class WaveManager : MonoBehaviour
     public Transform[] enemySpawnPoints;
 
     [Header("Current State")]
-    public int currentWave = 0;
+    public int currentWave = 0; // 当前波次索引(从0开始)
     public bool isSpawning = false;
 
     private List<UnitController> currentWaveEnemies = new List<UnitController>();

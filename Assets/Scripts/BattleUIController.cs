@@ -77,12 +77,13 @@ void UpdateUI()
 
             // 根据状态更改按钮文字
             var buttonText = startBattleButton.GetComponentInChildren<TMPro.TextMeshProUGUI>();
-            if (buttonText != null)
+            if (buttonText != null && WaveManager.Instance != null)
             {
                 switch (GameManager.Instance.CurrentState)
                 {
                     case GameManager.GameState.Preparation:
-                        buttonText.text = "开始第" + WaveManager.Instance.GetCurrentWave() + "波";
+                        int nextWave = WaveManager.Instance.currentWave + 1;
+                        buttonText.text = $"开始第{nextWave}波";
                         break;
                     case GameManager.GameState.Battle:
                         buttonText.text = "战斗中...";
