@@ -27,8 +27,19 @@ public class ShopManager : MonoBehaviour
     // 1. 把你的 "Shop_Panel" (包含所有 ShopSlot 的父物体) 拖到这里
     public Transform shopSlotContainer;
 
-    // 2. 【关键】这是你的“总卡池”
+    // 2. 【关键】这是你的"总卡池"
     //    把你所有创建的 UnitData (动物 ScriptableObject) 资产都拖到这个列表里
+    //    需要配置以下10种动物的UnitData：
+    //    - 松鼠Data (已存在)
+    //    - 刺猬Data (新创建)
+    //    - 野猪Data (新创建)
+    //    - 猫头鹰Data (新创建)
+    //    - 赤狐Data (已存在)
+    //    - 小熊猫Data (新创建)
+    //    - 梅花鹿Data (新创建)
+    //    - 金丝猴Data (新创建)
+    //    - 大熊猫Data (新创建)
+    //    - 老虎Data (已存在，unitName已修复)
     public List<UnitData> unitPool;
 
     private ShopSlot[] shopSlots; // 商店中所有的槽位

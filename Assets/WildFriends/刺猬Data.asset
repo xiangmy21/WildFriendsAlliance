@@ -10,19 +10,19 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 211d6dca66d757346b39e672e33fac4f, type: 3}
-  m_Name: "\u8001\u864EData"
-  m_EditorClassIdentifier: 
-  unitName: "\u4e1c\u5317\u864e"
+  m_Name: "刺猬Data"
+  m_EditorClassIdentifier:
+  unitName: "刺猬"
   unitPrefab: {fileID: 0}
-  maxHP: 300
+  maxHP: 250
   maxMP: 100
-  baseATK: 60
-  baseDEF: 10
-  baseRange: 2
-  baseMoveSpeed: 1.5
-  baseAttackInterval: 1
-  mpGainOnAttack: 0
-  mpGainOnHit: 0
+  baseATK: 25
+  baseDEF: 15
+  baseRange: 1
+  baseMoveSpeed: 0.8
+  baseAttackInterval: 1.5
+  mpGainOnAttack: 5
+  mpGainOnHit: 8
   skillLogic: {fileID: 0}
   shopIcon: {fileID: 0}
-  cost: 0
+  cost: 2

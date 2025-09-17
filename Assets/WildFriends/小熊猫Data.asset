@@ -10,19 +10,19 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 211d6dca66d757346b39e672e33fac4f, type: 3}
-  m_Name: "\u8001\u864EData"
-  m_EditorClassIdentifier: 
-  unitName: "\u4e1c\u5317\u864e"
+  m_Name: "小熊猫Data"
+  m_EditorClassIdentifier:
+  unitName: "小熊猫"
   unitPrefab: {fileID: 0}
-  maxHP: 300
-  maxMP: 100
-  baseATK: 60
-  baseDEF: 10
+  maxHP: 220
+  maxMP: 110
+  baseATK: 28
+  baseDEF: 12
   baseRange: 2
-  baseMoveSpeed: 1.5
-  baseAttackInterval: 1
-  mpGainOnAttack: 0
-  mpGainOnHit: 0
+  baseMoveSpeed: 1.4
+  baseAttackInterval: 1.3
+  mpGainOnAttack: 7
+  mpGainOnHit: 9
   skillLogic: {fileID: 0}
   shopIcon: {fileID: 0}
-  cost: 0
+  cost: 2

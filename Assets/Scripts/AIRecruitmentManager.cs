@@ -18,6 +18,10 @@ public class AIRecruitmentManager : MonoBehaviour
     [Header("动物友谊值数据")]
     public Dictionary<string, AnimalFriendshipData> animalFriendships = new Dictionary<string, AnimalFriendshipData>();
 
+    [Header("牌库系统")]
+    // 牌库数据结构 - 记录每种动物卡牌的数量
+    public Dictionary<string, int> animalDeck = new Dictionary<string, int>();
+
     [Header("问题数据")]
     private Dictionary<string, List<QuestionData>> animalQuestions = new Dictionary<string, List<QuestionData>>();
 
@@ -74,6 +78,7 @@ void InitializeSystem()
         LoadAllQuestions();
 #endif
         InitializeFriendships();
+        InitializeDeck();
 
         // 立即查找并保护TestCanvas
         GameObject testCanvas = GameObject.Find("TestCanvas");
@@ -615,10 +620,122 @@ void EnableOtherUIInteractions()
         return null;
     }
 
+    // =========================== 牌库管理系统 ===========================
+
+    // 初始化牌库
+    void InitializeDeck()
+    {
+        foreach (string animalName in Forest)
+        {
+            animalDeck[animalName] = 0; // 初始数量为0
+        }
+        Debug.Log("[牌库系统] 牌库初始化完成，包含10种动物");
+    }
+
+    // 添加卡牌到牌库
+    public void AddCardToPool(string animalName, int count = 1)
+    {
+        if (animalDeck.ContainsKey(animalName))
+        {
+            animalDeck[animalName] += count;
+            Debug.Log($"[牌库系统] 牌库更新: {animalName} x{animalDeck[animalName]}");
+
+            // 通知UI更新
+            if (GameUIController.Instance != null)
+            {
+                GameUIController.Instance.UpdateDeckInfo();
+            }
+        }
+        else
+        {
+            Debug.LogWarning($"[牌库系统] 无效的动物名称: {animalName}");
+        }
+    }
+
+    // 从牌库移除卡牌
+    public void RemoveCardFromPool(string animalName, int count = 1)
+    {
+        if (animalDeck.ContainsKey(animalName))
+        {
+            animalDeck[animalName] = Mathf.Max(0, animalDeck[animalName] - count);
+            Debug.Log($"[牌库系统] 牌库更新: {animalName} x{animalDeck[animalName]}");
+
+            // 通知UI更新
+            if (GameUIController.Instance != null)
+            {
+                GameUIController.Instance.UpdateDeckInfo();
+            }
+        }
+        else
+        {
+            Debug.LogWarning($"[牌库系统] 无效的动物名称: {animalName}");
+        }
+    }
+
+    // 获取牌库中指定动物的数量
+    public int GetCardCount(string animalName)
+    {
+        if (animalDeck.ContainsKey(animalName))
+        {
+            return animalDeck[animalName];
+        }
+        return 0;
+    }
+
+    // 获取整个牌库的副本（只读）
+    public Dictionary<string, int> GetDeckCopy()
+    {
+        return new Dictionary<string, int>(animalDeck);
+    }
+
+    // 答题正确时调用，随机获得一张卡牌
+    public void OnAnswerCorrect()
+    {
+        if (Forest.Length > 0)
+        {
+            string randomAnimal = Forest[Random.Range(0, Forest.Length)];
+            AddCardToPool(randomAnimal, 1);
+            Debug.Log($"[牌库系统] 答题正确！获得 {randomAnimal} 卡牌 x1");
+        }
+    }
+
+    // 答题错误时调用，随机失去一张卡牌
+    public void OnAnswerWrong()
+    {
+        // 找到所有有卡牌的动物
+        List<string> availableAnimals = new List<string>();
+        foreach (var pair in animalDeck)
+        {
+            if (pair.Value > 0)
+            {
+                availableAnimals.Add(pair.Key);
+            }
+        }
+
+        if (availableAnimals.Count > 0)
+        {
+            string randomAnimal = availableAnimals[Random.Range(0, availableAnimals.Count)];
+            RemoveCardFromPool(randomAnimal, 1);
+            Debug.Log($"[牌库系统] 答题错误！失去 {randomAnimal} 卡牌 x1");
+        }
+        else
+        {
+            Debug.Log("[牌库系统] 答题错误但牌库为空，无卡牌可失去");
+        }
+    }
+
 // 用于测试的方法
     [ContextMenu("测试触发AI招募官")]
     void TestTriggerRecruitment()
     {
         TriggerAIRecruitment();
+    }
+
+    [ContextMenu("测试添加卡牌")]
+    void TestAddCards()
+    {
+        AddCardToPool("松鼠", 2);
+        AddCardToPool("赤狐", 1);
+        AddCardToPool("东北虎", 1);
     }
 }
