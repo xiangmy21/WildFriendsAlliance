@@ -1,0 +1,98 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!687078895 &4343727234628468602
+SpriteAtlas:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: fox_idle
+  serializedVersion: 2
+  m_EditorData:
+    serializedVersion: 2
+    textureSettings:
+      serializedVersion: 2
+      anisoLevel: 1
+      compressionQuality: 50
+      maxTextureSize: 2048
+      textureCompression: 0
+      filterMode: 1
+      generateMipMaps: 0
+      readable: 0
+      crunchedCompression: 0
+      sRGB: 1
+    platformSettings:
+    - serializedVersion: 3
+      m_BuildTarget: DefaultTexturePlatform
+      m_MaxTextureSize: 1024
+      m_ResizeAlgorithm: 0
+      m_TextureFormat: -1
+      m_TextureCompression: 1
+      m_CompressionQuality: 50
+      m_CrunchedCompression: 0
+      m_AllowsAlphaSplitting: 0
+      m_Overridden: 0
+      m_AndroidETC2FallbackOverride: 0
+      m_ForceMaximumCompressionQuality_BC6H_BC7: 0
+    packingSettings:
+      serializedVersion: 2
+      padding: 4
+      blockOffset: 1
+      allowAlphaSplitting: 0
+      enableRotation: 1
+      enableTightPacking: 1
+      enableAlphaDilation: 0
+    secondaryTextureSettings: {}
+    variantMultiplier: 1
+    packables:
+    - {fileID: 102900000, guid: eaf7e49705c959a42a4ef040401f6f12, type: 3}
+    bindAsDefault: 1
+    isAtlasV2: 0
+    cachedData: {fileID: 0}
+  m_MasterAtlas: {fileID: 0}
+  m_PackedSprites:
+  - {fileID: 21300000, guid: 1b3f403121c1efd408b923fa207e4af7, type: 3}
+  - {fileID: 21300000, guid: 6aebc9223e3bc9a419ca9d394681c07e, type: 3}
+  - {fileID: 21300000, guid: ec80e162b3e85f54a9f1973219bd9567, type: 3}
+  - {fileID: 21300000, guid: 84cc4c624b13c164db18acbe47126845, type: 3}
+  - {fileID: 21300000, guid: c19b79a2147552741ae75ecc8c888942, type: 3}
+  - {fileID: 21300000, guid: 25d02dd4702de6e4780def69eeed174f, type: 3}
+  - {fileID: 21300000, guid: 64644b05ebf25bd47b60b8a014ac27d9, type: 3}
+  - {fileID: 21300000, guid: 281ae6e5874598a4c9a22d70bd705845, type: 3}
+  - {fileID: 21300000, guid: 5b5f70862f9053c4ba0942af6bae0ef5, type: 3}
+  - {fileID: 21300000, guid: a4a9819694493bb489a4643fc73cbcbf, type: 3}
+  - {fileID: 21300000, guid: c62c81d6b684ec944a709a67a5ac0c80, type: 3}
+  - {fileID: 21300000, guid: d9c0a578d5e149641838b839e1151c87, type: 3}
+  - {fileID: 21300000, guid: 5314359914fd3434dbdc49ea1ccd05f7, type: 3}
+  - {fileID: 21300000, guid: d08f57c9a59be8245901768feb7f049c, type: 3}
+  - {fileID: 21300000, guid: 4edcce9a7262caa4196b0d50eb9173d1, type: 3}
+  - {fileID: 21300000, guid: 003abf6c0bac57e439c2845e6745d89c, type: 3}
+  - {fileID: 21300000, guid: de14d3fc7f7c00f48b2e915bde9c876a, type: 3}
+  - {fileID: 21300000, guid: c445958da2228fc4c8cc9a9e24ba8d71, type: 3}
+  - {fileID: 21300000, guid: a3c6a90e78a2ed542a1270dd0eb083df, type: 3}
+  - {fileID: 21300000, guid: a6cdabdf193925d4f88f50805be91e12, type: 3}
+  m_PackedSpriteNamesToIndex:
+  - fox_idle_00017_
+  - fox_idle_00001_
+  - fox_idle_00013_
+  - fox_idle_00010_
+  - fox_idle_00004_
+  - fox_idle_00005_
+  - fox_idle_00020_
+  - fox_idle_00003_
+  - fox_idle_00006_
+  - fox_idle_00008_
+  - fox_idle_00019_
+  - fox_idle_00002_
+  - fox_idle_00007_
+  - fox_idle_00014_
+  - fox_idle_00016_
+  - fox_idle_00011_
+  - fox_idle_00012_
+  - fox_idle_00009_
+  - fox_idle_00018_
+  - fox_idle_00015_
+  m_RenderDataMap: {}
+  m_Tag: fox_idle
+  m_IsVariant: 0
+  m_IsPlaceholder: 0
