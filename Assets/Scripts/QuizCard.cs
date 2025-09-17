@@ -28,16 +28,37 @@ public class QuizCard : MonoBehaviour
     {
         cardData = data;
 
-        // 设置动物名称
+        // 隐藏动物名称
         if (animalNameText)
         {
-            animalNameText.text = data.animalName;
+            animalNameText.gameObject.SetActive(false);
         }
 
         // 设置难度显示
         if (difficultyText)
         {
             difficultyText.text = $"难度: {data.difficulty}";
+            difficultyText.color = Color.black;
+            // 将难度文字向下移动一点
+            RectTransform rectTransform = difficultyText.GetComponent<RectTransform>();
+            if (rectTransform != null)
+            {
+                Vector3 pos = rectTransform.anchoredPosition;
+                pos.y -= 50f; // 向下移动50像素
+                rectTransform.anchoredPosition = pos;
+            }
+        }
+
+        // 设置动物卡牌背景图片
+        if (cardBackground && AIRecruitmentManager.Instance)
+        {
+            Sprite animalCard = AIRecruitmentManager.Instance.LoadAnimalCardSprite(data.animalName);
+            if (animalCard != null)
+            {
+                cardBackground.sprite = animalCard;
+                // 确保图片完整显示
+                cardBackground.preserveAspect = true;
+            }
         }
 
         // 设置背景颜色（根据难度）- 注释掉以保留背景图片

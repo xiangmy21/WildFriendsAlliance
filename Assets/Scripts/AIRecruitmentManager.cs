@@ -28,7 +28,23 @@ public class AIRecruitmentManager : MonoBehaviour
     private Canvas[] gameCanvases; // 存储游戏中UI Canvas的引用
 public bool isQuizActive = false;
 
-    // 所有动物名称列表（对应湿地区域的棋子）
+    
+
+    // 动物名称到卡片文件名的映射
+    private readonly Dictionary<string, string> animalCardMapping = new Dictionary<string, string>()
+    {
+        {"松鼠", "squirrel_副本"},
+        {"刺猬", "ciwei_副本"},
+        {"野猪", "pig_副本"},
+        {"猫头鹰", "owl_副本"},
+        {"赤狐", "fox_副本"},
+        {"小熊猫", "xiaoxiongmao_副本"},
+        {"梅花鹿", "deer_副本"},
+        {"金丝猴", "monkey_副本"},
+        {"大熊猫", "panda_副本"},
+        {"东北虎", "tiger_副本"}
+    };
+// 所有动物名称列表（对应湿地区域的棋子）
     private readonly string[] Forest = {
         "松鼠", "刺猬", "野猪", "猫头鹰", "赤狐",
         "小熊猫", "梅花鹿", "金丝猴", "大熊猫", "东北虎"
@@ -513,6 +529,45 @@ void EnableOtherUIInteractions()
         
         return false;
     }
+
+// 加载动物对应的卡片背景
+    public Sprite LoadAnimalCardSprite(string animalName)
+    {
+        if (animalCardMapping.ContainsKey(animalName))
+        {
+            string cardFileName = animalCardMapping[animalName];
+            string cardPath = $"Assets/card/{cardFileName}.png";
+            
+            Debug.Log($"[卡片加载] 尝试加载 {animalName} 的卡片: {cardPath}");
+            
+            // 尝试通过Resources加载
+            Sprite cardSprite = Resources.Load<Sprite>($"card/{cardFileName}");
+            if (cardSprite != null)
+            {
+                Debug.Log($"[成功] 通过Resources加载卡片: {cardFileName}");
+                return cardSprite;
+            }
+            
+#if UNITY_EDITOR
+            // 在编辑器中使用AssetDatabase加载
+            cardSprite = UnityEditor.AssetDatabase.LoadAssetAtPath<Sprite>(cardPath);
+            if (cardSprite != null)
+            {
+                Debug.Log($"[成功] 通过AssetDatabase加载卡片: {cardFileName}");
+                return cardSprite;
+            }
+#endif
+            
+            Debug.LogWarning($"[失败] 无法加载 {animalName} 的卡片: {cardPath}");
+        }
+        else
+        {
+            Debug.LogWarning($"[警告] 未找到 {animalName} 的卡片映射");
+        }
+        
+        return null;
+    }
+
 // 用于测试的方法
     [ContextMenu("测试触发AI招募官")]
     void TestTriggerRecruitment()
