@@ -1,4 +1,5 @@
 using UnityEngine;
+using System.Collections;
 
 public class Projectile : MonoBehaviour
 {
@@ -6,11 +7,14 @@ public class Projectile : MonoBehaviour
     // public float speed = 10f; // <--- 删掉或注释掉这一行
     public float travelDuration = 1.0f; // <--- 新增！设置松果飞完全程需要的固定时间（秒）
     public AnimationCurve arcCurve; // 【关键】在 Inspector 里编辑这个曲线，让它中间凸起，形成抛物线
+    public string typename;
+    public GameObject hitEffectPrefab; // 可选：命中时的特效预制体
 
     // --- 内部变量 ---
     private UnitController target;
     private int damage;
     private Vector3 startPosition;
+    private Vector3 lastPosition; // 记录上一帧的位置，用于计算飞行方向
     private float travelTime;
 
     /// <summary>
@@ -21,6 +25,7 @@ public class Projectile : MonoBehaviour
         this.target = targetToChase;
         this.damage = damageToDeal;
         this.startPosition = transform.position; // 记录起始位置
+        this.lastPosition = transform.position; // 初始化上一帧位置
         this.travelTime = 0f;
     }
 
@@ -51,9 +56,17 @@ public class Projectile : MonoBehaviour
 
         transform.position = currentPosOnLine;
 
-        // (可选) 让松果朝向飞行方向
-        // Vector3 direction = (currentPosOnLine - transform.position).normalized;
-        // ... (计算旋转的代码) ...
+        // 让子弹朝向飞行方向（假定子弹初始为横向图片）
+        Vector3 direction = (currentPosOnLine - lastPosition).normalized;
+        if (direction.magnitude > 0.01f) // 避免除零错误
+        {
+            // 计算角度（弧度转角度），子弹图片假定为横向（0度朝右）
+            float angle = Mathf.Atan2(direction.y, direction.x) * Mathf.Rad2Deg;
+            transform.rotation = Quaternion.Euler(0, 0, angle);
+        }
+
+        // 更新上一帧位置
+        lastPosition = currentPosOnLine;
 
         // 5. 检查是否抵达 (t >= 1)
         if (t >= 1f)
@@ -83,6 +96,31 @@ public class Projectile : MonoBehaviour
         {
             // 1. 造成伤害
             target.TakeDamage(damage);
+            // 2. 处理特殊效果
+            if (typename == "stun") //晕眩
+            {
+                // 立即施加晕眩
+                target.ApplyStun(true);
+
+                // 生成晕眩特效在敌人上方
+                if (hitEffectPrefab != null)
+                {
+                    Vector3 effectPosition = target.transform.position + new Vector3(0, 0.5f, 0);
+                    GameObject stunEffect = Instantiate(hitEffectPrefab, effectPosition, Quaternion.identity);
+
+                    // 让特效跟随敌人
+                    stunEffect.transform.SetParent(target.transform);
+
+                    // 给特效添加自动销毁脚本，负责恢复敌人状态
+                    StunEffectController stunController = stunEffect.AddComponent<StunEffectController>();
+                    stunController.Initialize(target, 2.5f);
+                }
+                else
+                {
+                    // 没有特效时，让敌人自己处理晕眩恢复
+                    target.StartStunRecovery(2.5f);
+                }
+            }
         }
 
         // 2. (可选) 在此位置生成一个“击中特效”

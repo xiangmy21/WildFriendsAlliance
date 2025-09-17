@@ -396,13 +396,22 @@ public class UnitController : MonoBehaviour
         {
             currentState = UnitState.Stunned;
             Debug.Log($"{name} 被眩晕了!");
-            // TODO: 停止移动, 停止动画
+            // 停止移动, 停止动画
+            if (animator != null)
+            {
+                animator.speed = 0f; // 暂停动画播放
+            }
         }
         else
         {
             // 眩晕结束后，重置回Idle，状态机会自动重新索敌
             currentState = UnitState.Idle;
             Debug.Log($"{name} 眩晕结束!");
+            // 恢复动画播放
+            if (animator != null)
+            {
+                animator.speed = 1f; // 恢复正常动画速度
+            }
         }
     }
 
@@ -442,6 +451,17 @@ public class UnitController : MonoBehaviour
             currentTarget.TakeDamage(damage);
             // TODO: 播放一次额外的攻击动画或特效
         }
+    }
+
+    public void StartStunRecovery(float duration)
+    {
+        StartCoroutine(StunRecoveryCoroutine(duration));
+    }
+
+    IEnumerator StunRecoveryCoroutine(float duration)
+    {
+        yield return new WaitForSeconds(duration);
+        ApplyStun(false);
     }
 
     void Die()

@@ -15,7 +15,7 @@ MonoBehaviour:
   unitName: "\u5851\u6599\u888B"
   unitPrefab: {fileID: 1359966648243970321, guid: ec56e9f15918c9a4289f3fedfc9afeb6, type: 3}
   Icon: {fileID: 0}
-  maxHP: 250
+  maxHP: 300
   maxMP: 100
   baseATK: 30
   baseDEF: 5
