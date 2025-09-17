@@ -58,13 +58,48 @@ public class UnitController : MonoBehaviour
         currentMP = 0;
         currentShield = 0;
 
+        // 基础属性
         currentATK = unitData.baseATK;
         currentDEF = unitData.baseDEF;
         currentRange = unitData.baseRange;
         currentMoveSpeed = unitData.baseMoveSpeed;
         currentAttackInterval = unitData.baseAttackInterval;
 
+        // 应用buff效果
+        ApplyBuffs();
+
         // TODO: 更新血条和蓝条UI
+    }
+
+    /// <summary>
+    /// 应用所有buff效果到当前属性
+    /// </summary>
+    private void ApplyBuffs()
+    {
+        // 应用友谊值buff（如果存在）
+        ApplyFriendshipBuff();
+        
+        // 这里可以添加其他buff类型的应用逻辑
+        // ApplyOtherBuffs();
+    }
+
+    /// <summary>
+    /// 应用友谊值buff到攻击力
+    /// </summary>
+    private void ApplyFriendshipBuff()
+    {
+        if (AIRecruitmentManager.Instance != null && !string.IsNullOrEmpty(unitData.unitName))
+        {
+            var friendshipData = AIRecruitmentManager.Instance.GetAnimalFriendship(unitData.unitName);
+            if (friendshipData != null && friendshipData.battleBonus != 0)
+            {
+                // 友谊值buff：增加攻击力（battleBonus为百分比加成）
+                int atkBonus = Mathf.RoundToInt(unitData.baseATK * friendshipData.battleBonus);
+                currentATK += atkBonus;
+                
+                Debug.Log($"{unitData.unitName} 获得友谊值buff: 攻击力 +{atkBonus} (基础{unitData.baseATK} → 当前{currentATK})");
+            }
+        }
     }
 
     // 5. 核心Update循环 (状态机)
