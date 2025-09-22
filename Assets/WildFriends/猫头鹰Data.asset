@@ -12,18 +12,18 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 211d6dca66d757346b39e672e33fac4f, type: 3}
   m_Name: "\u732B\u5934\u9E70Data"
   m_EditorClassIdentifier: 
-  unitName: 
-  unitPrefab: {fileID: 0}
-  Icon: {fileID: 0}
-  maxHP: 0
-  maxMP: 0
-  baseATK: 0
-  baseDEF: 0
-  baseRange: 0
-  baseMoveSpeed: 0
-  baseAttackInterval: 0
-  baseMissRate: 0
+  unitName: "\u732B\u5934\u9E70"
+  unitPrefab: {fileID: 1973524224727582089, guid: 2c2d29b492e90ed4ab781a0768260c68, type: 3}
+  Icon: {fileID: 21300000, guid: 8fc180ab4011d9f449a2ba6679bc2046, type: 3}
+  maxHP: 200
+  maxMP: 100
+  baseATK: 30
+  baseDEF: 10
+  baseRange: 10
+  baseMoveSpeed: 0.5
+  baseAttackInterval: 7
+  baseMissRate: 0.2
   mpGainOnAttack: 0
   mpGainOnHit: 0
   skillLogic: {fileID: 0}
-  cost: 0
+  cost: 3

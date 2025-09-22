@@ -823,8 +823,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   useSimpleUI: 1
   mainCanvas: {fileID: 0}
-  cardBackground: {fileID: 0}
-  chineseFont: {fileID: 11400000, guid: f4485bc3a6aa26d47865a2dd2ac03ffe, type: 2}
+  cardBackground: {fileID: 21300000, guid: 1a1443625dbe470448c7fbd728ec7eec, type: 3}
+  chineseFont: {fileID: 11400000, guid: c3751342d6909b44a9aaf1e659c63a82, type: 2}
 --- !u!4 &1141640434
 Transform:
   m_ObjectHideFlags: 0
@@ -907,6 +907,79 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 2
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1228922893
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1228922895}
+  - component: {fileID: 1228922894}
+  m_Layer: 0
+  m_Name: _GlobalResources
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &1228922894
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1228922893}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 163cd5adc8a4f9b43b646292afaf77b6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  questionBackground: {fileID: 0}
+  cardBackground: {fileID: 0}
+  buttonBackground: {fileID: 21300000, guid: cc6df412236e52548acb1f02c166dc95, type: 3}
+  squirrelAvatar: {fileID: 0}
+  hedgehogAvatar: {fileID: 0}
+  boarAvatar: {fileID: 0}
+  owlAvatar: {fileID: 0}
+  foxAvatar: {fileID: 0}
+  redPandaAvatar: {fileID: 0}
+  deerAvatar: {fileID: 0}
+  monkeyAvatar: {fileID: 0}
+  pandaAvatar: {fileID: 0}
+  tigerAvatar: {fileID: 0}
+  squirrelCard: {fileID: 0}
+  hedgehogCard: {fileID: 0}
+  boarCard: {fileID: 0}
+  owlCard: {fileID: 0}
+  foxCard: {fileID: 0}
+  redPandaCard: {fileID: 0}
+  deerCard: {fileID: 0}
+  monkeyCard: {fileID: 0}
+  pandaCard: {fileID: 0}
+  tigerCard: {fileID: 0}
+  correctIcon: {fileID: 0}
+  wrongIcon: {fileID: 0}
+  starIcon: {fileID: 0}
+  heartIcon: {fileID: 0}
+  skillEffects: []
+  battleEffects: []
+--- !u!4 &1228922895
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1228922893}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 953.63965, y: 572.1251, z: 2.3047924}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 7
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1356676127
 GameObject:
@@ -1148,7 +1221,7 @@ MonoBehaviour:
   m_FillClockwise: 1
   m_FillOrigin: 0
   m_UseSpriteMesh: 0
-  m_PixelsPerUnitMultiplier: 1
+  m_PixelsPerUnitMultiplier: 6
 --- !u!222 &1682141061
 CanvasRenderer:
   m_ObjectHideFlags: 0

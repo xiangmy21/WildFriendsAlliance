@@ -32,6 +32,7 @@ public class SimpleUITester : MonoBehaviour
         // 加载中文字体
         if (chineseFont == null)
         {
+            Debug.Log("未找到中文字体！");
             chineseFont = UnityEngine.Resources.Load<TMPro.TMP_FontAsset>("Fonts/ZIHUN144HAO-LANGYUANTI-2 SDF");
             if (chineseFont == null)
             {
@@ -140,7 +141,8 @@ public class SimpleUITester : MonoBehaviour
         quizCardPanel.transform.SetParent(mainCanvas.transform, false);
 
         var panelImage = quizCardPanel.AddComponent<Image>();
-        panelImage.color = new Color(0, 0, 0, 0.8f); // 半透明黑色背景
+        panelImage.sprite = cardBackground;
+        //panelImage.color = new Color(0, 0, 0, 0.8f); // 半透明黑色背景
 
         var rectTransform = quizCardPanel.GetComponent<RectTransform>();
         rectTransform.anchorMin = Vector2.zero;
@@ -150,11 +152,11 @@ public class SimpleUITester : MonoBehaviour
         // 创建标题
         GameObject title = new GameObject("Title");
         title.transform.SetParent(quizCardPanel.transform, false);
-        var titleText = CreateTextComponent(title, "AI智能招募官 - 选择一个问题", 24, TextAlignmentOptions.Center, Color.white);
+        var titleText = CreateTextComponent(title, "AI智能招募官 - 选择一个问题", 60, TextAlignmentOptions.Center, Color.black);
 
         var titleRect = title.GetComponent<RectTransform>();
-        titleRect.anchorMin = new Vector2(0, 0.8f);
-        titleRect.anchorMax = new Vector2(1, 1);
+        titleRect.anchorMin = new Vector2(0, 0.7f);
+        titleRect.anchorMax = new Vector2(1, 0.9f);
         titleRect.sizeDelta = Vector2.zero;
 
         // 创建三张卡片
@@ -176,13 +178,13 @@ public class SimpleUITester : MonoBehaviour
         var containerRect = cardContainer.AddComponent<RectTransform>();
 
         // 设置容器的位置和大小
-        float cardWidth = 200f;
-        float cardHeight = 150f; // 这是容器的大小，不是图片的大小
-        float spacing = 50f;
+        float cardWidth = 360f;
+        float cardHeight = 270f; // 这是容器的大小，不是图片的大小
+        float spacing = 40f;
         float totalWidth = (cardWidth * 3) + (spacing * 2);
         float startX = -totalWidth / 2 + cardWidth / 2;
 
-        containerRect.anchoredPosition = new Vector2(startX + (cardWidth + spacing) * index, -50);
+        containerRect.anchoredPosition = new Vector2(startX + (cardWidth + spacing) * index, 40);
         containerRect.sizeDelta = new Vector2(cardWidth, cardHeight);
 
         // --- 2. 创建内部图片 (CardImage) ---
@@ -204,8 +206,8 @@ public class SimpleUITester : MonoBehaviour
         // 设置图片显示参数
         cardController.minWidth = 180f;
         cardController.minHeight = 120f;
-        cardController.maxWidth = 220f;
-        cardController.maxHeight = 160f;
+        cardController.maxWidth = 360f;
+        cardController.maxHeight = 270f;
         cardController.aspectMode = CardImageController.AspectMode.EnvelopeParent;
 
         // --- 4. 设置图片 ---
@@ -250,12 +252,13 @@ public class SimpleUITester : MonoBehaviour
         // 难度文本
         GameObject difficulty = new GameObject("Difficulty");
         difficulty.transform.SetParent(cardContainer.transform, false); // 父物体是容器
-        var diffText = CreateTextComponent(difficulty, "难度: 1", 14, TextAlignmentOptions.Center, Color.white);
+        var diffText = CreateTextComponent(difficulty, "难度: 1", 40, TextAlignmentOptions.Center, Color.white);
         quizCard.difficultyText = diffText;
 
         var diffRect = difficulty.GetComponent<RectTransform>();
-        diffRect.anchorMin = new Vector2(0, 0);
-        diffRect.anchorMax = new Vector2(1, 0.5f);
+        diffRect.anchorMin = new Vector2(0, -0.2f);
+        diffRect.anchorMax = new Vector2(1, 0.3f);
+        
         diffRect.sizeDelta = Vector2.zero;
 
         // 返回最外层的容器
@@ -269,7 +272,8 @@ public class SimpleUITester : MonoBehaviour
         questionPanel.transform.SetParent(mainCanvas.transform, false);
 
         var panelImage = questionPanel.AddComponent<Image>();
-        panelImage.color = new Color(0.1f, 0.1f, 0.1f, 0.9f); // 深灰色背景
+        panelImage.sprite = cardBackground;
+        //panelImage.color = new Color(0.1f, 0.1f, 0.1f, 0.9f); // 深灰色背景
 
         var rectTransform = questionPanel.GetComponent<RectTransform>();
         rectTransform.anchorMin = Vector2.zero;
@@ -282,7 +286,7 @@ public class SimpleUITester : MonoBehaviour
         // 创建问题文本
         GameObject questionText = new GameObject("QuestionText");
         questionText.transform.SetParent(questionPanel.transform, false);
-        var qText = CreateTextComponent(questionText, "问题内容", 20, TextAlignmentOptions.Center, Color.white);
+        var qText = CreateTextComponent(questionText, "问题内容", 50, TextAlignmentOptions.Center, Color.black);
         questionUI.questionText = qText;
 
         var qRect = questionText.GetComponent<RectTransform>();
@@ -320,7 +324,7 @@ public class SimpleUITester : MonoBehaviour
         // 选项文本
         GameObject optionText = new GameObject("Text");
         optionText.transform.SetParent(option.transform, false);
-        var text = CreateTextComponent(optionText, $"选项 {char.ConvertFromUtf32(65 + index)}", 16, TextAlignmentOptions.Center, Color.black);
+        var text = CreateTextComponent(optionText, $"选项 {char.ConvertFromUtf32(65 + index)}", 40, TextAlignmentOptions.Center, Color.black);
 
         var textRect = optionText.GetComponent<RectTransform>();
         textRect.anchorMin = Vector2.zero;
@@ -333,8 +337,8 @@ public class SimpleUITester : MonoBehaviour
         float spacing = 10f;
         float startY = 0.6f - (index * (buttonHeight + spacing)) / 1000f;
 
-        optionRect.anchorMin = new Vector2(0.1f, startY - buttonHeight / 1000f);
-        optionRect.anchorMax = new Vector2(0.9f, startY);
+        optionRect.anchorMin = new Vector2(0.2f, startY - buttonHeight / 1000f);
+        optionRect.anchorMax = new Vector2(0.8f, startY);
         optionRect.sizeDelta = Vector2.zero;
 
         return option;
@@ -356,7 +360,7 @@ public class SimpleUITester : MonoBehaviour
         // 结果文本
         GameObject resultText = new GameObject("ResultText");
         resultText.transform.SetParent(resultPanel.transform, false);
-        var rText = CreateTextComponent(resultText, "结果", 24, TextAlignmentOptions.Center, Color.white);
+        var rText = CreateTextComponent(resultText, "结果", 50, TextAlignmentOptions.Center, Color.white);
 
         var rTextRect = resultText.GetComponent<RectTransform>();
         rTextRect.anchorMin = new Vector2(0, 0.7f);
@@ -366,16 +370,27 @@ public class SimpleUITester : MonoBehaviour
         // 解析文本
         GameObject explanationText = new GameObject("ExplanationText");
         explanationText.transform.SetParent(resultPanel.transform, false);
-        var eText = CreateTextComponent(explanationText, "解析内容", 16, TextAlignmentOptions.TopLeft, Color.white);
+        var eText = CreateTextComponent(explanationText, "解析内容", 30, TextAlignmentOptions.TopLeft, Color.white);
 
         var eTextRect = explanationText.GetComponent<RectTransform>();
         eTextRect.anchorMin = new Vector2(0.1f, 0.1f);
         eTextRect.anchorMax = new Vector2(0.9f, 0.7f);
         eTextRect.sizeDelta = Vector2.zero;
 
+        // 效果文本
+        GameObject buffText = new GameObject("BuffText");
+        buffText.transform.SetParent(resultPanel.transform, false);
+        var bText = CreateTextComponent(buffText, "增益效果", 50, TextAlignmentOptions.Center, Color.white);
+
+        var bTextRect = buffText.GetComponent<RectTransform>();
+        bTextRect.anchorMin = new Vector2(0, 0.1f);
+        bTextRect.anchorMax = new Vector2(1, 0.3f);
+        bTextRect.sizeDelta = Vector2.zero;
+
         questionUI.resultPanel = resultPanel;
         questionUI.resultText = rText;
         questionUI.explanationText = eText;
+        questionUI.buffText = bText;
 
         resultPanel.SetActive(false);
     }

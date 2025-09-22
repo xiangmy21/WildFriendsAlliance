@@ -487,8 +487,8 @@ void ShowQuizCardPanel()
         Debug.Log($"答题结果: {(isCorrect ? "回答正确！" : "回答错误！")}");
 
         // 2秒后关闭问答界面
-        Invoke("CloseQuizSystem", 2f);
-    }
+            Invoke("CloseQuizSystem", 5f);
+        }
 
 void CloseQuizSystem()
     {
@@ -524,22 +524,23 @@ void DisableOtherUIInteractions()
         // 获取所有游戏Canvas（除了问答相关的）
         Canvas[] allCanvases = FindObjectsOfType<Canvas>();
         gameCanvases = allCanvases;
-        
+
         foreach (Canvas canvas in allCanvases)
         {
             // 保留问答相关的Canvas可交互
             if (IsQuizRelatedCanvas(canvas))
                 continue;
-                
-            // 通过CanvasGroup控制交互，如果没有就添加一个
+
+            // 通过CanvasGroup控制交互和可见性，如果没有就添加一个
             CanvasGroup canvasGroup = canvas.GetComponent<CanvasGroup>();
             if (canvasGroup == null)
             {
                 canvasGroup = canvas.gameObject.AddComponent<CanvasGroup>();
             }
-            
+
             canvasGroup.interactable = false;
-            Debug.Log($"禁用Canvas: {canvas.name}");
+            canvasGroup.alpha = 0f; // 设置为完全透明
+            Debug.Log($"禁用并隐藏Canvas: {canvas.name}");
         }
     }
     
@@ -551,12 +552,13 @@ void EnableOtherUIInteractions()
             {
                 if (canvas != null)
                 {
-                    // 通过CanvasGroup恢复交互
+                    // 通过CanvasGroup恢复交互和可见性
                     CanvasGroup canvasGroup = canvas.GetComponent<CanvasGroup>();
                     if (canvasGroup != null)
                     {
                         canvasGroup.interactable = true;
-                        Debug.Log($"恢复Canvas: {canvas.name}");
+                        canvasGroup.alpha = 1f; // 恢复完全不透明
+                        Debug.Log($"恢复并显示Canvas: {canvas.name}");
                     }
                 }
             }

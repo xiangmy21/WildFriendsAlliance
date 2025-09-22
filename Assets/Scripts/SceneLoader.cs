@@ -6,7 +6,7 @@ public class SceneLoader : MonoBehaviour
 public void LoadLevelSelect()
     {
         //Debug.Log("跳过关卡选择，直接加载Level1场景");
-        SceneManager.LoadScene("LevelSelect");  // 使用场景名称而非完整路径
+        SceneManager.LoadScene("Level1");  // 使用场景名称而非完整路径
     }
 
 public void LoadLevel1()

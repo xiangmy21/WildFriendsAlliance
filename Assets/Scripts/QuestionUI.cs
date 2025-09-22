@@ -15,6 +15,7 @@ public class QuestionUI : MonoBehaviour
     public GameObject resultPanel;
     public TextMeshProUGUI resultText;
     public TextMeshProUGUI explanationText;
+    public TextMeshProUGUI buffText; // 显示友谊值提升
     public Button continueButton;
 
     private QuizCardData currentCard;
@@ -63,12 +64,7 @@ public class QuestionUI : MonoBehaviour
         }
 
         // 加载按钮背景图片
-        Sprite buttonSprite = null;
-#if UNITY_EDITOR
-        buttonSprite = UnityEditor.AssetDatabase.LoadAssetAtPath<Sprite>("Assets/Images/UI/button1.png");
-#else
-        buttonSprite = Resources.Load<Sprite>("Images/UI/button1");
-#endif
+        Sprite buttonSprite = GlobalResources.Instance.buttonBackground;
 
         // 设置选项文本和按钮样式
         for (int i = 0; i < optionTexts.Length && i < cardData.question.options.Length; i++)
@@ -91,6 +87,7 @@ public class QuestionUI : MonoBehaviour
                 {
                     buttonImage.sprite = buttonSprite;
                     buttonImage.type = Image.Type.Sliced; // 使用切片模式
+                    buttonImage.pixelsPerUnitMultiplier = 8.0f; // 保持原始像素密度
                 }
 
                 // 设置按钮尺寸
@@ -105,7 +102,7 @@ public class QuestionUI : MonoBehaviour
                     }
 
                     // 强制设置尺寸
-                    buttonRect.sizeDelta = new Vector2(180f, 42f); // 宽180（-10%），高42（+20%）
+                    buttonRect.sizeDelta = new Vector2(60f, 50f); // 宽180（-10%），高42（+20%）
 
                     // 强制刷新布局
                     LayoutRebuilder.ForceRebuildLayoutImmediate(buttonRect);
@@ -170,6 +167,19 @@ public class QuestionUI : MonoBehaviour
         if (explanationText)
         {
             explanationText.text = $"正确答案: {currentCard.question.correct_answer}\n\n解析: {currentCard.question.explanation}";
+        }
+
+        if (buffText)
+        {
+            if (isCorrect)
+            {
+                buffText.text = $"友谊值提升: 羁绊力量 +10%";
+                buffText.color = Color.green;
+            }
+            else
+            {
+                buffText.text = "";
+            }
         }
     }
 
